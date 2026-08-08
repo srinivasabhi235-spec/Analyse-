@@ -716,6 +716,70 @@ The practical consequence matters more than the prediction. Measured at 28 or 32
 against peers on conventional ladders, he will read as behind — and by those
 metrics he will *be* behind. **That comparison is measuring the wrong window.**
 
+### Graha maturity — an independent confirmation
+
+Each graha has a **paripaka** or maturity age, before which it delivers its
+significations rawly and after which it delivers them integrated. Laid against
+this chart's dasha sequence, the standard ages produce a striking result.
+
+| Graha | Matures at | Date |
+|---|---|---|
+| Guru | 16 | Apr 2018 |
+| Surya | 22 | Apr 2024 |
+| **Chandra** | **24** | **Apr 2026** |
+| **Shukra** | **25** | **Apr 2027** |
+| Mangal | 28 | Apr 2030 |
+| Budha | 32 | Apr 2034 |
+| Shani | 36 | Apr 2038 |
+| Rahu | 42 | Apr 2044 |
+| Ketu | 48 | Apr 2050 |
+
+Now check each mahadasha lord against its own period:
+
+| Mahadasha | Ages | Lord matures at | Status during its own period |
+|---|---|---|---|
+| **Rahu** | 20.7–38.7 | **42** | **Never matures — it ripens 3.3 years *after* its own mahadasha ends** |
+| **Guru** | 38.7–54.7 | 16 | Mature **22.7 years** before the period begins |
+| **Shani** | 54.7–73.7 | 36 | Mature **18.7 years** before the period begins |
+
+**The entire Rahu mahadasha — the whole construction phase, ages 20.7 to 38.7 —
+is governed by a graha that never matures within it.** Rahu ripens at 42, in
+2044, by which time the Guru mahadasha is already four years old.
+
+This is an independent mechanism for something the strength data showed but did
+not explain: why a period packed with activity yields so little visible return.
+It is not only that the 8th and 9th are low-bindu ground. It is that the dasha
+lord itself is operating raw for its entire tenure — amplified desire without
+integration, which is precisely the classical description of unripened Rahu.
+
+And the sequence then improves monotonically: **immature → long-mature →
+long-mature.** By the time the Shani mahadasha opens, Saturn has been mature for
+nearly nineteen years, and has already had a substantial matured run as
+Guru–Shani (Feb 2043 – Aug 2045). The Shani mahadasha does not have to ripen its
+own lord; it inherits one already integrated.
+
+**This materially strengthens the upward reading of the Shani period.** Saturn's
+low Uchcha and Chesta Bala make it coarse, but a matured Saturn expresses as
+endurance, structure, authority through service and accumulated competence —
+which is exactly what its 5th/6th/9th rulership from the 9th house describes.
+
+Two smaller observations from the same table:
+
+- **Rahu–Budha (ages 28.6–31.2) runs entirely before Budha matures at 32.** The
+  chart's only Shadbala-failing graha runs its own antardasha while still
+  unripened. That compounds every other reason 2030–2033 is the vulnerable
+  stretch.
+- **Chandra matured in April 2026 and Shukra matures in April 2027** — both
+  inside the current Rahu–Guru antardasha. The Moon is the chart's thin point by
+  four independent measures, and it ripens now. Shukra is the pivot of both
+  major yogas and the natural karaka of marriage, and it ripens in the middle of
+  the marriage window identified in §12.
+
+*(Paripaka is a genuine classical technique but a secondary one — it modulates
+dasha and bala rather than overriding them, and the exact ages vary slightly
+between traditions. It is used here as corroboration, not as a primary
+argument.)*
+
 ### Rahu antardashas
 
 | Period | Dates | Ages | Reading |
