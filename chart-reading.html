@@ -380,6 +380,59 @@
   .swatch.a { background: var(--brass-fill); }
   .swatch.b { background: var(--lapis-fill); }
 
+  /* ---------------- shadbala bars ---------------- */
+  .bars { margin: 1.8rem 0 1.2rem; display: flex; flex-direction: column; gap: .5rem; }
+  .bar-row { display: grid; grid-template-columns: 5.2rem 1fr 3.4rem; align-items: center; gap: .7rem; }
+  .bar-row .lbl {
+    font-family: var(--sans); font-size: .76rem; font-weight: 600;
+    color: var(--ink-mid); text-align: right;
+  }
+  .bar-track {
+    position: relative; height: 1.35rem;
+    background: var(--surface); border: 1px solid var(--rule-soft);
+  }
+  .bar-fill { height: 100%; background: var(--lapis); opacity: .55; }
+  .bar-row.top .bar-fill { background: var(--brass); opacity: .8; }
+  .bar-row.fail .bar-fill { background: var(--brass); opacity: .28; }
+  .bar-track .thr {
+    position: absolute; top: -3px; bottom: -3px; left: 41.67%;
+    width: 2px; background: var(--ink-mid);
+  }
+  .bar-row .val {
+    font-family: var(--mono); font-size: .78rem;
+    font-variant-numeric: tabular-nums; color: var(--ink);
+  }
+  .bar-row.fail .val { color: var(--brass); font-weight: 700; }
+  .thr-note {
+    font-family: var(--sans); font-size: .72rem; color: var(--ink-soft);
+    display: flex; align-items: center; gap: .45rem;
+  }
+  .thr-note::before {
+    content: ""; width: 2px; height: .85rem; background: var(--ink-mid); flex: none;
+  }
+
+  /* ---------------- ashtakavarga strip ---------------- */
+  .bindu-strip {
+    display: grid; grid-template-columns: repeat(12, 1fr);
+    gap: 2px; margin: 1.8rem 0 .8rem; align-items: end;
+  }
+  .bindu { display: flex; flex-direction: column; align-items: center; gap: .3rem; min-width: 0; }
+  .bindu .col {
+    width: 100%; background: var(--lapis); opacity: .45;
+    border-top: 2px solid var(--lapis);
+  }
+  .bindu.hi .col { background: var(--brass); opacity: .75; border-top-color: var(--brass); }
+  .bindu.lo .col { background: var(--brass); opacity: .22; border-top-color: var(--brass); }
+  .bindu .v {
+    font-family: var(--mono); font-size: .74rem;
+    font-variant-numeric: tabular-nums; color: var(--ink);
+  }
+  .bindu .h {
+    font-family: var(--sans); font-size: .6rem; letter-spacing: .04em;
+    color: var(--ink-soft); white-space: nowrap;
+  }
+  .bindu.hi .v, .bindu.lo .v { color: var(--brass); font-weight: 700; }
+
   .period { margin: 1.8rem 0 0; padding-top: 1.4rem; border-top: 1px solid var(--rule-soft); }
   .period:first-of-type { border-top: 0; padding-top: 0; }
   .period-head {
@@ -442,9 +495,9 @@
 
 <div class="wrap">
   <header class="masthead">
-    <div class="eyebrow">Parashari chart reading · D1 D9 D10 D11 D8 D27 D30</div>
+    <div class="eyebrow">Parashari reading · seven vargas · shadbala · ashtakavarga</div>
     <h1>The difficulty and the fortune are the same object</h1>
-    <p class="standfirst">A Kanya lagna with eight of nine grahas packed into three consecutive houses, read across seven divisional charts and eighteen years of Rahu dasha.</p>
+    <p class="standfirst">A Kanya lagna with eight of nine grahas packed into three consecutive houses — and a strength audit showing those houses are the least fertile ground in the chart.</p>
 
     <dl class="facts">
       <div class="fact"><dt>Lagna</dt><dd>27°37′ Kanya</dd></div>
@@ -498,6 +551,8 @@
     <h3>What the dasha implies about age</h3>
     <p>The Moon at 1°47′ Vrishabha sits 38.4% through Krittika, leaving a Surya mahadasha balance of 3.70 years at birth. Adding Chandra (10) and Mangal (7) places the Rahu mahadasha 20.70 years after birth — which, against its given start of 25 Dec 2022, implies a birth around <strong>15 April 2002</strong>. Independently corroborated: the Sun at 1°28′ sidereal Mesha occurs every 15–16 April.</p>
     <p>So the native is <strong>about 24</strong>. This is not a chart being assessed in retrospect. It is a chart at the opening of its defining period.</p>
+
+    <p>The Shadbala table supplied later confirms this independently, twice over. <strong>Vara Bala of 45 goes to Chandra</strong> — and Vara Bala is awarded to the lord of the weekday, so the birth must fall on a <strong>Monday</strong>. 15 April 2002 was a Monday. And <strong>Paksha Bala</strong> back-solves to a Sun–Moon elongation of 30.32°, matching the D1 longitudes exactly: <strong>Shukla Tritiya, about 2.5 days after the new moon</strong>. That thin crescent turns out to matter — see §10.</p>
   </section>
 
 </div>
@@ -838,25 +893,133 @@
 
 <div class="wrap">
   <section>
-    <h2><span class="num">10</span> What to do with this</h2>
+    <h2><span class="num">10</span> The strength audit</h2>
+
+    <p>Every figure in the Shadbala table reconciles — all five Sthana sub-components sum to the printed totals, all nine Kala sub-components likewise, the six balas sum to Total Pinda, and the Relative Rank column reproduces exactly if you sort by strength ratio.</p>
+
+    <figure class="bars">
+      <div class="bar-row top"><span class="lbl">Surya</span><span class="bar-track"><span class="bar-fill" style="width:94.9%"></span><span class="thr"></span></span><span class="val">2.28</span></div>
+      <div class="bar-row"><span class="lbl">Shani</span><span class="bar-track"><span class="bar-fill" style="width:53.3%"></span><span class="thr"></span></span><span class="val">1.28</span></div>
+      <div class="bar-row"><span class="lbl">Mangal</span><span class="bar-track"><span class="bar-fill" style="width:52.7%"></span><span class="thr"></span></span><span class="val">1.27</span></div>
+      <div class="bar-row"><span class="lbl">Guru</span><span class="bar-track"><span class="bar-fill" style="width:52.6%"></span><span class="thr"></span></span><span class="val">1.26</span></div>
+      <div class="bar-row"><span class="lbl">Shukra</span><span class="bar-track"><span class="bar-fill" style="width:50.6%"></span><span class="thr"></span></span><span class="val">1.21</span></div>
+      <div class="bar-row"><span class="lbl">Chandra</span><span class="bar-track"><span class="bar-fill" style="width:44.6%"></span><span class="thr"></span></span><span class="val">1.07</span></div>
+      <div class="bar-row fail"><span class="lbl">Budha</span><span class="bar-track"><span class="bar-fill" style="width:38.5%"></span><span class="thr"></span></span><span class="val">0.92</span></div>
+      <figcaption class="thr-note">the minimum each graha must reach — Budha is the only one that falls short</figcaption>
+    </figure>
+
+    <h3>Surya, confirmed quantitatively</h3>
+    <p>At <strong>2.28× requirement and 11.39 rupas</strong>, the Sun is nearly twice as strong relative to requirement as anything else here. Its Sapta Vargaja Bala of <strong>165</strong> is the highest single component in the table, against 120 for the next best — the quantitative form of the varga dignity noted in §04. My caveat there was that some of that dignity is arithmetic; the classical system scores it at full value regardless. Both statements hold. Add the best outcome balance in the chart (Ishta 46.88 against Kashta 7.83) and the Sun is both the strongest <em>and</em> the most benign influence present.</p>
+
+    <h3>Budha fails — and it rules the 1st and the 10th</h3>
+    <p><strong>Budha is the only graha below its minimum</strong>: 6.46 rupas against 7.00 required. It is also net-malefic in outcome. And it rules <em>both</em> the lagna and the 10th house — the self and the career.</p>
+    <p>But look at where the deficit comes from. Uchcha Bala <span class="deg">8.49</span>, only 25° from its debilitation point. <strong>Dig Bala <span class="deg">4.28</span> out of 60</strong> — the lowest of any graha by a wide margin, because Mercury earns directional strength in the 1st house and is sitting in the 8th. Yet Nata-Unnata is at maximum <span class="deg">60.00</span> and Chesta Bala <span class="deg">42.15</span> is the second-highest in the chart.</p>
+    <p>The failure is entirely <strong>positional and directional</strong>. Which is worth stating plainly, because it is actionable: <strong>the chart's manager is not badly made, it is badly placed.</strong> Faculties that depend on <em>where you stand</em> — visibility, positioning, being in the right room — run at a deficit. Faculties that depend on <em>how you think and move</em> run at full strength. The remedy this points at is changing context, environment and role, not trying harder in place.</p>
+
+    <h3>Shani is strong and harsh at once</h3>
+    <p>Shani ranks <strong>2nd in strength</strong> but carries the <strong>worst outcome balance in the chart</strong> — Ishta 12.48 against Kashta 46.83, net −34.35. These measure different things: strength is capacity to deliver, Ishta/Kashta is whether delivery is pleasant. Saturn will absolutely produce results here, and producing them will hurt. That turns §09's read on Rahu–Shani from an intuition into a measurement.</p>
+    <p>Mangal shows a milder version of the same shape — and Mangal is the other half of the central exchange, opposite a Shukra holding the chart's <strong>highest Ishta Phala at 47.49</strong>. The exchange pairs the most benefic graha with a net-malefic one. The chart states its theme again, now in numbers.</p>
+
+    <div class="callout">
+      <div class="eyebrow">Correction to §04</div>
+      <p>I called the near-peak exalted Moon one of the chart's real assets, on the strength of its dignity. <strong>The strength data doesn't support that emphasis.</strong> Four independent measures agree: Shadbala ratio <strong>1.07</strong>, second-weakest in the chart; Paksha Bala <strong>20.21</strong> of a possible 120, because the birth falls 2.5 days after the new moon; only <strong>two bindus</strong> in its own sign; and a Shodhya Pinda of <strong>33</strong>, less than half the next-lowest, with a Graha Pinda of exactly zero.</p>
+      <p>The accurate formulation: the Moon is <strong>high in quality, low in quantity</strong>. Its Kashta Phala of 4.49 is the lowest in the chart, so it does very little harm — but the reserves are thin. This doesn't reverse the advice in §07; it promotes it from a footnote to a central finding.</p>
+    </div>
+
+    <p><em>One row I can't account for:</em> the table's final "Bhava (in %)" line doesn't reconcile against any derivation I tested — position within sign, nakshatra or pada, Ishta/Kashta proportion, Bhava Bala of the occupied house, or normalised Shadbala. Rather than invent a meaning I've left it out. Nothing above depends on it.</p>
+  </section>
+</div>
+
+<div class="wide">
+  <section>
+    <div class="wrap" style="padding:0">
+      <h2><span class="num">11</span> Where results actually land</h2>
+      <p>Shadbala measures the grahas. Bhava Bala and Ashtakavarga measure the <em>houses</em> — and they tell a story the graha concentration does not. Both tables reconcile completely, and the Sarvashtakavarga sums to <strong>337</strong>, the classical total.</p>
+    </div>
+
+    <figure class="bindu-strip">
+      <div class="bindu lo"><span class="v">29</span><span class="col" style="height:71px"></span><span class="h">I</span></div>
+      <div class="bindu"><span class="v">24</span><span class="col" style="height:59px"></span><span class="h">II</span></div>
+      <div class="bindu"><span class="v">28</span><span class="col" style="height:68px"></span><span class="h">III</span></div>
+      <div class="bindu"><span class="v">29</span><span class="col" style="height:71px"></span><span class="h">IV</span></div>
+      <div class="bindu"><span class="v">29</span><span class="col" style="height:71px"></span><span class="h">V</span></div>
+      <div class="bindu hi"><span class="v">41</span><span class="col" style="height:100px"></span><span class="h">VI</span></div>
+      <div class="bindu hi"><span class="v">33</span><span class="col" style="height:80px"></span><span class="h">VII</span></div>
+      <div class="bindu lo"><span class="v">21</span><span class="col" style="height:51px"></span><span class="h">VIII</span></div>
+      <div class="bindu lo"><span class="v">22</span><span class="col" style="height:54px"></span><span class="h">IX</span></div>
+      <div class="bindu"><span class="v">29</span><span class="col" style="height:71px"></span><span class="h">X</span></div>
+      <div class="bindu"><span class="v">28</span><span class="col" style="height:68px"></span><span class="h">XI</span></div>
+      <div class="bindu"><span class="v">24</span><span class="col" style="height:59px"></span><span class="h">XII</span></div>
+    </figure>
+    <p class="thr-note" style="margin-bottom:1.6rem">Sarvashtakavarga bindus by house. Average is 28.08. The 8th and 9th — holding seven of the nine grahas — score lowest.</p>
+
+    <div class="wrap" style="padding:0">
+      <h3>The crowded houses are the low-yield houses</h3>
+      <p>This is the finding that most complicates §01, and it is genuinely counterintuitive. <strong>The 8th and 9th hold seven of nine grahas and score the two lowest Sarvashtakavarga totals in the chart</strong> — 21 and 22 against an average of 28.08. The 8th is also last in Bhava Bala at 7.00 rupas, and receives <strong>zero</strong> aspectual support.</p>
+      <p>So the chart's centre of gravity sits on its least fertile ground. All the activity is concentrated where results come hardest. That explains something the sign-level reading could not: why a chart this loaded with exaltations and yogas would nonetheless feel like persistent uphill work. It also refines §03 — an exchange across two low-bindu houses means the 8th is <strong>worked through, not enjoyed</strong>. Fortune transits this ground; it doesn't rest here.</p>
+
+      <h3>The 6th house is the most productive territory</h3>
+      <p><strong>Kumbha, the 6th, carries 41 bindus</strong> — highest in the chart by a margin of eight, in a house holding no grahas at all. The 6th governs service, competition, problem-solving, disciplined labour and adversaries overcome. A 41-bindu 6th says about as loudly as this system says anything: <strong>the native wins through the 6th house</strong> — out-working, out-lasting and out-analysing the opposition.</p>
+      <p>And a convergence worth noting: <strong>Kumbha is also the D10 lagna.</strong> The career chart's ascendant is the same sign as the natal chart's most fertile house. Both point at Aquarius–Saturn territory: systems, technology, analysis, service, structural problem-solving. Shani rules this house and runs the 2028–2030 antardasha, so the career reading from §07 is now supported three independent ways.</p>
+      <p>Against this, the <strong>10th house itself ranks only 9th</strong>, with a failing lord. The message is consistent: <strong>career here is built, not conferred.</strong> It arrives through competence, service and endurance rather than through position and appointment.</p>
+
+      <h3>The 12th house is the strongest in the chart</h3>
+      <p>At <strong>12.59 rupas the 12th outranks second place by 36%</strong> — an extraordinary margin. Its lord is Surya: exalted, strongest graha, Vimala Yoga. A decisive confirmation of §03.</p>
+      <p>But note the nuance the two metrics give together. The 12th's Bhava Bala comes almost entirely from its lord's enormous 683.48 contribution, while its own SAV is a modest 24. So the 12th is <strong>powered by the Sun specifically rather than broadly fertile</strong> — its strength flows through solar significations and through the 12th's own domain of foreign lands, seclusion and release. Read alongside Rahu in the 9th and the Ketu–Budha loop, the thread running through foreign residence, withdrawal and work done away from the public eye is the chart's strongest single structure.</p>
+
+      <div class="callout">
+        <div class="eyebrow">Two corrections to §07 — both upward</div>
+        <p><strong>Partnership.</strong> I read the 7th as consistently difficult, on the strength of Ketu touching it in four vargas. That evidence stands — but the 7th is <strong>4th strongest in Bhava Bala</strong> with <strong>33 bindus</strong>, the second-highest in the chart, and its lord Guru is the second-strongest graha. The accurate reading: <strong>the house is well built; the occupants are difficult.</strong> Not structurally weak — structurally sound and karmically complicated, which is a materially different and more hopeful proposition. The advice is unchanged; the expected outcome of following it is better than I implied.</p>
+        <p><strong>Wealth.</strong> I called the 2nd lord in the 8th "poor for linear accumulation." True of the mechanism, but I understated the capacity. The 2nd house is <strong>3rd strongest</strong>, carries <strong>the highest Drishti Bala in the chart at +99.83</strong> — the three grahas aspecting it from the 8th, exactly as §06 showed — and its lord holds the highest Ishta Phala. Wealth is well supported; it simply arrives through 8th-house channels.</p>
+      </div>
+
+      <p>The genuine caution sits elsewhere: the <strong>11th house ranks 11th</strong>, with Gulika and Mandi both in it. Set against the strong D11, the honest synthesis is that <strong>gain capacity is high but the gains house is weak</strong> — income arrives through the specific channels D11 indicates rather than accumulating broadly. That strengthens rather than weakens the earlier caution against leverage.</p>
+
+      <h3>What this does to the timeline</h3>
+      <div class="scroll">
+        <table>
+          <caption>Outcome balances applied to the antardasha sequence</caption>
+          <thead><tr><th>Period</th><th>Net</th><th>Rules</th><th>Revised read</th></tr></thead>
+          <tbody>
+            <tr><td>Rahu–Guru <span class="deg">→2028</span></td><td class="n">+22.20</td><td class="n">4th, 7th</td><td><strong>Confirmed strong.</strong> Activates the 2nd- and 4th-strongest houses. But Guru has the chart's worst Drik Bala (−8.58) — the good arrives with interference attached.</td></tr>
+            <tr><td>Rahu–Shani <span class="deg">28–30</span></td><td class="n flag">−34.35</td><td class="n">5th, 6th</td><td><strong>Confirmed and sharpened.</strong> Strongest-but-harshest graha ruling the most fertile house. Most productive and most punishing at once.</td></tr>
+            <tr><td>Rahu–Budha <span class="deg">30–33</span></td><td class="n">−11.41</td><td class="n">1st, 10th</td><td><strong>Upgraded to the chief concern.</strong> The only failing graha, net-malefic, lowest Dig Bala, running 2.5 years over self and career.</td></tr>
+            <tr><td>Rahu–Shukra <span class="deg">34–37</span></td><td class="n">+35.62</td><td class="n">2nd, 9th</td><td><strong>Confirmed as the material peak.</strong> Highest Ishta Phala, ruling the 3rd-strongest house.</td></tr>
+            <tr><td>Rahu–Surya <span class="deg">37–38</span></td><td class="n flag">+39.05</td><td class="n">12th</td><td><strong>Revised upward.</strong> I called this a wind-down. It is the strongest and most benign graha ruling the strongest house — short, but likely a genuine high point.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+</div>
+
+<div class="wrap">
+  <section>
+    <h2><span class="num">12</span> What to do with this</h2>
 
     <p>A Virgo lagna repeating across three vargas, with a combust lagna lord that also rules the 10th, sitting in the 8th under an exalted gandanta Sun — and a nakshatra chain closing in a Ketu–Budha loop. Eight of nine grahas packed into houses 8, 9 and 10, spine formed by a Mangal–Shukra exchange and reinforced by Vimala Yoga.</p>
 
-    <p>Read as one statement: a narrow, deep, investigative chart whose fortune routes through exactly the material most people avoid. Its real assets are an exceptionally strong Sun and a near-peak exalted Moon. Its real deficits are an almost empty set of kendras, and a 7th house touched by Ketu in four separate vargas.</p>
+    <p>Read as one statement: a narrow, deep, investigative chart whose fortune routes through exactly the material most people avoid.</p>
+
+    <p>The strength data reshapes the balance sheet. The <strong>real asset is the Sun</strong> — 2.28× its requirement, the best outcome balance in the chart, ruling the strongest house. The <strong>real liability is Budha</strong>, the only graha failing its minimum, ruling both the self and the career, and failing on <em>position</em> rather than capacity. Two things I first read as an asset and a deficit turned out to be neither: the exalted <strong>Moon is thin, not strong</strong>, and the <strong>7th house is well built</strong> even though its occupants are difficult.</p>
+
+    <p>The sharpest structural fact is that the two houses holding seven of nine grahas carry the chart's two <strong>lowest</strong> Sarvashtakavarga scores, while the empty 6th carries the highest at 41. <strong>All the activity is concentrated where results come hardest, and the fertile ground is somewhere else.</strong></p>
 
     <ol class="takeaways">
       <li><strong>Go deep, not wide.</strong> The chart has no talent for breadth and enormous talent for depth. Every configuration rewards specialising into something difficult and unfashionable.</li>
+      <li><strong>Compete and serve rather than position and wait.</strong> The 41-bindu 6th, the Aquarius D10 lagna and the rank-9 tenth house all say results come from out-working and out-analysing the problem, not from appointment or title.</li>
+      <li><strong>Change position, don't just push harder.</strong> Budha's deficit is entirely directional — dig bala 4.28 out of 60 — while its motional strength is near the top of the chart. What's under-resourced is <em>where you stand</em>, not what you can do. Environment, role and location are the high-leverage variables.</li>
       <li><strong>Build structure deliberately, because the chart doesn't supply it.</strong> Empty kendras mean routine, deadlines and external commitments have to be installed by hand. Rahu–Shani will impose this anyway from 2028; adopting it early converts an ordeal into an advantage.</li>
-      <li><strong>Use the window to Jan 2028 to commit, not to expand.</strong> Guru in an enemy's sign and in D9's 6th rewards narrowing. One direction, one mentor, one decision on the partnership question.</li>
-      <li><strong>Treat partnership as a conscious project.</strong> The signal across D1, D9, D27 and D30 is consistent enough to warrant deliberateness and patience rather than default timing.</li>
-      <li><strong>Protect the nervous system.</strong> A combust Mercury ruling a Virgo lagna from the 8th, with the Moon under Saturn–Mars–Rahu pressure, describes a system that runs hot with no automatic off-switch.</li>
-      <li><strong>The contemplative pull is native equipment, not a distraction.</strong> A chart whose nakshatra chain terminates in Ketu, with both Ketu and the Sun in gandanta, is saying the same thing twice.</li>
+      <li><strong>Use the window to Jan 2028 to commit, not to expand.</strong> It activates the 2nd- and 4th-strongest houses, but Guru is the chart's most aspect-afflicted graha — expect the good to arrive with interference. One direction, one mentor, one decision on the partnership question.</li>
+      <li><strong>Treat partnership as a conscious project — with better odds than the affliction alone suggests.</strong> Ketu across four vargas is real, but so is a rank-4 house with 33 bindus and the chart's second-strongest graha as its lord.</li>
+      <li><strong>Protect the nervous system — now a primary finding, not a footnote.</strong> A failing lagna lord and a Moon that is thin by four independent measures describe a system with limited reserves. Rahu–Budha (2030–2033) is the window that most demands this.</li>
+      <li><strong>The contemplative pull is native equipment.</strong> A nakshatra chain terminating in Ketu, both Ketu and the Sun in gandanta, and the 12th standing as the single strongest bhava — the same instruction given three times over.</li>
     </ol>
 
     <p class="coda">The chart's own summary of itself is the 8th–9th exchange plus Vimala Yoga, stated twice over: <strong>the difficulty and the fortune are the same object.</strong></p>
 
     <footer>
-      Prepared from the supplied D1, D9, D10, D11, D8, D27, D30, upagraha and Vimshottari data. Divisional charts and dasha boundaries were independently recomputed and verified; two source errors (D8 and D30 Ketu) are corrected throughout. An interpretation within the framework of Jyotisha, presented on its own terms.
+      Prepared from the supplied D1, D9, D10, D11, D8, D27, D30, upagraha, Vimshottari, Shadbala, Bhava Bala, Ashtakavarga and Shodhya Pinda data. Divisional charts and dasha boundaries were independently recomputed, and every strength table independently reconciled; two source errors (D8 and D30 Ketu) are corrected throughout. Sections 10 and 11 revise three conclusions from the earlier sections — the Moon downward, partnership and wealth upward — and those revisions are marked where they occur. An interpretation within the framework of Jyotisha, presented on its own terms.
     </footer>
   </section>
 </div>
