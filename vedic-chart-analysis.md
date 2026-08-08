@@ -745,6 +745,103 @@ mahadasha of the graha that occupies the 10th house.** Guru–Shukra (2048–205
 is likely the fullest expression of the yoga in the whole life. The DKY does not
 deliver its best inside the Rahu period at all — it waits.
 
+### Shani mahadasha — Dec 2056 to Dec 2075, ages 54.7 to 73.7
+
+Nineteen years, and the natal Shani that governs them is the chart's clearest
+example of **strong and harsh being different measurements**.
+
+| Measure | Shani | Standing |
+|---|---|---|
+| Shadbala ratio | 1.28 | **Rank 2 of 7** |
+| Sapta Vargaja Bala | 120.00 | **2nd highest** |
+| Shodhya Pinda | 184 | **2nd highest** |
+| Dig Bala | 43.24 | **2nd best** |
+| **Ishta / Kashta** | 12.48 / 46.83 | **Net −34.35 — worst in the chart** |
+| Uchcha Bala | 9.30 | Low — ~28° from its debilitation point |
+| Ayana Bala | 3.98 | Very low |
+| Own bindus in Vrishabha | 2 | Low |
+
+It is also unusually well credentialed for delivering results:
+
+- It **rules the 6th house — the chart's 41-bindu high point**, the most fertile
+  ground available.
+- It **aspects that same 6th house** by its 10th aspect from the 9th, so the
+  strongest house in the chart is both ruled and aspected by the dasha lord.
+- In **D9 it occupies the 10th**; in **D10 it is the lagna lord**.
+- It also aspects the 3rd (effort and skill) and the 11th (gains).
+
+So the capacity is real and the credentials are genuine. What the Ishta/Kashta
+figure says is that **the experience of receiving those results is heavy** —
+obligation rather than ease, weight rather than reward.
+
+#### What the period is about
+
+Shani rules the **5th and 6th** and sits in the **9th**. Read together at ages
+55 to 74, that is a recognisable configuration: children and students (5th),
+service, obligation and health (6th), expressed through dharma, teaching and
+mentorship (9th).
+
+**This is the teaching and legacy period** — carrying and passing on what the
+Guru mahadasha built. Saturn in the 9th is the elder's placement. And because
+Shani is D9's tenth-house occupant and D10's lagna lord, **professional identity
+stays central right through to 74.** This mahadasha is not a wind-down.
+
+The sequence across the three mahadashas is coherent:
+
+> **Rahu (21–39) builds it. Guru (39–55) is paid for it. Shani (55–74) carries
+> it and hands it on.**
+
+#### Two Saturn cycles land on top of it
+
+| Cycle | Timing | Falls in |
+|---|---|---|
+| **Sade Sati #2** | ~2057 – ~2065 | The **first seven years** of the mahadasha |
+| **Second Saturn return** | ~2060 | Shani–Budha |
+
+The mahadasha opens almost exactly as the second Sade Sati begins. Ages **55 to
+63 therefore stack three Saturn signatures at once** — Shani mahadasha, Sade
+Sati, and the Saturn return.
+
+Note the symmetry with the first half of life: Sade Sati #1 (2027–2035)
+overlapped the Rahu–Shani antardasha, and Sade Sati #2 overlaps
+Shani–Shani and Shani–Budha. **Both of this chart's Saturn-heavy periods
+coincide with a Sade Sati.** That doubling is a genuine structural feature, and
+it is why Saturn reads so much heavier here than its rank-2 strength alone
+suggests.
+
+#### Antardashas
+
+| Period | Dates | Ages | Reading |
+|---|---|---|---|
+| **Shani–Shani** | Dec 2056 – Dec 2059 | 54.7–57.7 | **The hardest single stretch in the timeline.** Saturn's own sub-period, worst Kashta in the chart, opening into Sade Sati. |
+| **Shani–Budha** | Dec 2059 – Sep 2062 | 57.7–60.4 | The failing graha ruling self and career, plus the **second Saturn return**. Identity, career and health pressure together. |
+| Shani–Ketu | Sep 2062 – Oct 2063 | 60.4–61.5 | Detachment and withdrawal; Sade Sati releasing. Poor for new commitments. |
+| **Shani–Shukra** | Oct 2063 – Dec 2066 | 61.5–64.7 | **The best stretch of the mahadasha.** Highest Ishta Phala in the chart, the DKY's dharma half, ruling the 2nd and 9th — and it arrives just as Sade Sati ends. |
+| Shani–Surya | Dec 2066 – Nov 2067 | 64.7–65.6 | Short and strong. Best outcome balance in the chart, ruling the strongest bhava. |
+| Shani–Chandra | Nov 2067 – Jun 2069 | 65.6–67.2 | Gentle and low-harm, but low-yield. |
+| Shani–Mangal | Jun 2069 – Aug 2070 | 67.2–68.3 | Forceful and difficult — highest Shodhya Pinda with a negative outcome balance. |
+| **Shani–Rahu** | Aug 2070 – Jun 2073 | 68.3–71.2 | Activates the natal **Shani–Rahu conjunction in the 9th**. The mirror of Rahu–Shani in 2028–2030, forty-two years later — the same conjunction, opposite order. The first built the career foundation; this one likely marks its final transformation or handing over. |
+| Shani–Guru | Jun 2073 – Dec 2075 | 71.2–73.7 | Guru in the 10th, Amala Yoga. A dignified close to the period. |
+
+#### Health during this mahadasha
+
+This needs stating plainly and then qualifying, because both halves are true.
+
+Shani rules the 6th, carries the chart's highest Kashta Phala, and its mahadasha
+opens onto Sade Sati and a Saturn return. Against a Virgo lagna with a
+Shadbala-failing lord and a thin Moon, **ages 55 to 63 are the period this chart
+most requires health attention** — chronic and low-grade in character rather
+than acute, consistent with Saturn.
+
+**The qualifier matters as much.** The 6th house is the house of disease *and*
+of triumph over it, and here its lord is the second-strongest graha ruling the
+chart's highest-bindu house and aspecting it as well. A strong 6th lord means
+difficulties are fought successfully rather than avoided. **Load is high;
+resilience is also high.** The reading is demanding, not ominous.
+
+*(After Shani, the Budha mahadasha opens in Dec 2075 at age 73.7 — the lagna
+lord's own period, and the chart's weakest graha.)*
+
 ### Sade Sati
 
 Saturn currently transits Meena, the **11th from the natal Moon** — one of the
@@ -766,9 +863,13 @@ around 2032–2035, and it is the mechanism behind the late-cresting career:
 career visibility is structurally suppressed during exactly the years he would
 conventionally expect to climb.
 
-**The hardest convergence in the chart is ~2030–2032**: Sade Sati's peak phase
-over the natal Moon, *plus* the Rahu–Budha antardasha of the failing lagna lord,
-*plus* the Saturn return.
+**The hardest convergence in the first half of life is ~2030–2032**: Sade Sati's
+peak phase over the natal Moon, *plus* the Rahu–Budha antardasha of the failing
+lagna lord, *plus* the Saturn return.
+
+The second Sade Sati (~2057–2065) repeats the pattern against the Shani
+mahadasha — see above. Both of this chart's Saturn-heavy stretches carry a Sade
+Sati on top of them.
 
 ---
 
