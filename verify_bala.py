@@ -123,3 +123,43 @@ print(f"  Vara bala 45 -> Chandra -> birth weekday must be Monday. 15 Apr 2002 =
 print(f"  Hora bala 60 -> Surya hora. On Monday the Surya hora is the 5th and 12th from sunrise.")
 lag = 177.6269
 print(f"  Ascendant {lag:.2f}deg is {(lag-sun)%360:.1f}deg past the Sun -> birth ~late afternoon/early evening")
+
+# ---------------- Reduced Ashtakavarga -> Shodhya Pinda ----------------
+print("\n=== Reduced Ashtakavarga rebuilds Shodhya Pinda ===")
+# reduced (shodhita) bindus, columns: Lagna, Surya, Chandra, Mangal, Budha, Guru, Shukra, Shani
+RED = {"Mesha": (2,0,0,0,0,0,1,3), "Vrishabha": (2,1,0,1,1,0,0,0),
+       "Mithuna": (0,0,0,3,4,2,0,0), "Karka": (3,0,2,0,0,2,2,1),
+       "Simha": (0,2,0,3,2,0,0,0), "Kanya": (1,0,2,0,0,0,2,3),
+       "Tula": (0,0,0,0,0,0,0,4), "Vrischika": (0,2,0,3,2,0,0,0),
+       "Dhanu": (0,2,0,1,0,1,1,1), "Makara": (0,2,3,0,1,1,2,0),
+       "Kumbha": (4,2,0,5,1,1,2,4), "Meena": (0,2,0,1,0,1,1,1)}
+IDX = {"Lagna":0, "Surya":1, "Chandra":2, "Mangal":3, "Budha":4,
+       "Guru":5, "Shukra":6, "Shani":7}
+RASHI_GUNA = {"Mesha":7, "Vrishabha":10, "Mithuna":8, "Karka":4, "Simha":10,
+              "Kanya":5, "Tula":7, "Vrischika":8, "Dhanu":9, "Makara":5,
+              "Kumbha":11, "Meena":12}
+GRAHA_GUNA = {"Surya":5, "Chandra":5, "Mangal":8, "Budha":5,
+              "Guru":10, "Shukra":7, "Shani":5}
+OCCUPIES = {"Surya":"Mesha", "Chandra":"Vrishabha", "Mangal":"Vrishabha",
+            "Budha":"Mesha", "Guru":"Mithuna", "Shukra":"Mesha", "Shani":"Vrishabha"}
+
+every = True
+for name, (r_given, g_given, s_given) in SP.items():
+    c = IDX[name]
+    rashi = sum(RED[s][c] * RASHI_GUNA[s] for s in SIGNS)
+    graha = sum(RED[OCCUPIES[g]][c] * GRAHA_GUNA[g] for g in G)
+    good = (rashi == r_given) and (graha == g_given) and (rashi + graha == s_given)
+    every &= good
+    print(f"  {name:8s} rashi {rashi:3d} vs {r_given:3d} | graha {graha:3d} vs {g_given:3d}"
+          f" | shodhya {rashi+graha:3d} vs {s_given:3d}   {'OK' if good else '*** MISMATCH ***'}")
+print(f"  Reduced Ashtakavarga fully reproduces Shodhya Pinda: {every}")
+
+print("\n  Note: the 'Sarv' column of the Reduced Ashtakavarga is NOT the sum of the")
+print("  reduced graha columns (which do verify above), so it is a separately derived")
+print("  quantity and is excluded from the reading:")
+RED_SARV = {"Mesha":4, "Vrishabha":5, "Mithuna":0, "Karka":0, "Simha":7, "Kanya":0,
+            "Tula":5, "Vrischika":0, "Dhanu":0, "Makara":0, "Kumbha":0, "Meena":5}
+for s in SIGNS:
+    tot = sum(RED[s][1:8])
+    if tot != RED_SARV[s]:
+        print(f"    {s:11s} columns sum to {tot:2d}, printed Sarv is {RED_SARV[s]:2d}")
