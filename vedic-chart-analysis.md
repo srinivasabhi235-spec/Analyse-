@@ -937,7 +937,131 @@ the twenties.
 
 ---
 
-## 13. Summary
+## 13. Current transits — authority and marriage
+
+> **Dated snapshot: 8 August 2026.** Unlike the rest of this document, which is
+> structural and permanent, this section reads a moment. The Sun at 21°35′
+> sidereal Karka dates the transit chart to 6–8 August 2026; the fast-moving
+> bodies below are valid for weeks, the slow ones for years.
+
+### Where the transits fall
+
+| Transit | Sign | From lagna | From Moon | Own bindus | Sign SAV |
+|---|---|---|---|---|---|
+| Surya | Karka | 11th | 3rd | 3 | 28 |
+| Chandra | Vrishabha | 9th | 1st | 2 | 22 |
+| Mangal | Mithuna | **10th** | 2nd | 4 | 29 |
+| Budha | Karka | 11th | 3rd | 2 | 28 |
+| **Guru** (combust) | Karka | 11th | 3rd | **5** | 28 |
+| Shukra | Kanya | **1st** | 5th | **5** | 29 |
+| **Shani** | Meena | **7th** | **11th** | **5** | **33** |
+| **Rahu** | Kumbha | **6th** | 10th | — | **41** |
+| Ketu | Simha | 12th | 4th | — | 24 |
+
+Two structural facts frame everything else.
+
+**He is not in Sade Sati.** Saturn in Meena is the **11th from the natal Moon** —
+one of the most favourable Saturn positions in gochara, giving gains and relief.
+Sade Sati only begins when Saturn enters Mesha, the 12th from the natal Moon,
+in roughly the **second half of 2027**. The present window is therefore
+comparatively unobstructed, and that will not be true again for a long time.
+
+**Three slow transits carry 5 bindus each** — Guru, Shukra and Shani — all above
+the classical 4-bindu threshold at which a transit is held to deliver. Saturn in
+particular transits **Meena, a 33-bindu house**, the second-highest in the chart.
+These are supported transits, not merely present ones.
+
+### Marriage — the window is open now
+
+Three independent activators of the 7th house are running simultaneously, which
+is the classical signature for marriage timing:
+
+1. **The antardasha lord is the 7th lord.** Guru rules the 7th from Kanya lagna,
+   and Rahu–Guru runs to **31 January 2028**.
+2. **Transit Shani is sitting in the natal 7th house** — Meena — with 5 bindus,
+   in the chart's second-highest-bindu house. Saturn has been there since
+   ~March 2025 and leaves in the second half of 2027.
+3. **Transit Guru, exalted in Karka, aspects the natal 7th** by its 9th aspect
+   (Karka to Meena is the 9th sign). Jupiter stays in Karka until roughly
+   mid-2027.
+
+Add two supports: **transit Shukra — the natural karaka of marriage, and the
+graha with the highest Ishta Phala in this chart — is in the natal lagna** right
+now; and Sade Sati has not begun.
+
+One timing detail worth having. **Transit Guru is currently combust**, 7°24′ from
+the Sun against an 11° limit. The Sun pulls away at 0.73°/day, so Jupiter
+**clears combustion around 13 August 2026**. The 7th lord's transit capacity is
+muted this fortnight and improves markedly from mid-August.
+
+**Reading:** this is the clearest marriage window the chart offers in the visible
+timeline — effectively **late August 2026 through mid-2027**, with an outer bound
+of January 2028 when the Guru antardasha ends. It is also the window in which
+Guru rules the 4th, so marriage and settling a home read as one movement rather
+than two.
+
+The counterweights from §07 do not disappear because the timing is good:
+
+- Ketu touches the 7th in **four separate vargas**; the karmic complication is
+  structural, not situational.
+- Partial Manglik from both Chandra and Shukra.
+- **Saturn in the 7th means slow and serious rather than swept-up** — formalising
+  something considered, often with an older or more sober partner. Saturn
+  delays and then confirms; it rarely does sudden.
+- In D9 the 7th lord sits in the 6th — friction and service inside partnership.
+
+Set against a 7th house that is **Bhava rank 4 with 33 bindus**, the honest
+composite is: a well-built house, a difficult tenant, and a genuinely open door
+for about eighteen months. This chart's 7th responds to deliberate choice, not
+to drift.
+
+**If this window passes**, the next comparable one is **Rahu–Shukra, 2034–2037** —
+Shukra being the natural karaka of marriage, ruling the 2nd house of family, and
+holding the chart's highest Ishta Phala. Nothing between 2028 and 2034 activates
+the 7th with similar force.
+
+### Authority — yes, but of a particular kind, on a particular schedule
+
+**What the present transits support.** **Rahu, the mahadasha lord, is transiting
+the natal 6th house** — which is simultaneously Rahu's own most favourable house,
+the chart's **41-bindu high point**, and the **D10 ascendant sign**. Three
+independent reasons that placement is strong, all at once. Add transit Mangal
+crossing the natal 10th and exalted Guru in the 11th, and the next several months
+genuinely favour advancement: winning a competitive situation, being handed
+ownership of something, a step up in responsibility.
+
+**What they do not support** is a large positional title, and the reason is
+structural rather than transitory. The natal 10th is **Bhava rank 9** with a lord
+that is the only graha failing its Shadbala minimum; there is no
+Panchamahapurusha yoga; and Surya — the karaka of authority, and by far the
+strongest graha here — sits in the **8th** while ruling the **12th**.
+
+That combination is specific about *what kind* of authority this is. Not
+administrative command over large numbers of people. **Authority of the expert
+and the trusted advisor**: a technical or research lead, a principal, the head of
+a function, someone whose judgement is decisive within a domain. And with a
+persistent behind-the-scenes quality — the strongest house is the 12th, the
+authority karaka is in the 8th, and Rahu occupies the 8th of the D10.
+
+**The schedule is the real answer**, and Sade Sati is what shapes it:
+
+| Window | What happens |
+|---|---|
+| **Now → Jan 2028** | Unobstructed. Responsibility and recognition, a step up in ownership — real, but not the title. **Use it; it is the last clear run for years.** |
+| **~H2 2027 → ~2035** | **Sade Sati.** Saturn crosses Mesha (3 bindus), Vrishabha (2), Mithuna (1). |
+| **2028–2030** | Rahu–Shani. Authority *earned* — heavy load, slow recognition. Sade Sati's first phase overlaps exactly. |
+| **~2030–2032** | The hardest convergence in the chart: Sade Sati's peak phase over the natal Moon, **plus** the Rahu–Budha antardasha of the failing lagna lord, **plus** the Saturn return. |
+| **~2032–2035** | Saturn crosses **Mithuna, the natal 10th, where it holds 1 bindu — the weakest planet-sign cell in the entire Ashtakavarga.** Career visibility at its most suppressed even as material conditions improve under Rahu–Shukra. |
+| **From Dec 2040** | **Guru mahadasha.** The graha in the 10th, Amala Yoga giver, runs sixteen years across ages 39–55. This is where authority consolidates. |
+
+So the answer on authority is **yes — but the climb runs straight through Sade
+Sati, and that is precisely why §12 reads this as a late-cresting career.** The
+sequence is: recognition now, authority earned 2028–2030, visibility suppressed
+2032–2035, authority held from 2040.
+
+---
+
+## 14. Summary
 
 A **Virgo lagna repeating across three vargas**, with a **combust lagna lord
 that also rules the 10th**, sitting in the 8th under an **exalted, gandanta
