@@ -785,7 +785,159 @@ and changes one:
 
 ---
 
-## 12. Summary
+## 12. The career arc
+
+Pulling every career indicator in the chart into one sequence.
+
+### What the work is
+
+Six independent indicators converge on the same territory:
+
+| Indicator | Points at |
+|---|---|
+| Kanya lagna, Budha as lagna lord | Analysis, diagnosis, precision, systems, service |
+| **D10 lagna Kumbha**, lord Shani | Technology, large systems, networks, structure, research |
+| **6th house Kumbha at 41 bindus** | Competition, troubleshooting, service, applied problem-solving |
+| Shukra in **Vrischika** on D10's 10th | Depth work — finance, risk, insurance, investigation, psychology, data |
+| **Rahu in D10's 8th** | Research, hidden or protected data, audit, security, foreign involvement |
+| Ketu–Budha nakshatra loop | Forensic, self-taught, first-principles investigation |
+
+Note the convergence flagged in §11: **Kumbha is both the D10 ascendant and the
+natal chart's 41-bindu house.** Two different techniques, one answer. The work is
+**technical and analytical with an investigative edge** — the kind of role where
+you are handed something broken, opaque or contested and made responsible for
+resolving it.
+
+### Why it is built rather than conferred
+
+The 10th house itself is unremarkable: **Bhava Bala rank 9**, SAV 29, exactly
+average. Its lord Budha is **the only graha in the chart failing its Shadbala
+minimum**, and the kendras are nearly empty — so there is no inherited platform,
+no structural head start, and no easy appointment mechanism.
+
+What there *is*, is the 6th house at 41 bindus and **Amala Yoga** — Guru, the
+second-strongest graha, sitting in the 10th. That combination has a specific
+meaning: **advancement comes through demonstrated competence and accumulated
+reputation, not through position or patronage.** Slow to start, compounding
+once started. The Amala reputation asset is real but it is a *stock*, not a
+*flow* — it builds quietly for years before it pays.
+
+Two structural cautions sit alongside it. Five D10 grahas sit at 26–29° of their
+signs, which reads as **discontinuity** — a career assembled from discrete moves
+rather than internal promotion. And Budha's combustion means **visibility lags
+ability**, persistently and by design.
+
+### The arc is back-loaded — this is the headline
+
+The dasha table supplied ends at Dec 2040. The most important career fact lies
+just past it.
+
+| Mahadasha | Dates | Ages | Career meaning |
+|---|---|---|---|
+| **Rahu** | Dec 2022 – Dec 2040 | 20.7 – 38.7 | **Construction.** Unconventional, non-linear, foreign-inflected. Builds the material. |
+| **Guru** | **Dec 2040 – Dec 2056** | **38.7 – 54.7** | **The payoff.** Guru is the graha *sitting in the 10th house* — Amala Yoga giver, 2nd-strongest graha, net Ishta +22.20. |
+| Shani | Dec 2056 – Dec 2075 | 54.7 – 73.7 | Consolidation, institutional weight — strong but harsh (worst Kashta in the chart). |
+
+**The sixteen-year mahadasha of the planet occupying the 10th house runs across
+ages 39 to 55** — precisely the decades in which professional authority normally
+matures. That is the chart's answer to the career question, and it is
+unambiguous: **this is a late-cresting career.**
+
+It is also internally consistent with everything else. A combust lagna lord
+means ability surfaces late. Vimala Yoga means the rise follows adversity. The
+8th–9th exchange means fortune arrives through difficulty. All four say the same
+thing: the first fifteen working years are the investment, not the return.
+
+The practical consequence matters more than the prediction. Comparing himself at
+28 or 32 against peers on conventional ladders will read as falling behind, and
+by conventional metrics it will *be* behind. The chart says that comparison is
+measuring the wrong window.
+
+### Phase by phase
+
+**Ages 20.7 – 23.4 · Rahu–Rahu · Dec 2022 – Sep 2025 — past.** The disoriented
+launch. Rahu's own sub-period inside its mahadasha is classically the least
+legible stretch of the whole eighteen years: ambition without direction, false
+starts, possibly a change of field or place.
+
+**Ages 23.4 – 25.8 · Rahu–Guru · to Jan 2028 — now.** Guru rules the 4th and
+7th (Bhava ranks 2 and 4) from the 10th. The window for **first real
+professional standing** — a mentor, a credential, an advisory or teaching
+component, visible reputation. Rahu in the 9th adds foreign study, travel,
+publishing. The age-24 Jupiter return falls here.
+*Caveat:* Guru carries the chart's worst Drik Bala (−8.58), sits in an enemy's
+sign, and has Yama Ghantaka 2° away. Expect interference, politics, criticism,
+and advice that overpromises. **This period rewards narrowing to one direction,
+not adding options.**
+
+**Ages 25.8 – 28.6 · Rahu–Shani · Jan 2028 – Dec 2030 — the foundation.** The
+single most career-defining stretch of the mahadasha. Shani is the D10 lagna
+lord, sits in D9's 10th, and rules the 41-bindu 6th house — three independent
+career credentials, all Saturn's. Expect a long, heavy, grinding project that
+ends up defining the résumé; real responsibility; authority earned slowly.
+Shadbala rank 2 but the **worst outcome balance in the chart**: it will deliver,
+and it will cost. Health and routine stop being optional.
+
+**Ages 28.6 – 31.2 · Rahu–Budha · Dec 2030 – Jun 2033 — the vulnerable stretch,
+and the strategic hinge.** The lagna-and-10th lord runs its own 2.5-year period
+while being the chart's only failing graha, net-malefic, with the lowest Dig
+Bala. The Saturn return lands here (~late 2031). Expect a genuine reassessment
+of direction, output-heavy but recognition-light, and the highest health and
+nervous-system exposure of the mahadasha.
+*But note the shape of the weakness.* Budha's Chesta Bala is 42.15 — near the
+top of the chart — while its Dig Bala is 4.28. **Motion is strong; position is
+weak.** The correct response is not to work harder in place but to **change
+position** — role, employer, city, country. This is the period where relocating
+or repositioning is likely to be worth more than any amount of additional
+effort.
+
+**Ages 31.2 – 32.2 · Rahu–Ketu · Jun 2033 – Jul 2034 — hold.** Short and
+destabilising, with Ketu gandanta in the 3rd. Consolidate, research, withdraw.
+Poor for launching ventures or making irreversible commitments.
+
+**Ages 32.2 – 35.2 · Rahu–Shukra · Jul 2034 – Jul 2037 — the material peak of
+the Rahu dasha.** Shukra holds the chart's highest Ishta Phala (47.49) and rules
+the 2nd (rank 3) and 9th. Resources, capital, and standing all improve.
+*One caution:* Saturn transits Mithuna — the 10th house — around 2033–2035, and
+**Shani has only 1 bindu there, the weakest planet-sign cell in the entire
+Ashtakavarga.** So the money and the visible position may diverge in that
+window: materially good, positionally frustrating.
+
+**Ages 35.2 – 36.1 · Rahu–Surya · 2037 – 2038 — short and excellent.** The
+chart's strongest and most benign graha ruling its strongest house. Recognition
+and authority; the 12th-house flavour suggests it arrives through foreign,
+behind-the-scenes or research channels rather than public position. The age-36
+Jupiter return falls here.
+
+**Ages 36.1 – 38.7 · Rahu–Chandra, then Rahu–Mangal · 2038 – Dec 2040.** Gentle,
+then forceful. Mangal closes the mahadasha carrying the highest Shodhya Pinda in
+the chart (212) alongside a heavily negative outcome balance — expect a
+disruptive transition right at the dasha junction, immediately before the Guru
+period opens.
+
+**Age 38.7 onward · Guru Mahadasha · from Dec 2040 — the second act.** Guru-Guru
+opens it (Dec 2040 – Feb 2043), followed by Guru–Shani (to Aug 2045) and
+Guru–Budha (to Dec 2047). The graha in the 10th running its own sixteen years,
+with Amala Yoga finally cashing the reputation it has been accumulating since
+the twenties.
+
+### Summary of the career reading
+
+- **Field:** technical, analytical, investigative — systems, data, research,
+  risk, security, diagnostics. Aquarius–Scorpio territory, not a general
+  management track.
+- **Mechanism:** competence and reputation, not position or patronage. Won
+  through the 6th house — out-working and out-analysing the problem.
+- **Shape:** discontinuous. Discrete moves between roles and places, not one
+  ladder.
+- **Timing:** foundation 2028–2030, hinge 2030–2033, material gains 2034–2037,
+  **authority from 2040**.
+- **The single highest-leverage variable is position, not effort** — the one
+  place the chart is explicit about what to change.
+
+---
+
+## 13. Summary
 
 A **Virgo lagna repeating across three vargas**, with a **combust lagna lord
 that also rules the 10th**, sitting in the 8th under an **exalted, gandanta
