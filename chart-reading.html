@@ -1,0 +1,862 @@
+<title>Chart Reading — Kanya Lagna, Rahu Mahadasha</title>
+
+<style>
+  /* ---- Light palette: cool slate paper, indigo ink, brass accent ---- */
+  :root {
+    --ground:      #EBEDF1;
+    --surface:     #F7F8FA;
+    --surface-alt: #E2E5EC;
+    --ink:         #141829;
+    --ink-mid:     #3D445C;
+    --ink-soft:    #626A85;
+    --rule:        #C6CBD8;
+    --rule-soft:   #D8DCE5;
+    --brass:       #96661C;
+    --brass-fill:  #EFE3CE;
+    --lapis:       #2E4A85;
+    --lapis-fill:  #DBE2F1;
+    --shadow:      rgba(20, 24, 41, .09);
+
+    --serif: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
+    --sans:  ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    --mono:  ui-monospace, "SF Mono", SFMono-Regular, "Cascadia Mono", Menlo, Consolas, monospace;
+  }
+
+  /* ---- Dark palette: deep indigo night ---- */
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --ground:      #0C0F1D;
+      --surface:     #141930;
+      --surface-alt: #1B2140;
+      --ink:         #E5E8F1;
+      --ink-mid:     #B3BACE;
+      --ink-soft:    #8790A9;
+      --rule:        #2B3252;
+      --rule-soft:   #212743;
+      --brass:       #D9A94F;
+      --brass-fill:  #2B2415;
+      --lapis:       #83A3DD;
+      --lapis-fill:  #17203C;
+      --shadow:      rgba(0, 0, 0, .4);
+    }
+  }
+  :root[data-theme="dark"] {
+    --ground:      #0C0F1D;
+    --surface:     #141930;
+    --surface-alt: #1B2140;
+    --ink:         #E5E8F1;
+    --ink-mid:     #B3BACE;
+    --ink-soft:    #8790A9;
+    --rule:        #2B3252;
+    --rule-soft:   #212743;
+    --brass:       #D9A94F;
+    --brass-fill:  #2B2415;
+    --lapis:       #83A3DD;
+    --lapis-fill:  #17203C;
+    --shadow:      rgba(0, 0, 0, .4);
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    background: var(--ground);
+    color: var(--ink);
+    font-family: var(--serif);
+    font-size: 17px;
+    line-height: 1.68;
+    margin: 0;
+    padding: 0 1.5rem 6rem;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .wrap { max-width: 46rem; margin: 0 auto; }
+  .wide { max-width: 58rem; margin: 0 auto; }
+
+  /* ---------------- masthead ---------------- */
+  .masthead {
+    padding: 4.5rem 0 2rem;
+    border-bottom: 1px solid var(--rule);
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  .eyebrow {
+    font-family: var(--sans);
+    font-size: .69rem;
+    font-weight: 600;
+    letter-spacing: .17em;
+    text-transform: uppercase;
+    color: var(--brass);
+  }
+  h1 {
+    font-family: var(--serif);
+    font-size: clamp(2.1rem, 5.5vw, 3.1rem);
+    line-height: 1.12;
+    font-weight: 400;
+    letter-spacing: -.015em;
+    text-wrap: balance;
+    margin: 0;
+  }
+  .standfirst {
+    font-size: 1.12rem;
+    color: var(--ink-mid);
+    max-width: 34rem;
+    margin: 0;
+  }
+
+  .facts {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr));
+    gap: 1.4rem 1.8rem;
+    padding-top: .5rem;
+  }
+  .fact { display: flex; flex-direction: column; gap: .18rem; }
+  .fact dt {
+    font-family: var(--sans);
+    font-size: .66rem;
+    font-weight: 600;
+    letter-spacing: .13em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+  }
+  .fact dd {
+    margin: 0;
+    font-family: var(--mono);
+    font-size: .93rem;
+    font-variant-numeric: tabular-nums;
+    color: var(--ink);
+  }
+
+  /* ---------------- sections ---------------- */
+  section { padding-top: 3.6rem; }
+  h2 {
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: -.01em;
+    text-wrap: balance;
+    margin: 0 0 1.1rem;
+    display: flex;
+    align-items: baseline;
+    gap: .8rem;
+  }
+  h2 .num {
+    font-family: var(--mono);
+    font-size: .78rem;
+    color: var(--brass);
+    font-variant-numeric: tabular-nums;
+    flex: none;
+    padding-top: .1rem;
+  }
+  h3 {
+    font-family: var(--sans);
+    font-size: .78rem;
+    font-weight: 700;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: var(--ink-mid);
+    margin: 2.3rem 0 .7rem;
+  }
+  p { margin: 0 0 1.1rem; }
+  strong { font-weight: 700; color: var(--ink); }
+  em { font-style: italic; }
+  a { color: var(--lapis); }
+
+  .lede::first-line { font-variant: small-caps; letter-spacing: .03em; }
+
+  ul { margin: 0 0 1.2rem; padding-left: 1.15rem; }
+  li { margin-bottom: .55rem; }
+  li::marker { color: var(--brass); }
+
+  code, .deg {
+    font-family: var(--mono);
+    font-size: .88em;
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* ---------------- callout ---------------- */
+  .callout {
+    background: var(--surface);
+    border: 1px solid var(--rule);
+    border-left: 3px solid var(--brass);
+    padding: 1.4rem 1.5rem;
+    margin: 0 0 1.4rem;
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+  }
+  .callout p { margin: 0; }
+  .callout .eyebrow { color: var(--brass); }
+
+  /* ---------------- rashi chart ---------------- */
+  .chart-figure {
+    margin: 2rem 0 1.6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .rashi {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(5.6rem, auto);
+    gap: 2px;
+    background: var(--rule);
+    border: 2px solid var(--ink-mid);
+    padding: 2px;
+  }
+  .cell {
+    background: var(--surface);
+    padding: .5rem .55rem;
+    display: flex;
+    flex-direction: column;
+    gap: .3rem;
+    min-width: 0;
+  }
+  .cell .sign {
+    font-family: var(--sans);
+    font-size: .6rem;
+    font-weight: 600;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+    display: flex;
+    justify-content: space-between;
+    gap: .3rem;
+  }
+  .cell .bh { color: var(--ink-soft); font-family: var(--mono); }
+  .cell .grahas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .22rem .3rem;
+    font-family: var(--mono);
+    font-size: .76rem;
+    line-height: 1.3;
+    color: var(--ink);
+  }
+  .cell.loaded { background: var(--brass-fill); }
+  .cell.loaded .sign, .cell.loaded .bh { color: var(--brass); }
+  .cell.lagna { background: var(--lapis-fill); }
+  .cell.lagna .sign, .cell.lagna .bh { color: var(--lapis); }
+  .cell .g { white-space: nowrap; }
+  .cell .g.ex { color: var(--brass); font-weight: 700; }
+  .cell.core {
+    grid-column: 2 / 4;
+    grid-row: 2 / 4;
+    background: var(--surface-alt);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: .5rem;
+    padding: 1.1rem;
+    text-align: center;
+  }
+  .core .big {
+    font-family: var(--mono);
+    font-size: clamp(1.5rem, 5vw, 2.2rem);
+    color: var(--brass);
+    line-height: 1;
+    font-variant-numeric: tabular-nums;
+  }
+  .core .cap {
+    font-family: var(--sans);
+    font-size: .68rem;
+    letter-spacing: .06em;
+    color: var(--ink-mid);
+    line-height: 1.45;
+  }
+  figcaption {
+    font-family: var(--sans);
+    font-size: .78rem;
+    line-height: 1.6;
+    color: var(--ink-soft);
+  }
+
+  /* ---------------- tables ---------------- */
+  .scroll { overflow-x: auto; margin: 0 0 1.5rem; }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: .88rem;
+    min-width: 30rem;
+  }
+  caption {
+    text-align: left;
+    font-family: var(--sans);
+    font-size: .68rem;
+    font-weight: 600;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+    padding-bottom: .6rem;
+  }
+  th {
+    text-align: left;
+    font-family: var(--sans);
+    font-size: .67rem;
+    font-weight: 600;
+    letter-spacing: .09em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+    border-bottom: 1px solid var(--rule);
+    padding: .5rem .7rem .5rem 0;
+    vertical-align: bottom;
+  }
+  td {
+    border-bottom: 1px solid var(--rule-soft);
+    padding: .58rem .7rem .58rem 0;
+    vertical-align: top;
+    color: var(--ink-mid);
+  }
+  td:first-child { color: var(--ink); }
+  td.n { font-family: var(--mono); font-variant-numeric: tabular-nums; white-space: nowrap; }
+  .flag { color: var(--brass); font-weight: 700; }
+
+  /* ---------------- dasha timeline ---------------- */
+  .timeline { margin: 2rem 0 1.4rem; display: flex; flex-direction: column; gap: .55rem; }
+  .track {
+    display: flex;
+    height: 3.4rem;
+    border: 1px solid var(--rule);
+    background: var(--surface);
+    position: relative;
+    overflow: hidden;
+  }
+  .seg {
+    border-right: 1px solid var(--rule);
+    padding: .42rem .4rem;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    gap: .12rem;
+    overflow: hidden;
+  }
+  .seg:last-child { border-right: 0; }
+  .seg .nm {
+    font-family: var(--sans);
+    font-size: .66rem;
+    font-weight: 600;
+    letter-spacing: .04em;
+    color: var(--ink-mid);
+    white-space: nowrap;
+  }
+  .seg .yr {
+    font-family: var(--mono);
+    font-size: .62rem;
+    color: var(--ink-soft);
+    font-variant-numeric: tabular-nums;
+  }
+  .seg.on { background: var(--brass-fill); }
+  .seg.on .nm { color: var(--brass); }
+  .seg.key { background: var(--lapis-fill); }
+  .seg.key .nm { color: var(--lapis); }
+  .now {
+    position: absolute;
+    top: 0; bottom: 0;
+    width: 2px;
+    background: var(--brass);
+    left: 20.1%;
+  }
+  .now::after {
+    content: "now";
+    position: absolute;
+    top: .1rem; left: .3rem;
+    font-family: var(--sans);
+    font-size: .58rem;
+    font-weight: 700;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: var(--brass);
+  }
+  .legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .4rem 1.2rem;
+    font-family: var(--sans);
+    font-size: .72rem;
+    color: var(--ink-soft);
+  }
+  .legend span { display: flex; align-items: center; gap: .4rem; }
+  .swatch { display: block; width: .8rem; height: .8rem; border: 1px solid var(--rule); flex: none; }
+  .swatch.a { background: var(--brass-fill); }
+  .swatch.b { background: var(--lapis-fill); }
+
+  .period { margin: 1.8rem 0 0; padding-top: 1.4rem; border-top: 1px solid var(--rule-soft); }
+  .period:first-of-type { border-top: 0; padding-top: 0; }
+  .period-head {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: .3rem .9rem;
+    margin-bottom: .6rem;
+  }
+  .period-head .t { font-size: 1.12rem; }
+  .period-head .d {
+    font-family: var(--mono);
+    font-size: .78rem;
+    color: var(--ink-soft);
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* ---------------- closing ---------------- */
+  .takeaways { counter-reset: t; list-style: none; padding: 0; }
+  .takeaways li {
+    counter-increment: t;
+    position: relative;
+    padding-left: 2.2rem;
+    margin-bottom: 1rem;
+  }
+  .takeaways li::before {
+    content: counter(t, decimal-leading-zero);
+    position: absolute;
+    left: 0;
+    top: .18rem;
+    font-family: var(--mono);
+    font-size: .72rem;
+    color: var(--brass);
+  }
+  .coda {
+    margin-top: 2.4rem;
+    padding: 1.6rem 0 0;
+    border-top: 2px solid var(--ink-mid);
+    font-size: 1.16rem;
+    line-height: 1.55;
+    text-wrap: balance;
+  }
+  footer {
+    margin-top: 4rem;
+    padding-top: 1.4rem;
+    border-top: 1px solid var(--rule);
+    font-family: var(--sans);
+    font-size: .74rem;
+    line-height: 1.65;
+    color: var(--ink-soft);
+  }
+
+  @media (max-width: 640px) {
+    body { font-size: 16px; padding: 0 1.1rem 4rem; }
+    .rashi { grid-auto-rows: minmax(4.6rem, auto); }
+    .cell .grahas { font-size: .68rem; }
+    .seg .yr { display: none; }
+  }
+</style>
+
+<div class="wrap">
+  <header class="masthead">
+    <div class="eyebrow">Parashari chart reading · D1 D9 D10 D11 D8 D27 D30</div>
+    <h1>The difficulty and the fortune are the same object</h1>
+    <p class="standfirst">A Kanya lagna with eight of nine grahas packed into three consecutive houses, read across seven divisional charts and eighteen years of Rahu dasha.</p>
+
+    <dl class="facts">
+      <div class="fact"><dt>Lagna</dt><dd>27°37′ Kanya</dd></div>
+      <div class="fact"><dt>Chandra</dt><dd>Krittika 2 · exalted</dd></div>
+      <div class="fact"><dt>Mahadasha</dt><dd>Rahu → 2040</dd></div>
+      <div class="fact"><dt>Antardasha</dt><dd>Guru → Jan 2028</dd></div>
+      <div class="fact"><dt>Implied birth</dt><dd>≈ 15 Apr 2002</dd></div>
+    </dl>
+  </header>
+</div>
+
+<div class="wrap">
+
+  <section>
+    <h2><span class="num">00</span> Before anything else: the data</h2>
+
+    <p>Rather than take the supplied tables at face value, I recomputed D9 and D27 independently from the D1 longitudes and rebuilt all nine Rahu antardashas from the Vimshottari proportions.</p>
+
+    <div class="callout">
+      <div class="eyebrow">Verified</div>
+      <p>All twenty divisional positions match to within a few arc-seconds. Every antardasha boundary matches the source table exactly — 07 Sep 2025, 31 Jan 2028, 07 Dec 2030, 26 Jun 2033, 14 Jul 2034, 14 Jul 2037, 08 Jun 2038, 07 Dec 2039, 25 Dec 2040. <strong>This is an internally consistent chart.</strong></p>
+    </div>
+
+    <p>With two exceptions. Rahu and Ketu must sit exactly 180° apart. They do in D1, D9, D10, D11 and D27 — but in <strong>D8 and D30 the generator printed Ketu at Rahu's own longitude</strong>.</p>
+
+    <div class="scroll">
+      <table>
+        <caption>Source errors and their corrections</caption>
+        <thead>
+          <tr><th>Varga</th><th>Printed</th><th>Correct Ketu</th><th>What it changes</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>D8</td>
+            <td class="n">05°26′ Karka (5th)</td>
+            <td class="n flag">05°26′ Makara — 11th</td>
+            <td>Ketu joins exalted Mangal in the 11th, not Rahu in the 5th</td>
+          </tr>
+          <tr>
+            <td>D30</td>
+            <td class="n">27°56′ Vrischika (1st)</td>
+            <td class="n flag">27°56′ Vrishabha — 7th</td>
+            <td>Ketu falls <strong>4° from Chandra</strong> in the 7th</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <p>The D30 correction matters. A tight Moon–Ketu conjunction in the 7th of the Trimshamsha is a real signature — detachment and recurrent dissatisfaction in partnership as a <em>character</em> tendency — and the printed chart hides it completely. Corrected values are used throughout.</p>
+
+    <h3>What the dasha implies about age</h3>
+    <p>The Moon at 1°47′ Vrishabha sits 38.4% through Krittika, leaving a Surya mahadasha balance of 3.70 years at birth. Adding Chandra (10) and Mangal (7) places the Rahu mahadasha 20.70 years after birth — which, against its given start of 25 Dec 2022, implies a birth around <strong>15 April 2002</strong>. Independently corroborated: the Sun at 1°28′ sidereal Mesha occurs every 15–16 April.</p>
+    <p>So the native is <strong>about 24</strong>. This is not a chart being assessed in retrospect. It is a chart at the opening of its defining period.</p>
+  </section>
+
+</div>
+
+<div class="wide">
+  <section>
+    <div class="wrap" style="padding:0">
+      <h2><span class="num">01</span> The one fact that organises everything</h2>
+      <p class="lede">Eight of the nine grahas occupy three consecutive houses. Everything else in the chart is a consequence of this.</p>
+    </div>
+
+    <figure class="chart-figure">
+      <div class="rashi">
+        <div class="cell"><div class="sign"><span>Meena</span><span class="bh">7</span></div></div>
+        <div class="cell loaded">
+          <div class="sign"><span>Mesha</span><span class="bh">8</span></div>
+          <div class="grahas">
+            <span class="g ex">☉ Surya ↑</span><span class="g">☿ Budha 🔥</span><span class="g">♀ Shukra</span>
+          </div>
+        </div>
+        <div class="cell loaded">
+          <div class="sign"><span>Vrishabha</span><span class="bh">9</span></div>
+          <div class="grahas">
+            <span class="g ex">☾ Chandra ↑</span><span class="g">♂ Mangal</span><span class="g">♄ Shani</span><span class="g">☊ Rahu</span>
+          </div>
+        </div>
+        <div class="cell loaded">
+          <div class="sign"><span>Mithuna</span><span class="bh">10</span></div>
+          <div class="grahas"><span class="g">♃ Guru</span></div>
+        </div>
+
+        <div class="cell"><div class="sign"><span>Kumbha</span><span class="bh">6</span></div></div>
+        <div class="cell core">
+          <div class="big">8 / 9</div>
+          <div class="cap">grahas inside houses 8–9–10.<br>Eight houses stand empty.</div>
+        </div>
+        <div class="cell"><div class="sign"><span>Karka</span><span class="bh">11</span></div></div>
+
+        <div class="cell"><div class="sign"><span>Makara</span><span class="bh">5</span></div></div>
+        <div class="cell"><div class="sign"><span>Simha</span><span class="bh">12</span></div></div>
+
+        <div class="cell"><div class="sign"><span>Dhanu</span><span class="bh">4</span></div></div>
+        <div class="cell">
+          <div class="sign"><span>Vrischika</span><span class="bh">3</span></div>
+          <div class="grahas"><span class="g">☋ Ketu</span></div>
+        </div>
+        <div class="cell"><div class="sign"><span>Tula</span><span class="bh">2</span></div></div>
+        <div class="cell lagna">
+          <div class="sign"><span>Kanya</span><span class="bh">1</span></div>
+          <div class="grahas"><span class="g">◈ Lagna</span></div>
+        </div>
+      </div>
+      <figcaption>D1 rashi chart, South Indian layout. Houses numbered from the Kanya lagna. <span class="flag">↑</span> exalted · <span class="flag">🔥</span> combust. The entire top edge of the chart is full; the rest is empty.</figcaption>
+    </figure>
+
+    <div class="wrap" style="padding:0">
+      <p>This is the chart's governing fact. Lives with this shape are not spread evenly across many arenas — they are <em>narrow and deep</em>. One theme dominates and everything else is pulled into its orbit. Here that theme is the 8th–9th–10th complex: <strong>depth, crisis and hidden knowledge (8th); meaning, mentors and fortune (9th); public work (10th)</strong> — with Ketu in the 3rd as the lone counterweight.</p>
+
+      <p>The empty houses are not absent from life. They are routed <em>through</em> the cluster, because their lords all sit inside it:</p>
+
+      <div class="scroll">
+        <table>
+          <caption>Where the empty houses actually live</caption>
+          <thead><tr><th>Lord of</th><th>Graha</th><th>Sits in</th><th>Reading</th></tr></thead>
+          <tbody>
+            <tr><td class="n">4 &amp; 7</td><td>Guru</td><td class="n">10th</td><td>Home and marriage entangled with career and public standing</td></tr>
+            <tr><td class="n">5 &amp; 6</td><td>Shani</td><td class="n">9th</td><td>Creativity and daily work entangled with belief and mentors</td></tr>
+            <tr><td class="n">11</td><td>Chandra</td><td class="n">9th</td><td>Income arrives through the same channel</td></tr>
+            <tr><td class="n">12</td><td>Surya</td><td class="n">8th</td><td>Forms Vimala Yoga — see §03</td></tr>
+            <tr><td class="n">1 &amp; 10</td><td>Budha</td><td class="n">8th</td><td>Identity and career are one object, and both are buried</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p>There is no separate compartment for private life here. Everything is the same conversation.</p>
+    </div>
+  </section>
+</div>
+
+<div class="wrap">
+
+  <section>
+    <h2><span class="num">02</span> The self: a lagna that repeats</h2>
+
+    <p>The lagna is 27°37′ Kanya, Chitra pada 2 — and <strong>Virgo recurs as the lagna in D9 and D11</strong>. A vargottama-style repetition of the ascendant across rashi and navamsha is one of the more reliable strength markers in the system: the person you appear to be and the person you are do not diverge much.</p>
+
+    <p>Virgo supplies the working equipment — analysis, discrimination, refinement, diagnosis, discomfort with the imprecise. Chitra pada 2 adds craftsmanship; Chitra is the celestial artisan, and pada 2 in Virgo is its most technically exacting quarter.</p>
+
+    <p>But the lagna lord is compromised in an interesting way. Budha rules <strong>both the 1st and the 10th</strong> — an unusually tight fusion of identity and vocation — and sits in the 8th, <strong>combust</strong>, 9°00′ from the Sun, inside the 14° limit.</p>
+
+    <p>Combustion of the lagna lord is usually read as diminishment, and partly it is: capability invisible from outside, an early career of being consistently underestimated, self-assessment harsher than the evidence warrants. But the specific configuration matters. Budha is not burned by an ordinary Sun — it is burned by a Sun in <strong>exaltation</strong>. The classical reading of a planet absorbed into a strong Sun is not destruction but <em>assimilation</em>: the intellect stops operating as a separate performing faculty and fuses into the person's core authority. Practically: someone whose thinking is inseparable from their sense of self, who cannot do intellectual work they don't believe in, and whose ability surfaces late and privately rather than early and publicly.</p>
+
+    <h3>The nakshatra chain closes on Ketu</h3>
+
+    <p>Following each graha to the lord of the nakshatra it occupies produces the chart's deepest dispositor:</p>
+
+    <div class="callout">
+      <p><code>Lagna → Chitra (Mangal) → Krittika (Surya) → Ashwini (Ketu) → Jyeshtha (Budha) → Ashwini (Ketu) ⟲</code></p>
+      <p>The chain terminates in a <strong>closed Ketu–Budha loop</strong>. Nothing escapes it.</p>
+    </div>
+
+    <p>At the nakshatra level — which classical texts treat as more determinative than sign placement — this chart is run by Ketu working through Mercury. That is a precise signature: <strong>detached, investigative, pattern-seeking intelligence</strong>. Ketu dissolves rather than accumulates; Budha analyses. Together they describe someone who learns by taking things apart, is drawn to what is hidden or discarded, works best alone, distrusts received explanations, and has a pull toward the metaphysical that is not sentimental but <em>forensic</em>. It also describes someone not much interested in credentials for their own sake — which matters in §05.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">03</span> The structural spine</h2>
+
+    <p>Two configurations do most of the interpretive work.</p>
+
+    <h3>Mangal ⇄ Shukra — an 8th/9th exchange</h3>
+
+    <p>Mangal rules the 8th and sits in the 9th. Shukra rules the 9th and sits in the 8th. Computation confirms this is the chart's <em>only</em> parivartana — and it welds the best house to the most difficult one.</p>
+
+    <p>An exchange means the two houses stop being separate. Fortune, mentorship, belief, father and long-distance movement become inseparable from crisis, research, hidden systems and other people's resources. Read both directions:</p>
+
+    <ul>
+      <li><strong>Fortune arrives through the 8th.</strong> Luck here does not show up as smooth good weather. It shows up as the crisis that turns out to be the opening, the obscure subject that becomes the career, the resource that comes through someone else's capital rather than through salary.</li>
+      <li><strong>The 8th is dharmically protected.</strong> Research, investigation, psychology, surgery, forensics, insurance, risk, security — depth work is not a detour here. It is the assigned path, and it carries the 9th house's protection.</li>
+    </ul>
+
+    <p>This is the chart-shape of people who earn their living from what others avoid.</p>
+
+    <h3>Vimala Yoga</h3>
+
+    <p>Surya rules the 12th and occupies the 8th — a 12th lord in a dusthana, forming <strong>Vimala Yoga</strong>, one of the Vipreeta Raja Yogas. Its meaning is specific: adversity inverts into advantage. Expenses stay contained, independence comes naturally, and the person tends to <em>rise out of</em> the setback that would sink someone else.</p>
+
+    <p>Stacked on the 8th–9th exchange, the chart says the same thing twice: <strong>this life is built out of its own difficulties, not in spite of them.</strong></p>
+  </section>
+
+  <section>
+    <h2><span class="num">04</span> Real strengths</h2>
+
+    <div class="scroll">
+      <table>
+        <caption>The chart's strongest placements</caption>
+        <thead><tr><th>Placement</th><th>Detail</th><th>Reading</th></tr></thead>
+        <tbody>
+          <tr>
+            <td>Surya exalted</td>
+            <td class="n">1°28′ Mesha · 6 of 7 vargas</td>
+            <td>Integrity, spine, natural authority, unwillingness to be directed</td>
+          </tr>
+          <tr>
+            <td>Surya <span class="flag">gandanta</span></td>
+            <td class="n">inside the 3°20′ knot</td>
+            <td>Maximum exaltation <em>and</em> a karmic knot on the same degree</td>
+          </tr>
+          <tr>
+            <td>Chandra exalted</td>
+            <td class="n">1°47′ — 1°13′ from peak</td>
+            <td>High emotional capacity and resilience, under permanent load</td>
+          </tr>
+          <tr>
+            <td>Mangal in Pushkara</td>
+            <td class="n">7°19′ Vrishabha · navamsa Meena</td>
+            <td>The one clean mitigator inside a harsh 9th-house cluster</td>
+          </tr>
+          <tr>
+            <td>Ketu <span class="flag">gandanta</span></td>
+            <td class="n">Jyeshtha pada 4</td>
+            <td>The spiritual drive is load-bearing, and carries its own knot</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <p>On the Sun, one honest caveat: because it sits at only 1°28′ of Aries, low-numbered divisions keep mapping it back into Aries — so part of that six-of-seven count is arithmetic rather than independent confirmation. By classical scoring it still stands as exceptional solar strength.</p>
+
+    <p>The <strong>gandanta</strong> on that same Sun is the chart's most interesting single placement. Gandanta points at the significations of the planet it touches, and the Sun signifies father, authority, and one's own right to lead. Read plainly: the relationship to authority — the father's and the native's own — is simultaneously the greatest source of strength and the deepest unresolved knot. It tends to express as difficulty accepting authority above oneself combined with reluctance to claim it openly, and it resolves through the 8th-house route of doing the depth work rather than through argument.</p>
+
+    <p>On the Moon, two qualifications. It sits with Mangal 5°32′ away — a genuine <strong>Chandra–Mangal yoga</strong>, the classical wealth-through-enterprise combination, but also emotional heat — plus Shani and Rahu in the same sign. And it occupies <strong>Krittika, ruled by Surya</strong>, so the mind reports to a Sun that is exalted, in the 8th, and knotted. The emotional life is pulled toward depth and meaning, and destabilises specifically when the belief system does. <em>This Moon needs a philosophy to stay well</em> — that is not a metaphor but the mechanical reading of a Krittika Moon in the 9th under a gandanta Sun.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">05</span> Yogas — and the ones that aren't there</h2>
+
+    <p>Being straight about what is missing is as useful as listing what is present.</p>
+
+    <h3>Present</h3>
+    <ul>
+      <li><strong>Mangal ⇄ Shukra parivartana</strong> (8th/9th) — the spine.</li>
+      <li><strong>Vimala Yoga</strong> — adversity inverts.</li>
+      <li><strong>Chandra–Mangal Yoga</strong> at 5°32′ — wealth through enterprise; emotional heat.</li>
+      <li><strong>Amala Yoga</strong> — Guru, a benefic, in the 10th from lagna: clean reputation, a name that holds up. <em>But qualified three ways</em> — Guru sits in an enemy's sign, its dispositor Budha is combust in the 8th, and the upagraha Yama Ghantaka sits <span class="deg">2°05′</span> away. The yoga is real but does not run clean; reputation is earned rather than granted.</li>
+      <li><strong>D8: Mangal ⇄ Shani exchange</strong> — exalted Mars trading with debilitated Saturn, producing <em>neechabhanga</em>. Under adverse periods, the worst case has a built-in cancellation.</li>
+      <li><strong>D11: Guru ⇄ Chandra exchange</strong>, with Guru <strong>exalted in the 11th</strong> of the gains chart. The strongest single configuration in the entire varga set.</li>
+    </ul>
+
+    <h3>Absent — and worth knowing</h3>
+    <ul>
+      <li><strong>No Panchamahapurusha yoga.</strong> No graha meets the own-or-exalted-in-kendra requirement. There is no single overwhelming "great person" signature.</li>
+      <li><strong>No Gaja Kesari.</strong> Guru is 2nd from Chandra, not in a kendra from it.</li>
+      <li><strong>Only one graha in a kendra at all.</strong> Kendras are the chart's structural pillars, and here they are nearly vacant. This is the main structural weakness: enormous depth, very little scaffolding. Depth without structure is the problem to solve — and the fix is behavioural, not astrological.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2><span class="num">06</span> Where the pressure lands</h2>
+
+    <div class="scroll">
+      <table>
+        <caption>Graha drishti onto houses</caption>
+        <thead><tr><th>Graha</th><th>From</th><th>Aspects</th></tr></thead>
+        <tbody>
+          <tr><td>Mangal</td><td class="n">9th</td><td class="n">3 · 4 · 12</td></tr>
+          <tr><td>Guru</td><td class="n">10th</td><td class="n">2 · 4 · 6</td></tr>
+          <tr><td>Shani</td><td class="n">9th</td><td class="n">3 · 6 · 11</td></tr>
+          <tr><td>Rahu</td><td class="n">9th</td><td class="n">1 · 3 · 5</td></tr>
+          <tr><td>Ketu</td><td class="n">3rd</td><td class="n">7 · 9 · 11</td></tr>
+          <tr><td>Surya · Budha · Shukra</td><td class="n">8th</td><td class="n">2</td></tr>
+          <tr><td>Chandra</td><td class="n">9th</td><td class="n">3</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <p>Three things fall out. <strong>The 3rd house takes almost everything</strong> — Ketu occupies it while Mangal, Shani and Chandra all aspect it. Courage, initiative, communication, self-generated skill. This is the chart's real working house: effort put into <em>skill and output</em> pays disproportionately, while waiting to be given opportunities does not.</p>
+
+    <p><strong>Rahu aspects the lagna</strong> from the 9th — and Rahu runs the current mahadasha, so identity is under active reconstruction for the whole 2022–2040 span. And <strong>Guru aspects the 6th</strong>, which is protective for health, debts and adversaries — a genuine safety net in a chart carrying this much load.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">07</span> Life areas</h2>
+
+    <h3>Career — 10th and D10</h3>
+    <p>The 10th lord is combust in the 8th; Guru occupies the 10th. In D10 the lagna is Kumbha with <strong>Shani in the 5th</strong>, <strong>Shukra in the 10th in Vrischika</strong>, Surya exalted in the 3rd, and <strong>Rahu in the 8th</strong>.</p>
+    <p>Everything points one way: <strong>analytical, systematic, investigation-shaped work</strong>. Aquarius and Saturn for systems and structure; Scorpio on the D10 tenth for depth, finance, risk, security, data or psychology; Rahu in the D10 eighth for non-linear turns and possible foreign involvement; exalted Sun in the third for self-driven output.</p>
+    <p>What it does <em>not</em> describe is a conventional ladder inside a stable institution. Four D10 grahas sit at 27–29° of their signs — end-of-sign positions that read as transition and discontinuity in the career varga. Expect a path built from discrete moves rather than internal promotion. Given the Ketu–Budha nakshatra loop, that is a fit rather than a misfortune.</p>
+
+    <h3>Wealth — 2nd, 11th and D11</h3>
+    <p>The 2nd lord in the 8th is poor for linear accumulation from salary and good for <strong>inheritance, partner's resources, capital originating outside oneself</strong>, with real windfall/loss volatility. The 11th lord is exalted in the 9th: gains via mentors, teaching, publishing, foreign connections.</p>
+    <p><strong>D11 is the strongest chart in the set</strong> — Guru exalted in the 11th with Budha alongside, in parivartana with Chandra. Gains through knowledge, advisory and networks are structurally well supported. The counterweight: both nodes are <strong>debilitated</strong> in D11, in the 4th and 10th, which reads as instability in the <em>base</em> from which gains are made. The money is real; the platform under it wobbles. This argues strongly against leverage and speculation.</p>
+
+    <h3>Partnership — the consistent signal</h3>
+    <p>This needs the most honesty, and five charts agree.</p>
+    <div class="scroll">
+      <table>
+        <caption>The 7th house across the varga set</caption>
+        <thead><tr><th>Chart</th><th>What sits there</th></tr></thead>
+        <tbody>
+          <tr><td class="n">D1</td><td>Empty. Its only aspect is <strong>Ketu's</strong>. Lord Guru is in the 10th in an enemy's sign, 2° from Yama Ghantaka. Upaketu also falls here.</td></tr>
+          <tr><td class="n">D9</td><td><strong>Mangal and Ketu</strong> in the 7th, with <strong>Rahu conjoining the D9 lagna</strong> within 6°.</td></tr>
+          <tr><td class="n">D27</td><td><strong>Mangal, Budha, Shukra and Ketu</strong> — four bodies. Rahu again in the lagna.</td></tr>
+          <tr><td class="n">D30</td><td><strong>Chandra conjunct Ketu within 4°</strong> (once the source error is corrected).</td></tr>
+          <tr><td class="n">Manglik</td><td>Not from the lagna, but Mangal is 1st from Chandra and 2nd from Shukra — <strong>partially Manglik</strong> from both.</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p>The signal is consistent enough to state plainly rather than soften: <strong>partnership is a karmically loaded, effortful arena here, not an easy one.</strong> Ketu touching the 7th in four separate vargas is a detachment signature — a tendency to be present without fully arriving, and to find that the thing obtained is not the thing wanted.</p>
+    <p>That is not a prediction of failure and should not be read as one. It describes a difficulty and what the difficulty responds to. Early or conventionally-timed partnership is ill-advised; <strong>later and deliberately chosen does substantially better</strong>, because the detachment pattern has to become conscious before it can be worked with rather than merely acted out. The partner indicated is met through work, public life or travel, and is someone who can hold both intensity and independence. The soft spot is D30's Chandra in its own mooltrikona in the 7th — real emotional depth is available; it is Ketu beside it that keeps it from settling.</p>
+
+    <h3>Health and constitution</h3>
+    <p>A Virgo lagna with a combust lord in the 8th, and an exalted Moon under Saturn–Mars–Rahu pressure. The constitution is fundamentally sound — the exalted Moon and Guru's aspect on the 6th are both protective — but the system is <em>nervous rather than robust</em>. Virgo pathology is digestive and neurological and it is stress-mediated; Shani ruling the 6th reads as chronic and low-grade rather than acute.</p>
+    <p>The practical form: rest is not optional and cannot be caught up retroactively. The chart runs hot on analysis and has no natural off-switch, so the switch has to be installed by hand.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">08</span> Upagrahas</h2>
+    <div class="scroll">
+      <table>
+        <caption>Contacts within 5°</caption>
+        <thead><tr><th>Upagraha</th><th>Position</th><th>House</th><th>Contact</th></tr></thead>
+        <tbody>
+          <tr><td class="flag">Yama Ghantaka</td><td class="n">12°42′ Mithuna</td><td class="n">10</td><td class="n flag">2°05′ from Guru</td></tr>
+          <tr><td>Mrityu</td><td class="n">26°49′ Mesha</td><td class="n">8</td><td class="n">3°13′ from Shukra</td></tr>
+          <tr><td>Parivesha</td><td class="n">15°12′ Vrishabha</td><td class="n">9</td><td class="n">2°42′ from Shani</td></tr>
+          <tr><td>Ardha Prahara</td><td class="n">20°48′ Vrishabha</td><td class="n">9</td><td class="n">2°53′ from Shani</td></tr>
+          <tr><td>Gulika · Mandi</td><td class="n">25°16′ · 22°22′ Karka</td><td class="n">11</td><td class="n">—</td></tr>
+          <tr><td>Kala</td><td class="n">10°09′ Kanya</td><td class="n">1</td><td class="n">—</td></tr>
+          <tr><td>Upaketu</td><td class="n">01°28′ Meena</td><td class="n">7</td><td class="n">—</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p>The significant one is <strong>Yama Ghantaka on Guru</strong> — the chart's only kendra graha, its Amala yoga giver, and its 4th and 7th lord, all one body, carrying a shadow point 2° away. This is the technical reason the reputation yoga doesn't run clean, and it reinforces the partnership reading independently. <strong>Gulika and Mandi in the 11th</strong> shadow the gains house, pairing with the debilitated nodes in D11.</p>
+  </section>
+
+</div>
+
+<div class="wide">
+  <section>
+    <div class="wrap" style="padding:0">
+      <h2><span class="num">09</span> Eighteen years of Rahu</h2>
+      <p>The Rahu mahadasha runs <strong>25 Dec 2022 → 25 Dec 2040</strong>, covering roughly ages 20.7 to 38.7. The entire career-forming span of this life falls under it. Rahu sits in the 9th, aspects the lagna, and keeps company with exalted Chandra, Mangal and Shani.</p>
+    </div>
+
+    <figure class="timeline">
+      <div class="track">
+        <div class="seg" style="flex:15.00"><span class="nm">Rahu</span><span class="yr">2022–25</span></div>
+        <div class="seg on" style="flex:13.33"><span class="nm">Guru</span><span class="yr">2025–28</span></div>
+        <div class="seg key" style="flex:15.83"><span class="nm">Shani</span><span class="yr">2028–30</span></div>
+        <div class="seg" style="flex:14.17"><span class="nm">Budha</span><span class="yr">2030–33</span></div>
+        <div class="seg" style="flex:5.83"><span class="nm">Ketu</span><span class="yr">33–34</span></div>
+        <div class="seg key" style="flex:16.67"><span class="nm">Shukra</span><span class="yr">2034–37</span></div>
+        <div class="seg" style="flex:5.00"><span class="nm">Surya</span><span class="yr">37–38</span></div>
+        <div class="seg" style="flex:8.33"><span class="nm">Chandra</span><span class="yr">38–39</span></div>
+        <div class="seg" style="flex:5.83"><span class="nm">Mangal</span><span class="yr">39–40</span></div>
+        <div class="now"></div>
+      </div>
+      <div class="legend">
+        <span><i class="swatch a"></i> current antardasha</span>
+        <span><i class="swatch b"></i> the two that decide the most</span>
+      </div>
+    </figure>
+
+    <div class="wrap" style="padding:0">
+
+      <div class="period">
+        <div class="period-head"><span class="t"><strong>Rahu–Guru</strong> · the current window</span><span class="d">Sep 2025 → Jan 2028 · ages 23.4–25.8</span></div>
+        <p>This is one of the most activated antardashas of the whole eighteen years, for a technical reason worth stating: <strong>Guru sits in Ardra, which is Rahu's nakshatra, while Rahu's own sub-lord is Guru.</strong> The two are mutually wired at the nakshatra level, so whatever this pairing can do, it is delivering at full strength.</p>
+        <p>Guru rules the 4th and 7th and occupies the 10th. Live themes: home, property and relocation; <strong>marriage and partnership decisions</strong>; formal education and credentialing; first real professional standing. Rahu's 9th-house position adds foreign travel, higher study, publishing, law. The age-24 Jupiter return falls inside this window and compounds the same significations.</p>
+        <p><strong>What it's for: choosing a direction and committing to it.</strong> What to watch: Guru is in an enemy's sign, 2° from Yama Ghantaka, and lands in the <strong>6th house of D9</strong>. The promise is real but delivers through service, effort and friction rather than smoothly — expect over-commitment, advisers who overpromise, and expansive plans that outrun execution. Guru here rewards <em>narrowing</em>, not adding.</p>
+      </div>
+
+      <div class="period">
+        <div class="period-head"><span class="t"><strong>Rahu–Shani</strong> · the career-defining stretch</span><span class="d">Jan 2028 → Dec 2030 · ages 25.8–28.6</span></div>
+        <p>Rahu and Shani are conjoined in the 9th in D1. Independently, Shani sits in the <strong>10th of D9</strong> and is the <strong>D10 lagna lord</strong> — the strongest career credentials of any graha here, and both belong to Saturn.</p>
+        <p>Expect heavy sustained work, authority earned slowly rather than granted, plausible relocation, and one long project that ends up defining the record. Shani also rules the 6th, so discipline and health maintenance stop being optional. This is the period that builds the structure the chart otherwise lacks — which is exactly why it will feel like grinding rather than like luck.</p>
+      </div>
+
+      <div class="period">
+        <div class="period-head"><span class="t"><strong>Rahu–Budha</strong></span><span class="d">Dec 2030 → Jun 2033 · ages 28.6–31.2</span></div>
+        <p>The lagna lord's sub-period: identity reset, research output, writing, technology. But Budha is combust, in the 8th, and rules the 1st — so this is also when the nervous system and health need real attention rather than afterthought. The Saturn return, around late 2031, falls inside this window and sharpens the same theme.</p>
+      </div>
+
+      <div class="period">
+        <div class="period-head"><span class="t"><strong>Rahu–Ketu</strong> · the fragile one</span><span class="d">Jun 2033 → Jul 2034 · age 31.2–32.2</span></div>
+        <p>Rahu–Ketu is inherently destabilising, and Ketu here is gandanta in the 3rd. Read it as a retreat-and-consolidate year — good for research, withdrawal and letting things go; poor for launching, borrowing, or making irreversible commitments.</p>
+      </div>
+
+      <div class="period">
+        <div class="period-head"><span class="t"><strong>Rahu–Shukra</strong> · the likely material peak</span><span class="d">Jul 2034 → Jul 2037 · ages 32.2–35.2</span></div>
+        <p>Shukra rules the 2nd and 9th and sits in the 8th in exchange with the 9th lord — it is one half of the chart's central spine. Wealth through partner's resources, inheritance, capital, and dharmic or foreign channels. This is where the 8th–9th exchange is most likely to pay out.</p>
+        <p>The tail — Surya, Chandra, then Mangal to Dec 2040 — winds the period down. Rahu–Mangal at the end wants care: Mangal rules the 8th, and the dasha closes on it.</p>
+      </div>
+
+    </div>
+  </section>
+</div>
+
+<div class="wrap">
+  <section>
+    <h2><span class="num">10</span> What to do with this</h2>
+
+    <p>A Virgo lagna repeating across three vargas, with a combust lagna lord that also rules the 10th, sitting in the 8th under an exalted gandanta Sun — and a nakshatra chain closing in a Ketu–Budha loop. Eight of nine grahas packed into houses 8, 9 and 10, spine formed by a Mangal–Shukra exchange and reinforced by Vimala Yoga.</p>
+
+    <p>Read as one statement: a narrow, deep, investigative chart whose fortune routes through exactly the material most people avoid. Its real assets are an exceptionally strong Sun and a near-peak exalted Moon. Its real deficits are an almost empty set of kendras, and a 7th house touched by Ketu in four separate vargas.</p>
+
+    <ol class="takeaways">
+      <li><strong>Go deep, not wide.</strong> The chart has no talent for breadth and enormous talent for depth. Every configuration rewards specialising into something difficult and unfashionable.</li>
+      <li><strong>Build structure deliberately, because the chart doesn't supply it.</strong> Empty kendras mean routine, deadlines and external commitments have to be installed by hand. Rahu–Shani will impose this anyway from 2028; adopting it early converts an ordeal into an advantage.</li>
+      <li><strong>Use the window to Jan 2028 to commit, not to expand.</strong> Guru in an enemy's sign and in D9's 6th rewards narrowing. One direction, one mentor, one decision on the partnership question.</li>
+      <li><strong>Treat partnership as a conscious project.</strong> The signal across D1, D9, D27 and D30 is consistent enough to warrant deliberateness and patience rather than default timing.</li>
+      <li><strong>Protect the nervous system.</strong> A combust Mercury ruling a Virgo lagna from the 8th, with the Moon under Saturn–Mars–Rahu pressure, describes a system that runs hot with no automatic off-switch.</li>
+      <li><strong>The contemplative pull is native equipment, not a distraction.</strong> A chart whose nakshatra chain terminates in Ketu, with both Ketu and the Sun in gandanta, is saying the same thing twice.</li>
+    </ol>
+
+    <p class="coda">The chart's own summary of itself is the 8th–9th exchange plus Vimala Yoga, stated twice over: <strong>the difficulty and the fortune are the same object.</strong></p>
+
+    <footer>
+      Prepared from the supplied D1, D9, D10, D11, D8, D27, D30, upagraha and Vimshottari data. Divisional charts and dasha boundaries were independently recomputed and verified; two source errors (D8 and D30 Ketu) are corrected throughout. An interpretation within the framework of Jyotisha, presented on its own terms.
+    </footer>
+  </section>
+</div>
