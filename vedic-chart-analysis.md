@@ -251,6 +251,10 @@ here, it is load-bearing, and it carries a knot of its own.
 Being straight about what is *not* there is as useful as listing what is.
 
 **Present:**
+- **Dharma-Karmadhipati Yoga** — 9th lord Shukra conjunct 10th lord Budha. The
+  premier raja yoga of the classical hierarchy, and **the chart's only
+  kendra–trikona raja yoga**. Treated in full below; it was missing from an
+  earlier version of this list, which was an error.
 - **Mangal ⇄ Shukra parivartana** (8th/9th) — the spine.
 - **Vimala Yoga** (12th lord in 8th) — adversity inverts.
 - **Chandra–Mangal Yoga** (5°32′) — wealth through enterprise; emotional heat.
@@ -279,6 +283,109 @@ Being straight about what is *not* there is as useful as listing what is.
   dusthana loading) and very little scaffolding. Depth without structure is the
   problem to solve — and note that the fix is behavioural, not astrological:
   routine, containers, deadlines, external commitments.
+
+### Dharma-Karmadhipati Yoga — the chart's only raja yoga
+
+**This belonged at the top of the list above and I omitted it. It is the single
+most important yoga in the chart.**
+
+From Kanya lagna the 9th house is Vrishabha, ruled by **Shukra**, and the 10th
+is Mithuna, ruled by **Budha**. Both sit together in Mesha, **13°09′ apart in
+the same sign** — a conjunction. The lord of dharma and the lord of karma joined
+directly:
+
+> **Dharma-Karmadhipati Yoga, formed by conjunction in the 8th house.**
+
+Conjunction is the strongest of the three ways this yoga can form (ahead of
+mutual aspect and exchange). And a systematic sweep of every kendra lord against
+every trikona lord confirms something worth stating plainly: **this is the only
+kendra–trikona raja yoga in the entire chart.** Budha–Shani, Guru–Shani and
+Guru–Shukra all fail to connect by conjunction, aspect or exchange. Everything
+this chart has in the raja yoga class rests on this one conjunction.
+
+**It is also carrying more than the DKY.** Budha rules the 1st and 10th; Shukra
+rules the 2nd and 9th. So a single conjunction fuses the lordships of houses
+**1, 2, 9 and 10**:
+
+| Pairing | Yoga |
+|---|---|
+| 9th + 10th | **Dharma-Karmadhipati Yoga** |
+| 1st + 9th | Kendra–trikona raja yoga |
+| 2nd + 9th | Dhana yoga — wealth through fortune |
+| 2nd + 10th | Dhana yoga — wealth through profession |
+| 1st + 2nd | Dhana yoga |
+
+Add Surya in the same sign, ruling the 12th, and the 8th house holds the
+lordships of the 12th, 1st, 2nd, 9th and 10th. This materially revises §01: I
+read the 8th-house stellium primarily as a burial. **It is also where the
+chart's raja yogas live.** Both readings are true, and the tension between them
+is the point.
+
+#### But it is a conditional yoga, and the conditions matter
+
+| Supporting it | Limiting it |
+|---|---|
+| Formed by **conjunction**, the strongest mode | Formed **in the 8th house** — a dusthana |
+| Shukra has the chart's **highest Ishta Phala** (47.49), ratio 1.21, net +35.62 | Budha is **combust**, **fails its Shadbala minimum** (0.92), has the **lowest Dig Bala** (4.28), and is net-malefic (−11.41) |
+| Compounded with four additional raja/dhana lordships | The 8th is **Bhava rank 12** with the **lowest SAV in the chart (21 bindus)** |
+| **Echoed cleanly in D10** — see below | **Absent in D9** — in the navamsha the 9th lord goes to the 3rd and the 10th lord to the 11th, with no conjunction and no mutual aspect |
+
+The shape is unusually legible: **the dharma half is strong and benign; the
+karma half is the chart's weakest link; and the whole thing is built on its
+poorest ground.**
+
+The missing navamsha echo is the most serious limitation. A yoga that does not
+repeat in D9 is classically held to lack durability — it delivers, but it does
+not compound the way a navamsha-confirmed yoga does.
+
+#### The D10 echo, which is the good news
+
+In the dashamsha the lagna is Kumbha, making Tula the 9th house — ruled by
+**Shukra**. And Shukra sits at 26°08′ Vrischika, which is the **10th house of
+D10**, in a kendra. The source table states this directly: Shukra "rules 4, 9
+Bhava" and "is in 10 Bhava."
+
+So the **9th lord of the career chart occupies the 10th house of the career
+chart** — a Dharma-Karmadhipati placement, cleanly formed, in exactly the varga
+that governs profession. The yoga is weak in the navamsha and strong in the
+dashamsha, which says something precise: **it delivers in the domain of work and
+public role rather than in the domain of inner life and marriage.**
+
+#### Shukra is the pivot of the whole chart
+
+Note what Shukra is now doing. It is:
+
+1. the **9th lord** in the Dharma-Karmadhipati Yoga,
+2. half of the **Mangal ⇄ Shukra parivartana** — the spine identified in §03,
+3. the **2nd lord**, ruling a house that is Bhava rank 3 with the highest
+   Drishti Bala in the chart,
+4. the graha with the **highest Ishta Phala** of all seven.
+
+**Both of the chart's two major yogas run through Shukra.** After Surya, it is
+the most consequential graha here for outcomes — which was not obvious from the
+sign-level reading and only emerges once the yogas and the strength data are put
+side by side.
+
+#### When it fires
+
+Yogas fructify in the dashas of their participants. The two halves fire in
+back-to-back antardashas of opposite character:
+
+| Period | Participant | Character |
+|---|---|---|
+| **Rahu–Budha** · Dec 2030 – Jun 2033 | Karma half | The chart's weakest graha, running under Sade Sati's peak and the Saturn return. **Construction, not payoff.** |
+| **Rahu–Shukra** · Jul 2034 – Jul 2037 | Dharma half | Highest Ishta Phala in the chart. **The payoff.** |
+| **Guru–Budha** · Aug 2045 – Dec 2047 | Karma half | Inside the Guru mahadasha, with Guru in the 10th. |
+| **Guru–Shukra** · Nov 2048 – Jul 2051 | Dharma half | **Likely the fullest expression of the yoga in the whole life.** |
+
+That two-stage structure — a hard, low-visibility Budha phase followed by a
+Shukra payoff — restates the chart's governing theme once more. And the
+strongest run comes in the **Guru mahadasha (2045–2051, ages 43–49)**, when the
+dasha lord is the graha occupying the 10th house. The DKY does not deliver its
+best inside the Rahu period at all. It waits.
+
+This is now the fourth independent line of evidence for the late-cresting career
+in §12, and it is the most specific of them.
 
 ---
 
