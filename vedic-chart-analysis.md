@@ -419,6 +419,95 @@ advantage; expenses stay contained; independence comes naturally; the rise
 follows the setback that would sink someone else. And the 12th is, by Bhava
 Bala, **the strongest house in the chart** (§7).
 
+### Both yogas occupy the 8th — and that coupling is the mechanism
+
+The Dharma-Karmadhipati Yoga and Vimala Yoga are not merely both present. **They
+are formed in the same house, out of overlapping material**, and the way they
+interact is the most specific thing this chart says about how good outcomes
+reach it.
+
+First, which Vipreeta Raja Yogas actually form — only one of the three does:
+
+| Yoga | Requires | Here |
+|---|---|---|
+| Harsha | 6th lord in 6/8/12 | Shani (6th lord) is in the **9th** — no |
+| Sarala | 8th lord in 6/8/12 | Mangal (8th lord) is in the **9th** — no |
+| **Vimala** | 12th lord in 6/8/12 | **Surya (12th lord) in the 8th — yes** |
+
+Note that the two lords who *would* have formed the other two VRYs, Shani and
+Mangal, have both escaped into the 9th. Only Surya stayed.
+
+#### The tension
+
+These two yogas want opposite things from the 8th house:
+
+- **Vipreeta Raja Yoga is strengthened by the dusthana.** Its whole mechanism is
+  that a lord of affliction, placed in a house of affliction, destroys the
+  destroyer. It *needs* the 8th to be malefic.
+- **A raja yoga is weakened by the dusthana.** Two auspicious lords placed in
+  the 8th are classically held to suffer — their good is buried.
+
+So the same house simultaneously amplifies one yoga and suppresses the other.
+
+#### The resolution
+
+They are not competing; they are **coupled**. Vimala Yoga supplies a conversion
+mechanism — adversity into advantage — and the Dharma-Karmadhipati Yoga supplies
+the material to be converted.
+
+The raja yoga does not deliver *despite* the 8th house. **It delivers through
+the channel the Vipreeta yoga opens.** Fortune and career arrive by exactly the
+route Vimala Yoga describes: the loss that turns out to be a gain, the crisis
+that becomes the platform, the setback that others do not survive.
+
+This is why the DKY reads as slow and obstructed rather than simply strong. A
+raja yoga routed through a Vipreeta mechanism cannot deliver smoothly — the
+conversion requires something to convert.
+
+#### The degree structure proves it
+
+The arrangement inside Mesha is not incidental:
+
+| Graha | Degree | Rules | Distance from Surya |
+|---|---|---|---|
+| **Surya** | 1°28′ | 12th — *Vimala giver* | — |
+| **Budha** | 10°27′ | 1st + 10th — *DKY karma half* | 9°00′ → **combust** |
+| **Shukra** | 23°36′ | 2nd + 9th — *DKY dharma half* | 22°09′ → **spared** |
+
+**The Vimala Yoga giver burns the karma half of the raja yoga and leaves the
+dharma half intact.** Surya's combustion orb reaches Budha and falls well short
+of Shukra.
+
+That is an unusually precise statement of the terms. The conversion mechanism
+**costs career visibility and preserves fortune.** Which is exactly what every
+other layer of this chart reports independently: visibility lags ability;
+authority is expert rather than positional; the 10th is rank 9 while the 2nd is
+rank 3; Shukra carries the highest Ishta Phala while Budha is the only graha
+failing its minimum.
+
+#### The dasha sequence reproduces the same pattern
+
+The Vimshottari order fixes the succession **Budha → Ketu → Shukra → Surya**. So
+whenever this chart's 8th-house apparatus activates, it fires in a set order:
+the burned karma half first, then a gap, then the intact dharma half, then the
+Vimala giver itself.
+
+| | Karma half | | Dharma half | Vimala giver |
+|---|---|---|---|---|
+| **Rahu MD** | Budha 2030–33 *(age 28.6)* | Ketu 2033–34 | Shukra 2034–37 *(32.2)* | **Surya 2037–38** *(35.2)* |
+| **Guru MD** | Budha 2045–47 *(43.4)* | Ketu 2047–48 | Shukra 2048–51 *(46.6)* | **Surya 2051–52** *(49.2)* |
+
+**Hard first, conversion after — the Vipreeta pattern written into the timeline
+itself.** The complex runs twice in usable windows: ages 28.6–36.1, and again at
+43.4–50.0 inside the Guru mahadasha.
+
+The second run is the important one. **Guru–Shukra (2048–51) followed by
+Guru–Surya (2051–52)** places the DKY's intact dharma half and then the Vimala
+Yoga giver — the chart's strongest and most benign graha — consecutively, inside
+the mahadasha of the graha occupying the 10th house. **That four-year stretch,
+ages 46 to 50, is where this chart's entire 8th-house apparatus reaches its
+fullest expression.**
+
 ### Amala Yoga
 
 Guru, a benefic, in the 10th from lagna: clean reputation, fair dealing, a name
