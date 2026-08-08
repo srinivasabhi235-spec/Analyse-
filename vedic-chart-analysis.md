@@ -770,9 +770,40 @@ It is also unusually well credentialed for delivering results:
 - In **D9 it occupies the 10th**; in **D10 it is the lagna lord**.
 - It also aspects the 3rd (effort and skill) and the 11th (gains).
 
-So the capacity is real and the credentials are genuine. What the Ishta/Kashta
-figure says is that **the experience of receiving those results is heavy** —
-obligation rather than ease, weight rather than reward.
+So the capacity is real and the credentials are genuine.
+
+#### What the Kashta figure actually measures — and what it does not
+
+This matters enough to state precisely, because it is easy to over-read.
+Ishta and Kashta Phala are derived from **only two** of the six balas:
+
+```
+Ishta  = √(Uchcha × Chesta)
+Kashta = √((60 − Uchcha) × (60 − Chesta))
+```
+
+Verified against all seven grahas in the supplied table — it reproduces every
+figure exactly. So Shani's worst-in-chart Kashta of 46.83 comes entirely from
+its **Uchcha Bala of 9.30** (it sits ~28° from its debilitation point) and its
+**Chesta Bala of 16.75** (slow motion). Neither quantity measures capacity to
+produce outcomes in the world. Shani's *positional* (174.30), *directional*
+(43.24), *temporal* (143.65) and *varga* (120.00) strengths are all solid.
+
+**The Kashta figure describes how the period feels, not what it produces.**
+Coarse, effortful, slow, unglamorous — but not unproductive.
+
+And on production specifically, the comparison with the preceding mahadasha is
+striking:
+
+| | Shodhya Pinda |
+|---|---|
+| **Shani** | **184** — 2nd highest in the chart |
+| **Guru** | **81** — 2nd lowest |
+
+**Shani carries 2.3× Guru's delivery capacity.** So the Guru mahadasha is where
+*recognition and quality* arrive; the Shani mahadasha is where the largest
+*volume* of concrete results is delivered. They are peaks in different
+currencies, not a peak followed by a decline.
 
 #### What the period is about
 
@@ -1009,17 +1040,28 @@ The shape is not a smooth ramp:
 | 21–33 | Rahu MD, Sade Sati #1 from ~2027 | **Flat to frustrating.** Construction on barren ground; visibility lags ability. |
 | 33–39 | Rahu–Shukra, Rahu–Surya; Sade Sati over | **First real lift.** |
 | **39–55** | **Guru MD, no Sade Sati, DKY fires** | **The steep rise.** |
-| 55–63 | Shani MD opens into Sade Sati #2 and the Saturn return | **Heavy.** Standing holds; the load increases. |
-| 63–74 | From Shani–Shukra onward | **High plateau, easing.** |
+| 55–61 | Shani–Shani and Shani–Budha, under Sade Sati #2 and the Saturn return | **The deepest trough of the life.** |
+| **61–74** | **Shani–Shukra onward, Sade Sati over** | **Sustained recovery and rise**, in a different currency — see below. |
+
+The Shani mahadasha is itself a **V, not a plateau**: it falls hard for its
+first six years and rises for its last thirteen, ending higher than it began.
+And because Shani carries 2.3× Guru's Shodhya Pinda, that second half is the
+largest-delivering stretch of the life in sheer volume. What changes is the
+**axis** of the rise — Guru ascends on the 10th-house status axis; Shani ascends
+on the 5th/6th/9th axis of students, service, mentorship and dharma. Influence
+and legacy rather than further positional climb.
 
 **And here is the part that matters most.** Two curves run in opposite
 directions:
 
-- **Standing, competence and achievement rise** — late, steeply, peaking around
-  46 to 55, then holding through the Shani mahadasha rather than declining.
-- **Ease does not rise with them.** The dasha lords' outcome balances worsen
-  across life: Guru is +22.20, Shani is **−34.35, the worst in the chart** — and
-  Shani governs nineteen years with a second Sade Sati on top.
+- **Standing, competence and achievement rise** — late and steeply through the
+  Guru mahadasha, then, after a hard six-year trough at 55–61, rise again
+  through the second half of the Shani mahadasha on a different axis.
+- **Ease does not rise with them.** Shani's outcome balance is **−34.35, the
+  worst in the chart**, and it governs nineteen years with a second Sade Sati on
+  top. But note the qualification in §10: that figure derives only from Uchcha
+  and Chesta Bala, so it describes the *texture* of the period rather than its
+  productivity.
 
 **Outcomes improve while the experience gets heavier.** That is not a
 contradiction in this chart; it is its thesis restated one final time. The 8th–9th
