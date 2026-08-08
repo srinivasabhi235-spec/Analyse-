@@ -982,6 +982,66 @@ The balance sheet:
   highest. **All the activity is concentrated where results come hardest, and
   the fertile ground is somewhere else.**
 
+### The overall trajectory
+
+**Upward — decisively, but late, and along two curves that separate.**
+
+Four structural facts carry the upward reading:
+
+1. **Each successive mahadasha lord is better positioned for standing than the
+   last.** Rahu holds no Parashari rulership and acts through its dispositor.
+   Guru **occupies the 10th**, gives Amala Yoga, rules the 4th and 7th (Bhava
+   ranks 2 and 4), and is the second-strongest graha. Shani ranks 2 in strength,
+   **rules the 41-bindu 6th**, occupies **D9's 10th**, and is the **D10 lagna
+   lord**. The sequence improves.
+2. **The chart's only raja yoga fires late.** The DKY's fullest run is
+   Guru–Shukra, 2048–2051, at ages 46–49.
+3. **Vimala Yoga** is structurally a rise-after-adversity signature, and the
+   12th it rules is the strongest bhava in the chart.
+4. **There is a twenty-two-year Sade Sati-free window from ~2035 to ~2057** —
+   between the two Sade Satis — and **the entire Guru mahadasha sits inside it.**
+   The chart's best dasha runs through its clearest sky, across ages 33 to 55.
+
+The shape is not a smooth ramp:
+
+| Ages | Period | Shape |
+|---|---|---|
+| 21–33 | Rahu MD, Sade Sati #1 from ~2027 | **Flat to frustrating.** Construction on barren ground; visibility lags ability. |
+| 33–39 | Rahu–Shukra, Rahu–Surya; Sade Sati over | **First real lift.** |
+| **39–55** | **Guru MD, no Sade Sati, DKY fires** | **The steep rise.** |
+| 55–63 | Shani MD opens into Sade Sati #2 and the Saturn return | **Heavy.** Standing holds; the load increases. |
+| 63–74 | From Shani–Shukra onward | **High plateau, easing.** |
+
+**And here is the part that matters most.** Two curves run in opposite
+directions:
+
+- **Standing, competence and achievement rise** — late, steeply, peaking around
+  46 to 55, then holding through the Shani mahadasha rather than declining.
+- **Ease does not rise with them.** The dasha lords' outcome balances worsen
+  across life: Guru is +22.20, Shani is **−34.35, the worst in the chart** — and
+  Shani governs nineteen years with a second Sade Sati on top.
+
+**Outcomes improve while the experience gets heavier.** That is not a
+contradiction in this chart; it is its thesis restated one final time. The 8th–9th
+exchange, Vimala Yoga, and a raja yoga buried in the weakest bhava all say the
+same thing about how good things arrive here.
+
+**What could bend the curve down.** The upward reading is conditional, because
+the chart supplies potential and almost no scaffolding:
+
+- The **10th is rank 9 with a failing lord**. If he waits to be given position
+  rather than building demonstrable competence, the rise does not happen —
+  nothing in this chart confers status automatically.
+- The **11th is rank 11** with both nodes debilitated in D11. Gains do not
+  accumulate passively, and leverage is genuinely dangerous.
+- **Empty kendras** mean that without self-imposed structure, the depth never
+  converts into output.
+- **Health** in 2030–2033 and again in 2056–2063.
+
+The trajectory bends up if he specialises and builds structure. It flattens if
+he waits for recognition. That choice is the actual variable — and it is the one
+the chart leaves open.
+
 **The strategy this implies:**
 
 1. **Go deep, not wide.** No talent for breadth, enormous talent for depth.
