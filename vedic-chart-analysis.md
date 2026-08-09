@@ -377,7 +377,10 @@ Vrishabha, within 1°13′ of its deep exaltation point. But:
 
 Four independent measures agree. The exaltation is real, and the Kashta Phala of
 4.49 is the lowest in the chart, so the Moon does very little harm. **But the
-reserves are thin.** A mind fine in kind and limited in quantity. Its nakshatra
+reserves are thin.** A mind fine in kind and limited in quantity — and §8's
+Vimshopaka Bala later shows the *kind* is finer still than these four measures
+suggest, ranking Chandra **second in the chart at 15.32/20**: superbly made,
+poorly supplied. Its nakshatra
 lord is Surya — exalted, in the 8th, gandanta — so the emotional life is pulled
 toward depth and meaning and destabilises when the belief system does. There is
 also a genuine **Chandra–Mangal yoga** (5°32′ separation): wealth through
@@ -845,6 +848,87 @@ mooltrikona in the 7th, conjunct Ketu within 4°** once the source error is
 corrected.
 
 ---
+
+### The complete Shodashavarga — the seven remaining charts
+
+The classical Shodashavarga is **sixteen** divisional charts, and the source
+supplied or this reading derived only eleven. The remaining seven —
+**D2, D4, D16, D20, D40, D45 and D60** — are computed in
+`verify_shodasha.py` from the same verified longitudes. The machinery is
+calibrated: the D9, D27 and D30 it produces reproduce the supplied source
+tables exactly.
+
+| Varga | Governs | Key placements |
+|---|---|---|
+| **D2** Hora | Wealth, sustenance | **Surya own in the 1st, Chandra own in the 12th** — both luminaries dignified; six bodies in Simha, so the wealth-orientation is **solar**: earned through position and effort, not inherited. Mangal debilitated. |
+| **D4** Chaturthamsha | Property, home, fixed fortune | **Surya exalted (11th), Chandra exalted (12th)** — property fortune is luminary-blessed, but arriving through **gains and foreign channels** rather than ancestral holding. Guru afflicted in the 4th of the property chart itself. |
+| **D16** Shodashamsha | Comforts, vehicles, happiness | **Four dignified placements — Surya exalted, Guru exalted, Budha exalted, Mangal own.** Exceptional, and D16 carries the third-heaviest Vimshopaka weight. Material comfort is far better supported than D1 suggests. |
+| **D20** Vimshamsha | Spiritual practice, upasana | Surya exalted, Mangal own — both in the **3rd (self-effort)**; but Guru, Shukra and Shani all in enemy signs. **The spiritual path is self-driven, not guru-transmitted** — precisely the Ketu-terminated, self-taught signature. |
+| **D40** Khavedamsha | Maternal legacy | Modest; Mangal debilitated in the 10th. |
+| **D45** Akshavedamsha | Paternal legacy, character | **Shukra exalted (11th), Shani exalted (6th)** against three enemy placements — mixed but with real high points. |
+| **D60** Shashtiamsha | **Karmic totality — the heaviest-weighted varga** | **Shukra exalted in the 12th. Shani debilitated in the lagna. Mangal debilitated in the 4th.** |
+
+**The D60 finding deserves its own paragraph**, because Parashara weights this
+chart above every varga except D1 and D9, and reads it as the summation of
+carried karma. Here **Shani is debilitated in the D60 lagna and Mangal
+debilitated in its 4th** — the karmic starting position is genuinely
+burdened, in the self and in the seat of inner peace. And **the single
+exaltation in the chart is Shukra in the 12th.** The karmic *gift*, in the
+most karmically-weighted varga available, sits in the house of release,
+foreign lands and moksha.
+
+That is the deepest structural statement in this entire reading: **the
+inheritance is hardship, and the reward is liberation** — the 8th–9th
+exchange, Vimala Yoga and the strongest-12th all restated one layer further
+down.
+
+### Vimshopaka Bala — and an honest refinement to the Moon
+
+With all sixteen vargas computed, the classical weighted varga-strength can
+be scored. Vimshopaka Bala grades each graha's dignity across the
+Shodashavarga, weighted by each chart's importance (D60 at 4, D1 at 3.5, D9
+at 3, D16 at 2, and so on), out of 20:
+
+| Graha | Vimshopaka | Grade | Dignified in |
+|---|---|---|---|
+| **Surya** | **16.85** | **Excellent** | 11/16 — *ten exaltations* |
+| **Chandra** | **15.32** | **Excellent** | 10/16 — five exaltations |
+| Shukra | 12.60 | Good | 7/16 |
+| Guru | 12.32 | Good | 8/16 |
+| Budha | 11.45 | Good | 7/16 — **no debilitations** |
+| Shani | 11.22 | Good | 8/16 |
+| **Mangal** | **10.30** | Good (lowest) | 7/16 — **four debilitations** |
+
+Two findings, and the first is a correction.
+
+**Chandra ranks second at 15.32 — "excellent."** This genuinely refines the
+thin-Moon reading built across §5. The Moon holds dignity in ten of sixteen
+vargas including five exaltations, and by the classical varga-weighted
+measure it is the second-strongest graha in the chart. Set against its weak
+Shadbala (1.07), thin Paksha Bala (20.21), two bindus and Shodhya Pinda of
+33, the resolution is precise rather than contradictory: **the Moon is
+superbly *made* and poorly *supplied*.** Its structural quality is excellent
+across the divisional fabric; its light, motion and positional strength are
+thin.
+
+I previously framed this as "high quality, low quantity" — the Vimshopaka
+shows the quality is considerably higher than I credited. The practical
+consequence improves accordingly: **his emotional and mental equipment is
+genuinely fine, not fragile.** The counsel remains rest and routine, but the
+reason shifts from *protecting something delicate* to **fuelling something
+excellent that runs on a small tank.**
+
+**Mangal carries four debilitations across the vargas** — the only graha with
+that count, and the lowest Vimshopaka score. Against its *highest* Shodhya
+Pinda (212), the picture sharpens: **Mangal delivers the most and is
+dignified the least.** Force without polish. Since Mangal is the 8th and 3rd
+lord and half the central parivartana, this is the varga-level root of why
+this chart's fortune arrives roughly — and why Rahu–Mangal (2039–40) and
+Shani–Mangal (2069–70) are flagged as the forceful, difficult junctions.
+
+**And Surya at 16.85 with ten exaltations across sixteen charts** puts beyond
+argument what every layer has said: the Sun is the engine of this chart, and
+its strength is structural, not an artifact.
 
 ### House-class census across the vargas
 
@@ -1716,8 +1800,11 @@ by the 8th-house mechanism it will substantially consist of **capital he
 transformed rather than merely accumulated**: restructured inheritances,
 assets acquired in crisis, resources made orderly.
 
-**The final chapter is the strongest house.** The 12th — release, retreat,
-moksha — is the chart's number-one bhava, ruled by the exalted Sun through
+**The final chapter is the strongest house — and the D60 confirms it.** In
+the Shashtiamsha, the most karmically-weighted varga of all, the single
+exaltation is **Shukra in the 12th** (§8): the carried karmic reward sits in
+the house of release. The 12th — retreat, moksha — is also the chart's
+number-one bhava, ruled by the exalted Sun through
 Vimala Yoga. The tradition reads Vimala precisely as *purity at the end*: a
 dignified closing arc, generosity in seclusion, authority carried into
 retreat. With Ketu as the Yogi and both Ketu and Surya in gandanta, the
@@ -2217,8 +2304,13 @@ The balance sheet:
 - **Second: Shukra** — highest Ishta Phala, and the pivot of both major yogas.
 - **Greatest liability: Budha** — only graha below minimum, ruling both self and
   career, and failing on *position* rather than capacity.
-- **Most misread placement: Chandra** — exalted by sign, thin by four
-  independent measures.
+- **Most misread placement: Chandra** — thin by four strength measures
+  (Shadbala, Paksha, bindus, Shodhya Pinda) yet **second-strongest in the
+  chart by Vimshopaka Bala**. Superbly made, poorly supplied: fine equipment
+  running on a small tank.
+- **The varga-level weak point: Mangal** — four debilitations across the
+  sixteen charts and the lowest Vimshopaka, against the *highest* Shodhya
+  Pinda. It delivers most and is dignified least.
 - **Sharpest structural fact:** the two houses holding seven of nine grahas
   carry the chart's two lowest bindu counts, while the empty 6th carries the
   highest. **All the activity is concentrated where results come hardest, and
@@ -2388,6 +2480,9 @@ Stated once, in order, within the tradition's frame:
 - **Ayurdaya (longevity computation) is deliberately not performed.** It is
   not responsible to compute lifespan from an unverified birth time, and this
   reading does not do so anywhere.
+- **The Shodashavarga is now complete** — all sixteen classical vargas
+  computed (`verify_shodasha.py`), with Vimshopaka Bala and the
+  Vaiseshikamsha dignity census.
 - **Alternative dasha systems** (Yogini, Chara/Jaimini dashas) were not run;
   Vimshottari — the supplied and Moon-appropriate primary — carries the
   timeline. Their addition would refine sub-periods, not reverse structure.
@@ -2416,6 +2511,9 @@ independently recomputed and verified (`verify_chart.py`, `verify_bala.py`);
 the full classical-concept sweep — nabhasa, lunar-solar and minor yogas,
 avasthas, Jaimini karakas and arudhas, functional lords, badhaka, Yogi/Avayogi,
 KP star-lord routing, derived D3/D7/D12, and sensitive points — is computed in
-`verify_concepts.py`. Two source errors (D8 and D30 Ketu) are corrected
+`verify_concepts.py`; the complete sixteen-varga Shodashavarga with
+Vimshopaka Bala and Vaiseshikamsha in `verify_shodasha.py`; and the
+cross-varga house-class census in `verify_houseclass.py`. Two source errors
+(D8 and D30 Ketu) are corrected
 throughout; two unreconcilable columns are identified in §1 and excluded. An
 interpretation within the framework of Jyotisha, presented on its own terms.*
