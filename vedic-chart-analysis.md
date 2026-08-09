@@ -1072,6 +1072,66 @@ for the current window is therefore *obstructed-then-confirmed*: expect the
 match to hit a visible obstacle or postponement before it formalises, and to
 formalise nonetheless — likely late in the window rather than early.
 
+#### Love or arranged — and how the parents take it
+
+The chart answers this question with unusual precision, because the love
+indicators and the arranged indicators are *both* strong — and they describe
+different stages of the same marriage.
+
+**The love side is real.** The **Shukra ⇄ Mangal parivartana is the classical
+passion signature** — the two love planets in mutual exchange. Shukra sits in
+**its own nakshatra** (Bharani) in the 8th: deep, private, possibly hidden
+feeling. Chandra–Mangal at 5°32′ puts romantic impulsiveness in the mind
+itself. The 7th lord in the 10th means the partner is met through **work,
+study or the public sphere** — not through an introduction at home. And Rahu
+aspecting the 5th, with Rahu on the D9 lagna, flags **unconventional
+attraction: plausibly a partner of different community, region or background**.
+
+**But the romance cannot formalise itself.** The decisive structural fact:
+**the 5th lord and the 7th lord share no connection** — Shani and Guru neither
+conjoin nor aspect each other, in D1 *or* in D9. The romance house and the
+marriage house are unlinked. In the classical grammar, that means the love
+does not convert into marriage on its own; **a formalising step through
+elders is required**. The 7th lord is Guru — the traditional benefic *and*
+the badhakesh: the elders are literally the gate. The **Upapada falls in the
+4th house** — the marriage is absorbed into the family home, not conducted
+apart from it. And the 7th from the Moon holds Ketu: **the mind does not
+elope; it waits to be confirmed.**
+
+**The verdict: love-found, arranged-completed.** He finds the partner himself
+— through work, likely of a different background — and the marriage completes
+as a family-formalised one after the elders' gate is passed. This is the
+*mechanism* behind the obstructed-then-confirmed texture predicted earlier:
+the obstruction is, most probably, **the family-approval passage itself.**
+
+**How the parents take it — the father.** The single most precise fact in
+this entire question: **the Darakaraka is Surya — the spouse-significator is
+the father-karaka.** The father and the marriage share one planet, which
+means his acceptance is not incidental to the marriage but structurally part
+of its completion. That Surya is **exalted** (a dignified, principled father
+whose objection, if any, is on principle rather than pettiness) **and
+gandanta** (the authority knot — the father's authority is exactly where this
+chart's deepest tension lives). Expect **initial resistance, on principle,
+converting to full-backed acceptance once convinced** — an exalted Sun does
+not sulk; once it turns, it turns completely. The 9th house holding
+Shani-with-Rahu says the conservative-versus-unconventional tension exists
+*inside the father's sphere itself*, and Rahu in MKS during its own mahadasha
+says this friction window is **now — and temporary**.
+
+**The mother.** The natal Moon in the 9th and **exalted in D12**: emotionally
+anxious in the process (the thin Moon worries) but fundamentally dignified
+and supportive — **she is the bridge**. The 4th house (mother, home) is Bhava
+rank 2, the Upapada sits in it, and its lord is the very Guru who rules the
+7th: the mother's house is where the marriage ultimately lives. And the 2nd
+house — the family itself — is rank 3 with the chart's highest Drishti Bala:
+**the family conversation will be intense, and the family will hold.**
+
+Sequence, then: private attachment → disclosure → a principled paternal
+objection and an anxious maternal mediation → the elders' formalising step →
+a marriage conducted as an arranged one and embraced by the home. Timing per
+§12: disclosure and friction land in the current window; formalisation late
+in it, by 2027 into January 2028.
+
 ### Children
 
 Everything relevant, computed and in one place. The D1 5th house is Makara —
