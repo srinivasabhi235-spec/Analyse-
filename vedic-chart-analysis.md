@@ -1284,6 +1284,45 @@ Sequence, then: private attachment → disclosure → a principled paternal
 objection and an anxious maternal mediation → the elders' formalising step →
 a marriage conducted as an arranged one and embraced by the home.
 
+#### How he will recognise it — the November 2026 window in detail
+
+The Guru–Shukra pratyantar opens **12 November 2026**. A caution on what that
+means: the technique dates a *window*, not an event. And because natal Shukra
+sits in the 8th — the hidden-romance signature — **the attachment may already
+exist privately.** What this window marks is the point at which it becomes
+real, acknowledged, or visible, which may be a first meeting or may be a
+recognition of something already quietly running.
+
+**One transit makes the window unusually legible.** Across essentially the
+whole of it, **transit Guru — the natal 7th lord itself — sits in Karka, his
+11th house**, crossing into the 12th only as the window closes in spring 2027.
+The 11th is friends, networks, groups and professional circles; and from Karka,
+Guru casts its ninth aspect directly onto Meena, **the natal 7th house.**
+
+So the mechanism during the window is precise: **the lord of marriage occupies
+the house of networks and aspects the house of marriage.** She comes through
+the circle.
+
+**Seven recognition markers, each traced to a placement:**
+
+| Marker | What to notice | Derived from |
+|---|---|---|
+| **Setting** | A work or study **network** — a group, professional circle or shared community; often online-mediated rather than face-to-face at the start | 7th lord in the 10th/Mithuna/Ardra; D9 7th lord in the 6th; transit Guru in the 11th |
+| **Who moves** | **She signals.** If he finds himself wondering whether she just made an opening — that *is* the marker | 7th side (1.26) decisively stronger than lagna side (0.92) |
+| **Texture** | Long, substantive, private conversation; an unusual sense of being understood. **Not flirtation** | Shukra in its own nakshatra in the 8th |
+| **Her manner** | Dignified, direct, self-respecting; may read as senior or older in bearing | Darakaraka Surya, exalted |
+| **Her background** | A different community, region or culture from his own | Rahu on the 5th and on the D9 lagna; 7th lord in Rahu's star |
+| **His own tell** | **He will withdraw from something that is going well.** The pull-back is the signature, not a warning sign | Ketu 7th-from-Moon, Punarphoo — and Guru–Ketu is scheduled immediately before the window |
+| **Pace** | Slow, revisited, tested. **If it feels sudden, it probably isn't this** | Transit Shani retrograde in the natal 7th |
+
+**And the honest alternative branch.** If nothing forms by April 2027, the
+Guru–Surya window still arrives and still forces the marriage conversation —
+the parents raise matchmaking regardless. In that case the sequence runs
+arranged-first rather than love-first, and the same formalisation window
+(September 2027 – January 2028) carries it. **The chart commits to the
+marriage completing in this antardasha; it is less committal about whether the
+meeting precedes the proposal or follows it.**
+
 #### The dated timetable — pratyantardashas of Rahu–Guru
 
 The sub-sub-periods inside the current antardasha date each stage separately,
