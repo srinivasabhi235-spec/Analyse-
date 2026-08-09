@@ -846,6 +846,76 @@ corrected.
 
 ---
 
+### House-class census across the vargas
+
+Classifying every graha in every chart by house-class — **kendra** (1, 4, 7,
+10: structure and visible action), **trikona** (1, 5, 9: dharma and grace),
+**upachaya** (3, 6, 10, 11: the growing houses, where malefics *improve* with
+time), **dusthana** (6, 8, 12: trial) — exposes a pattern that no single chart
+shows. Computed in `verify_houseclass.py`; Budha counts as a malefic here,
+being combust with Surya, which the supplied Paksha Bala of 49.89 confirms.
+
+| Chart | Kendra | Trikona | Upachaya | Dusthana | Benefics in kendra | Malefics in upachaya |
+|---|---|---|---|---|---|---|
+| **D1** Rashi | **1** | **4** | 2 | 3 | 1 | 1 |
+| **D9** Navamsha | 4 | 2 | **4** | 2 | **0** | 2 |
+| **D10** Dashamsha | **1** | 2 | 3 | 3 | 1 | 2 |
+| **D11** Rudramsha | **5** | 2 | 3 | **1** | **2** | 2 |
+| **D8** Ashtamsha | 2 | 2 | 3 | 1 | 1 | 2 |
+| **D27** Bhamsha | **5** | 3 | 1 | **0** | 1 | 1 |
+| **D30** Trimshamsha | 3 | 2 | 2 | 2 | 1 | 2 |
+
+Five findings, three of them new:
+
+**1. The master pattern — and it *is* the late crest.** Across every chart,
+benefic-in-kendra support is minimal (one, or in D9 none) while
+malefic-in-upachaya placement is consistently present (one to two, in every
+single varga). Read classically: **almost nothing arrives by grace or
+structural gift; nearly everything arrives through malefics in growth
+houses** — which is to say through friction, competition and endurance, in
+the four houses that *improve with age*. The upachaya principle is the
+late-cresting trajectory stated in house-class terms. This is the same
+conclusion the Shadbala, the Ashtakavarga and the avasthas each reached
+independently, now confirmed by a fourth route.
+
+**2. D1's shape, quantified.** One kendra occupant against four in trikona
+and three in dusthana: **maximum fortune-and-depth loading, minimum
+scaffolding.** The chart has grace and trial in abundance and structure
+almost not at all — which is exactly why §13's instruction to *install
+structure by hand* is the highest-leverage behavioural advice in this
+reading.
+
+**3. D9's kendras are held entirely by malefics — Mangal, Shani, Rahu and
+Ketu, with zero benefics.** *(New.)* The navamsha governs inner life and
+marriage, and its four structural pillars are all difficult planets. This is
+the structural root of both the partnership difficulty and the inner
+hardness the whole reading keeps circling. **But note D9 also carries the
+highest upachaya count in the set — four.** The navamsha is a *growing*
+chart: the inner life and the marriage are harsh in construction and
+**improve materially with time.** That is the strongest structural support
+yet for the repeated finding that his marriage deepens markedly as it ages.
+
+**4. D27 has zero dusthana occupancy and five kendra occupants.** *(New, and
+genuinely good news.)* The Bhamsha governs vitality and constitutional
+strength — and no graha in this chart sits in a house of trial. This
+meaningfully tempers the health cautions of §10: the load in 2030–33 and
+2056–63 is real, but **the underlying constitution has no structural
+weakness at all**. Difficulties will be circumstantial and survivable rather
+than constitutional.
+
+**5. D11 is confirmed as the strongest varga** — five kendra occupants, two
+of them benefic, and only one dusthana placement: the best structural profile
+in the set. Set against the weak natal 11th house, this sharpens the wealth
+reading precisely: **the capacity to gain is structurally excellent; the
+house through which gains arrive is weak.** Build the channels deliberately
+and the capacity is there to fill them.
+
+One closing note on the 6th house, which belongs to *both* the upachaya and
+dusthana classes. In D1 it is empty — yet it carries 41 bindus, the most
+fertile ground in the chart. That single fact contains the whole reading:
+**his best house is a house of growth-through-difficulty, and it is waiting
+to be worked.**
+
 ### Derived vargas — D3, D7, D12
 
 Three vargas the source did not supply but which follow directly from the
