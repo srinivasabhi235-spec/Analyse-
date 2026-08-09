@@ -90,6 +90,13 @@ The birth details were not supplied, but the chart determines them:
    birth roughly eleven to twelve hours after sunrise. Both indicate **late
    afternoon or early evening**.
 
+The full birth panchanga, assembled from the same data: **Monday** (Chandra
+vara — a mind-led day), **Krittika** nakshatra (Agni — the purifying fire),
+**Shukla Tritiya** (a *Jaya*-class tithi — the victory group), **Ayushman**
+nitya-yoga (endurance, longevity of effort), **Gara** karana (building).
+Flavour-level rather than structural, but the panchanga reads coherently:
+endurance, purification, victory through building.
+
 **The native is male and about 24 years old.** That matters: this is a chart at
 the opening of its defining period, not one being assessed in retrospect.
 
@@ -251,6 +258,41 @@ hidden or discarded, works best alone, distrusts received explanations, and has
 a pull toward the metaphysical that is forensic rather than sentimental. It also
 describes someone not much interested in credentials for their own sake.
 
+### The KP layer says the same thing a third time
+
+The supplied tables carry star-lords and sub-lords, so the Krishnamurti-style
+routing can be read directly: a planet delivers the affairs of its
+**nakshatra dispositor** — the house that dispositor occupies and the houses it
+rules.
+
+| Planet | Star of | Delivers via |
+|---|---|---|
+| Surya | Ketu (3rd) | **3rd** |
+| Chandra | Surya (8th, rules 12) | 8, 12 |
+| Mangal | Surya (8th, rules 12) | 8, 12 |
+| Budha | Ketu (3rd) | **3rd** |
+| Guru | Rahu (9th) | 9 |
+| Shukra | own star (8th, rules 2, 9) | 8, 2, 9 |
+| Shani | Chandra (9th, rules 11) | 9, 11 |
+| Rahu | Mangal (9th, rules 3, 8) | 9, 3, 8 |
+| **Ketu** | **Budha (8th, rules 1, 10)** | **8, 1, 10** |
+
+House 8 receives five deliveries, house 9 four, house 3 three. **The
+nakshatra-level chart reproduces the bhava-level concentration exactly** — a
+third independent technique landing on the same three houses.
+
+And one detail stands out: **the only planet delivering 1st- and 10th-house
+results — self and career — is Ketu.** Identity and profession are routed
+through the detachment node. Keep that; it recurs in §5 with the Yogi planet.
+
+### Element balance
+
+By sign: fire 3 (Surya, Budha, Shukra), earth 3 plus the lagna (Chandra,
+Mangal, Shani), air 1 (Guru), **water 0** — no classical graha occupies a water
+sign; only Ketu sits in Vrischika. Earth-fire dominance reads as practical
+intensity; the complete absence of water among the seven grahas is yet another
+statement of the thin emotional reservoir the Moon's numbers keep reporting.
+
 ### Two gandanta placements
 
 Gandanta is the knot at each water–fire junction — the last 3°20′ of a water
@@ -263,7 +305,10 @@ sign and the first 3°20′ of the fire sign following. Two bodies fall inside i
   greatest source of strength and his deepest unresolved knot.** It tends to
   express as difficulty accepting authority above himself combined with
   reluctance to claim it openly, and it resolves through doing the depth work
-  rather than through argument.
+  rather than through argument. With **Rahu in the 9th**, the tradition would
+  also name a **pitru-dosha signature** here — an ancestral thread around father
+  and lineage, conventionally remediated through dharma and service, which is
+  where this chart's strength already lies.
 - **Ketu at 26°55′ Vrischika**, Jyeshtha pada 4 — the classical gandanta pada.
   Combined with the Ketu-terminated nakshatra chain, this makes the
   spiritual and investigative drive load-bearing rather than incidental, and
@@ -340,6 +385,81 @@ enterprise, and emotional heat.
 
 **Budha — the weak link.** Covered in §4. Only graha below minimum; failure is
 positional.
+
+### Avasthas — age and wakefulness of each graha
+
+Two classical state-systems, both computable from the supplied degrees. Baladi
+avastha assigns each graha an age by its degree (odd signs run
+infant→dead, even signs reverse), with full results only in **Yuva**; Jagradadi
+assigns wakefulness by dignity (own/exalted = awake, friend/neutral = dreaming,
+enemy/debilitated = asleep).
+
+| Graha | Degree | Baladi | Jagradadi |
+|---|---|---|---|
+| Surya | 1°28′ odd | **Bala** (infant) | **Jagrat** (awake) |
+| Chandra | 1°47′ even | **Mrita** (dead) | **Jagrat** (awake) |
+| Mangal | 7°19′ even | Vriddha (old) | Svapna |
+| Budha | 10°27′ odd | Kumara (youth) | Svapna |
+| **Guru** | 14°47′ odd | **Yuva** (full) | **Sushupti** (asleep) |
+| Shukra | 23°36′ odd | Vriddha (old) | Svapna |
+| **Shani** | 17°54′ even | **Yuva** (full) | Svapna |
+
+Four findings fall out:
+
+1. **The only two grahas in Yuva — the full-fruit state — are Guru and Shani:
+   the two future mahadasha lords.** An entirely independent confirmation of
+   the late-cresting trajectory. The planets that govern ages 39–74 are the
+   ones standing at full strength.
+2. **Chandra is Mrita by degree while Jagrat by dignity** — dead in quantity,
+   awake in quality. That is the fifth independent measure of the thin Moon,
+   and it lands on exactly the formulation already reached: high in kind, low
+   in reserve.
+3. **Surya is Bala** — the exalted engine is an infant by degree. Classical
+   reading: its results mature across life rather than arriving early, which is
+   the gandanta knot and the late-crest restated.
+4. **Shukra is Vriddha**, 23 arc-minutes from Mrita. A genuine temper on the
+   pivot graha: its yogas deliver substance, but with an old planet's economy —
+   capital rather than vivacity. And **Guru is Sushupti** — asleep in the
+   enemy's sign. A sleeping benefic delivers when consciously invoked, not
+   spontaneously; one more entry in Guru's qualification list.
+
+### Vargottama
+
+The lagna's repetition across D1/D9/D11 was noted in §4. Among the grahas,
+**Surya is vargottama** — Mesha in both D1 and D9 — the only planet so placed,
+adding formal confirmation to its six-varga dignity.
+
+### Yogi and Avayogi
+
+The Yogi point (Sun + Moon + 93°20′) falls at 6°35′ Simha, in **Magha — so the
+Yogi planet, the chart's designated helper, is KETU**, with Surya as
+sahayogi (duplicate Yogi, as Simha's lord). The Avayogi point falls in
+Shatabhisha — **the Avayogi, the designated hinderer, is RAHU.**
+
+Pause on what that means, because three techniques have now crowned the same
+node. Ketu terminates the nakshatra dispositor chain (§4); Ketu is the only
+planet delivering 1st- and 10th-house results at the KP level (§4); and Ketu is
+the Yogi planet. **The chart's hidden benefactor is detachment itself.** Gains
+come through Ketu's mode — research, mastery without display, letting go — and
+through the 3rd house where Ketu sits.
+
+And the hinderer is Rahu — **the current mahadasha lord**. Grasping, ambition
+and acquisition-for-its-own-sake are, by this measure, precisely the moves that
+backfire in this chart, even while Rahu's dasha governs. The practical
+translation: during the Rahu years, what is *served* arrives; what is *grasped*
+slips. This is the strategy section's advice derived by an entirely different
+route.
+
+### Functional nature for Kanya lagna
+
+By Parashari functional classification: **Shukra** (9th + 2nd) is the prime
+functional benefic; **Budha** (1st + 10th) benefic; **Surya** (12th) neutral;
+**Shani** (5th + 6th) mixed; **Chandra** (11th) functionally inauspicious;
+**Mangal** (3rd + 8th) the chart's first-rank functional malefic; and **Guru**,
+ruling two kendras as a natural benefic, carries **kendradhipati dosha**. The
+functional-benefic pair — Shukra and Budha — is exactly the DKY conjunction.
+The system's own bookkeeping puts the chart's good in the same two hands the
+yogas do.
 
 ---
 
@@ -508,12 +628,25 @@ the mahadasha of the graha occupying the 10th house. **That four-year stretch,
 ages 46 to 50, is where this chart's entire 8th-house apparatus reaches its
 fullest expression.**
 
-### Amala Yoga
+### Amala Yoga — and the full Guru qualification list
 
 Guru, a benefic, in the 10th from lagna: clean reputation, fair dealing, a name
-that holds up. Qualified three ways — enemy's sign, dispositor combust in the
-8th, and Yama Ghantaka 2°05′ away — plus the worst Drik Bala in the chart.
-Reputation here is earned rather than granted, and arrives with friction.
+that holds up. But the complete sweep now puts **six qualifications** on the
+giver, and they deserve to be listed in one place, because Guru is the current
+antardasha lord:
+
+1. **Enemy's sign** (Mithuna), and therefore
+2. **Sushupti avastha** — a sleeping benefic, delivering only when invoked;
+3. **Kendradhipati dosha** — a natural benefic ruling two kendras;
+4. **Badhakesh** — for a dual lagna the 7th lord is the obstruction lord, and
+   that is Guru (true of every Kanya chart, but here it stacks);
+5. **Worst Drik Bala in the chart** (−8.58) — the most aspect-afflicted graha;
+6. **Yama Ghantaka 2°05′ away.**
+
+Against that: Yuva avastha, second-highest rupas, Amala itself, and the 10th
+house. The synthesis is consistent with everything already observed: **Guru
+gives, and gives through obstruction** — reputation earned against friction,
+help that must be actively sought, a benefic that does not volunteer.
 
 ### In the vargas
 
@@ -533,6 +666,66 @@ Reputation here is earned rather than granted, and arrives with friction.
   chart's structural pillars and here they are nearly vacant. This is the main
   structural weakness: enormous depth, very little scaffolding — and the fix is
   behavioural, not astrological.
+
+### The complete sweep — every remaining yoga checked
+
+For completeness, the rest of the classical inventory, each verified:
+
+| Yoga | Status | Reading |
+|---|---|---|
+| **Shakti / Shoola** (nabhasa) | **Forms.** Seven grahas in three signs (Shoola by sign-count), all inside the 7th–10th band (Shakti by house-band) | Both names, one meaning: the piercing, narrow, battle-hardened chart — success after opposition, aptitude for sharp-instrument work (surgery, forensics, investigation). The nabhasa system's own name for §3's concentration. |
+| **Durudhara** (lunar) | **Forms.** Guru 2nd from Chandra, Budha + Shukra 12th from it | Resourcefulness and support around the Moon — and it rules out Kemadruma entirely. The thin Moon is under-fuelled, not abandoned. |
+| **Vesi** (solar) | Forms, malefic — Mangal + Shani 2nd from Surya | Effortful, blunt self-presentation; the path ahead of the Sun flanked by discipline and drive rather than charm. |
+| **Budha-Aditya** | Forms, combust-compromised | Sharp administrative intellect, assimilated rather than displayed — as read in §4. |
+| **Punarphoo** (Chandra–Shani) | Forms, wide (same sign, 16°) | The classical delay-then-repeat signature on commitments, marriage especially. Supports every partnership finding independently. |
+| **Shakata** | Forms technically (Moon 12th from Guru), **cancelled** — Guru in a kendra from lagna | A residual flicker of fluctuating fortune, consistent with 8th-house volatility, but not operative as a yoga. |
+| **Kala Sarpa** | **Absent.** Guru alone stands outside the nodal arc | Fitting: the one planet outside the shadow is the one in the kendra. |
+| **Kemadruma** | Absent (Durudhara) | — |
+| **Lagnadhi** | Spoiled — benefics in the 8th carry Surya with them | — |
+| Graha yuddha | None (Yuddha Bala row all zero — verified) | — |
+| Natal retrogrades | None among the seven | An unusually direct chart, literally. |
+| D1 debilitations | None | The dignity floor is high even where strength is not. |
+
+### The Jaimini layer
+
+The chara karakas (seven-karaka scheme, by descending degree):
+
+| Karaka | Graha | Degree |
+|---|---|---|
+| **Atmakaraka** (soul) | **Shukra** | 23°37′ |
+| **Amatyakaraka** (career) | **Shani** | 17°54′ |
+| Bhratrikaraka | Guru | 14°48′ |
+| Matrikaraka | Budha | 10°28′ |
+| Pitrikaraka | Mangal | 7°20′ |
+| Putrakaraka | Chandra | 1°47′ |
+| **Darakaraka** (spouse) | **Surya** | 1°28′ |
+
+Three of these matter enormously, and all three confirm earlier findings by an
+independent system:
+
+- **The Atmakaraka is Shukra** — the graha already identified as the pivot of
+  both major yogas is, in Jaimini's terms, the soul's own significator. Its
+  **Karakamsa** (the AK's navamsha sign) is **Vrischika**: the classical
+  karakamsa of hidden knowledge, investigation, medicine and the occult. The
+  soul-level career field matches the D10 reading exactly.
+- **The Amatyakaraka is Shani** — Jaimini's career minister is the same planet
+  that rules the D10 lagna and occupies D9's 10th. Three systems, one answer.
+- **The Darakaraka is Surya** — the spouse-significator is the chart's
+  strongest graha *and* its gandanta knot, sitting in the 8th. The partner
+  indicated is dignified and authoritative; the marriage participates in the
+  authority-knot and the 8th-house transformation theme rather than standing
+  apart from them.
+
+**Arudha Lagna: Vrischika**, the 3rd house — with **Ketu sitting on it**. The
+public image is the unassuming, intense specialist: perceived through effort,
+skill and reserve rather than through position. The world sees the Ketu-mode —
+which, per the Yogi finding in §5, is also the mode that pays.
+
+**Upapada: Dhanu**, the 4th house, lord Guru in the 10th — marriage tied to
+home and career in one movement (as the current antardasha already indicated).
+The **2nd from the Upapada is ruled by Shani**: the marriage's sustenance is
+Saturnine — endurance, sobriety, duty honoured — matching the transit picture's
+Saturn-in-the-7th texture and Punarphoo's delay-then-confirm signature.
 
 ---
 
@@ -572,9 +765,11 @@ public eye is the chart's strongest single structure.**
 house holding no grahas. The 6th governs service, competition, problem-solving,
 disciplined labour, adversaries overcome. A 41-bindu 6th says about as loudly as
 this system says anything: **he wins through the 6th house** — out-working,
-out-lasting and out-analysing the opposition. Note also that **Kumbha is
-simultaneously the D10 ascendant**: two independent techniques naming the same
-sign.
+out-lasting and out-analysing the opposition. And note what Kumbha now is:
+**the 41-bindu house, the D10 ascendant, and the 10th house counted from
+Chandra** — three separate techniques naming the same sign as the career
+ground. With Jaimini's Amatyakaraka falling to Shani, Kumbha's lord, it is
+four.
 
 **The 8th is weakest on both measures** — rank 12, lowest SAV, zero aspectual
 support — while holding three grahas and all the raja yogas. This is §3's
@@ -651,7 +846,32 @@ corrected.
 
 ---
 
-## 9. Upagrahas
+### Derived vargas — D3, D7, D12
+
+Three vargas the source did not supply but which follow directly from the
+verified D1 longitudes:
+
+**D3 (Drekkana — siblings, courage).** Lagna Vrishabha; **Ketu falls in the 3rd
+of D3 (Karka) exactly as it does in the 3rd of D1** — a doubled signature: few
+or distant siblings, courage exercised alone, the self-made pattern confirmed
+at the sibling-varga level. Chandra and Mangal sit in the D3 lagna — the
+Chandra-Mangal enterprise yoga stamped onto the courage chart.
+
+**D7 (Saptamsha — children).** The lagna is **Kanya — the fourth varga sharing
+this ascendant** (D1, D7, D9, D11), an unusual degree of self-consistency.
+**Guru, the karaka of progeny, sits in the D7 lagna** — protective, indicating
+children. But Chandra is debilitated in D7 (Vrischika) and Shukra debilitated
+(Kanya), and the Putrakaraka is the thin Moon: children are indicated **with
+delay and deliberation**, arriving after the home is settled rather than early
+— fully consistent with the partnership timing.
+
+**D12 (Dwadashamsha — parents, lineage).** **Both luminaries are exalted** —
+Surya in Mesha, Chandra in Vrishabha. A strong, dignified parental lineage;
+the father powerful and authoritative (the exalted D12 Sun restates the
+gandanta-Sun father theme: a strong father, a knotted bond). Mangal debilitated
+in Karka is the one soft point — friction in the home's early years.
+
+## 9. Upagrahas and sensitive points
 
 | Upagraha | Position | House | Contact |
 |---|---|---|---|
@@ -672,6 +892,21 @@ shadow point 2° away. This is the technical reason the reputation yoga does not
 run clean, and it reinforces the partnership reading independently. **Gulika and
 Mandi in the 11th** shadow the gains house, pairing with the debilitated nodes
 in D11. **Upaketu in the 7th** adds to the detachment signature there.
+
+### Sensitive points
+
+**Bhrigu Bindu** — the Moon–Rahu midpoint, the tradition's "destiny point" —
+falls at **14°22′ Vrishabha, in the 9th house**, less than 1° from the
+Parivesha upagraha and 3°33′ from Shani. Destiny located in dharma, under
+discipline. Transiting Saturn crosses this degree in early **2031** — inside
+Rahu–Budha, adding one more marker to the 2030–2033 hinge.
+
+**The 22nd (Khara) drekkana** from the lagna is the 3rd drekkana of Mesha
+(20°–30°) — and **Shukra sits inside it at 23°37′**, with the Mrityu upagraha
+3°13′ away. The chart's fortune-carrier operates in mortality-inflected
+terrain: the classical texture of inheritance, insurance, crisis-capital and
+estates. The same conclusion §10's wealth reading reached through house
+lordships, arrived at through a sensitive point.
 
 ---
 
@@ -764,6 +999,23 @@ conscious before it can be worked with rather than merely acted out. The partner
 indicated is met through work, public life or travel, and is someone who can
 hold both intensity and independence.
 
+The full sweep adds three independent details, all pointing the same way. The
+**Darakaraka is Surya** — dignified and authoritative, but carrying the
+gandanta knot: the spouse participates in the chart's authority theme rather
+than standing outside it. The **Upapada in Dhanu with Guru in the 10th, its
+2nd lord Shani**, makes the marriage's sustenance Saturnine — duty honoured,
+endurance, slow deepening. And **Punarphoo** (Chandra–Shani in one sign) is
+the classical delay-then-repeat mark on commitments. The refined prediction
+for the current window is therefore *obstructed-then-confirmed*: expect the
+match to hit a visible obstacle or postponement before it formalises, and to
+formalise nonetheless — likely late in the window rather than early.
+
+**Children.** From the derived D7: Guru — the karaka of progeny — sits in the
+saptamsha lagna, which indicates and protects children; but with Chandra and
+Shukra both debilitated there and the Putrakaraka being the thin Moon, they
+arrive **with delay and by deliberate choice**, after the home is settled. The
+same later-and-deliberate pattern as the marriage itself.
+
 ### Health and constitution
 
 Sound but not robust. The exalted Moon and Guru's aspect on the 6th are
@@ -792,6 +1044,17 @@ lifestyle preferences — this is a primary finding, not a footnote.
 9th, aspects the lagna, and keeps company with exalted Chandra, Mangal and
 Shani — unorthodox mentors, foreign exposure, higher education approached at an
 angle, and a relationship to tradition that is engaged but not obedient.
+
+The full sweep adds two hard qualifications to this mahadasha, beyond the
+maturity finding below. **Rahu in the 9th is Marana Karaka Sthana** — the one
+graha in the chart standing in its own MKS is the dasha lord itself: friction
+with gurus, teachers and the father's line is built into the period's fabric,
+not incidental to it. And **Rahu is the chart's Avayogi** — the designated
+hinderer (§5). The mahadasha of the hinderer, unripe throughout and standing
+in its MKS, is the construction phase. Its correct use is exactly what the
+Yogi finding prescribes: serve, research, master — the Ketu mode — and let
+acquisition follow rather than lead. What is grasped in these years slips;
+what is built holds.
 
 **The Guru mahadasha is the structural answer to the career question.** Guru is
 the graha *occupying the 10th house* and giving Amala Yoga; its sixteen years
@@ -897,6 +1160,14 @@ argument.)*
 mahadasha of the graha that occupies the 10th house.** Guru–Shukra (2048–2051)
 is likely the fullest expression of the yoga in the whole life. The DKY does not
 deliver its best inside the Rahu period at all — it waits.
+
+One temper on the payoff window, from the transit cycle: **Ashtama Shani** —
+Saturn crossing Dhanu, the 8th from the natal Moon — runs approximately
+**December 2047 to early 2050** (±6 months without an ephemeris), overlapping
+Guru–Ketu and the first year and a half of Guru–Shukra. The DKY's best period
+opens under load and cleans up as Saturn moves on: the **cleanest, fullest run
+is therefore 2050–2052** — Guru–Shukra's tail directly into Guru–Surya. Fortune
+under difficulty, once more, even at the summit.
 
 ### Shani mahadasha — Dec 2056 to Dec 2075, ages 54.7 to 73.7
 
@@ -1098,7 +1369,11 @@ Sade Sati has not begun.
 One timing detail: transit Guru is **currently combust**, 7°24′ from the Sun
 against an 11° limit. The Sun pulls away at 0.73°/day, so Jupiter **clears
 combustion around 13 August 2026** and its capacity improves markedly from
-mid-month.
+mid-month. Note also that **transit Shani is retrograde** (−0.03°/day in the
+supplied table): a retrograde Saturn in the 7th revisits and re-tests a
+commitment before it stations direct and confirms — the transit-level image of
+Punarphoo, and one more reason the window's texture is
+*obstructed-then-confirmed* rather than swift.
 
 **This is the clearest marriage window the chart offers in the visible
 timeline** — effectively late August 2026 through mid-2027, outer bound January
@@ -1271,6 +1546,79 @@ the chart leaves open.
    in Ketu, both Ketu and the Sun in gandanta, and the 12th standing as the
    strongest bhava — the same instruction given three times over.
 
+### What the complete sweep added
+
+The full-concept pass (nabhasa and lunar-solar yogas, avasthas, Jaimini
+karakas and arudhas, functional lords, badhaka, Yogi/Avayogi, KP star-lords,
+derived D3/D7/D12, sensitive points — all computed in `verify_concepts.py`)
+changed no dates and reversed no conclusion. What it did was **name and
+independently confirm** what the quantitative layers had already shown — and
+sharpen four things:
+
+1. **Ketu is the chart's crowned helper.** Nakshatra-chain terminus, sole KP
+   deliverer of the 1st and 10th, Yogi planet, and occupant of the Arudha
+   Lagna. Detachment is not a theme here; it is the operating strategy. Its
+   counterpart: **Rahu is the Avayogi** — the hinderer — running its own
+   mahadasha from Marana Karaka Sthana, unripe throughout. During these years,
+   what is served arrives and what is grasped slips.
+2. **The late crest is confirmed by the avasthas.** The only two grahas in
+   Yuva — full-fruit — are Guru and Shani, the lords of ages 39–74; while
+   Surya is an infant and the Moon is Mrita by degree. The chart's early
+   planets are unready and its late planets are ready.
+3. **Guru's six qualifications** (enemy sign, Sushupti, kendradhipati dosha,
+   badhakesh, worst Drik Bala, Yama Ghantaka) formalise the current
+   antardasha's texture: a sleeping benefic that gives only when deliberately
+   invoked.
+4. **The marriage prediction gains a precise shape**: Punarphoo, retrograde
+   transit Saturn in the 7th, a Saturnine Upapada 2nd lord, and the badhakesh
+   as 7th lord all say *obstructed-then-confirmed* — a visible delay or
+   obstacle first, formalisation after, likely late in the window.
+
+### The consolidated prediction
+
+Stated once, in order, within the tradition's frame:
+
+- **Career**: expert and advisory authority in investigative-technical work
+  (the Aquarius–Scorpio field named by four techniques). Foundation laid
+  2028–2030 under load; repositioning 2030–2033 decides the slope; material
+  payoff 2034–2038; the true rise 2040–2056 with its summit **2050–2052**;
+  carried as teaching and legacy 2056–2075.
+- **Marriage**: the clearest window is **now through January 2028**, sharpest
+  from mid-August 2026 to mid-2027; obstructed-then-confirmed in texture; a
+  dignified, sober, possibly older-natured partner met through work or travel;
+  sustained by duty and deepening slowly. Children later and by deliberate
+  choice. If the window passes, the next comparable one is 2034–2037.
+- **Wealth**: real and well-supported, arriving through depth channels —
+  other people's capital, inheritance, insurance, crisis-priced assets — not
+  through salary accumulation. Peaks with the Shukra periods (2034–37,
+  2048–51). Leverage and speculation are contraindicated by the weak 11th.
+- **Health**: chronic-mild, digestive and nervous, stress-mediated.
+  Watch 2030–2033 and 2056–2063. A strong 6th lord fights it successfully;
+  rest and routine are structural.
+- **Trajectory**: upward, late-cresting, in two currencies — recognition rises
+  through Guru, volume through Shani — while ease declines. The variable the
+  chart leaves open is his: specialise and build structure, and the curve
+  bends up; wait for recognition, and it flattens.
+
+### Scope notes, stated honestly
+
+- **Ayurdaya (longevity computation) is deliberately not performed.** It is
+  not responsible to compute lifespan from an unverified birth time, and this
+  reading does not do so anywhere.
+- **Alternative dasha systems** (Yogini, Chara/Jaimini dashas) were not run;
+  Vimshottari — the supplied and Moon-appropriate primary — carries the
+  timeline. Their addition would refine sub-periods, not reverse structure.
+- **Marriage compatibility (ashtakoota) requires the partner's chart** and is
+  pending that data.
+- **The remedial logic**, in the tradition's own terms and without
+  prescription: strengthen the thin benefics (Chandra — routine, rest,
+  Mondays; Budha — study, service, skill), pacify the strong harsh ones
+  (Shani — discipline embraced voluntarily; Rahu — service to a teacher),
+  and feed the Yogi (Ketu — practice, research, non-attachment). Every item
+  translates to the behavioural advice already given above.
+- **Everything remains conditional on the birth time**: the lagna sits 2°23′
+  from Tula — about ten minutes of clock time.
+
 The chart's own summary of itself is the 8th–9th exchange, Vimala Yoga, and a
 raja yoga buried in the weakest house, all saying one thing:
 
@@ -1281,7 +1629,10 @@ raja yoga buried in the weakest house, all saying one thing:
 *Prepared from supplied D1, D9, D10, D11, D8, D27, D30, upagraha, Vimshottari,
 Shadbala, Bhava Bala, Ashtakavarga, Reduced Ashtakavarga, Shodhya Pinda and
 transit data. All divisional charts, dasha boundaries and strength tables were
-independently recomputed and verified; see `verify_chart.py` and
-`verify_bala.py`. Two source errors (D8 and D30 Ketu) are corrected throughout;
-two unreconcilable columns are identified in §1 and excluded. An interpretation
-within the framework of Jyotisha, presented on its own terms.*
+independently recomputed and verified (`verify_chart.py`, `verify_bala.py`);
+the full classical-concept sweep — nabhasa, lunar-solar and minor yogas,
+avasthas, Jaimini karakas and arudhas, functional lords, badhaka, Yogi/Avayogi,
+KP star-lord routing, derived D3/D7/D12, and sensitive points — is computed in
+`verify_concepts.py`. Two source errors (D8 and D30 Ketu) are corrected
+throughout; two unreconcilable columns are identified in §1 and excluded. An
+interpretation within the framework of Jyotisha, presented on its own terms.*
