@@ -1341,6 +1341,65 @@ son's softest channel home; and the formalisation window (Guru–Rahu — Rahu
 naturally: engagement online or on a visit, ceremony in India, and, per the
 12th house's strength, a married life that settles abroad.**
 
+#### Will the father agree about the girl — and why
+
+**Yes — and the chart specifies both the initial "no" and the reasons for the
+final "yes."** One honest wrinkle first, because it sharpens the earlier
+reading rather than softening it.
+
+**The first reaction to the girl herself is genuinely negative.** By the
+panchadha maitri, Surya holds Shukra as a natural enemy, and the two share a
+sign — making them temporal enemies as well: **compound adhishatru.** The
+father-planet and the girl-planet begin as bitter enemies. So the opening
+objection is not mere procedure — it lands on *her specifically*, most likely
+framed around background or community (the Rahu flavour that runs through
+every partner indicator). The "principled resistance" of the earlier reading
+has a target.
+
+**What converts him — five mechanisms, each verified:**
+
+1. **The father's fire does not burn the girl.** Shukra stands 22° from
+   Surya — outside the combustion orb that consumes Budha at 9°. The heat
+   lands on *the son's asking*, never on her. Practically: **the direct
+   meeting with the girl goes well** — she stands in his presence unscorched,
+   and his objection, built at a distance, weakens on contact.
+2. **Her planet rules his house.** Shukra is the **9th lord — the lord of the
+   father's own bhava.** His domain literally answers to her planet. She wins
+   him through 9th-house conduct: dharma, propriety, respect for his
+   position — the currency an exalted Sun actually accepts.
+3. **Her planet blesses his family.** Shukra aspects the **2nd house** — the
+   family — which carries the chart's highest Drishti Bala. Her presence
+   demonstrably benefits the household, and the household notices.
+4. **The alliance enriches the line.** The dhana yogas (2nd + 9th, 2nd +
+   10th) live in the very conjunction that holds the marriage significators:
+   the match strengthens family fortune and standing in a way the father can
+   see.
+5. **The verification returns clean.** The spouse indicated — by an exalted
+   Darakaraka, by Guru-in-the-10th as 7th lord, by D30's Chandra in own
+   mooltrikona in the 7th — is dignified, educated, of respectable family,
+   likely a working professional. His quiet 8th-house due diligence finds the
+   one thing an exalted Sun cannot refuse: **merit.**
+
+**And the deepest reason: the Darakaraka *is* the father-karaka.** The girl
+this chart indicates carries Surya qualities — dignity, seriousness,
+self-respect. When the father finally looks at her clearly, **he recognises
+his own values standing in front of him.** His approval, when it comes, is
+not concession. It is recognition — which is why it converts to sponsorship
+rather than tolerance, and why the wedding then becomes his project.
+
+**Confidence and failure mode.** Lasting refusal is contradicted by every
+relevant strength: the exalted Sun carries the chart's *lowest* Kashta (it
+does no lasting harm), the family 2nd house is rank 3 (it holds), the
+Upapada sits in the 4th (the marriage is absorbed into the home), and the
+formalisation window follows immediately. **The realistic failure mode is
+not refusal but delay** — if the process slips past January 2028, incoming
+Shani defers it into 2029–30. The father's arc bends to yes; only the
+calendar is at risk.
+
+*(Scope note: this reads the father's arc from the native's chart alone. The
+girl's own chart — and the ashtakoota between them — remains the missing
+data that would complete it.)*
+
 ### Children
 
 Everything relevant, computed and in one place. The D1 5th house is Makara —
