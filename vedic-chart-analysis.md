@@ -2320,7 +2320,8 @@ The balance sheet:
 
 **Upward — decisively, but late, and along two curves that separate.**
 
-Four structural facts carry the upward reading:
+**Six** structural facts now carry the upward reading — the last two added by
+the completed Shodashavarga and the house-class census:
 
 1. **Each successive mahadasha lord is better positioned for standing than the
    last.** Rahu holds no Parashari rulership and acts through its dispositor.
@@ -2335,6 +2336,15 @@ Four structural facts carry the upward reading:
 4. **There is a twenty-two-year Sade Sati-free window from ~2035 to ~2057** —
    between the two Sade Satis — and **the entire Guru mahadasha sits inside it.**
    The chart's best dasha runs through its clearest sky, across ages 33 to 55.
+5. **Malefics sit in upachaya houses in every single varga** (§8). The upachaya
+   are the four houses that *improve with age*, and malefics placed there
+   strengthen over time rather than decaying. This is not another correlation —
+   it is the **mechanism** of the late crest, and it appears in all sixteen
+   charts without exception.
+6. **The two Vimshopaka-"excellent" grahas are the luminaries** — Surya at
+   16.85 and Chandra at 15.32 (§8). The chart's soul and mind are its
+   structurally soundest components across the entire divisional fabric,
+   whatever their positional handicaps in D1.
 
 The shape is not a smooth ramp:
 
@@ -2360,16 +2370,29 @@ directions:
 - **Standing, competence and achievement rise** — late and steeply through the
   Guru mahadasha, then, after a hard six-year trough at 55–61, rise again
   through the second half of the Shani mahadasha on a different axis.
-- **Ease does not rise with them.** Shani's outcome balance is **−34.35, the
-  worst in the chart**, and it governs nineteen years with a second Sade Sati on
-  top. But note the qualification in §10: that figure derives only from Uchcha
-  and Chesta Bala, so it describes the *texture* of the period rather than its
+- **The load rises with them** — Shani's outcome balance is **−34.35, the
+  worst in the chart**, governing nineteen years with a second Sade Sati on
+  top. But note the §10 qualification: that figure derives only from Uchcha
+  and Chesta Bala, so it describes the period's *texture*, not its
   productivity.
 
-**Outcomes improve while the experience gets heavier.** That is not a
-contradiction in this chart; it is its thesis restated one final time. The 8th–9th
-exchange, Vimala Yoga, and a raja yoga buried in the weakest bhava all say the
-same thing about how good things arrive here.
+**A refinement here, from the completed varga set.** I previously put this as
+*"ease declines while achievement rises."* The sixteen-chart data does not
+support the pessimistic half of that as stated. **D27 — the vitality chart —
+has zero dusthana occupancy** (§8): the constitution carries no structural
+weakness at all. **D16 holds three exaltations**, so material comfort is far
+better provisioned than D1 alone suggests. **Chandra scores 15.32 by
+Vimshopaka**, so the emotional capacity meeting all this is genuinely fine.
+And **D9 carries the highest upachaya count in the set**, so the inner life
+and the marriage *improve* across exactly the decades the load is heaviest.
+
+The accurate formulation is therefore not that life gets worse while results
+get better. It is that **the load increases and the capacity to carry it is
+sound** — he gets heavier burdens and is genuinely equipped for them.
+Outcomes improve; the work of living gets weightier; the machinery holds.
+That is the chart's thesis restated one final time — the 8th–9th exchange,
+Vimala Yoga, and a raja yoga buried in the weakest bhava all describing the
+same arrival mechanism.
 
 **What could bend the curve down.** The upward reading is conditional, because
 the chart supplies potential and almost no scaffolding:
@@ -2386,6 +2409,16 @@ the chart supplies potential and almost no scaffolding:
 The trajectory bends up if he specialises and builds structure. It flattens if
 he waits for recognition. That choice is the actual variable — and it is the one
 the chart leaves open.
+
+**And the destination is now specified.** The D60, the most karmically-weighted
+varga, places its single exaltation — **Shukra in the 12th** (§8). The arc does
+not terminate in accumulation or in title. It terminates in the **12th house**:
+release, foreign residence, seclusion carrying authority, moksha. Read across
+the four mahadashas, the shape is complete: **Rahu builds the material, Guru is
+paid for it, Shani transmits it, and the 12th receives what remains.** The
+strongest bhava in the chart is the one he ends in — which is why the
+contemplative thread has never been a footnote to this reading, and why the
+career, at its summit, still points somewhere past itself.
 
 **The strategy this implies:**
 
