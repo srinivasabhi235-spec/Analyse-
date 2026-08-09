@@ -173,3 +173,16 @@ for g in G7+['Rahu','Ketu']:
 print('  Guru exalted in the education varga; D24 lagna lord Shukra in its 10th (Kumbha);')
 print('  Budha+Rahu in the 12th of D24 -> foreign study signature.')
 print('  (Nodes legitimately share a sign in D24: all even signs count from Karka.)')
+
+print()
+print('================ 14. KARAKAMSA-RELATIVE PLACEMENTS (LEGACY) ================')
+D9S={'Surya':'Mesha','Chandra':'Makara','Mangal':'Meena','Budha':'Karka',
+     'Guru':'Kumbha','Shukra':'Vrischika','Shani':'Mithuna','Rahu':'Kanya','Ketu':'Meena'}
+ka=SIGNS.index(D9S['Shukra'])
+print(f'  Karakamsa = {SIGNS[ka]} (AK Shukra in D9)')
+for rel in (2,4,5,9,10):
+    tgt=SIGNS[(ka+rel-1)%12]
+    occ=[g for g,s in D9S.items() if s==tgt]
+    print(f'  {rel:2d}th from Karakamsa = {tgt:10s}: {occ or "empty"}')
+print('  Ketu(+Mangal) in 5th from KA -> mantra-siddhi, applied esoteric mastery;')
+print('  Budha in 9th from KA -> learned transmitter; Guru in 4th -> teaching seat.')

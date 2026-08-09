@@ -1090,6 +1090,75 @@ form: **the system has limited reserves, runs hot on analysis, and has no
 automatic off-switch.** Rest and routine are structural requirements here, not
 lifestyle preferences — this is a primary finding, not a footnote.
 
+### Legacy — what endures
+
+The chart answers this question more clearly than almost any other, because
+its legacy indicators all point the same direction while its dynasty and
+monument indicators are quiet.
+
+**What kind of legacy: knowledge and students, not dynasty or institution.**
+
+- **The 5th lord sits in the 9th.** The classical signature of creations and
+  students being absorbed into a tradition — what he makes and whom he trains
+  join a lineage rather than bearing only his name.
+- **The 3rd house is the chart's working house** — Ketu resident, Mangal,
+  Shani and Chandra all aspecting. The 3rd is self-authored work: **a corpus,
+  written or built, forged under pressure**, is the primary artefact this
+  chart produces.
+- **The Karakamsa seals it.** From Vrischika (the Atmakaraka's navamsha sign):
+  **Mangal and Ketu occupy the 5th from Karakamsa** — the classical
+  *mantra-siddhi* placement, knowledge of the hidden mastered to the point of
+  transmission, with Mangal making it applied and technical. **Budha sits in
+  the 9th from Karakamsa** — the learned transmitter. **Guru in the 4th from
+  Karakamsa** — the teaching seat. In Jaimini's own vocabulary, this is a
+  chart whose soul-level output is *taught knowledge*.
+- **Arudha Lagna with Ketu** — even the public image is the unassuming
+  specialist. No monument-building signature anywhere: no Panchamahapurusha,
+  near-empty kendras, a rank-9 tenth house.
+
+**The precise mechanism: the work outlives the fame.** A combust lagna lord
+means the person stays less visible than the output — permanently. Amala Yoga
+means the name that does survive is *clean*: integrity is the reputation. Put
+together: **the corpus will be better known than the man, and what is
+remembered of the man will be good.** For a chart whose fortune routes through
+the 8th, that is close to the best available configuration.
+
+**Children and family line.** Honestly weighted: the derived D7 shows Guru in
+its lagna — children indicated and protected — but with the Putrakaraka being
+the thin Moon and both Chandra and Shukra debilitated in D7, the family line
+is real but modest, later, and deliberate. **The chart weights students at
+least as heavily as children in its legacy accounting.** The 5th-lord-in-9th
+serves both readings: children who enter knowledge professions, and students
+who function as heirs.
+
+**The estate.** The 2nd house — what passes on materially — is rank 3 with
+the highest Drishti Bala in the chart. What he leaves is well supported, and
+by the 8th-house mechanism it will substantially consist of **capital he
+transformed rather than merely accumulated**: restructured inheritances,
+assets acquired in crisis, resources made orderly.
+
+**The final chapter is the strongest house.** The 12th — release, retreat,
+moksha — is the chart's number-one bhava, ruled by the exalted Sun through
+Vimala Yoga. The tradition reads Vimala precisely as *purity at the end*: a
+dignified closing arc, generosity in seclusion, authority carried into
+retreat. With Ketu as the Yogi and both Ketu and Surya in gandanta, the
+moksha-orientation is not an afterthought to this life — it is where the
+chart's strength has been pointing the whole time.
+
+**The legacy timeline**, assembled from the mahadashas already computed:
+
+| Phase | Period | Legacy function |
+|---|---|---|
+| Build the material | Rahu MD, 2022–2040 | The expertise and the corpus begin |
+| Build the record | Guru MD, 2040–2056 | Amala's reputation-stock accumulates; the name forms |
+| **Transmit** | **Shani MD, 2056–2075** | 5th/6th lord in the 9th: students, service, teaching — the legacy period proper |
+| Hand over | Shani–Rahu, 2070–2073 | The natal Shani–Rahu conjunction fires in reverse: succession |
+| **Archive** | **Budha MD, from Dec 2075 (age 73.7)** | The lagna lord's own period closes the life: ordering, writing down, the 8th-house depth committed to record |
+
+The last line deserves notice: this chart's final mahadasha belongs to its own
+lagna lord — a Virgo Mercury in the house of hidden knowledge. **The life ends
+in its own voice, doing what Virgo does: putting the archive in order.**
+
 ---
 
 ## 11. The timeline
