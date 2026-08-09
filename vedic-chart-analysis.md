@@ -2287,7 +2287,157 @@ per §10, not transitory.
 
 ---
 
-## 13. Synthesis
+## 13. How it will happen — the life as one narrative
+
+Everything above, braided into a single chronological account. The dasha and
+sub-period boundaries are exact; the transit positions are mean-motion
+approximations from `verify_timeline.py`, good to a few months at the phase
+edges. Read the eras as certain in shape and approximate in date.
+
+### 2026–2028 · The clear window
+
+He is twenty-four, in the last unobstructed stretch he will see for a decade.
+Saturn stands in the 11th from his Moon — one of the most favourable positions
+in gochara — and **Sade Sati has not begun.** Jupiter, exalted, crosses his
+10th and then his 11th.
+
+The work of these two years is **commitment, not expansion.** He ships visible
+output through the autumn of 2026, and from mid-November the Guru–Shukra
+sub-period opens the best five months of the antardasha: money improves,
+advisory-flavoured work appears, and if the MBA is taken, this is the
+application season. Around **15 April 2027 — his twenty-fifth birthday, inside
+the Guru–Surya window —** two things arrive together, because they are the same
+planet: the recognition (an offer, a promotion, an admit) and **the family's
+marriage question.**
+
+The relationship has been running privately since roughly November 2026 — met
+through work, at distance, someone of a different background, and she opened
+it, not him. In April–May 2027 his father learns of it: partly by leak through
+the cousin-and-community channel, then confirmed in a conversation the son
+begins badly and the father finishes. The father goes quiet, sets conditions,
+investigates, and by the summer — with the mother mediating from May to
+August — begins to come round. Friction peaks in August–September. **From late
+September 2027 to January 2028 the formalisation runs**, and it is by then the
+father's own project.
+
+**The marriage completes in the last week of January 2028 — and Sade Sati opens
+within months.** That timing is not incidental. It is the chart's method
+stated once more: the good thing is secured in the final clear light, and then
+immediately tested.
+
+### 2028–2033 · The forge
+
+Two years of the heaviest construction. The Rahu–Shani antardasha opens on
+**31 January 2028** — the same week the wedding closes — and Saturn crosses
+into the 12th from his Moon. **Career and marriage begin their real work in the
+same month, under the same load.**
+
+The defining role or project starts in early 2028 and grinds. By **February to
+July 2029** the mid-period reward lands — placement, offer, or raise — and this
+is also when **Jupiter crosses his natal lagna**, the first-child window opens
+under the 5th lord's own antardasha, and **the first child most likely arrives.**
+Household, child and career foundation assemble simultaneously; the marriage
+functions as stabiliser rather than adventure, and its first real test is
+**neglect-through-work, not conflict.**
+
+Then the hardest convergence of his first half. **Around 2031: the Saturn
+return, Sade Sati at peak over his natal Moon, transiting Saturn crossing the
+Bhrigu Bindu, and the Rahu–Budha antardasha of the chart's only failing graha —
+all at once.** Output stays high; recognition does not follow it. This is the
+period the chart is most explicit about: **change position, not effort.** Role,
+employer, city, country. Working harder in place is the one strategy guaranteed
+to fail here, because the deficit is directional, not motional. Health becomes
+a career input rather than a private matter. From 2032 Saturn crosses his 10th
+house, where it holds a single bindu — the weakest cell in the entire
+Ashtakavarga — and visible standing is suppressed for roughly three years while
+the underlying work continues.
+
+### 2033–2040 · The first harvest
+
+**2034 opens Rahu–Shukra**, and with it the dharma half of the chart's only
+raja yoga. The material peak of the mahadasha runs to 2037: resources,
+capital, and standing all improve, arriving — as this chart always arranges —
+through depth channels rather than salary. **Sade Sati releases around 2035.**
+The caution holds until then: wealth precedes title, because Saturn still sits
+on the one-bindu 10th.
+
+**2037–38 brings Rahu–Surya** — the strongest and most benign graha ruling the
+strongest house — and his **Jupiter return at thirty-six lands in the same
+window.** Recognition arrives, with the 12th-house flavour the chart never
+drops: through foreign, research, or behind-the-scenes channels rather than
+public position. By now the foreign settlement indicated across the D24, the
+strongest-12th and the whole 9th-house Rahu is likely established fact rather
+than intention.
+
+The mahadasha closes roughly. **Rahu–Mangal (2039–40)** carries the highest
+delivery capacity in the chart attached to its worst dignity — four
+debilitations across the vargas — and the junction into December 2040 is a
+disruptive transition. **It should be planned for, not improvised.**
+
+### 2040–2056 · The ascent
+
+The Guru mahadasha opens in December 2040, at thirty-eight, and runs sixteen
+years **entirely inside the Sade Sati-free window.** The graha occupying his
+10th house — Amala Yoga's giver, mature since he was sixteen — governs exactly
+the decades when professional authority matures.
+
+Authority consolidates from around 2043. **Guru–Budha (2045–47)** fires the
+karma half of the Dharma-Karmadhipati Yoga; **Guru–Shukra (2048–51)** fires the
+dharma half. Ashtama Shani runs across 2048–50, so the summit opens under load
+and clears as Saturn moves on.
+
+**The apex is narrow and datable: March to July 2050**, the Guru–Shukra–Guru
+sub-sub-period — the 10th-house occupant running at mahadasha *and*
+pratyantardasha level, with the raja yoga's benefic half between them, and
+Saturn favourably placed in the 9th from his Moon. **That four-month window is
+the highest professional expression of his life.** Guru–Surya follows in
+2051–52, the Vimala giver adding its own recognition.
+
+Through these years the children are grown or growing, the marriage — an
+upachaya-loaded navamsha, improving with every year — has become the settled
+ground rather than the project, and the reputation stock accumulated silently
+since his twenties finally spends.
+
+### 2056–2075 · The transmission
+
+At fifty-four the Shani mahadasha opens, and **Sade Sati #2 opens with it** —
+the same pattern as 2028, transition and pressure arriving together. The first
+six years are the deepest trough of the life: Shani–Shani, then Shani–Budha,
+with the **second Saturn return around 2060.** Health needs real attention
+here, and the reading's firmest reassurance applies — **D27, the vitality
+chart, carries zero dusthana occupancy.** The load is genuine; the constitution
+is sound. He will be tired, not broken.
+
+**Shani–Shukra, from late 2063, is the turn**, and it arrives as Sade Sati
+releases. From there the mahadasha rises for thirteen years — carrying, by
+Shodhya Pinda, more than twice Jupiter's delivery capacity, but redirected onto
+a different axis. Shani rules his 5th and 6th from the 9th: **students,
+service, mentorship, dharma.** The rise is real and it is no longer positional.
+Around **2070–73 the Shani–Rahu antardasha** activates the same natal
+conjunction that built the career in 2028–30, forty-two years later in reverse:
+**succession — the handing over.**
+
+### From 2075 · The archive
+
+At seventy-three the Budha mahadasha opens: the lagna lord's own period,
+closing the life. A Virgo Mercury in the house of hidden knowledge, running
+last. **The life ends in its own voice, doing what Virgo does — putting the
+archive in order**: the corpus assembled, the students established, the
+knowledge handed on rather than held.
+
+And the destination the D60 named is where it arrives. In the most
+karmically-weighted chart available, the single exaltation is **Shukra in the
+12th.** Not accumulation, not title — **release.** The strongest house in his
+chart is the one the whole arc has been walking toward.
+
+### The one sentence
+
+**He builds in obscurity, is tested at every threshold, is paid late and
+substantially, hands it all on, and ends free.**
+
+---
+
+## 14. Synthesis
 
 A **Kanya lagna repeating across three vargas**, with a **combust lagna lord
 that also rules the 10th** and is the chart's only graha failing its strength
