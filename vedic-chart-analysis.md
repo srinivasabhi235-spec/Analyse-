@@ -2294,6 +2294,40 @@ sub-period boundaries are exact; the transit positions are mean-motion
 approximations from `verify_timeline.py`, good to a few months at the phase
 edges. Read the eras as certain in shape and approximate in date.
 
+### Quick reference — the next five years at a glance
+
+The densest five-year stretch in the visible timeline. Every major life
+domain turns over inside it.
+
+| Window | Sub-period | What happens |
+|---|---|---|
+| **to 21 Sep 2026** | Guru–Budha | Lagna lord: **ship visible output.** Guru clears combustion 13 Aug. |
+| Sep – Nov 2026 | Guru–Ketu | Withdrawal. Consolidate; no moves, no job-hopping. |
+| **Nov 2026 – Apr 2027** | Guru–Shukra | **The relationship becomes real.** Best money sub-period; applications season if the MBA is taken. |
+| **Apr – May 2027** | Guru–Surya | **Recognition *and* disclosure together** — offer/promotion/admit, and **the parents learn.** Solar return 15 April inside the window. |
+| May – Aug 2027 | Guru–Chandra | Mother mediates; relocation preparation. |
+| **~mid-late 2027** | *transit* | **Sade Sati #1 begins.** |
+| Aug – Sep 2027 | Guru–Mangal | Friction peak. Do not burn bridges. |
+| **Sep 2027 – Jan 2028** | Guru–Rahu | **Formalisation — engagement to wedding — and the bold career move.** Both in one quarter. |
+| **31 Jan 2028** | *Rahu–Shani opens* | **The foundation antardasha begins the same week the wedding closes.** |
+| Feb – Jul 2028 | Shani–Shani | The defining role or project begins, under load. |
+| Jul – Dec 2028 | Shani–Budha | Skills and systems build-out. |
+| Dec 2028 – Feb 2029 | Shani–Ketu | Brief withdrawal. **Do not resign here.** |
+| **Feb – Jul 2029** | Shani–Shukra | **The mid-period reward — and the first child.** Transit Guru crosses the natal lagna. |
+| Jul – Sep 2029 | Shani–Surya | A visibility moment. |
+| Sep – Dec 2029 | Shani–Chandra | Gentler; family bandwidth. |
+| Dec 2029 – Feb 2030 | Shani–Mangal | Friction spike; guard workplace conflict. |
+| Feb – Jul 2030 | Shani–Rahu | Workload and foreign-push peak. |
+| Jul – Dec 2030 | Shani–Guru | Consolidation. **The record now exists.** |
+| **7 Dec 2030** | *Rahu–Budha opens* | **The hinge.** Identity and career reassessment. |
+| **~2031** | *transit* | **Saturn return + Sade Sati peak + Bhrigu Bindu crossing.** The hardest convergence of the first half. |
+| Jun – Nov 2031 | Budha–Shukra | A relief pocket inside the hinge. |
+
+**Five years, six thresholds:** a relationship, a recognition, a disclosure, a
+marriage, a career foundation, a child — and then the hardest convergence of
+his first half of life. Nothing in the remaining fifty years is packed this
+tightly.
+
 ### 2026–2028 · The clear window
 
 He is twenty-four, in the last unobstructed stretch he will see for a decade.
