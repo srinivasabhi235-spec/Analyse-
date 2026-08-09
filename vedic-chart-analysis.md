@@ -945,6 +945,68 @@ lead, a principal, the head of a function, someone whose judgement is decisive
 within a domain. With a persistent behind-the-scenes quality: strongest house
 the 12th, authority karaka in the 8th, Rahu in the 8th of D10.
 
+### Education — and the elite-MBA question
+
+The dedicated lens here is the **D24 (Siddhamsha)**, derived from the verified
+longitudes like the other missing vargas:
+
+| D24 | Placement | Reading |
+|---|---|---|
+| Lagna | **Vrishabha** | — |
+| **Guru** | **Karka — EXALTED**, 3rd | **The karaka of education at maximum dignity in the education chart.** The single strongest education indicator available; in the 3rd, it favours self-driven study. |
+| **Shukra** | **Kumbha, the 10th of D24** | The education chart's own lord placed in its career house: education culminates in profession. And it is **Kumbha again — the fifth technique landing on that sign** (41-bindu 6th, D10 lagna, 10th from Chandra, Amatyakaraka Shani's domain, now the 10th of D24). |
+| **Budha + Rahu** | Mesha, the **12th of D24** | The intellect karaka in the education chart's foreign house, with Rahu: **study in a distant or foreign place**, research-flavoured. |
+| Surya + Shani | Kanya, 5th | Disciplined, analytical intelligence — the exam engine. |
+
+*(In D24 both nodes can legitimately share a sign — all even signs count from
+Karka — so the Rahu/Ketu co-placement here is correct, unlike the D8/D30
+source errors.)*
+
+The D1 education houses agree. The **4th house is Bhava Bala rank 2** — the
+second-strongest house in the chart — with its lord in the 10th, aspected by
+Guru and Mangal. The 2nd (early schooling) is rank 3 with the highest Drishti
+Bala. The 9th holds four grahas including the exalted Moon. And at the KP
+level, the 4th lord sits in Rahu's star in the 9th — **education delivers
+through the higher/foreign house** — while the 9th lord sits in its own star in
+the 8th: **education financed through 8th-house channels — scholarship,
+assistantship, or loan** rather than family salary.
+
+**So: is an elite university within reach? Yes — and the chart specifies the
+shape:**
+
+1. **The engine is the entrance exam, and it is his best weapon.** Competitive
+   examinations are 6th-house territory, and the 6th carries **41 bindus** —
+   the most fertile ground in the chart. He out-tests the competition; that is
+   precisely how selective admissions are won from an unremarkable platform.
+   And **transit Rahu is crossing that 41-bindu 6th right now.**
+2. **The window is open now and closes 31 January 2028.** The current
+   antardasha lord Guru *is* the 4th lord of education — this is the
+   credentialing window the timeline already named. Inside it: the age-24
+   Jupiter return, transit Guru exalted until mid-2027, and combustion clearing
+   ~13 August 2026. Exams and applications 2026–27, admission and matriculation
+   2027, ideally seated before the antardasha ends. The next education-capable
+   window — Rahu–Budha, 2030–33 — is materially weaker (Budha combust, unripe,
+   and mid-Sade-Sati), and would suit an executive programme used as the
+   "change position" lever rather than a full-time elite MBA.
+3. **Foreign leans stronger than domestic.** The 12th is the chart's strongest
+   bhava, Budha-with-Rahu sits in the 12th of D24, the mahadasha lord occupies
+   the 9th, and the KP routing sends education through the 9th. An elite
+   institution **abroad** is better supported than an equivalent one at home.
+4. **Expect the admission to be obstructed-then-confirmed.** The same texture
+   as everything Guru touches: the badhakesh 4th lord with six qualifications
+   means rejections, waitlists or a derailed first attempt before the admit
+   that sticks. That is the pattern, not the verdict.
+5. **Funding arrives, through the 8th.** Scholarship, assistantship or loan —
+   not comfortable family financing. Consistent with the chart's entire wealth
+   mechanism.
+6. **One honest caution on fit.** There is no Saraswati yoga — the combust
+   Budha in the 8th breaks it — and the Ketu–Budha loop describes someone
+   uninterested in credentials for their own sake. The chart supports the elite
+   MBA **as an instrument** — the relocation-and-network lever that §13's
+   strategy calls for, and the analytics/finance-heavy variant over general
+   management — but not as validation. Pursued as a lever, it is well
+   supported; pursued as a trophy, it will feel like the 8th house feels.
+
 ### Wealth
 
 Mixed, with an unusual mechanism, and better than the 8th-house placement alone

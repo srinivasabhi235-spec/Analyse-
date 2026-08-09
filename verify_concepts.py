@@ -157,3 +157,19 @@ print()
 print('================ 12. ASHTAMA SHANI (approx, +/-6 months) ================')
 print('  Saturn in Dhanu (8th from natal Moon) ~ Dec 2047 - early 2050')
 print('  -> overlaps Guru-Ketu and the first ~1.5y of Guru-Shukra; cleanest DKY run 2050-51')
+
+print()
+print('================ 13. D24 (SIDDHAMSHA) — EDUCATION ================')
+def d24(l):
+    s=int(l//30); p=int((l%30)//1.25)
+    start=4 if s%2==0 else 3   # odd signs from Simha, even signs from Karka
+    return (start+p)%12
+lag24=d24(D1['Lagna'])
+print(f'  D24 lagna: {SIGNS[lag24]}')
+for g in G7+['Rahu','Ketu']:
+    s=d24(D1[g]); h=(s-lag24)%12+1
+    note=' *** EXALTED ***' if (g=='Guru' and SIGNS[s]=='Karka') else ''
+    print(f'  {g:8s} {SIGNS[s]:11s} -> D24 house {h:2d}{note}')
+print('  Guru exalted in the education varga; D24 lagna lord Shukra in its 10th (Kumbha);')
+print('  Budha+Rahu in the 12th of D24 -> foreign study signature.')
+print('  (Nodes legitimately share a sign in D24: all even signs count from Karka.)')
