@@ -1288,6 +1288,59 @@ match, **the wedding becomes his undertaking** — the strongest planet in the
 chart conducting the ceremony phase (Guru–Rahu, late September 2027 to
 January 2028) with the full weight of an exalted Sun behind it.
 
+#### If they live in different countries — India and abroad
+
+This scenario is worth treating separately because **it is the configuration
+the chart itself favours**: the 12th (foreign residence) is the strongest
+bhava, Budha-with-Rahu sits in the 12th of the education varga, and the
+meeting indicators point away from home. If the son is abroad and the father
+in India, **the window does not move — Guru–Surya, 7 April to 21 May 2027.
+Distance only selects the medium**, and the chart names the channels:
+
+1. **The diaspora relay.** Ketu in the 3rd is the sibling-and-cousin network,
+   the quiet relative. And note what sits in the **father's own 9th house:
+   Rahu — the foreign node.** The father's sphere structurally *contains*
+   people abroad; his network reaches into the son's country. Someone in the
+   son's city — a cousin, a family friend's son, a community acquaintance —
+   notices them together, and word travels the community channel to India.
+2. **The message shock.** The **Vyatipata upagraha — the classical shock
+   point — sits in the 3rd house of messages and calls** (verified: 15°12′
+   Vrischika). The jolt of the news arrives *by communication*: a photo, a
+   forwarded message, a call — not in person. Under separation this upagraha
+   becomes the primary discovery instrument.
+3. **The digital trace.** The 7th lord sits in Mithuna (media) in Ardra,
+   Rahu's star (technology): the relationship itself is partly conducted
+   online — and online things leak.
+
+**The confirmation takes one of two forms, with the same texture either way:**
+
+- **The birthday call.** The Sun returns to its natal degree ~15 April 2027 —
+  under separation, the solar return is *the birthday call from India*, the
+  one in which the parents announce they have started circulating proposals.
+  The son must disclose on that call. Combust Budha beside the exalted Sun
+  translates perfectly to the medium: **the prepared speech falters, and the
+  father takes over the call.**
+- **The homecoming.** The 9th house holds the father *and* the long journey
+  in one place, and the Sun returning to its natal position is the symbol of
+  return to origin: **a trip to India inside the April–May window**, with the
+  confirmation happening face-to-face at home. Given that the window sits at
+  his birthday and within the family's matchmaking season, a homecoming visit
+  in exactly these weeks is the natural shape of events.
+
+**The investigation stage goes remote — and the chart equips the father for
+it.** Surya in the 8th is hidden inquiry; Rahu in the father's 9th is his
+foreign reach. **He verifies through his own cross-border community network,
+quietly, in the son's country, without telling the son** — the NRI
+due-diligence pattern, done thoroughly because an exalted Sun does nothing by
+halves.
+
+Two downstream notes for the cross-country case: the mother's mediation
+window (May–August 2027) runs on calls — the thin-but-awake Moon as the
+son's softest channel home; and the formalisation window (Guru–Rahu — Rahu
+*is* the foreign significator) fits a **cross-border wedding logistics phase
+naturally: engagement online or on a visit, ceremony in India, and, per the
+12th house's strength, a married life that settles abroad.**
+
 ### Children
 
 Everything relevant, computed and in one place. The D1 5th house is Makara —
