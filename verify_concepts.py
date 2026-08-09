@@ -204,3 +204,17 @@ bs=(D1['Surya']+D1['Shukra']+D1['Guru'])%360
 ns=int(bs*9/30)%12
 print(f'  Beeja Sphuta = {bs%30:.2f} {SIGNS[int(bs//30)]} (even rashi), navamsa {SIGNS[ns]} (even)')
 print('  -> classical delay-and-effort marker; Guru in the D7 lagna protects: delay, not denial')
+
+print()
+print('================ 16. PRATYANTARDASHAS OF RAHU-GURU ================')
+from datetime import datetime, timedelta
+VIM=[('Ketu',7),('Shukra',20),('Surya',6),('Chandra',10),('Mangal',7),('Rahu',18),('Guru',16),('Shani',19),('Budha',17)]
+DD=dict(VIM); order=[x[0] for x in VIM]
+start=datetime(2025,9,7,3,12); end=datetime(2028,1,31,17,58)
+span=(end-start).total_seconds(); t=start; i=order.index('Guru')
+for n in range(9):
+    nm=order[(i+n)%9]; e=t+timedelta(seconds=span*DD[nm]/120)
+    print(f'  Guru-{nm:8s} {t.strftime("%d %b %Y")} -> {e.strftime("%d %b %Y")}')
+    t=e
+print('  Sequence Shukra -> Surya -> Chandra -> Mangal -> Rahu maps onto:')
+print('  meeting -> father-disclosure -> mother-mediation -> friction -> formalisation')

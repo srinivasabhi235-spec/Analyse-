@@ -1128,9 +1128,36 @@ house — the family itself — is rank 3 with the chart's highest Drishti Bala:
 
 Sequence, then: private attachment → disclosure → a principled paternal
 objection and an anxious maternal mediation → the elders' formalising step →
-a marriage conducted as an arranged one and embraced by the home. Timing per
-§12: disclosure and friction land in the current window; formalisation late
-in it, by 2027 into January 2028.
+a marriage conducted as an arranged one and embraced by the home.
+
+#### The dated timetable — pratyantardashas of Rahu–Guru
+
+The sub-sub-periods inside the current antardasha date each stage separately,
+and the result is remarkable: **the Vimshottari order delivers the sub-lords
+in exactly the narrative sequence the yogas predict.** Computed from the
+verified antardasha boundaries (Sep 7 2025 → Jan 31 2028):
+
+| Pratyantar | Dates | Sub-lord's role | Stage |
+|---|---|---|---|
+| Guru–Budha | 20 May – 21 Sep 2026 | Lagna lord — *current* | The context: self, work, the meeting-ground. Transit Shukra crosses the natal lagna through Aug 2026. |
+| Guru–Ketu | 21 Sep – 12 Nov 2026 | Detachment | Interlude. |
+| **Guru–Shukra** | **12 Nov 2026 – 7 Apr 2027** | **Marriage karaka, Atmakaraka, DKY dharma half** | **The meeting — or the private attachment becoming real.** The single strongest relationship window in the whole antardasha. |
+| **Guru–Surya** | **7 Apr – 21 May 2027** | **Father-karaka AND Darakaraka in one planet** | **The parents get to know — the disclosure-to-father window.** Six weeks in which the two significations Surya carries (father, spouse) meet. |
+| **Guru–Chandra** | **21 May – 2 Aug 2027** | Mother-karaka | **The mother's mediation.** |
+| Guru–Mangal | 2 Aug – 22 Sep 2027 | 8th lord, net −19 | **The friction spike** — the obstruction peaks here. |
+| **Guru–Rahu** | **22 Sep 2027 – 31 Jan 2028** | Dasha lord in the 9th (dharma, ceremony) | **The formalisation — engagement to wedding.** |
+
+Two honest qualifications. First, natal Shukra in the 8th is a
+*hidden-romance* signature: the attachment may already exist privately before
+the Guru–Shukra window makes it real and visible — the 8th keeps things
+unseen, including from this analysis. Second, pratyantar boundaries inherit
+the birth-time sensitivity (§13) and should be read as **±a few weeks**.
+
+So, directly: **meeting (or the relationship becoming serious) between
+mid-November 2026 and early April 2027; the parents learn of it between
+April and May 2027, the father first; the mother mediates through the
+summer; friction peaks August–September 2027; formalisation from late
+September 2027 to January 2028.**
 
 ### Children
 
