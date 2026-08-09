@@ -1161,6 +1161,37 @@ September 2027 to January 2028.**
 
 #### How the meeting happens, his first response, and the carry into Rahu–Shani
 
+**Where she comes from.** Two separate questions here, and they carry very
+different confidence.
+
+*Direction* is one of Jyotisha's softer techniques — the two standard schemes
+(direction by graha versus direction by sign) genuinely disagree, and I would
+not lean hard on either:
+
+| Indicator | By sign | By its lord |
+|---|---|---|
+| 7th house — Meena | North | **Northeast** (Guru) |
+| 7th lord Guru itself | — | **Northeast** |
+| 7th lord's placement — Mithuna | West | North (Budha) |
+| D9 7th lord's placement — Kumbha | West | West (Shani) |
+| Upapada — Dhanu | East | **Northeast** (Guru) |
+
+What both schemes *do* agree on is that **the northern half dominates —
+north to northeast — with a secondary western pull** from the navamsha and
+the 7th lord's own placement. Take that as a lean, not a location.
+
+*Distance and milieu*, by contrast, are strongly and repeatedly indicated:
+**Rahu — the mahadasha lord — sits in the 9th** (long journeys, foreign
+lands, other cultures); the **12th is the chart's strongest bhava**; Budha
+with Rahu occupies the **12th of the education varga**; the 7th lord sits in
+**Mithuna, a dual air sign, in Rahu's nakshatra** — urban, mobile,
+cosmopolitan; and the D9 7th lord falls in the **6th of work and service**.
+
+Read together: **not from his own town or immediate community.** A city,
+at distance — plausibly abroad — and from a different region, community or
+cultural background than his own. That last point is the one the chart keeps
+repeating, and it is also the seed of his father's first objection.
+
 **The mode of meeting.** Follow the 7th lord's chain: Guru sits in the
 **10th** (the work sphere), in **Mithuna** (communication, documents,
 technology), in **Ardra — Rahu's star**, with Rahu in the 9th (training,
@@ -1193,6 +1224,39 @@ public courtship.
    shown little (the Moon: awake in quality, thin in display) — **she may know
    before he says it, and his family will not know until the Surya window
    forces it.**
+
+**Who speaks first — and this one is decisive.** The classical test compares
+the lagna side against the 7th side: **whichever is stronger takes the
+initiative.** Here the comparison is not close.
+
+| | Lagna lord **Budha** | 7th lord **Guru** |
+|---|---|---|
+| Shadbala | 6.46 / 7.00 = **0.92 — fails its minimum** | 8.21 / 6.50 = **1.26 — passes** |
+| Rank | 7th of 7 | 2nd-highest rupas |
+| Placement | 8th, **combust**, **lowest Dig Bala in the chart** | **In a kendra**, forming Amala Yoga |
+| Avastha | Kumara (youth) | **Yuva — full-fruit** |
+
+**The 7th side is decisively stronger, so the other party opens.** Four
+independent corroborations:
+
+1. **The Darakaraka is Surya** — a Sun-natured spouse: direct, self-respecting,
+   accustomed to leading. Sun-people do not wait to be approached.
+2. **Shukra sits in its own nakshatra**, Bharani — she acts from her own
+   ground, self-possessed rather than tentative.
+3. **Budha is combust.** His speech is quite literally burned. The chart says
+   he *cannot* say it first — this is the same combustion that makes his
+   disclosure to his father falter.
+4. **The calendar hands her the opening move.** The window in which the
+   relationship becomes real is the **Guru–Shukra** pratyantar — ruled by *her*
+   significator — and it is immediately preceded by **Guru–Ketu**, his
+   withdrawal phase. His planet retreats; hers then opens the door.
+
+So: **she signals first** — or her side does, through the family channel.
+Realistically this looks less like a declaration than an unmistakable
+opening: she makes her interest legible, closes the distance, or her family
+raises the subject. He responds — analytically, slowly, and then completely.
+The chart's own summary of the dynamic: **he is the one who is chosen, and
+then commits absolutely.**
 
 **The carry into Rahu–Shani (31 Jan 2028 – 7 Dec 2030).** The hand-off is
 unusually legible, because of who Shani is in this chart:
