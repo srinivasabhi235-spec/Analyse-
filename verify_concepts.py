@@ -186,3 +186,21 @@ for rel in (2,4,5,9,10):
     print(f'  {rel:2d}th from Karakamsa = {tgt:10s}: {occ or "empty"}')
 print('  Ketu(+Mangal) in 5th from KA -> mantra-siddhi, applied esoteric mastery;')
 print('  Budha in 9th from KA -> learned transmitter; Guru in 4th -> teaching seat.')
+
+print()
+print('================ 15. CHILDREN: D7 FULL + BEEJA SPHUTA ================')
+def d7f(l):
+    s=int(l//30); p=int((l%30)//(30/7))
+    start=s if s%2==0 else (s+6)%12
+    return (start+p)%12
+lag7=d7f(D1['Lagna'])
+for g in G7+['Rahu','Ketu']:
+    s=d7f(D1[g]); h=(s-lag7)%12+1
+    dig={'Surya':('Mesha',' EXALTED'),'Chandra':('Vrischika',' DEBILITATED'),
+         'Shukra':('Kanya',' DEBILITATED'),'Budha':('Mithuna',' OWN')}.get(g,(None,''))
+    note=dig[1] if SIGNS[s]==dig[0] else ''
+    print(f'  {g:8s} {SIGNS[s]:11s} -> D7 house {h:2d}{note}')
+bs=(D1['Surya']+D1['Shukra']+D1['Guru'])%360
+ns=int(bs*9/30)%12
+print(f'  Beeja Sphuta = {bs%30:.2f} {SIGNS[int(bs//30)]} (even rashi), navamsa {SIGNS[ns]} (even)')
+print('  -> classical delay-and-effort marker; Guru in the D7 lagna protects: delay, not denial')

@@ -1072,11 +1072,70 @@ for the current window is therefore *obstructed-then-confirmed*: expect the
 match to hit a visible obstacle or postponement before it formalises, and to
 formalise nonetheless — likely late in the window rather than early.
 
-**Children.** From the derived D7: Guru — the karaka of progeny — sits in the
-saptamsha lagna, which indicates and protects children; but with Chandra and
-Shukra both debilitated there and the Putrakaraka being the thin Moon, they
-arrive **with delay and by deliberate choice**, after the home is settled. The
-same later-and-deliberate pattern as the marriage itself.
+### Children
+
+Everything relevant, computed and in one place. The D1 5th house is Makara —
+empty, average SAV (29), rank 6 — with its **lord Shani in the 9th** and
+**Rahu's aspect** as its only drishti. The Putrakaraka is the thin Moon; the
+natural karaka Guru is strong but six-times qualified. The derived **D7
+(Saptamsha)** in full, lagna Kanya:
+
+| D7 house | Occupants | Note |
+|---|---|---|
+| 1st (Kanya) | **Guru**, Shukra | Guru protective; Shukra **debilitated** |
+| 3rd (Vrischika) | Chandra, Ketu | Chandra **debilitated** |
+| 4th (Dhanu) | Mangal | — |
+| 7th (Meena) | Shani | Also lord of the D7 5th |
+| 8th (Mesha) | **Surya** | **Exalted** |
+| 9th (Vrishabha) | Rahu | — |
+| 10th (Mithuna) | **Budha** | **Own sign** |
+
+And one dedicated classical technique: the **Beeja Sphuta** (Sun + Venus +
+Jupiter, the progeny-seed point for a male chart) falls at **9°53′ Karka —
+an even rashi in an even navamsha (Kanya)**. That is the textbook
+delay-and-effort marker: progeny after patience, not readily. **Delay, not
+denial** — Guru standing in the D7 lagna is the tradition's strongest
+protective placement for children, and it is present.
+
+**How many, and when.** The indicators lean consistently toward **few — one
+or two rather than many**: Shani as 5th lord, Rahu's lone aspect on the 5th,
+the even-even Beeja, and a thin Putrakaraka. Timing: the classical first-child
+window is **2028–2030** — the Rahu–Shani antardasha is the *5th lord's own
+period*, and transit Guru crosses the Kanya lagna in 2028–29, aspecting the
+5th by trine. That follows naturally from the 2026–27 marriage window. A
+secondary activation is Rahu–Chandra (2038–39), the Putrakaraka's period —
+either a second child or a marked deepening with the first.
+
+**How will the children themselves be?** This is where the D7 is genuinely
+generous:
+
+- **Guru in the D7 lagna**: fundamentally good children — dharmic, decent,
+  protected. This is the single best placement the saptamsha can offer.
+- **Budha in own sign in the D7 10th**: intellectually capable children whose
+  path is analytical, commercial or scholarly — the father's Mercurial
+  equipment reappearing a generation down, in better dignity than he holds it.
+- **Exalted Surya in the D7 8th**: at least one child of exceptional will
+  whose growth runs through intensity and transformation. Note the echo — the
+  native's own Sun is exalted-and-knotted; his child's D7 Sun is
+  exalted-in-the-8th. **The authority theme transmits a generation.** The
+  relationship with this child will be the strong-and-complex one, and it is
+  the one that most needs the lesson of his own gandanta: authority yielded,
+  not argued.
+- **Chandra debilitated with Ketu in the D7 3rd, Shukra debilitated in its
+  lagna**: the soft flank. The children's material and intellectual side is
+  well-carried; the *emotional bridge* is what requires deliberate building.
+  The chart's detachment pattern — Ketu's signature everywhere — will try to
+  repeat itself as an affectionate-but-distant father. This is the one place
+  where knowing the pattern in advance changes the outcome.
+
+**His relationship with them**: 5th lord in the 9th means children raised
+with discipline, education and dharma — a relationship that is dutiful early
+and **deepens markedly as they age** (Saturn's signature: what it rules
+improves with time). Rahu's aspect on the 5th adds an unconventional or
+foreign-inflected education — children plausibly born or raised abroad, given
+the chart's 12th-house strength. In the legacy accounting (below), they stand
+alongside his students — and the 5th-lord-in-9th says some of them may *be*
+his students.
 
 ### Health and constitution
 
