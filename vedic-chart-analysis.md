@@ -1400,6 +1400,64 @@ calendar is at risk.
 girl's own chart — and the ashtakoota between them — remains the missing
 data that would complete it.)*
 
+#### The girl's parents — will they accept the boy?
+
+**Yes — more easily than his own side accepts her, and probably earlier.**
+Her family is read through the derived houses of his chart, and the derivation
+lands on remarkable ground:
+
+| Derived house | Falls on | Occupants |
+|---|---|---|
+| **Her family** (2nd from the 7th) | **His 8th — Mesha** | **Exalted Surya, his lagna lord Budha, Shukra — the DKY cluster** |
+| **Her father** (9th from the 7th) | His 3rd — Vrischika | Ketu; lord Mangal in the 9th, **in parivartana with Shukra** |
+| **Her mother** (4th from the 7th) | **His 10th — Mithuna** | **Guru — the great benefic, and his 7th lord** |
+
+Four readings follow directly:
+
+1. **His lagna lord sits inside her family's house.** Budha — *him* — is
+   literally placed in their bhava: they absorb him as one of their own. And
+   with the exalted Sun there, **her family is substantial and dignified** —
+   a household of standing.
+2. **Her parents probably know before his do.** Shukra — the girl — is *at
+   home* in the 8th, her own family's house, in its own nakshatra. The
+   relationship is held inside her family earlier and more comfortably than
+   inside his. Expect her mother to have known for some time before his
+   father learns anything.
+3. **The mother-in-law is the first ally.** His 7th lord — the marriage
+   itself — sits in *her mother's* derived house, and it is Guru, the great
+   benefic. The match lives in her domain; her blessing comes readily, and
+   she likely advocates for him inside her own household.
+4. **Her father follows his daughter.** The Mangal ⇄ Shukra parivartana binds
+   the girl's-father's planet to the girl's own: his consent rides on her
+   certainty. Ketu resident in that house reads as a quiet, understated man —
+   **acceptance without ceremony**, a nod rather than a speech.
+
+**The friction on her side is specific — and it is not about him
+personally.** Her family's derived house is his weakest bhava (rank 12,
+lowest SAV, Mrityu upagraha inside): the strain is *circumstantial* — their
+own family complexities, the distance, and, pointedly, the 8th being the
+classical house of astrology: **the horoscope-matching step itself is the
+likely sticking point on her side.** He is partially Manglik — from Chandra
+and from Shukra, though not from the lagna — which is exactly the flag her
+family's astrologer would raise. The mitigations are genuine (not Manglik
+from lagna; Mangal in Pushkara navamsa; the Chandra–Mangal association),
+and partial Manglik of this shape is commonly judged mild — but expect the
+conversation to happen.
+
+**How he lands with them.** The first impression underwhelms: a combust
+Mercury and Ketu on the Arudha Lagna present as quiet, under-expressive,
+no display (the empty 2nd). But the verification is where he wins — Amala
+Yoga means the background check on *him* returns clean, and a Kanya lagna
+reads to in-law scrutiny as modest, educated and steady. **He wins on
+inspection, not on entrance** — the same pattern as everywhere else in this
+chart, now operating in his favour on the other side of the match.
+
+The sequence on her side, then: her mother knows early and holds it → her
+father assents when the daughter is certain → the family's formal step waits
+on the matching and on his side's process — converging with his father's
+timeline into the joint formalisation window, late September 2027 to
+January 2028.
+
 ### Children
 
 Everything relevant, computed and in one place. The D1 5th house is Makara —
