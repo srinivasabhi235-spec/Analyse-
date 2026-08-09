@@ -1227,6 +1227,67 @@ bond. By December 2030 the household is established, likely with a child, and
 the partnership enters Rahu–Budha (the vulnerable stretch) as his anchor
 rather than his question mark.
 
+#### The father specifically — how he learns, why before the mother, and his reactions
+
+**How the father comes to know.** The father-significator's own chain answers
+this. **Surya sits in the 8th — the house of the native's secrets.** The
+father's planet lives in the same house as the hidden relationship: he is
+positioned to *find* it, not to be told last. The mechanism has two layers:
+
+- **A partial, indirect leak first.** The KP chain: Surya occupies Ashwini —
+  **Ketu's star, and Ketu sits in the 3rd** (messages, calls, siblings and
+  cousins) — with **Shukra as sub-lord** (the relationship itself as the
+  content). Read plainly: a message seen, a call overheard, a remark from a
+  sibling-level relative — **the father first learns something, incompletely
+  and indirectly.**
+- **Then the direct confirmation.** Budha — the son's speech and lagna lord —
+  is **combust, conjunct Surya at 9° in that same 8th house**: the son's
+  words absorbed into the father's fire. The confirming conversation is
+  **face-to-face, halting on the son's side, and taken over by the father** —
+  which is what a combust Mercury next to an exalted Sun looks like in a
+  room.
+
+**The trigger, dated.** The Guru–Surya pratyantar runs 7 April – 21 May 2027,
+and **the Sun returns to its natal degree — his birthday — on ~15 April 2027,
+inside the window.** The twenty-fifth birthday is precisely when a family
+opens the marriage question. The most probable concrete sequence: **the
+father raises matchmaking around the birthday, and the disclosure is forced
+by the arranged-marriage initiative itself** — which is the exact mechanism
+by which love-found becomes arranged-completed.
+
+**Why the father before the mother — three structural reasons:**
+
+1. **The calendar itself.** The Surya (father-karaka) pratyantar precedes the
+   Chandra (mother-karaka) pratyantar in fixed Vimshottari order. The
+   father's window simply arrives first.
+2. **The Darakaraka is Surya.** Spouse-matters are routed through the
+   father's planet in this chart — marriage information structurally flows to
+   him.
+3. **The polarity of the parents.** Surya is the chart's strongest graha;
+   Chandra its thinnest. Information gravitates to the strong pole — and the
+   son, a Kanya lagna who treats everything as a matter for the appropriate
+   authority, **deliberately takes it to the decision-maker while shielding
+   the mother who worries.** Note too that Chandra sits in the 9th — *the
+   father's own house*: the mother stands inside the father's sphere, learns
+   alongside his process, and acts second, as the mediator her window
+   (May–August) describes.
+
+**The father's initial reactions, staged by his significator's condition:**
+
+| Stage | Signature | What it looks like |
+|---|---|---|
+| **Silence** | Surya in the 8th internalises | No eruption. He goes quiet, withdraws to process — days, not minutes. |
+| **Stern terms** | Vesi yoga: Mangal + Shani stand 2nd from Surya | When he speaks, it is blunt and delay-imposing: conditions, not consent. "We will see. First your position must be settled." |
+| **Investigation** | The 8th is the house of due diligence | He verifies — the girl, the family, the background — himself, thoroughly, and mostly without announcing it. |
+| **Inner conflict** | Shani + Rahu occupy his 9th-house sphere | Tradition (Shani) wrestling the unconventional (Rahu) inside his own counsel — elders consulted, community weighed. |
+| **Full acceptance** | Exalted Sun, the chart's lowest Kashta (7.83) | The opposition is principled, brief, and does no lasting harm. Once the evidence satisfies the principle, he turns completely — **and then leads the formalisation as his own project.** |
+
+That last row is why the marriage completes as an arranged one: the
+Darakaraka being the father-karaka means that when the father adopts the
+match, **the wedding becomes his undertaking** — the strongest planet in the
+chart conducting the ceremony phase (Guru–Rahu, late September 2027 to
+January 2028) with the full weight of an exalted Sun behind it.
+
 ### Children
 
 Everything relevant, computed and in one place. The D1 5th house is Makara —
