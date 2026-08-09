@@ -1293,6 +1293,62 @@ exist privately.** What this window marks is the point at which it becomes
 real, acknowledged, or visible, which may be a first meeting or may be a
 recognition of something already quietly running.
 
+**The strongest evidence sits in the sub-periods that have already run.**
+Laying out the full pratyantar sequence of this antardasha, the calendar
+describes a three-stage progression — and the first stage is behind him:
+
+| Stage | Window | Sub-lord's role | Status |
+|---|---|---|---|
+| **1. Attraction** | **2 Jan – 20 May 2026** | **Shani — the 5th lord: the house of romance and love affairs** | **Already past** |
+| — | 20 May – 21 Sep 2026 | Budha — lagna lord: his own focus, work | Current |
+| — | 21 Sep – 12 Nov 2026 | Ketu — withdrawal, doubt | Immediately ahead |
+| **2. Acknowledgment** | 12 Nov 2026 – 7 Apr 2027 | **Shukra — the karaka of love and spouse** | The window |
+| **3. Declaration** | 7 Apr – 21 May 2027 | **Surya — father-karaka and Darakaraka** | Disclosure |
+
+**The 5th house — attraction — was activated before the 7th-house karaka.**
+That is the classical order (attraction, then acknowledgment, then
+declaration), and it means the technique places the *beginning* in the first
+half of 2026, not in November. November is stage two.
+
+**Why it would have stayed invisible.** Seven independent placements conceal it:
+
+| Placement | Effect |
+|---|---|
+| Shukra in the **8th** | The house of the concealed — the classical secret-love placement |
+| Shukra in its **own nakshatra** | It operates from her ground, not his; not his to reveal |
+| 8th = **Bhava rank 12, SAV 21** | The lowest-yield house in the chart: things there do not surface easily |
+| **Budha combust** | His speech is burned — he cannot articulate it, possibly even to himself |
+| **Ketu aspects the 7th; Upaketu sits in it** | Two shadow-points veiling the marriage house |
+| **Punarphoo** (Chandra–Shani) | Start, stall, restart — a false start is native to this chart |
+| Shukra in **Vriddha avastha** | An *old* Venus: the romantic faculty is already formed, not nascent |
+
+So the picture the chart actually draws is not "he meets someone in November."
+It is: **something began, quietly, in the first months of 2026 — probably
+unspoken, possibly unacknowledged even privately, likely already interrupted
+once — and in November it stops being deniable.** What changes in the
+Guru–Shukra window is not the existence of the feeling but its *status*.
+
+And note what sits immediately before: **Guru–Ketu, 21 September to 12
+November 2026.** If something exists, that is precisely when he pulls away
+from it — the withdrawal the chart has been promising, now with dates. The
+sequence is **doubt through the autumn, return and commitment from November.**
+
+#### A test against the recent past
+
+This is the one part of the reading that can be checked backwards rather than
+waited on, and it is worth stating plainly as a falsifiable claim:
+
+> **If the period January to May 2026 saw a meeting, an intensification, or
+> the quiet beginning of an attachment — the forward reading gains
+> substantial credibility.** If those months were romantically empty, the
+> reading should shift toward the arranged branch, in which the Guru–Surya
+> window opens the family's matchmaking rather than forcing a disclosure.
+
+Retrodiction is the honest currency here. Everything forward in this document
+is unfalsifiable until it happens; the Guru–Shani window is not. **He already
+knows whether that stage occurred**, and his answer materially reweights
+everything downstream.
+
 **One transit makes the window unusually legible.** Across essentially the
 whole of it, **transit Guru — the natal 7th lord itself — sits in Karka, his
 11th house**, crossing into the 12th only as the window closes in spring 2027.
