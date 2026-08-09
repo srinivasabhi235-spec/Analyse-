@@ -1159,6 +1159,74 @@ April and May 2027, the father first; the mother mediates through the
 summer; friction peaks August–September 2027; formalisation from late
 September 2027 to January 2028.**
 
+#### How the meeting happens, his first response, and the carry into Rahu–Shani
+
+**The mode of meeting.** Follow the 7th lord's chain: Guru sits in the
+**10th** (the work sphere), in **Mithuna** (communication, documents,
+technology), in **Ardra — Rahu's star**, with Rahu in the 9th (training,
+higher study, a distant or foreign setting). In D9 the 7th lord falls in the
+**6th — the house of colleagues and daily work**. And during the meeting
+window itself, transit Guru occupies the **11th** (the network, the friend
+circle). Read together: **she comes through the professional sphere — a
+colleague, or someone inside the work-and-study network — met in a
+communication- or technology-inflected context, plausibly away from home or
+around a training/higher-study setting**, and possibly introduced through a
+senior or authority figure (the Darakaraka is Surya). The pratyantar lord
+Shukra sitting in the 8th in its own star sets the *mode*: the connection
+begins **privately and depth-first** — long substantive conversations, not
+public courtship.
+
+**His initial reaction — the behavioural stack, in order:**
+
+1. **Instant private intensity.** Shukra in its own nakshatra in the 8th with
+   the Venus–Mars exchange: once triggered, the attraction is consuming — and
+   concealed.
+2. **Outward composure and analysis.** A Virgo lagna with a combust Mercury
+   does not declare; he *examines* the feeling, and articulates it late.
+3. **One withdrawal.** Ketu in the 7th-from-Moon plus Punarphoo is the
+   approach–withdraw–return signature: expect a deliberate pulling-back — a
+   talking-himself-out-of-it phase — before commitment. Note that the
+   pratyantar calendar even schedules it: **Guru–Ketu (21 Sep – 12 Nov 2026)
+   immediately precedes the Guru–Shukra window.**
+4. **Decisive return.** Once the analysis and the withdrawal complete, the
+   commitment is total — the 8th house does nothing by halves. Felt deeply,
+   shown little (the Moon: awake in quality, thin in display) — **she may know
+   before he says it, and his family will not know until the Surya window
+   forces it.**
+
+**The carry into Rahu–Shani (31 Jan 2028 – 7 Dec 2030).** The hand-off is
+unusually legible, because of who Shani is in this chart:
+
+- **Shani is the 2nd lord from the Upapada — the sustainer of the marriage —
+  and its own antardasha begins immediately after the formalisation window
+  closes.** The first three married years run under the very planet whose job
+  is the marriage's endurance: this is the **tempering period**. Saturn does
+  not celebrate; it consolidates.
+- **Shani is also the 5th lord, and the first-child window (2028–2030) sits
+  inside this same antardasha** — household, child and career foundation all
+  arrive together.
+- The load is real and doubled: transit Saturn in Mesha (~mid-2027 to 2030)
+  is **simultaneously Sade Sati's first phase (12th from the Moon) and the
+  8th from the lagna**. Expect the early marriage to be **duty-heavy — long
+  hours, the Rahu–Shani career grind, possibly relocation — with the marriage
+  functioning as the stabiliser rather than the adventure**.
+- The **Upapada in the 4th** suggests the early household sits close to, or
+  within, his family home; and the natal **Shani–Rahu conjunction in the 9th**,
+  activated by its own antardasha, keeps a line of in-law and
+  tradition-versus-convention friction warm. The §10 warning applies most
+  here: the first test of this marriage is **neglect-through-work, not
+  conflict** — and knowing that in advance is most of the remedy.
+- One scheduling note the chart is emphatic about: **the wedding wants to
+  complete inside Rahu–Guru.** If the formalisation slips past 31 January
+  2028, the incoming Shani antardasha delays it — likely into 2029–30 —
+  because Saturn defers what it inherits unfinished.
+
+The net reading of the hand-off: a marriage formed in the benefic window and
+then **annealed** in the Saturn one — harder years that produce a harder
+bond. By December 2030 the household is established, likely with a child, and
+the partnership enters Rahu–Budha (the vulnerable stretch) as his anchor
+rather than his question mark.
+
 ### Children
 
 Everything relevant, computed and in one place. The D1 5th house is Makara —
