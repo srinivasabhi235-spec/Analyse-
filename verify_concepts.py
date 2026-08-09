@@ -218,3 +218,12 @@ for n in range(9):
     t=e
 print('  Sequence Shukra -> Surya -> Chandra -> Mangal -> Rahu maps onto:')
 print('  meeting -> father-disclosure -> mother-mediation -> friction -> formalisation')
+
+print()
+print('================ 17. PRATYANTARDASHAS OF RAHU-SHANI ================')
+start=datetime(2028,1,31,17,58); end=datetime(2030,12,7,17,30)
+span=(end-start).total_seconds(); t=start; i=order.index('Shani')
+for n in range(9):
+    nm=order[(i+n)%9]; e=t+timedelta(seconds=span*DD[nm]/120)
+    print(f'  Shani-{nm:8s} {t.strftime("%d %b %Y")} -> {e.strftime("%d %b %Y")}')
+    t=e

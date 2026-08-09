@@ -1644,6 +1644,79 @@ The practical consequence matters more than the prediction. Measured at 28 or 32
 against peers on conventional ladders, he will read as behind — and by those
 metrics he will *be* behind. **That comparison is measuring the wrong window.**
 
+### The career trajectory from August 2026 — the operational timeline
+
+Everything career-relevant in this document, collapsed into one forward
+calendar from today. Near-term at pratyantar level, mid-term by antardasha,
+long arc by mahadasha.
+
+**Phase 1 — Position (now → 31 Jan 2028).** The remaining Rahu–Guru
+sub-periods:
+
+| Window | Dates | The career move |
+|---|---|---|
+| Guru–Budha *(current)* | to 21 Sep 2026 | Lagna-lord sub-period: **ship visible output now** — this is the stretch where work done becomes work seen. |
+| Guru–Ketu | 21 Sep – 12 Nov 2026 | Consolidate quietly. No job-hopping, no launches. |
+| **Guru–Shukra** | 12 Nov 2026 – 7 Apr 2027 | The antardasha's best sub-period: advisory-flavoured work, a money uptick — and **the exam-and-application season if the MBA path is taken** (the timing meshes with application rounds exactly). |
+| **Guru–Surya** | 7 Apr – 21 May 2027 | **The recognition moment** — the offer, promotion or admit arrives, from an institution with Surya-prestige. |
+| Guru–Chandra | 21 May – 2 Aug 2027 | Relocation preparation; a public-facing turn. |
+| Guru–Mangal | 2 Aug – 22 Sep 2027 | Transition friction — the 8th lord's sub-period. **Do not burn bridges here.** |
+| **Guru–Rahu** | 22 Sep 2027 – 31 Jan 2028 | **The bold move**: new role, programme or country — Rahu is the foreign significator. Career relocation and marriage formalisation share this quarter; plan bandwidth accordingly. |
+
+**Phase 2 — Foundation (Rahu–Shani, 31 Jan 2028 – 7 Dec 2030).** The
+career-defining antardasha (D10 lagna lord, D9 10th-occupant, 41-bindu 6th
+ruler), under Sade Sati phase one. Its own sub-periods:
+
+| Window | Dates | Milestone |
+|---|---|---|
+| Shani–Shani | 31 Jan – 14 Jul 2028 | **The heavy opening** — the defining role or project begins, under load. |
+| Shani–Budha | 14 Jul – 9 Dec 2028 | Skills and systems build-out (coursework, if studying). |
+| Shani–Ketu | 9 Dec 2028 – 7 Feb 2029 | Brief withdrawal — **do not resign here.** |
+| **Shani–Shukra** | 7 Feb – 31 Jul 2029 | **The mid-period reward** — placement, offer, raise. |
+| Shani–Surya | 31 Jul – 21 Sep 2029 | A visibility moment. |
+| Shani–Chandra | 21 Sep – 17 Dec 2029 | Gentler; family bandwidth (the first-child window is active). |
+| Shani–Mangal | 17 Dec 2029 – 15 Feb 2030 | Friction spike — guard against workplace conflict. |
+| Shani–Rahu | 15 Feb – 21 Jul 2030 | Workload and foreign-push peak. |
+| Shani–Guru | 21 Jul – 7 Dec 2030 | Consolidation. **By here, the record exists.** |
+
+**Phase 3 — Reposition (Rahu–Budha, Dec 2030 – Jun 2033).** The strategic
+hinge. The failing-but-motile lagna lord, the Saturn return (~late 2031),
+Sade Sati's peak, and Saturn crossing the Bhrigu Bindu (early 2031). Career
+rule for this phase, from the Dig/Chesta split: **change position, not
+effort** — role, employer, city or country. Output will be high and
+recognition low; that is the phase's design, not its failure. Health becomes
+a career input here.
+
+**Phase 4 — Harvest, first instalment (Rahu–Shukra → Rahu–Surya, Jul 2034 –
+Jun 2038).** The DKY fires its dharma half: the material peak of the
+mahadasha, with the caution that Saturn transits the natal 10th at one bindu
+until ~2035 — **wealth before title**. Then Rahu–Surya: recognition through
+foreign or behind-the-scenes channels, the strongest graha ruling the
+strongest house.
+
+**Phase 5 — The junction (2038 – Dec 2040).** Rahu–Chandra is gentle and
+low-yield; Rahu–Mangal closes the mahadasha forcefully (highest Shodhya
+Pinda, negative outcome balance) — **expect a disruptive transition at the
+2040 junction and pre-plan the pivot** rather than improvising it.
+
+**Phase 6 — The rise (Guru mahadasha, Dec 2040 – Dec 2056).** The graha in
+the 10th runs sixteen years inside the Sade Sati-free window. Authority
+consolidates from ~2043; the DKY double-fires in Guru–Budha (2045–47) and
+Guru–Shukra (2048–51); **the summit is 2050–2052** once Ashtama Shani clears.
+Ages 46–50: the fullest professional expression of the life.
+
+**Phase 7 — Transmission (Shani mahadasha, 2056–2075).** Not a wind-down: the
+second-highest delivery capacity in the chart, redirected along the
+5th/6th/9th axis — students, service, mentorship, legacy — with the hard
+trough at 55–61 and the long rise after.
+
+The standing instruction across all seven phases is unchanged and now
+carries every layer's endorsement: **depth over breadth, competition and
+service over position-seeking, position-change over effort-increase at the
+hinges, and the Ketu-mode — mastery without grasping — as the working
+stance.** The trajectory bends upward on exactly these; it flattens on
+their opposites.
+
 ### Graha maturity — an independent confirmation
 
 Each graha has a **paripaka** or maturity age, before which it delivers its
