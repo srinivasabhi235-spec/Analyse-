@@ -2356,6 +2356,62 @@ confirms; it rarely does sudden.
 and holding the chart's highest Ishta Phala. Nothing between 2028 and 2034
 activates the 7th with similar force.
 
+### Will 2027 bring authority? No — and the distinction matters
+
+Worth separating carefully, because the Guru–Surya window is easy to over-read.
+
+**Surya is the natural karaka of authority, and in this chart it is the
+strongest graha by every measure** — Vimshopaka 16.85, ten exaltations across
+sixteen vargas, the best outcome balance of the seven. So its pratyantar
+looks, at first glance, like the authority moment.
+
+**But in this chart Surya rules the 12th and sits in the 8th.** A Surya period
+therefore delivers **recognition, routed through 12th- and 8th-house
+channels** — private acknowledgment, foreign or research standing, being *seen*
+by the people who matter — not a chair, a title or command. And the window is
+six weeks (7 April – 21 May 2027): a pratyantar delivers an **event**, not a
+**state**.
+
+**And the sky turns down immediately after it.** Transit Guru leaves the 11th
+for the **12th** in spring 2027 and stays there; transit Shani leaves Meena for
+Mesha around mid-2027, **opening Sade Sati.** The two slow planets both move
+into withdrawal in exactly the months following the recognition window. What
+2027 offers is a bright moment immediately before the descent into the forge —
+which is precisely why the reading has kept saying **commit inside this window,
+because it closes.**
+
+**Nothing in the chart confers position early**, and it is worth listing why:
+
+| | | |
+|---|---|---|
+| 10th house | Bhava rank 9, SAV 29 | No structural gift |
+| 10th lord Budha | 0.92 — the only Shadbala failure | Cannot confer position |
+| Guru in the 10th (Amala) | 2nd-strongest graha — but its mahadasha is **2040** | The real carrier, fourteen years out |
+| Shani, D10 lagna lord | Antardasha Jan 2028 – Dec 2030 | Where authority is *earned*, under load |
+| Panchamahapurusha | **None present** | No yoga confers rank here |
+
+#### The three-step distinction
+
+The chart separates three things that ordinary speech runs together:
+
+- **Responsibility — 2028 to 2030.** Ownership of something difficult, given
+  because he is the one who can carry it. Arrives early, and arrives heavy.
+- **Title — roughly 2034 to 2038.** Only after Saturn clears the one-bindu
+  10th house around 2035. Before that, wealth precedes title.
+- **Authority — from 2040.** The Guru mahadasha. **Held, not granted** —
+  the accumulated Amala reputation finally spending.
+
+So the accurate answer to *"authority by next year"* is: **he will be
+recognised in 2027 and given responsibility in 2028. Neither is authority.**
+The chart is unusually consistent on this point — it is the same finding as
+*visibility lags ability*, *career is built not conferred*, and *expert
+authority rather than positional command*, arriving from a fourth direction.
+
+The practical consequence is not discouraging but clarifying: **in 2027 he
+should be accepting scope, not negotiating for rank.** Rank is not available
+to be won that year; scope is, and scope is what compounds into the 2040
+position.
+
 ### Authority — yes, of a particular kind, on a particular schedule
 
 **Rahu, the mahadasha lord, is transiting the natal 6th** — simultaneously
