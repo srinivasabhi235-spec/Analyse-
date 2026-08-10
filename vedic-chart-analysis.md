@@ -2033,6 +2033,68 @@ hinges, and the Ketu-mode — mastery without grasping — as the working
 stance.** The trajectory bends upward on exactly these; it flattens on
 their opposites.
 
+### The nodes audited — and a correction to the Rahu mahadasha
+
+Rahu and Ketu carry no Shadbala and no Vimshopaka score, so they never entered
+the strength tables. That is a gap worth closing, because both are
+conspicuously placed and one of them turns out to be under-read.
+
+**Ketu is genuinely strong — arguably the single most load-bearing body in the
+chart.** It sits in the **3rd**, an upachaya and classically Ketu's best house
+(3/6/11), in a friend's sign. It is the **Yogi planet**; the nakshatra chain
+**terminates** in it; it is the **only graha delivering 1st- and 10th-house
+results** at the KP level; it occupies the **Arudha Lagna**; and it holds the
+5th from Karakamsa, the mantra-siddhi placement. Against that: gandanta in
+Jyeshtha 4, a weak dispositor in Mangal, and debilitation in D11. **On
+balance, strong — and the reading already treats it as such throughout.**
+
+**Rahu is prominent but genuinely two-sided**, and the two sides are close to
+evenly matched:
+
+| For | Against |
+|---|---|
+| The **9th — a trikona**, the best after the lagna | The 9th is Rahu's **Marana Karaka Sthana** |
+| Vrishabha, a **friend's sign** | Rahu is the chart's **Avayogi** — the hinderer |
+| Company of exalted Chandra, Mangal, Shani | The 9th holds **22 bindus — second-lowest** |
+| **Aspects the lagna** — identity under expansion | **Unripe throughout its own mahadasha** (matures 42; MD ends 38.7) |
+| Occupies the **lagna of D9, D27 and D30** | **Debilitated in D11** |
+| **Dispositor is Shukra** — see below | Nodes carry no computable strength score |
+
+#### The fact I under-used — and the correction it forces
+
+**Rahu's dispositor is Shukra: the chart's highest Ishta Phala, and the pivot
+of both major yogas.** A node delivers through its dispositor, which means
+**the Rahu mahadasha delivers through Venus's significations** — relationships,
+resources, the 2nd and 9th houses, dharma, comfort.
+
+I have been characterising 2022–2040 as *"flat to frustrating — construction
+on barren ground."* **That under-reads this placement, and I should correct
+it.** The accurate characterisation is not flat but **high-variance**: real
+expansions arriving through Shukra channels, alternating with real losses
+through the MKS and Avayogi channels. Volatile, not level.
+
+And that resolves something the flat reading could not explain. **The
+marriage, the possible elite admission, the foreign move and the material peak
+all sit inside the Rahu mahadasha.** Those are Venus deliverables. A genuinely
+flat period would not produce them. The variance *is* the mechanism — Rahu in
+a trikona giving unconventional, sudden, disproportionate openings, while its
+MKS and Avayogi status ensures each one is paid for.
+
+**The practical translation changes accordingly.** The counsel through these
+years is not "endure a flat stretch" but: **take the openings when they come,
+because they are real and they are Venus-flavoured — and expect each to carry
+a cost, because Rahu is standing in its own MKS while doing the giving.** The
+existing advice — *what is served arrives, what is grasped slips* — is
+unchanged; what changes is the expected amplitude.
+
+#### What does not change
+
+The nodes' strength does not move the timeline. The late crest rests on the
+**mahadasha sequence** and the **upachaya pattern**, not on nodal dignity; the
+authority distinction rests on the 10th house and its lord; the marriage
+sequence rests on the pratyantar order. **The skeleton is untouched — the
+correction is to the texture of eighteen years, not to their shape.**
+
 ### Graha maturity — an independent confirmation
 
 Each graha has a **paripaka** or maturity age, before which it delivers its
@@ -2685,7 +2747,7 @@ The shape is not a smooth ramp:
 
 | Ages | Period | Shape |
 |---|---|---|
-| 21–33 | Rahu MD, Sade Sati #1 from ~2027 | **Flat to frustrating.** Construction on barren ground; visibility lags ability. |
+| 21–33 | Rahu MD, Sade Sati #1 from ~2027 | **High-variance, not flat** (see §11). Real Venus-channel openings alternating with real costs; visibility lags ability throughout. |
 | 33–39 | Rahu–Shukra, Rahu–Surya; Sade Sati over | **First real lift.** |
 | **39–55** | **Guru MD, no Sade Sati, DKY fires** | **The steep rise.** |
 | 55–61 | Shani–Shani and Shani–Budha, under Sade Sati #2 and the Saturn return | **The deepest trough of the life.** |
