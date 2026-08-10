@@ -2087,6 +2087,46 @@ a cost, because Rahu is standing in its own MKS while doing the giving.** The
 existing advice — *what is served arrives, what is grasped slips* — is
 unchanged; what changes is the expected amplitude.
 
+#### A guard against misreading this correction
+
+**"High-variance" is not "smoother."** Correcting *flat* to *volatile* is a
+statement about **amplitude, not comfort** — bigger openings and bigger costs.
+High-variance is the opposite of smooth: the ride gets rougher than the flat
+reading implied, not easier.
+
+The chart's texture is governed by two opposing sets, and both are real:
+
+| Roughening | Cushioning |
+|---|---|
+| Rahu is MKS **and** Avayogi — the dasha lord is the hinderer | Shukra is Rahu's dispositor — the chart's best graha delivers the openings |
+| Sade Sati ~2027–2035 covers most of the remaining MD | **D27 carries zero dusthana** — no constitutional weak point |
+| The 8th and 9th hold 21 and 22 bindus | **Chandra's Vimshopaka is 15.32** — sound emotional equipment |
+| Budha fails Shadbala — the lagna lord smooths nothing | Guru aspects the 6th — protective for health and adversaries |
+| Mangal carries four debilitations | D16 holds three exaltations — comfort well provisioned |
+| Kendras nearly empty — no structural buffer | Durudhara — benefics flank the Moon; resourced, never abandoned |
+
+**The capacity to withstand is good. The ride is not smooth.**
+
+#### The texture map
+
+| Era | Roughness | Character |
+|---|---|---|
+| **2026–2028** | ●●○○○ | The calmest stretch before 2040 — **and it is short** |
+| 2028–2030 | ●●●●○ | Heavy and productive: load *with* visible return |
+| **2030–2033** | ●●●●● | **Roughest of the first half** — maximum load, minimum return |
+| 2033–2035 | ●●●○○ | Turbulent but improving; Sade Sati closing |
+| 2035–2040 | ●●○○○ | The first genuinely easier stretch |
+| **2040–2056** | ●○○○○ | **The smoothest sixteen years of the life** — Guru MD, no Sade Sati |
+| **2056–2063** | ●●●●● | Equal-roughest — but met with a sound constitution |
+| 2063–2075 | ●●○○○ | Steady, weighty, rising |
+
+**So: the texture never becomes smooth in the sense of easy.** What changes is
+that the roughness becomes **productive rather than futile.** 2030–33 is
+maximum load for minimum visible return; 2040–56 is real load for enormous
+return. The difference is not in how hard it is but in what the hardness
+buys — which is, once more, the chart's single thesis restated: **the
+difficulty and the fortune are the same object.**
+
 #### What does not change
 
 The nodes' strength does not move the timeline. The late crest rests on the
