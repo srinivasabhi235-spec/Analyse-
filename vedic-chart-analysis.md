@@ -2544,6 +2544,79 @@ natal lagna** (10°16′ Kanya, exiting ~24 August), **Mangal in the natal 10th*
 still retrograde in the natal 7th and still 11th from the natal Moon**, which
 confirms once more that **Sade Sati has not begun.**
 
+### Nodal mooltrikona, and the "D9 activates later" doctrine
+
+Two questions worth separating, because one is a factual check against the
+source and the other is a doctrinal position with real consequences.
+
+#### Is Rahu in mooltrikona?
+
+The nodes have no standardised dignity scheme — Parashara assigns them no
+signs at all — so the answer depends entirely on which scheme is used. **The
+supplied tables reveal their own**, and it can be read straight off the
+dignity column:
+
+| Chart | Rahu in | Labelled |
+|---|---|---|
+| **D1** | Vrishabha | Friend's House |
+| **D9** | **Kanya** | **Mooltrikona** |
+| **D10** | **Kanya** | **Mooltrikona** |
+| D11 | Dhanu | Debilitated |
+| D8, D27, D30 | Karka, Karka, Vrischika | Enemy's House |
+
+So this software places **Rahu's mooltrikona in Kanya and its debilitation in
+Dhanu** (Ketu correspondingly in Meena and Mithuna).
+
+By that scheme: **natal Rahu is *not* in mooltrikona** — it sits in
+Vrishabha, a friend's sign. And **transit Rahu is not either** — it is in
+Kumbha. *(Some other schools do assign Rahu's mooltrikona to Kumbha, and under
+those the current transit would qualify. The supplied software disagrees, and
+consistency argues for using its scheme throughout.)*
+
+**But the real finding is better than the question assumed.** Rahu holds
+mooltrikona in **both D9 and D10** — the two most important vargas after the
+rashi. And in D9 that mooltrikona sign, Kanya, **is the D9 lagna itself**:
+**Rahu sits in its own mooltrikona, on the navamsha ascendant.** That is a
+genuinely strong nodal placement, and it upgrades the node audit above: Rahu's
+weakness is confined to D1's Marana Karaka Sthana and its Avayogi status —
+in the two charts that matter most after D1, it is dignified.
+
+#### "D9 activates after D1"
+
+This is a real and widely-held position, most commonly stated as: **the rashi
+governs the first half of life and the navamsha the second**, with the
+handover placed variously at marriage, at the first Saturn return, or around
+the mid-thirties. It is not universal — many lineages treat D9 as continuously
+co-active, the root of which D1 is the flower, and Parashara's own use of the
+navamsha is for *strength* (vargottama, Vimshopaka) rather than as a
+time-switched chart. **Treat it as a school-dependent lens, not settled law.**
+
+That said, **applying it to this chart is unusually clarifying — because it
+reinforces the reading rather than complicating it:**
+
+| D9 placement | Consequence if D9 dominates the later years |
+|---|---|
+| **Lagna Kanya — vargottama with D1** | No identity discontinuity at the handover. The same person, differently lit. |
+| **Shani in the 10th of D9** | Career authority **strengthens** in the second half — stronger than anything D1's 10th offers |
+| **Rahu in mooltrikona on the lagna** | Identity becomes more Rahu-flavoured: unconventional, ambitious, foreign |
+| **Highest upachaya count in the varga set (4)** | The navamsha is a *growing* chart — it improves with age by construction |
+| **All four kendras held by malefics** | The later structure is harsh but genuinely load-bearing |
+| Mangal + Ketu in the 7th; 7th lord in the 6th | The partnership difficulty is more a second-half theme than an early one |
+
+**So the doctrine, if accepted, is good news for this native and bad news for
+nobody.** A chart whose D1 has one graha in a kendra and whose D9 has four; a
+D1 tenth house at rank 9 against a D9 tenth holding Saturn; a rashi loaded
+into low-bindu houses against a navamsha loaded into upachaya. **If the
+navamsha takes over later, this chart gets structurally stronger, not
+weaker** — which is the late-crest conclusion arrived at by yet another route,
+and the sixth or seventh independent confirmation of it.
+
+The one caution the same lens produces: **the 7th-house difficulty also
+intensifies in the second half**, since Mangal and Ketu sit in the D9 seventh.
+That is consistent with §10's finding that the marriage improves with age
+while requiring conscious work throughout — the improvement and the demand
+grow together.
+
 ### Rahu on the D10 ascendant — a partile hit, happening now
 
 The refreshed set contains one thing the August 8 data did not make obvious,
