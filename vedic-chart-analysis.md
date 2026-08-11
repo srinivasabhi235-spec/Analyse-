@@ -1713,6 +1713,72 @@ calendar is at risk.
 girl's own chart — and the ashtakoota between them — remains the missing
 data that would complete it.)*
 
+#### Will marriage trigger transformation?
+
+**Yes — and this chart says so more directly than most, through a structure
+already established but never pointed at marriage specifically.**
+
+**The lord of transformation and the significator of marriage are in
+parivartana.** Mangal rules the 8th — the house of transformation — and sits
+in Vrishabha, Shukra's sign. Shukra, the natural karaka of marriage and
+spouse, sits in Mesha: **Mangal's sign, which is the 8th house itself.** The
+chart's only exchange is between the ruler of upheaval and the significator of
+the wife. **Marriage and transformation are not sequential here; they are
+interlocked by construction.**
+
+Four further links, each independent:
+
+| Link | Consequence |
+|---|---|
+| **Shukra occupies the 8th** | The spouse-karaka literally sits in the house of transformation |
+| **The 8th is the 2nd from the 7th** | The marriage's sustenance lives in the transformation house |
+| **Her family derives to his 8th** (§10) | Marriage brings her lineage *into* that house |
+| **DKY and Vimala both form in the 8th** | The raja yoga and the Vipreeta yoga share the marriage-adjacent house |
+
+**And the doctrine from §11 makes it literal.** If the navamsha activates at
+marriage — the commonest form of that rule — then marriage switches on a chart
+**whose lagna carries Rahu in mooltrikona.** Rahu on any ascendant means
+identity reconstruction. So on that reading, **marriage is not merely followed
+by transformation. It is the switch.**
+
+What gets switched on:
+
+- **Rahu in mooltrikona on the D9 lagna** — identity turns ambitious,
+  unconventional, foreign-leaning
+- **Shani in the D9 tenth** — career authority strengthens *after* marriage
+- **All four D9 kendras held by malefics** — a harsher structure, but genuinely
+  load-bearing
+- **The highest upachaya count in the varga set** — everything improves with
+  age from that point forward
+
+**The timing removes any ambiguity.** The marriage formalises by **31 January
+2028**; **Rahu–Shani, the career-foundation antardasha, opens the same week**;
+and Sade Sati is already running. The wedding and the life-restructuring are
+not consecutive events. **They are the same event, seen from two angles.**
+
+**What kind of transformation:**
+
+| Domain | Mechanism |
+|---|---|
+| **Resources** | Joint finances, inheritance, her family's wealth entering his — the 8th's own territory |
+| **Interiority** | Shukra in its own star in the 8th: depth, privacy and intimacy as the medium of change |
+| **Vocation** | The 7th lord sits in the **10th** — marriage and career share a planet, so one moves the other |
+| **Household** | Upapada in the 4th — the home itself reconstitutes |
+| **Contemplative** | The 8th is the occult house and Ketu is the Yogi; serious inner life plausibly begins here |
+
+**The honest caution.** The 8th is **Bhava rank 12 with the lowest SAV in the
+chart**, and its lord Mangal carries four debilitations and the second-worst
+outcome balance. So the transformation is **real and it is not comfortable.**
+Eighth-house transformation is never elective and never gentle — it is the
+kind one undergoes rather than chooses. The chart's promise is not that
+marriage will be easy but that it will be **consequential**: he does not come
+out of it the same person, and the Vimala Yoga sitting in the same house is
+the guarantee that the change resolves upward rather than down.
+
+Which is, once more, the single thesis: **the difficulty and the fortune are
+the same object** — and in this case they are also the same house, and the
+same wedding.
+
 #### The girl's parents — will they accept the boy?
 
 **Yes — more easily than his own side accepts her, and probably earlier.**
