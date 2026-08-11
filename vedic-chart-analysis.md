@@ -2544,6 +2544,64 @@ natal lagna** (10°16′ Kanya, exiting ~24 August), **Mangal in the natal 10th*
 still retrograde in the natal 7th and still 11th from the natal Moon**, which
 confirms once more that **Sade Sati has not begun.**
 
+### Rahu on the D10 ascendant — a partile hit, happening now
+
+The refreshed set contains one thing the August 8 data did not make obvious,
+and it is the sharpest transit in this document.
+
+| | Longitude |
+|---|---|
+| **D10 lagna** | 306.2697° — 06° Kumbha 16′11″ |
+| **Transit Rahu (mean)** | 306.1603° — 06° Kumbha 09′37″ |
+| **Separation** | **6.6 arc-minutes** |
+
+**The mahadasha lord is sitting within seven arc-minutes of the ascendant
+degree of the career chart.** That is a *partile* conjunction — as exact as
+transit work ever gets. Rahu is retrograde at 0.06°/day, so it crossed the
+degree around **9 August 2026**: two days ago. (The true node passed it in
+early July; either way the crossing is now.)
+
+**And Kumbha is the most over-determined sign in this entire chart.** It is,
+simultaneously:
+
+1. the natal **6th house** — 41 bindus, the highest in the chart;
+2. the **D10 lagna** — the ascendant of the career chart itself;
+3. the **10th from natal Chandra** — career counted from the Moon;
+4. ruled by **Shani, the Jaimini Amatyakaraka** — the career significator;
+5. the **10th house of D24**, the education varga;
+6. and now the **mahadasha lord's transit**, exact on its D10-ascendant degree.
+
+Six independent techniques have named this sign as the career ground. The
+seventh has just put the ruling planet of eighteen years on its most sensitive
+point.
+
+**What it means.** Rahu crossing any ascendant reconstructs identity in that
+chart's domain; crossing the *D10* ascendant reconstructs **professional
+identity** specifically — a new role, a new self-definition at work, or the
+moment the career's direction visibly changes shape. That it happens during
+the **Guru–Budha** pratyantar, ruled by the lagna-and-10th lord, doubles the
+signal: the sub-period of *self and work* running while the dasha lord sits on
+the career ascendant.
+
+There is a further layer. **Natal D10 Rahu occupies the 8th of D10.** So the
+transit crosses the career-chart ascendant while natally placing the career in
+the house of upheaval and research — **the same node writing the professional
+identity from the house of transformation.** The career does not get redefined
+gently in this chart; it gets redefined by disruption, which is exactly what
+the reading has said from the 8th–9th exchange onward.
+
+**The window.** Rahu entered Kumbha around mid-2025 and exits into Makara
+around **December 2026** — roughly 3.8 months from now. So this activation is
+in its final quarter, and it **closes almost exactly as Guru–Shukra opens on
+12 November.** The professional-identity window and the relationship window
+overlap by weeks and then hand over.
+
+**The practical consequence sharpens §11's advice rather than changing it.**
+"Ship visible output now" was already the counsel for this pratyantar. The
+Rahu contact adds: **the output should be the kind that redefines how he is
+professionally seen, not merely the kind that clears a queue** — because the
+identity layer is what is live, and it is live for about fourteen more weeks.
+
 ### Authority — yes, of a particular kind, on a particular schedule
 
 **Rahu, the mahadasha lord, is transiting the natal 6th** — simultaneously
