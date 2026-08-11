@@ -2397,9 +2397,12 @@ Sati on top of them.
 
 ## 12. Current transits
 
-> **Dated snapshot: 8 August 2026.** Unlike everything above, this section reads
-> a moment. The Sun at 21°35′ sidereal Karka dates the transit chart to 6–8
-> August 2026.
+> **Dated snapshot: refreshed to 11 August 2026.** Unlike everything above,
+> this section reads a moment. A second transit set supplied three days after
+> the first confirms the picture: the Sun at 24°27′ sidereal Karka dates it to
+> ~11 August 2026, and **every slow graha is exactly where it was.** Only
+> Chandra has changed house. The reading below therefore stands unrevised —
+> with two additions noted at the end of the section.
 
 | Transit | Sign | From lagna | From Moon | Own bindus | Sign SAV |
 |---|---|---|---|---|---|
@@ -2513,6 +2516,33 @@ The practical consequence is not discouraging but clarifying: **in 2027 he
 should be accepting scope, not negotiating for rank.** Rank is not available
 to be won that year; scope is, and scope is what compounds into the 2040
 position.
+
+### Two additions from the refreshed set (11 August 2026)
+
+**A forecast confirmed.** From the 8 August data I calculated that transit
+Guru — the 7th lord and current antardasha lord — would clear combustion
+around **13 August 2026**. The fresh set puts the Sun–Guru separation at
+**9°44′** against an 11° limit, separating at 0.74°/day: **clearing in about
+two days, ~13 August.** The forecast reproduces exactly against independent
+data. A small validation, but the only one of its kind available in this
+document — everything else forward is unfalsifiable until it happens.
+
+**A four-graha cluster in the 11th.** Surya, Chandra, Budha **and Guru** now
+all stand in Karka — **the natal 11th house** of networks, friends, groups and
+gains. And Guru, the natal 7th lord, is among them, casting its ninth aspect
+from Karka onto Meena — **the natal 7th house.**
+
+That is the "she comes through the circle" mechanism (§12) at maximum
+intensity: **four grahas concentrated in the house of networks, with the lord
+of marriage among them, aspecting the house of marriage.** The Moon joining
+the cluster is transient — days, not months — but Surya, Budha and Guru hold
+it through late August.
+
+Three other placements are live in the same window: **Shukra crossing the
+natal lagna** (10°16′ Kanya, exiting ~24 August), **Mangal in the natal 10th**
+(entered ~2 August, exiting mid-September — the career push), and **Shani
+still retrograde in the natal 7th and still 11th from the natal Moon**, which
+confirms once more that **Sade Sati has not begun.**
 
 ### Authority — yes, of a particular kind, on a particular schedule
 
