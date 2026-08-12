@@ -2459,6 +2459,72 @@ The second Sade Sati (~2057–2065) repeats the pattern against the Shani
 mahadasha — see above. Both of this chart's Saturn-heavy stretches carry a Sade
 Sati on top of them.
 
+### When the transformation actually arrives — the dated windows
+
+The previous section established *that* the 8th-house apparatus is this chart's
+engine, and that marriage is its trigger. This dates it. The 8th does not run
+continuously; it is switched on by identifiable markers, and those markers are
+computable. `verify_timeline.py` scores every year from 2026 to 2076 against
+eight of them:
+
+| Marker | Weight | Why it counts |
+|---|---|---|
+| Antardasha of **Mangal**, the 8th lord | 2 | The house's ruler takes direct charge of the period |
+| Dasha or antardasha of **Budha, Shukra or Surya** | 1 | The three grahas occupying the 8th |
+| Transit **Shani in Mesha**, the natal 8th | 2 | Saturn dwelling in the transformation house |
+| **Ashtama Shani** — Shani in Dhanu, 8th from Chandra | 1 | The same pressure measured from the Moon |
+| **Saturn return** (±1 yr) | 2 | Structural reset of the whole life-frame |
+| **Rahu return or half-return** (±0.7 yr) | 1 | Nodal axis re-crosses its birth position |
+| **Sade Sati** | 1 | Sustained load on the mind and body |
+| **Bhrigu Bindu crossing** — Shani over Vrishabha 14°22′ | 1 | Shani activates the Rahu–Chandra midpoint |
+| **Mahadasha junction** (±0.7 yr) | 2 | The governing lord itself changes |
+
+The result is not a smooth curve. It clusters — hard.
+
+| Window | Ages | Peak score | What converges |
+|---|---|---|---|
+| **Late 2027 – mid 2033** | **25–31** | **█████ at 2031** | **The defining transformation.** Shani enters the natal 8th ~Oct 2027 and stays to early 2030; Rahu half-return 2030; Rahu–Budha (8th occupant, lagna lord) Dec 2030–Jun 2033; Saturn return late 2031; Bhrigu Bindu crossing 2031; Sade Sati running throughout |
+| **2034 – 2038** | 32–36 | ██ | Rahu–Shukra then Rahu–Surya — the 8th's occupants on their *benefic* side. Transformation that pays rather than costs |
+| **2039 – 2041** | 37–39 | ███ | Rahu–Mangal — the 8th lord's own antardasha, highest Shodhya Pinda — plus the Rahu return (2039.5) and the mahadasha junction (Dec 2040), stacked inside eighteen months |
+| **2046 – 2054** | 44–52 | ███ | The 8th's occupants again, now inside the Guru mahadasha: Guru–Budha, Guru–Shukra, Guru–Surya, closing with Guru–Mangal. Ashtama Shani 2048–50 |
+| **2057 – 2062** | 55–60 | █████ at 2061 | The **same architecture, one Saturn cycle later**: Shani re-enters the natal 8th 2057–2059, Rahu return 2058, Shani–Budha 2060–63, second Saturn return 2061, second Sade Sati across all of it |
+| **2076** | 74 | ████ | Budha mahadasha opens — the 8th's occupant governing, at the junction. The archive years |
+
+**Three findings matter more than the table.**
+
+**One — the first transformation is already scheduled, and it is not distant.**
+Shani enters Mesha, the natal 8th, in the **second half of 2027** — the same
+transit that starts Sade Sati. Marriage formalises Sep 2027–Jan 2028 (§10);
+Rahu–Shani, the career-foundation antardasha, opens 31 January 2028. **All
+three of these are the same transit event.** He does not undergo the marriage
+and then, later, undergo the transformation. Saturn walks into the house of
+transformation, and the wedding, the career foundation and the restructuring
+come through the same door within a hundred days of each other.
+
+**Two — the peak is 2030–2031, and it is a different kind of event.** The
+2027–28 cluster is *constructive* transformation: things being built that
+change him. The 2030–31 peak is *subtractive*. Saturn return, Sade Sati's
+hardest phase, Rahu–Budha of the chart's only failing graha, Bhrigu Bindu
+crossing — four independent markers with no benefic among them. This is the
+window where what was assembled in 2028–29 gets tested to destruction and what
+survives is load-bearing for the next thirty years. **Vimala Yoga in the 8th is
+the reason to expect it resolves upward** (§6) — but it resolves upward *after*,
+not during.
+
+**Three — this chart transforms on a Saturn cycle, not a random schedule.** The
+2028–2033 block and the 2058–2062 block are structurally identical: Shani in
+the natal 8th, a nodal return, a Saturn return, a Sade Sati, and the 8th's
+occupant running an antardasha. **Twenty-nine and a half years apart, to the
+year.** He gets exactly two of these in a normal lifespan — the first at
+twenty-six to thirty-one, the second at fifty-five to sixty. The first one
+builds the life. The second one hands it on.
+
+**And a distinction worth holding:** transformation is not the same as payoff.
+The most *transformative* window is 2028–2033. The most *productive* is
+2046–2054 — the Guru mahadasha's DKY halves, when the same 8th-house grahas run
+their periods with the chart's best mahadasha lord above them instead of Rahu.
+The hard window makes the man; the later one collects on him.
+
 ---
 
 ## 12. Current transits

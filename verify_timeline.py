@@ -77,3 +77,64 @@ for n in range(9):
     if nm=='Guru':   tag='  <- 10th-house lord doubled'
     print(f'  Guru-Shukra-{nm:8s} {t.strftime("%b %Y")} -> {e.strftime("%b %Y")}{tag}')
     t=e
+
+# ---------------------------------------------------------------------------
+print('\n'+'='*104)
+print('TRANSFORMATION WINDOWS — when the 8th-house apparatus is actually switched on')
+print('='*104)
+print("""Markers scored, one point each unless noted:
+  [MD/AD]  dasha or antardasha lord is the 8th lord (Mangal) or an 8th occupant
+           (Budha, Shukra, Surya)   -- antardasha of the 8th lord scores 2
+  [Sh8]    transit Shani in the natal 8th sign (Mesha)   -- 2 points
+  [Ash8]   Ashtama Shani: transit Shani in Dhanu, 8th from natal Chandra
+  [SR]     Saturn return (+/- 1 yr)   -- 2 points
+  [RR]     Rahu return or half-return (+/- 0.7 yr)
+  [SS]     Sade Sati
+  [BB]     Shani crosses the Bhrigu Bindu (Vrishabha 14 22)
+  [JN]     mahadasha junction (+/- 0.7 yr)   -- 2 points
+""")
+NATAL_8TH   = 0        # Mesha, 8th from Kanya lagna
+ASHTAMA     = 8        # Dhanu, 8th from Chandra in Vrishabha
+RAHU0       = 56.931   # natal Rahu longitude
+RAHU_P      = 18.613   # nodal period, years
+SAT_RETURN  = [EPOCH+SHANI_P, EPOCH+2*SHANI_P]
+BB          = 44.359   # Bhrigu Bindu: Rahu/Chandra midpoint
+EIGHTH      = {'Mangal','Budha','Shukra','Surya'}
+JUNCTIONS   = [2040.98, 2056.98, 2075.98]
+
+def shani_long(y): return (SHANI0 + (y-EPOCH)*360/SHANI_P) % 360
+def rahu_hits(y):
+    n=(y-EPOCH)/RAHU_P
+    return min(abs(n-round(n)), abs(n*2-round(n*2))/2)*RAHU_P
+
+rows=[]
+for y in range(2026, 2077):
+    d=dasha_at(y); md,ad=(d.split('-')+[''])[:2]
+    sc=0; tags=[]
+    if ad=='Mangal':                       sc+=2; tags.append('AD=8th lord')
+    elif ad in EIGHTH:                     sc+=1; tags.append('AD in 8th')
+    if md in EIGHTH:                       sc+=1; tags.append('MD in 8th')
+    ss=int(shani_long(y)//30)
+    if ss==NATAL_8TH:                      sc+=2; tags.append('Sh8')
+    if ss==ASHTAMA:                        sc+=1; tags.append('Ash8')
+    if any(abs(y-r)<=1 for r in SAT_RETURN):sc+=2; tags.append('SR')
+    if rahu_hits(y)<=0.7:                  sc+=1; tags.append('RR')
+    if frm(ss,NATAL_MOON) in (12,1,2):     sc+=1; tags.append('SS')
+    if abs(((shani_long(y)-BB+180)%360)-180)<=6.2: sc+=1; tags.append('BB')
+    if any(abs(y-j)<=0.7 for j in JUNCTIONS):sc+=2; tags.append('JN')
+    rows.append((y,y-2002,d,sc,tags))
+
+for y,age,d,sc,tags in rows:
+    if sc: print(f"  {y}  age {age:<3} {d:16} {'#'*sc:<9} {', '.join(tags)}")
+
+print('\n  Shani in the natal 8th (Mesha):')
+y=2026.0
+while y<2078:
+    if int(shani_long(y)//30)==NATAL_8TH:
+        s=y
+        while int(shani_long(y)//30)==NATAL_8TH and y<2078: y+=0.05
+        print(f'    {s:.1f} -> {y:.1f}   ages {s-2002.29:.0f}-{y-2002.29:.0f}')
+    y+=0.05
+print('\n  Rahu returns (18.6 yr):  ', ', '.join(f'{EPOCH+n*RAHU_P:.1f}' for n in (1,2,3,4)))
+print('  Rahu half-returns:       ', ', '.join(f'{EPOCH+(n+0.5)*RAHU_P:.1f}' for n in (1,2,3)))
+print(f'  Saturn returns:           {SAT_RETURN[0]:.1f}, {SAT_RETURN[1]:.1f}')
