@@ -2807,6 +2807,126 @@ Rahu contact adds: **the output should be the kind that redefines how he is
 professionally seen, not merely the kind that clears a queue** — because the
 identity layer is what is live, and it is live for about fourteen more weeks.
 
+### The solar eclipse of 12 August 2026
+
+The eclipse falls on the day this section is dated, so it is worth reading
+exactly rather than generically. Its position is computed in
+`verify_eclipse.py` from the standard solar series, calibrated against the
+supplied transit set: the script reproduces the given Sun (24°27′ sidereal
+Karka on 11 August) to **three arcminutes**, which is the licence for reading
+the eclipse degree closely.
+
+| Measure | Value |
+|---|---|
+| Sidereal position | **25°49′ Karka** (Lahiri, ayanamsa 24°13′) |
+| House from lagna | **11th** — upachaya |
+| House from natal Chandra | **3rd** — upachaya |
+| Nakshatra | **Ashlesha pada 3**, lord **Budha** |
+| Sign lord | **Chandra**, natal exalted in the 9th |
+| Distance from transit Ketu | 10.3° — near the outer limit for a central eclipse, which is why totality tracks the far north |
+| Gandanta | 51′ short of the Karka gandanta zone — **just outside** |
+| Navamsha of the point | Kumbha — the 6th of D9 |
+| Dashamsha of the point | Vrischika — the 10th of D10 |
+
+**It lands on Gulika.** Natal Gulika stands at 25°16′ Karka; the eclipse is at
+25°49′. **Thirty-three arcminutes — partile.** Mandi sits 3°26′ away in the
+same sign. §9 recorded Gulika and Mandi in the 11th as the pair that *shadows
+the gains house*; a total eclipse now falls on the exact degree of the harsher
+of the two. Nothing else in the chart is within 19° of the eclipse point.
+
+**Where it lands is the mitigation.** Three separate measures say this is not
+a damaging placement:
+
+- **Upachaya from both lagna and Moon.** The 11th from the ascendant and the
+  3rd from Chandra. Classical gochara treats both as growth ground; eclipses
+  in upachaya houses are held to *clear* rather than *destroy*.
+- **The ascendant's own ashtakavarga gives Karka 8 bindus — the maximum
+  possible, and the single highest lagna-AV cell in the chart.** Chandra's
+  column also ranks Karka first, and Shani's does too.
+- **The sign lord is the exalted Moon in a trikona.** An eclipsed sign whose
+  dispositor is exalted in the 9th recovers.
+
+**Where it bites is the other half of the same table.** Surya holds only 3
+bindus in Karka, Mangal 2, and **Budha — the lagna lord — only 2, its
+eleventh-worst sign of twelve.** So the eclipsing body and the lord of the
+self are precisely the two that fall below the four-bindu delivery threshold
+there. The reading follows directly: **the structure survives; the person is
+temporarily unsupported inside it.** He will feel this more than it costs him.
+
+**What it actually does.** An eclipse in Ashlesha — the naga nakshatra of
+entanglement, secrecy and clinging — on the 11th house of the friend circle,
+on the shadow-point of that house, during Rahu–Guru:
+
+- **The network gets edited.** People leave the circle or are revealed to have
+  been something other than assumed. Gulika's degree being hit means the
+  removal is specifically of the concealed or the parasitic element.
+- **A private thread in that circle surfaces.** This is the mechanism §13
+  already described — *the attachment may already exist privately, and
+  November marks the point something quietly running becomes real.* Ashlesha
+  is the nakshatra of exactly that: something coiled and unspoken. The eclipse
+  is three months upstream of Guru–Shukra (12 November), and it falls on the
+  house from which the reading says the relationship arrives.
+- **It does not damage the marriage window.** The 7th house is untouched — no
+  eclipse in the series comes near Meena — and transit Guru, the 7th lord,
+  clears combustion on **13 August, the day after.** Shadow, then release, in
+  consecutive days.
+
+**Visibility matters, and cuts a specific way.** Totality tracks Greenland,
+Iceland and northern Spain; greatest eclipse is 17:46 UT, which is **23:16
+IST — the Sun is below the horizon across India.** The classical rule is that
+an eclipse operates where it is seen. **If he is in India this eclipse is not
+visible to him at all**, and its force is correspondingly reduced; no sutak is
+observed there. If he is in northern or eastern North America, he sees a
+partial, and it reads at full strength. The India/USA question raised in §10
+has a concrete consequence here.
+
+#### The series matters more than the single event
+
+One eclipse is a moment. The **series** is the structure — and this one is
+pointed:
+
+| Date | Type | Sidereal | House |
+|---|---|---|---|
+| 17 Feb 2026 | annular | 04°37′ Kumbha | 6th |
+| **12 Aug 2026** | **total** | **25°49′ Karka** | **11th** |
+| 6 Feb 2027 | annular | 23°24′ Makara | **5th** |
+| **2 Aug 2027** | **total** | **15°41′ Karka** | **11th** |
+| 26 Jan 2028 | annular | 11°56′ Makara | **5th** |
+| 22 Jul 2028 | total | 05°35′ Karka | **11th** |
+
+**Every eclipse from now to mid-2028 falls on the 5th–11th axis** — and the
+nodes move to match: **Rahu enters Makara, the natal 5th, around December
+2026 and holds it to roughly August 2028, with Ketu correspondingly on the
+11th.**
+
+That is the romance-and-children axis against the network axis, eclipsed six
+times in a row, across **exactly the window in which this reading places the
+relationship, the disclosure and the marriage** (Nov 2026 – Jan 2028).
+
+The polarity is legible. **Rahu on the 5th** is the classical signature of an
+unorthodox, foreign-flavoured, socially-unsanctioned attachment — which is
+precisely the love-marriage reading §10 arrived at independently, by
+lordships. **Ketu on the 11th** thins the friend circle while the romance
+intensifies: attention withdraws from the group and concentrates on one
+person. Together they describe a two-year period in which **the private
+relationship grows as the public circle empties.**
+
+This is the first genuinely *independent* confirmation of the marriage
+narrative in the whole document. Nothing about the eclipse series was derived
+from the dasha scheme or the varga charts; it comes from the ephemeris alone,
+and it lands on the same axis, in the same months.
+
+**One caution against over-reading it.** Eclipses are trigger-level, not
+cause-level. Parashara assigns them no dasha weight, and their conventional
+reckoning is months, not years. They mark when something already scheduled
+becomes visible. Everything above is offered on that basis: **the eclipse
+series does not create the 2026–28 sequence — it illuminates it.**
+
+The eclipse degree is re-triggered when a fast graha crosses 25°49′ Karka:
+**transit Guru in late September 2026**, **transit Mangal in mid-October
+2026**, and **transit Ketu in mid-2027**. Those are the dates to watch for the
+11th-house edit to actually show itself.
+
 ### Authority — yes, of a particular kind, on a particular schedule
 
 **Rahu, the mahadasha lord, is transiting the natal 6th** — simultaneously
