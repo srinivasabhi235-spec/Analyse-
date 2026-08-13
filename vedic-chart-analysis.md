@@ -985,6 +985,192 @@ identity is under active reconstruction across the whole 2022–2040 span.
 **Guru aspects the 6th**, which is protective for health, debts and adversaries —
 a genuine safety net in a chart carrying this much load.
 
+### The 8th house — the full mechanism
+
+The reading has called the 8th this chart's engine in every section without
+auditing the house itself. `verify_eighth.py` does that: what is in it, what
+routes through it, how weak it measures, what its lord is doing, whether the
+pattern repeats in the vargas, and when the apparatus comes online.
+
+#### What is inside it
+
+**The 8th is Mesha, lord Mangal**, and it holds three grahas:
+
+| Graha | Position | Rules | Nakshatra | Matures |
+|---|---|---|---|---|
+| **Surya** | 1°28′, **exalted + vargottama** | **12th** | Ashwini p1 (Ketu) | 22 |
+| **Budha** | 10°28′, combust | **1st + 10th** | Ashwini p4 (Ketu) | 32 |
+| **Shukra** | 23°37′, **Atmakaraka**, highest Ishta Phala | **2nd + 9th** | Bharani p4 (own) | 25 |
+
+Plus the **Mrityu upagraha at 26°49′**, 3°13′ from Shukra, and the whole
+group sits inside the **22nd (Khara) drekkana**.
+
+**And no graha in the chart aspects it.** Not one drishti falls on Mesha —
+the computation returns an empty set. **The 8th is a sealed chamber holding
+the lagna lord, the Atmakaraka and the exalted Sun.** Nothing outside can
+help it and nothing outside can interfere with it. Whatever is settled in
+there is settled in there, alone.
+
+#### Seven of twelve houses route through it
+
+This is the finding that changes the reading's weight:
+
+| House | Lord | Where the lord sits |
+|---|---|---|
+| **1 — self** | Budha | **in the 8th** |
+| **2 — wealth, family, speech** | Shukra | **in the 8th** |
+| **3 — courage, effort** | Mangal | *is* the 8th lord |
+| **8 — transformation** | Mangal | 9th, in parivartana |
+| **9 — dharma, father, fortune** | Shukra | **in the 8th** |
+| **10 — career** | Budha | **in the 8th** |
+| **12 — loss, foreign, moksha** | Surya | **in the 8th** |
+
+**Seven of twelve houses are tied to the 8th.** The 8th is not one house
+among twelve in this chart — **it is the processing plant for more than half
+of it.** Self, money, effort, belief, career and loss all deliver through the
+house of upheaval, and there is no alternate route because nothing aspects
+the house from outside.
+
+The KP layer says the same independently: the nakshatra-lord routing puts
+**house 8 as the delivery channel five times** — more than any other house in
+the chart.
+
+#### How weak the house measures
+
+| Measure | Value |
+|---|---|
+| **Sarvashtakavarga of Mesha** | **21 — rank 12 of 12, the lowest in the chart** |
+| **Bhava Bala rank** | **12 of 12 — the weakest bhava** |
+| Surya's own bindus there | 2 — below the 4-bindu threshold |
+| **Mangal's own bindus there** | **1 — its own sign, and its joint-lowest cell in the whole ashtakavarga** |
+| Chandra's | 2 · Shani's 3 — both below threshold |
+| Shukra's | 5 — the one column that supports it, ranking Mesha 2nd of 12 |
+
+**The chart's best-dignified graha, its Atmakaraka, and its lagna lord all sit
+in the single weakest-supported sign it owns.** That is the governing paradox
+in one line: **maximum cargo, minimum road.** And the one column that *does*
+support Mesha is Shukra's — which is precisely why the Venus periods are
+where the 8th pays instead of charges.
+
+#### The engine itself
+
+**Mangal, the 8th lord, sits in the 9th — and Shukra, the 9th lord, sits in
+the 8th.** The chart's only parivartana is a perfect exchange between
+transformation and dharma. **Neither house can act without the other:** every
+crisis is routed through meaning, and every belief is tested by crisis. He
+does not get to have a philosophy that has not been through something.
+
+And the engine's specification is brutal: Mangal carries the **highest
+Shodhya Pinda in the chart** (212 — maximum delivery capacity), the **lowest
+Vimshopaka** (10.30), and **four debilitations across sixteen vargas**, more
+than any other graha. **Maximum output, minimum dignity.** It delivers, and it
+delivers rough.
+
+#### The pattern repeats at four levels
+
+| Chart | 8th house | Occupants |
+|---|---|---|
+| **D1** | Mesha | **Surya (exalted), Budha, Shukra** |
+| **D9** Navamsha | Mesha | **Surya, exalted again** |
+| **D10** Dashamsha | Kanya | **Rahu** — the career chart's 8th holds the mahadasha lord |
+| **D30** Trimshamsha | Mithuna | **Shukra** |
+| **D8** Ashtamsha | Tula | **Shukra, own sign and mooltrikona** — in the varga *of* the 8th |
+| **D27** Bhamsha | Kumbha | **empty** |
+
+Five of six. The signature is not an artifact of one chart.
+
+**And the single exception is the one that matters most.** D27 is the
+vitality and longevity varga, and it is the only chart in the set whose 8th
+house is *empty*. That is the strongest structural argument in this entire
+reading that **the transformations are severe and survivable** — the house
+fires everywhere except in the chart that measures whether the body can take
+it.
+
+#### It comes online exactly when the transits fire it
+
+| Graha | Role | Matures at | Year |
+|---|---|---|---|
+| Surya | in the 8th | 22 | 2024 |
+| Shukra | in the 8th | 25 | **2027** |
+| **Mangal** | **the 8th lord** | **28** | **2030** |
+| Budha | in the 8th | 32 | 2034 |
+
+**The whole 8th-house apparatus matures across ages 22 to 32 — 2024 to
+2034.** The transformation windows computed independently in
+`verify_timeline.py` peak at **2028–2033, ages 26–31.** The transits fire the
+house precisely inside its own maturation span, and the 8th *lord* matures in
+2030, the exact year of the peak. **Two entirely separate techniques land on
+the same five years.**
+
+#### Both raja yogas form there
+
+- **Vimala Yoga** — the 12th lord Surya in the 8th, a Vipreeta Raja Yoga.
+  Adversity *converted*, not merely endured.
+- **Dharma-Karmadhipati Yoga** — the 9th lord with the 10th lord, 13°09′
+  apart, **inside the 8th.** The chart's only kendra–trikona raja yoga forms
+  in the house of upheaval, so **it can only fire through upheaval.**
+
+**There is no version of this life in which the good things arrive by another
+road.** That is not a moral claim; it is a structural one. The raja yoga is
+physically located in the crisis house and has no other address.
+
+#### So: how does it transform him
+
+Five mechanisms, each traceable to a specific lordship:
+
+**Identity is rebuilt by dissolution, not built by accumulation.** The lagna
+lord sits in the 8th, *combust* — absorbed into an exalted Sun. He does not
+develop a self and then add to it. He loses versions of himself and
+reconstitutes. Every major period leaves him a different person, and the
+continuity is the vargottama lagna underneath rather than anything he
+consciously maintains.
+
+**Career advances by disruption, never by tenure.** Budha also rules the
+10th, and **D10 Rahu sits in the 8th of D10.** Promotion-by-seniority is
+structurally unavailable. Every step up arrives attached to something ending
+— a company failing, a project collapsing, a relocation, a rupture. The
+reading's repeated "change position, not effort" is this, stated tactically.
+
+**Capital comes from other people's resources.** Shukra rules the 2nd and
+sits in the 8th, inside the Khara drekkana with Mrityu 3° away. The 8th is
+the natural house of joint finances, inheritance, insurance, settlements and
+equity. **Money arrives in lumps attached to events, not as accreted salary**
+— and the same placement is why the reading has consistently warned against
+leverage.
+
+**Belief is examined under pressure and cannot be examined any other way.**
+Shukra also rules the 9th, and the parivartana locks the exchange. His
+relationship to his father, to teachers, to doctrine — all of it gets
+processed in the crisis house. **Rahu in Marana Karaka Sthana in the 9th**
+completes it: he cannot accept an inherited answer, and the chart gives him
+no gentle route to his own.
+
+**What he loses becomes the instrument.** Surya rules the 12th and sits
+exalted in the 8th. Loss, foreign lands, isolation, expenditure, withdrawal —
+all placed inside transformation, and forming **Vimala Yoga** in the process.
+This is the reason the direction of resolution is upward. **The losses are
+not incidental damage on the way to the result. They are the mechanism that
+produces it.**
+
+#### The honest cost, and the honest return
+
+The cost is real and should not be softened: **weakest bhava, lowest SAV, an
+8th lord with four debilitations, the Mrityu upagraha inside, the Khara
+drekkana, and no aspect from anywhere to relieve it.** These transformations
+will be undergone rather than elected. They will be expensive, they will
+cluster around what he values most (Shukra, the Atmakaraka, is *in* there),
+and they will not feel like growth while they are happening.
+
+The return is equally real: **both raja yogas, the exalted vargottama Sun,
+the Atmakaraka, and the highest-delivery graha in the chart all operate from
+that house.** Vimala guarantees the conversion; the parivartana guarantees the
+meaning; D27's empty 8th guarantees the survival.
+
+**He is transformed the way metal is — by being put in the fire on purpose,
+because there is no other way to change its shape.** The chart does not offer
+him a gentler forge. It does guarantee that the thing coming out is harder
+than the thing that went in.
+
 ---
 
 ## 8. The divisional charts
