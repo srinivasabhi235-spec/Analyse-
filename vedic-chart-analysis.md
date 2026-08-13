@@ -2306,6 +2306,118 @@ on the matching and on his side's process — converging with his father's
 timeline into the joint formalisation window, late September 2027 to
 January 2028.
 
+#### Will the in-laws be wealthy?
+
+`verify_inlaws.py` derives her family by *bhavat bhavam* — the 7th treated as
+her ascendant — and then measures each derived house against the verified
+Bhava Bala ranks and bindu counts rather than describing it qualitatively.
+
+| Her house | = his | Sign | SAV | Bhava rank | Occupants |
+|---|---|---|---|---|---|
+| **1st — herself** | 7th | Meena | 33 | **4** | Upaketu |
+| **2nd — FAMILY WEALTH** | 8th | Mesha | **21 — lowest** | **12 — weakest** | Surya *(exalted)*, Budha, Shukra, Mrityu |
+| 3rd — her siblings | 9th | Vrishabha | 22 | 7 | Chandra *(exalted)*, Mangal, Shani, Rahu |
+| **4th — her mother, home** | 10th | Mithuna | 29 | 9 | **Guru**, Yama Ghantaka |
+| **9th — her father** | 3rd | Vrischika | 28 | 8 | **Ketu**, Vyatipata |
+| **10th — family STANDING** | 4th | Dhanu | 29 | **2 — second-strongest** | empty |
+| 11th — their gains | 5th | Makara | 29 | 6 | empty |
+| **12th — their outgoings** | 6th | Kumbha | **41 — highest** | 10 | Indra Chapa |
+
+##### The split that answers it
+
+**Their standing house is the second-strongest bhava in the chart. Their
+wealth house is the weakest, with the lowest bindu count of the twelve.**
+
+Those are not contradictory readings — together they *are* the answer:
+**respectable and well-regarded, not conspicuously liquid.**
+
+Three things reinforce the standing side. **The Upapada itself falls in that
+same 4th house**; its lord is **Guru, forming Amala Yoga in the 10th** — the
+yoga of spotless reputation; and **Guru also occupies her mother's house**.
+The family's principal asset is its good name. Educated, respected, probably
+professional.
+
+And one thing sharpens the liquidity side unexpectedly: **the highest-bindu
+house in the entire chart — Kumbha at 41 — is her family's twelfth**, the
+house of expenditure and foreign matters. Maximum outflow capacity sitting
+directly opposite a minimum-strength wealth house. **A family that has spent
+substantially** — most plausibly on education or on relocation, given
+everything else this chart says about foreign settlement.
+
+##### But it is an *eighth* house, and that is the whole nuance
+
+Her family's wealth house is **his 8th** — inheritance, joint holdings,
+insurance, settlements, and what passes from others. So the reading is not
+simply "not rich." It is:
+
+**Wealth on her side is more likely inherited, tied up, or arriving through
+an event than visible as income.** Land and long-held assets rather than cash
+flow — which the Upapada route confirms independently: the **2nd from the
+Upapada is Makara under Shani**, the most conservative wealth signature in
+the zodiac, and it is **empty with its lord strong elsewhere** — the resource
+exists but sits with the older generation rather than in the marriage.
+
+##### And what stands in that house is the chart's best material
+
+| Occupant | What it is |
+|---|---|
+| **Surya** | exalted **and vargottama** — and exalted again in the 8th of **D9** |
+| **Shukra** | natural karaka of wealth, **his 2nd lord and 9th lord**, the **Atmakaraka**, **highest Ishta Phala in the chart** — and Mesha is **Shukra's second-best sign by bindus (5), ranking #2 of 12 in its column** |
+| **Budha** | his lagna lord and 10th lord |
+
+**The house is the chart's weakest; the wealth-karaka treats it as one of its
+two best signs.** That is not a contradiction either — it is the precise
+shape of the finding. *Broad, distributed family prosperity: weak. A specific,
+concentrated Venusian resource sitting inside it: strong.*
+
+##### It is entangled with his own fortune, by construction
+
+**Her family's wealth lord is Mangal — his 8th lord — and it sits in his 9th,
+while Shukra, the 9th lord, sits in the wealth house.** The chart's only
+parivartana *is* the link between her family's resources and his own fortune,
+father and dharma. **The two families' finances are structurally
+interlocked**, not incidentally connected.
+
+Mangal's specification tells you the texture: **highest Shodhya Pinda in the
+chart** (maximum delivery), **lowest Vimshopaka**, **four debilitations
+across sixteen vargas**. Their wealth is real and roughly held.
+
+##### One caution from the arudha route
+
+The **Darapada (A7) is Mithuna, holding Guru** — the partnership images as
+respectable and educated. But the **2nd from A7 — the house that *images*
+their money — is Karka, and it carries both Gulika and Mandi**, the chart's
+two shadow points, on a sign of merely average bindus whose lord is
+nonetheless exalted.
+
+Read carefully rather than dramatically: the dispositor is strong, so this is
+not a claim of pretence. But **two shadow points on the house that images
+their money means apparent standing and actual liquidity should be verified
+rather than assumed.** Worth noting that the 12 August 2026 eclipse fell
+**33 arcminutes from Gulika, in exactly this house** — the reading's own
+prediction that concealed things in that sector surface.
+
+##### The answer
+
+**Status: yes.** Second-strongest bhava, Upapada in it, Amala Yoga on its
+lord, Guru on the mother's house. A well-regarded family.
+
+**Liquid wealth: not conspicuously.** Weakest bhava, lowest bindus, Mrityu
+inside, the Khara drekkana across it, and the highest outflow house in the
+chart on their twelfth.
+
+**But what transfers to him is significant**, and it favours him
+directionally. The 8th is the classical house of gain through the spouse's
+family; it holds his Atmakaraka at the chart's highest Ishta Phala; and its
+lord is in parivartana with his 9th. **What he receives through that marriage
+is real — but it arrives as a transfer attached to an event, not as a
+standard of living handed over.** Which is the same thing this chart says
+about money everywhere else.
+
+**The limit, again.** All of it is derived from *his* chart and describes the
+in-laws as *his* nativity signifies them. Their actual position requires
+their own charts, and no bhavat-bhavam derivation substitutes for that.
+
 ### Children
 
 Everything relevant, computed and in one place. The D1 5th house is Makara —
