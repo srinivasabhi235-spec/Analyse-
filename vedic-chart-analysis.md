@@ -314,6 +314,178 @@ sign and the first 3°20′ of the fire sign following. Two bodies fall inside i
   spiritual and investigative drive load-bearing rather than incidental, and
   gives it a knot of its own.
 
+### Natural traits — the character apparatus, computed
+
+Everything above describes structure. This assembles it into temperament.
+Jyotisha does not read character off a sun-sign; it builds it from the janma
+nakshatra and its koota attributes, the lagna nakshatra, the avasthas,
+vargottama status, the gap between lagna and arudha lagna, the dispositor
+chain, and the character-bearing yogas. All of it is computed in
+`verify_traits.py`.
+
+#### 1. Both personal points are Rakshasa gana
+
+| | Nakshatra | Gana | Nadi | Deity |
+|---|---|---|---|---|
+| **Chandra** (janma) | Krittika pada 2, lord Surya | **Rakshasa** | Antya (Kapha) | **Agni** — *dahana shakti*, the power to burn away |
+| **Lagna** | Chitra pada 2, lord Mangal | **Rakshasa** | Madhya (Pitta) | Tvashtar — *punya-chayani shakti*, the power to accumulate merit |
+
+Across the nine grahas the gana tally is perfectly even — three Deva, three
+Manushya, three Rakshasa. **The imbalance is not in the tally; it is that the
+two most personal points in the chart both land in the uncompromising class.**
+
+Rakshasa gana does not mean malevolent. It means *self-authorising*: he does
+not accept a rule because it is a rule, does not defer to a person because of
+their position, and finds social smoothing genuinely difficult rather than
+merely tiresome. Set against a Kanya lagna, which is framed entirely for
+service and correction, this produces a specific and recognisable person:
+**someone who serves willingly and on his own terms, and who cannot be
+managed — only convinced.**
+
+The two shaktis sharpen it. Krittika's is *burning away*; Chitra's is
+*accumulating merit*. Destroy the false, build the well-made. That is a
+craftsman's ethic with an editor's temperament, and it is the honest
+description of how he actually operates.
+
+#### 2. Both luminaries are exalted in sign and crippled in avastha
+
+This is the single most important finding about his nature, and it is exact:
+
+| | Sign dignity | Baladi avastha | Vimshopaka |
+|---|---|---|---|
+| **Surya** 1°28′ Mesha | **Exalted** *and* **vargottama** | **Bala** — infant, quarter-strength | **16.85 / 20 — rank 1** |
+| **Chandra** 1°47′ Vrishabha | **Exalted** | **Mrita** — dead, no strength | **15.32 / 20 — rank 2** |
+
+Both luminaries are the best-constructed things in the chart, and both are
+sitting at the very start of their signs where the avastha scheme gives them
+almost nothing to work with. **Superbly made; barely deployed.**
+
+That is the character root of everything this reading has said about
+lateness. It is not that his identity and feeling are weak — by every dignity
+measure they are the strongest material he owns. It is that they arrive
+*undeveloped* and mature slowly, on their own schedule, decades after the
+faculties are notionally present. **He is consistently better than his output,
+and will be for a long time.** A person like this is routinely underestimated
+by others and, more damagingly, by himself.
+
+#### 3. Only two things in the chart are vargottama — and they are the two that matter
+
+The lagna and the Sun, and nothing else. **The person he presents and the
+person he is are the same construction** — no split, no performance, no
+second self. And the core identity is the one part of the apparatus that does
+not change when the varga level changes. Whatever else fails him, that holds.
+
+#### 4. Guru and Shani are the only grahas in Yuva avastha
+
+Full-fruit, adult state — and they are the **next two mahadasha lords.** The
+parts of him that are already grown up are the patient, structural,
+teaching-and-enduring parts. Everything ahead of him runs on exactly those.
+The impulsive and appetitive faculties (Mangal, Shukra — both Vriddha, old and
+spent; Budha — Kumara, adolescent) never get their own era.
+
+#### 5. Depth without breadth
+
+Seven grahas in **three signs**, occupying **three consecutive houses (8, 9,
+10)**, inside a **73° arc of the 360°**. Shoola yoga — the spear — and Shakti.
+
+Read as temperament: **enormous depth in a narrow band, and very little
+breadth anywhere else.** He is not versatile and will not become versatile.
+Attempts at range work against the construction; concentration works with it.
+The chart's advice to itself is to go further into one thing rather than
+wider across several.
+
+#### 6. He reads as remote while being useful
+
+| | Sign | Reads as |
+|---|---|---|
+| **Lagna** | Kanya | analytical, corrective, service-framed |
+| **Arudha Lagna** | **Vrischika, with Ketu in it** | private, intense, unreadable, half-absent |
+
+The substance and the image are different signs, and the **detachment node
+sits in the image.** He *is* meticulous and helpful; he *reads* as opaque and
+uninterested. This is structural, not a failure of presentation — and it is
+one of the concrete reasons recognition lags ability throughout the chart.
+People consistently misjudge him on first contact, and he does not have the
+equipment to correct that quickly.
+
+#### 7. A fast mind with no position
+
+The Shadbala components split more sharply for Budha than for any other graha:
+
+- **Chesta Bala 42.15 — second highest in the chart**
+- **Dig Bala 4.28 — the lowest of any graha, out of 60**
+
+Mental motion excellent; positional standing near zero. **Restless, quick,
+endlessly re-examining, never satisfied with a first answer — and
+constitutionally bad at being in the right room at the right time.** He
+solves; he does not position. This is the chart's single most actionable
+trait, and everything else in the reading follows from it.
+
+#### 8. Earth and fire, with nothing to cool them
+
+No classical graha occupies a water sign. Three fire, three earth, one air,
+plus an earth lagna. The lagna nakshatra is Pitta, the janma nakshatra Kapha.
+
+**Practical intensity with low emotional buffering.** He burns hot and holds
+long; he does not let things pass, and he does not forget slights or errors —
+his own most of all. The Kapha nadi of Krittika is the one moderating factor
+and it works on the constitution rather than the temper.
+
+#### 9. Serious young
+
+**Punarphoo** — Chandra with Shani in Vrishabha — is the classical marker of
+someone grave beyond his years, slow to commit, and late to arrive at what
+others reach early. **Vesi yoga formed by malefics** (Mangal and Shani second
+from the Sun) adds austerity and self-denial to the same picture.
+
+And yet the desire nature is not thin: **Shukra is Atmakaraka**, the
+soul-significator, with the highest Ishta Phala in the chart — but its
+**Karakamsa is Vrischika.** Strong appetite routed through secrecy and
+investigation rather than display. He wants a great deal and shows almost
+none of it.
+
+#### 10. Principles and appetite are permanently arguing
+
+Every dispositor chain in the chart terminates in the same two-planet loop:
+
+```
+Surya → Mangal ⇄ Shukra          Guru → Budha → Mangal ⇄ Shukra
+Chandra → Shukra ⇄ Mangal        Shani → Shukra ⇄ Mangal
+```
+
+**Mangal rules the 8th; Shukra rules the 9th.** So the whole chart is finally
+governed by an exchange between the lord of appetite, crisis and depth and
+the lord of ethics, dharma and value — each permanently dispositing the
+other, neither able to resolve into anything else. **He cannot separate what
+he wants from what he believes is right, and the argument between them never
+concludes.** It is also, not coincidentally, the engine of his only raja yoga.
+
+Add **Rahu in Marana Karaka Sthana in the 9th** — the one graha in the chart
+sitting in its worst house — and the picture is complete: **he is
+constitutionally unable to accept an inherited doctrine on authority.** He
+will not take a teacher's word for it. He has to open it himself.
+
+#### What he is not — the absent yogas matter too
+
+- **Kemadruma is absent.** The Moon is flanked by benefics (Durudhara). He is
+  not emotionally isolated, however thin the lunar supply.
+- **Kalasarpa is absent** — Guru alone breaks the nodal arc, from a kendra.
+  He is not fated or trapped; there is a way out and it runs through Jupiter.
+- **No Vasi, no Lagnadhi** (Surya spoils it). No easy grace, no coasting.
+
+#### The portrait in one paragraph
+
+**A self-authorising craftsman with a razor for a birth star.** Meticulous,
+forensic, hard to manage, unwilling to take anything on authority. Reads as
+remote and detached while actually being useful and exacting. Mind fast,
+position poor. Emotionally hot, poorly buffered, and unable to let things
+pass. Grave since childhood, wanting far more than he shows. Built out of
+the two finest luminaries in the chart and given almost no ability to deploy
+them early — so he is **better than his output for the first thirty years and
+knows it, which is precisely the thing that makes him difficult.** The parts
+of him that are already adult are the patient ones, and those are the parts
+the whole rest of his life runs on.
+
 ---
 
 ## 5. The grahas, by strength
