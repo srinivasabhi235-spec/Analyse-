@@ -1398,6 +1398,117 @@ for the current window is therefore *obstructed-then-confirmed*: expect the
 match to hit a visible obstacle or postponement before it formalises, and to
 formalise nonetheless — likely late in the window rather than early.
 
+#### Her traits — the five apparatuses, computed
+
+The paragraphs above describe the *marriage*. This describes the *woman*.
+Classical practice reads her from five independent instruments, and
+`verify_spouse.py` computes all five so the agreements and the conflicts are
+visible rather than smoothed over.
+
+| Apparatus | What it gives | Result |
+|---|---|---|
+| **7th house and lord** | the container | **Meena**, empty, only Ketu's aspect; lord **Guru in Mithuna, enemy sign, 10th**, Ardra pada 3 |
+| **Shukra** — karaka of the wife | her nature as he encounters it | **Mesha, 8th, own nakshatra Bharani p4**, Vriddha avastha, Atmakaraka, highest Ishta Phala |
+| **Darakaraka** (Jaimini) | her as a person | **Surya — exalted, vargottama, Ashwini p1, in the 8th** |
+| **Darakaramsa** | the same, at navamsha depth | **Mesha, holding Surya alone — and it is the 8th of D9** |
+| **Upapada + 2nd from it** | the marriage and its sustainer | **Dhanu**, lord Guru in the 10th; 2nd from UL **Makara under Shani** |
+
+##### The element split resolves the apparent contradiction
+
+Every reading of the 7th produces two incompatible descriptions — soft and
+yielding on one hand, unbudgeable on the other. The computation shows why,
+and the split is perfect:
+
+| Significators **of her** | | The **container** | |
+|---|---|---|---|
+| Darakaraka Surya | **Mesha — Fire** | 7th from lagna | **Meena — Water** |
+| Darakaramsa | **Mesha — Fire** | 7th of D9 | **Meena — Water** |
+| Karaka Shukra | **Mesha — Fire** | 7th from Chandra | **Vrischika — Water** |
+| Upapada | **Dhanu — Fire** | | |
+| **4 fire, 0 anything else** | | **3 water, 0 anything else** | |
+
+**She is a fire-natured woman inside a water-signed marriage.** The two
+descriptions were never in conflict; they describe different objects. The
+relationship's *texture* is gentle, fluid, undefended, easily hurt. **She is
+not.**
+
+##### What she is like
+
+**Sovereign.** The Darakaraka is **Surya exalted and vargottama** — the single
+best-dignified thing in his entire chart is his spouse-significator, and it
+repeats identically at navamsha level, alone in its own sign. Jaimini treats
+the DK as the most personal descriptor available. Read plainly: **a proud,
+self-directed woman used to being the centre of the room, who does not defer
+and does not need to be told what she thinks.** He is not marrying someone
+compliant.
+
+**Direct to the point of bluntness.** Three fire markers in **Mesha** plus
+the **Upapada in Dhanu** — the two most straightforwardly honest signs in the
+zodiac. She says the thing. There is very little indirection, very little
+strategic silence. Given that his own arudha makes him *unreadable*, this is
+a genuine complementarity rather than a clash: **she supplies the plain speech
+he structurally cannot.**
+
+**Working, visible, articulate.** The 7th lord Guru sits in the **10th house
+in Mithuna** — the house of public standing, in the sign of communication.
+She has a career and standing of her own; she is educated, verbal, and known
+outside the home. Guru in **Ardra**, Rahu's nakshatra, adds the note the
+chart never drops: **unconventional, restless, foreign-leaning.**
+
+**Serious in bearing, young in authority.** Two markers pull against each
+other and both are real. **Shani rules the 2nd from the Upapada** — sober,
+dutiful, older in manner, the union sustained by endurance rather than
+romance. But the Darakaraka is in **Bala avastha** — infant, quarter-strength.
+The honest composite is **mature bearing over emergent authority**: she
+carries herself with more gravity than her years, and her actual power is
+still forming when he meets her. It grows across the marriage; it is not
+finished at the wedding.
+
+**She has carried something.** Shukra is in **Vriddha avastha** — old, spent
+of naivety — in **Bharani**, the nakshatra of restraint, endurance and bearing
+what must be borne, and it sits inside the **22nd (Khara) drekkana** with the
+Mrityu upagraha 3° away. She arrives with history. Something has already been
+survived. This is not a first-innocence marriage on either side.
+
+**And she is not fully possessable.** This is the most repeated statement the
+chart makes. **Ketu occupies or aspects the 7th in five separate charts** —
+D1 by aspect, D9, D10, D11, and D30 where it sits 4° from Chandra — and the
+Darakaraka itself falls in **Ashwini, Ketu's own nakshatra.** Six independent
+contacts. Read as her nature rather than as a problem: **self-contained,
+private, spiritually or investigatively inclined, capable of real intimacy
+and constitutionally unwilling to be anyone's possession.** She will not
+merge. That is a feature of who she is, not a withholding.
+
+**Physically energetic and quick-tempered.** **Mangal occupies the 7th of D9**
+alongside Ketu. That is the navamsha Manglik position, and it is the technical
+reason the matching question matters: a Manglik or otherwise Mars-strong
+partner is indicated and is the safer match, not the riskier one.
+
+##### One structural note that is not about her personality
+
+The Darakaraka sits in the **8th house of D1**, and the Darakaramsa is the
+**8th house of D9.** The spouse-significator is in the house of transformation
+in both charts. That is an entirely independent confirmation of §10's finding
+that **marriage is this chart's transformation trigger** — arrived at here
+through Jaimini karakas rather than through the Mangal–Shukra parivartana.
+
+##### The portrait, and its limit
+
+**A direct, proud, working woman with a serious manner and a private
+interior** — plain-spoken where he is opaque, sovereign where he is
+self-doubting, carrying her own history, unwilling to be absorbed. The
+marriage around her is soft, watery and easily bruised; she is not. The union
+is held together by duty and endurance rather than by ease, and it deepens
+rather than dazzles.
+
+**The limit must be stated plainly.** All of this is derived from **his**
+chart. It describes the spouse as *his* nativity signifies her — which is a
+description of the role she occupies in his life, filtered through his own
+karma. **Guna milan, her Mangal dosha, her dasha sequence, her own lagna: all
+require her birth data, and none of it is present.** A real matching cannot be
+done from one chart, and nothing above should be treated as a substitute for
+reading hers.
+
 #### Love or arranged — and how the parents take it
 
 The chart answers this question with unusual precision, because the love
