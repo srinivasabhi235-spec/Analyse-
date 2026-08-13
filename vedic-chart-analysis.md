@@ -3827,6 +3827,177 @@ Stated once, in order, within the tradition's frame:
   chart leaves open is his: specialise and build structure, and the curve
   bends up; wait for recognition, and it flattens.
 
+### Why — the purpose the structure implies
+
+The reading has established *that* the transformations happen, *how* they
+work and *when* they fire. This is the remaining question, and Jyotisha has a
+specific apparatus for it rather than a platitude. `verify_purpose.py`
+computes it.
+
+#### The chart is not built for acquisition
+
+Every graha sorts into one of the four purushartha trikonas — the four aims
+of human life. The distribution is not close:
+
+| Trikona | Houses | Count | Grahas |
+|---|---|---|---|
+| **Dharma** — meaning | 1, 5, 9 | **4** | Chandra, Mangal, Shani, Rahu |
+| **Moksha** — release | 4, 8, 12 | **3** | Surya, Budha, Shukra |
+| Artha — resources | 2, 6, 10 | **1** | Guru |
+| Kama — desire | 3, 7, 11 | **1** | **Ketu** |
+
+**Seven of nine grahas sit in the dharma and moksha trikonas. Two do not.**
+The lagna itself falls in the dharma trikona.
+
+And the single occupant of the kama trikona is **Ketu** — the one body in the
+zodiac whose entire function is to *remove* attachment to whatever it touches.
+**Desire is represented in this chart by its own negation.**
+
+This is the answer to "why does it have to be like this" at the structural
+level: **it was never built for a life of accumulation and enjoyment that
+transformation keeps interrupting.** It was built for meaning and release,
+and the transformations are the mechanism, not the interference.
+
+#### And the whole chart is one axis
+
+Look at where those seven grahas actually are. **Four in the 9th. Three in the
+8th.** That is the entire concentration — and the 8th lord sits in the 9th
+while the 9th lord sits in the 8th.
+
+**Seven of nine grahas occupy two houses that are locked in mutual exchange.**
+The chart is the 8th–9th axis and almost nothing else: transformation and
+dharma, permanently trading places, containing the whole life between them.
+
+#### The 8th is a moksha house
+
+This is the technical fact the reading has walked past six times. **The moksha
+trikona is 4, 8, 12** — and all three of its occupants are in the 8th.
+
+**The house this document has spent six sections calling the transformation
+engine is one of the three doors of release.** The transformation apparatus
+and the liberation apparatus are not two systems that happen to collide here.
+They are the same apparatus.
+
+And **Vimala Yoga** — the 12th lord Surya placed in the 8th — is the technical
+statement that **loss is converted rather than wasted.** The lord of the house
+of letting-go, sitting in the house of transformation.
+
+#### The soul-significator is enrolled in mortality and judgment
+
+The Atmakaraka is Jaimini's explicit soul-agenda technique, and its condition
+is the curriculum. **Shukra is the Atmakaraka**, and four independent
+mortality markers land on it:
+
+1. It sits in the **8th house** — death and transformation
+2. Its nakshatra is **Bharani, whose deity is Yama**
+3. It sits inside the **22nd (Khara) drekkana**
+4. The **Mrityu upagraha** is 3°13′ away
+
+Four markers, from four unrelated techniques, on one graha.
+
+**But Yama is not only the god of death. He is Dharmaraja — the one who
+weighs what is owed.** Bharani's shakti is *apabharani*, the power to carry
+away. Set against a Kanya lagna, whose whole function is discrimination, and
+Chitra's shakti of *accumulating merit*, the curriculum reads consistently:
+**judgment, discernment, knowing what is actually owed and to whom.** Not
+punishment. Accounting.
+
+#### He is being equipped, not merely processed
+
+The Karakamsa — Shukra's navamsha sign, **Vrischika** — is where Jaimini reads
+what the soul can *do*:
+
+| From Karakamsa | Sign | Occupant | Meaning |
+|---|---|---|---|
+| 4th | Kumbha | **Guru** | the teaching seat |
+| **5th** | Meena | **Mangal + Ketu** | **mantra-siddhi — applied esoteric capacity, earned by effort** |
+| 9th | Karka | **Budha** | transmission — the guru function |
+
+**The soul is not simply being put through something. It is being outfitted
+to hand something on.** Guru gives the seat, Budha gives the transmission,
+Ketu with Mangal in the 5th gives the hard-won depth that makes either worth
+anything.
+
+This connects directly to §10's legacy reading and to the Shani mahadasha's
+students-and-service signature. **What the 8th takes from him between 26 and
+31 is what he has to give away between 55 and 74.** The chart is not
+symmetrical by accident.
+
+#### Two knots, and note which two
+
+Gandanta is the classical marker of karma carried *in* rather than made here
+— a knot at the seam between water and fire, ending and beginning. This chart
+has exactly two, and they are the two that matter:
+
+- **Surya at 1°28′ Mesha, Ashwini pada 1** — the graha of the self, the
+  father, and one's own right to authority. Deity: the **Ashwini Kumaras**,
+  the divine physicians; shakti, *the power to heal quickly*.
+- **Ketu at 26°55′ Vrischika, Jyeshtha pada 4** — the karaka of moksha
+  itself, in the severest gandanta pada in the zodiac. Deity: **Indra**;
+  shakti, *arohana — the power to rise*.
+
+**The two knots in this chart are authority and release.** That is as precise
+a statement of the karmic brief as the system is capable of making. And the
+two deities attached to them are a healer and a riser — which is the
+framework's own answer to what the knots are *for*.
+
+#### Ketu has been handed the chart
+
+The moksha karaka is not merely present here. It is crowned:
+
+- **Terminus of the nakshatra dispositor chain** — nothing escapes the
+  Ketu–Budha loop
+- **The Yogi planet**, by computation
+- **The only KP route** by which houses 1 and 10 — self and career — deliver
+- **Occupant of the Arudha Lagna** — the public image is Ketu-coloured
+- **In the 3rd house of self-effort**, in the severest gandanta pada
+- **In the 5th from Karakamsa** — the mantra-siddhi placement
+- **Aspecting the 7th, and occupying the 7th in four separate vargas**
+
+In a chart this heavily Ketu-crowned, **the transformations are not
+incidental hardship.** Ketu's single function is to detach a person from what
+they are holding, and this chart has handed it every lever.
+
+#### What the framework claims, and what it does not
+
+This needs saying plainly, because the question deserves an honest answer and
+not a consoling one.
+
+**Jyotisha describes a structure and a schedule. It does not demonstrate that
+suffering is deserved, that it is optimal, or that any of this is true outside
+its own framework.** No amount of arithmetic above establishes that the pain
+of 2030 is *good*, and this reading will not pretend otherwise.
+
+What the computation legitimately supports is narrower, and still
+substantial:
+
+- the chart is **weighted seven-to-two toward dharma and moksha**
+- its transformation house **is** a moksha house
+- the 12th lord in the 8th **converts** loss rather than wasting it — Vimala
+- the Atmakaraka is **enrolled in mortality and judgment**, by four markers
+- the Karakamsa **equips him to transmit** what he learns
+- the two gandanta knots are precisely **authority and release**
+- and **Ketu, whose whole job is detachment, has been given the chart**
+
+#### The answer
+
+**Read on its own terms, this is a chart in which the transformations are the
+purpose rather than obstacles to it.**
+
+He does not have a life plan that upheaval keeps interrupting. He has a life
+whose plan *is* the upheaval — a chart with almost nothing in the houses of
+having and wanting, everything in the houses of meaning and release, its two
+raja yogas built inside the crisis house because there was nowhere else for
+them to go, and its soul-significator sitting in the nakshatra of the god who
+weighs what is owed.
+
+The classical framework's answer to "why" is therefore not that he is being
+punished, and not that he is being tested. It is that **he is being emptied on
+schedule, by an apparatus that has been given every lever in the chart, so
+that what remains is transmissible.** The 8th takes; the Karakamsa equips; the
+Shani mahadasha hands it on. Whether that is a comfort is a separate question
+from whether it is what the chart says. **It is what the chart says.**
+
 ### Scope notes, stated honestly
 
 - **Ayurdaya (longevity computation) is deliberately not performed.** It is
