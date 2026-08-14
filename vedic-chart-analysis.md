@@ -1457,6 +1457,176 @@ lead, a principal, the head of a function, someone whose judgement is decisive
 within a domain. With a persistent behind-the-scenes quality: strongest house
 the 12th, authority karaka in the 8th, Rahu in the 8th of D10.
 
+#### Career growth — the curve, computed
+
+The reading has given career *timing* in prose several times. This measures
+the *shape*. `verify_career.py` audits the Dashamsha house by house, applies
+the three career techniques the sweep had skipped, and then scores **every
+antardasha from 2026 to 2078 on one rubric** so the ascent can be looked at
+rather than narrated.
+
+##### The Dashamsha audit
+
+| Graha | D10 sign | House | Class | Dignity |
+|---|---|---|---|---|
+| Surya | Mesha | 3 | upachaya | **exalted** |
+| Chandra | Makara | 12 | dusthana | |
+| Mangal | Meena | 2 | — | |
+| Budha | Karka | 6 | upachaya + dusthana | |
+| Guru | Tula | 9 | **trikona** | |
+| **Shukra** | **Vrischika** | **10** | **kendra + upachaya** | |
+| **Shani** | Mithuna | 5 | **trikona** | |
+| Rahu | Kanya | 8 | dusthana | |
+| Ketu | Meena | 2 | — | |
+
+**Census: 1 kendra, 2 trikonas, 3 upachayas, 3 dusthanas.** A dusthana-heavy
+career chart — but the single kendra placement is the best one available:
+**Shukra, the chart's highest Ishta Phala, alone in the D10 tenth.** The
+career-of-career house holds the most benefic graha in the nativity.
+
+The D10 lagna lord **Shani sits in D10's 5th**, a trikona; the D10 tenth lord
+Mangal sits in D10's 2nd. Nothing is broken; nothing is elevated either.
+
+##### The three-fold tenth — and where Kumbha keeps reappearing
+
+| Measured from | Sign | SAV | Occupants | Aspects |
+|---|---|---|---|---|
+| **Lagna** | Mithuna | 29 | **Guru** | none |
+| **Chandra** | **Kumbha** | **41 — the chart's highest** | empty | **Guru and Shani** |
+| Surya | Makara | 29 | empty | Rahu |
+
+All three are different signs, and only the tenth from lagna is occupied —
+which is why standing has to be *built* rather than met.
+
+But note the middle row. **The tenth from the Moon is Kumbha: the chart's
+highest-bindu sign, aspected by both Guru and the Amatyakaraka.** Kumbha is
+also the **D10 ascendant**, the **41-bindu 6th**, and the **10th of D24**. It
+is now the sixth technique to land on the same sign. **Whatever this career
+becomes, it becomes it in Aquarius territory** — systems, technology,
+networks, large impersonal structures.
+
+##### The Jaimini layer, applied for the first time
+
+- **Amatyakaraka = Shani** — Jaimini's career significator. It is
+  *simultaneously* the **D10 lagna lord**, the **occupant of D9's 10th**, the
+  lord of the **41-bindu 6th**, and **Shodhya Pinda rank 2**. Four career
+  credentials on one graha.
+- **The 10th from Karakamsa = Simha.** Empty.
+- **The Rajya Pada (10th from Arudha Lagna) = Simha.** Empty, SAV 24, rank 9.
+
+**Both Jaimini career indicators land on the same sign — Simha, his natal
+12th house.** That is the Jaimini restatement of what the Parashari side has
+said throughout: **his seat of public authority is foreign, secluded and
+behind the scenes**, and it is thinly supported, so it has to be constructed
+rather than occupied.
+
+##### The scored curve
+
+Each graha is rated on: ruling the 10th (+3), occupying it (+3), aspecting it
+(+1), being the D10 lagna lord (+2), being the Amatyakaraka (+2), D10 house
+class (+2 / +1 / −1), occupying D9's 10th (+1.5), Shodhya Pinda (0–3), and
+net Ishta−Kashta (±2). Nodes borrow the strength components of their
+dispositor, per the Parashari rule.
+
+| Graha | Score | Why |
+|---|---|---|
+| **Shani** | **7.96** | D10 lagna lord · Amatyakaraka · D10 trikona · D9 10th · SP 184 · net −34.3 |
+| **Guru** | **5.89** | in the 10th · D10 trikona · SP 81 · net +22.2 |
+| Shukra | 4.53 | D10 kendra · SP 95 · net +35.6 |
+| **Budha** | **3.77** | **10th lord** · D10 dusthana · SP 152 · net −11.4 |
+| Surya | 3.25 | SP 138 · net +39.1 |
+| Mangal · Ketu | 2.36 | SP 212 · net −19.2 |
+| Rahu | 1.53 | D10 dusthana · SP 95 *(via Shukra)* · net +35.6 *(via Shukra)* |
+| Chandra | 0.14 | D10 dusthana · SP 33 |
+
+**The 10th lord ranks fourth as a career agent in his own chart.** Budha
+nominally rules the career house and is beaten by Shani, Guru and Shukra on
+every structural measure. That single line explains most of the frustration
+this chart produces: **the graha with the title does not have the power.**
+
+##### The growth curve, 2026–2078
+
+Weighted 0.4 mahadasha + 0.6 antardasha, normalised:
+
+| Period | Ages | Dasha | Score |
+|---|---|---|---|
+| to Jan 2028 | 23–26 | Rahu–Guru | 0.51 ████████ |
+| **Jan 2028 – Dec 2030** | 26–28 | **Rahu–Shani** | **0.67 ███████████** |
+| Dec 2030 – Jun 2033 | 28–31 | Rahu–Budha | 0.35 █████ |
+| Jun 2033 – Jul 2034 | 31–32 | Rahu–Ketu | 0.24 ███ |
+| Jul 2034 – Jul 2037 | 32–35 | Rahu–Shukra | 0.41 ██████ |
+| Jul 2037 – Jun 2038 | 35–36 | Rahu–Surya | 0.31 █████ |
+| **Jun 2038 – Dec 2039** | 36–37 | **Rahu–Chandra** | **0.07 █** ← *the floor* |
+| Dec 2039 – Dec 2040 | 37–38 | Rahu–Mangal | 0.24 ███ |
+| **Dec 2040 – Feb 2043** | **38–41** | **Guru–Guru** | **0.74 ████████████** |
+| **Feb 2043 – Aug 2045** | **41–43** | **Guru–Shani** | **0.89 ███████████████** |
+| Aug 2045 – Dec 2047 | 43–45 | Guru–Budha | 0.57 █████████ |
+| Nov 2048 – Jul 2051 | 46–49 | Guru–Shukra | 0.63 ██████████ |
+| Apr 2052 – Aug 2053 | 50–51 | Guru–Chandra | 0.29 ████ |
+| **Dec 2056 – Dec 2059** | **54–57** | **Shani–Shani** | **1.00 ████████████████** |
+| Dec 2059 – Sep 2062 | 57–60 | Shani–Budha | 0.68 ███████████ |
+| Oct 2063 – Dec 2066 | 61–64 | Shani–Shukra | 0.74 ████████████ |
+| Jun 2073 – Dec 2075 | 71–73 | Shani–Guru | 0.84 ██████████████ |
+| from Dec 2075 | 73+ | Budha–Budha | 0.46 ███████ |
+
+Averaged into five-year blocks, the shape is unambiguous:
+
+| Block | Mean | |
+|---|---|---|
+| 2025–29 | 0.60 | ██████████ |
+| 2030–34 | 0.36 | ██████ |
+| **2035–39** | **0.19** | **███** ← the lowest stretch of his working life |
+| **2040–44** | **0.82** | **██████████████** ← the step |
+| 2045–49 | 0.58 | █████████ |
+| 2050–54 | 0.40 | ██████ |
+| **2055–59** | **0.85** | **██████████████** |
+| 2060–64 | 0.69 | ███████████ |
+| 2065–69 | 0.51 | ████████ |
+| 2070–74 | 0.66 | ███████████ |
+
+##### Four things the curve says that the prose did not
+
+**1. The growth is a step function, not a ramp — and the step is December
+2040.** The score triples across a single mahadasha boundary (0.24 → 0.74).
+Nothing he does in 2039 causes what happens in 2041. **The largest career
+change of his life is a scheduled handover of the governing lord**, and the
+correct posture going into it is *be positioned*, not *push harder*.
+
+**2. The career trough is 2035–2039, not 2030–2033.** This corrects an
+emphasis. The reading has treated 2030–33 as the hard stretch — correct for
+*pressure and transformation*. But by career score the floor is **2035–2039**
+(mean 0.19), bottoming at **Rahu–Chandra, 2038–39, the lowest reading in
+fifty years.**
+
+That is not a contradiction with the "first harvest" framing of 2034–38 — it
+is a distinction that matters: **Rahu–Shukra and Rahu–Surya are a money and
+recognition window, not a career-structure window.** Wealth and standing move
+in those years; *position* does not. Plan them as an earning phase, not a
+promotion phase.
+
+**3. The single strongest career sub-period before the Shani mahadasha is
+Guru–Shani, February 2043 – August 2045 — and the reading had not flagged
+it.** The emphasis has been on the DKY windows, Guru–Budha (2045–47) and
+Guru–Shukra (2048–51). Those are the *fortune* windows. **Guru–Shani is the
+position window**, because Shani carries four career credentials at once. If
+one stretch is to be aimed at for a title, it is that one.
+
+**4. Shani–Shani, 2056–2059, scores the maximum — and the reading has
+independently called it the hardest stretch in the timeline.** Both are
+correct, and together they are the chart's governing paradox in career form:
+**Shani has the best career credentials in the chart and the worst outcome
+balance in the chart** (net −34.35). Maximum authority, maximum cost,
+simultaneously. That is what it looks like when the apparatus that gives you
+standing is also the one that grinds you.
+
+##### The one-line answer
+
+**Growth is real, late, and stepped.** Two shallow decades, a floor at 35–37,
+a step change at 38, a position peak at 41–43, and the summit of authority at
+54–57 arriving with the heaviest load he will ever carry. **He should stop
+expecting the curve to be smooth — it is not built that way — and instead be
+correctly positioned at two dates: December 2040 and December 2056.**
+
 ### Education — and the elite-MBA question
 
 The dedicated lens here is the **D24 (Siddhamsha)**, derived from the verified
