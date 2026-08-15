@@ -135,7 +135,7 @@ print(f'  {"deliverer":10}{"houses":14}{"Shodhya":>9}{"Kashta":>8}{"net":>9}   '
       f'what it means')
 NOTE = {
     'Ketu': 'self and career handed to the graha of dissolution',
-    'Surya': 'effort and transformation on the chart\'s cheapest channel',
+    'Surya': 'effort and transformation on the best net-balance channel',
     'Shukra': 'wealth and dharma paid by the self-disposited Atmakaraka',
     'Rahu': 'home and marriage carry the foreign, unconventional signature',
     'Chandra': 'children and health on the LOWEST delivery capacity in the chart',
@@ -158,7 +158,11 @@ m = LORD[(LAG + 7) % 12]
 print(f'  The 8th is ruled by {m}: Shodhya Pinda {SP[m]} (rank 1), '
       f'Kashta {KASHTA[m]:.2f} (rank 2).')
 print(f'  {m} stands in {nak_of(D1[m])[0]}, whose lord is {ND[m]}: '
-      f'Kashta {KASHTA[ND[m]]:.2f} -- the CHEAPEST in the chart.')
+      f'Kashta {KASHTA[ND[m]]:.2f}.')
+print(f'  Only Chandra is cheaper ({KASHTA["Chandra"]:.2f}), and Chandra\'s')
+print(f'  Shodhya Pinda is {SP["Chandra"]} -- it barely delivers anything.  Among')
+print('  grahas with real delivery capacity, Surya is the cheapest there is,')
+print('  and it holds the best net balance in the chart.')
 print(f'\n  So the transformation house is OWNED by the second-most-expensive')
 print('  graha and ROUTED THROUGH the least expensive one.  At the level that')
 print('  determines outcomes, the 8th pays out through Surya.')

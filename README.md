@@ -14,6 +14,7 @@ table independently recomputed before interpretation.
 | [`verify_timeline.py`](verify_timeline.py) | Merges dasha and antardasha against Saturn and Jupiter transits into one life timeline, and scores every year 2026–2076 for transformation-window intensity |
 | [`verify_shodasha.py`](verify_shodasha.py) | Computes all sixteen Shodashavarga charts, Vimshopaka Bala and the Vaiseshikamsha dignity census |
 | [`verify_houseclass.py`](verify_houseclass.py) | Kendra/trikona/upachaya/dusthana census across all seven vargas |
+| [`verify_audit.py`](verify_audit.py) | **Master audit** — tests the good-but-with-friction claim, then re-derives and asserts all 52 headline figures the reading rests on |
 | [`verify_dispositors.py`](verify_dispositors.py) | Both dispositor chains — rashi and nakshatra — with the house lords routed through their star lords to show who delivers each house |
 | [`verify_cost.py`](verify_cost.py) | Tests whether delivery and cost correlate: Shodhya Pinda against Kashta Phala, plus gain/cost quadrants across the remaining timeline |
 | [`verify_career.py`](verify_career.py) | Dashamsha audit, the three-fold tenth, the Jaimini career apparatus, and a scored growth curve across every antardasha to 2078 |
@@ -34,12 +35,17 @@ Ashtakavarga; Shodhya Pinda; and a transit chart for August 2026.
 
 ## Verification
 
-Nothing was taken at face value. Both scripts run standalone:
+Nothing was taken at face value. Every script runs standalone, and
+`verify_audit.py` re-derives and asserts all 52 headline figures the reading
+rests on:
 
 ```
-python3 verify_chart.py
-python3 verify_bala.py
+python3 verify_audit.py     # 52/52 pass
+for f in verify_*.py; do python3 "$f"; done
 ```
+
+The only flagged lines across the whole suite are the two deliberate
+source-error reports for D8 and D30 Ketu, described below.
 
 | Check | Result |
 |---|---|

@@ -100,6 +100,28 @@ endurance, purification, victory through building.
 **The native is male and about 24 years old.** That matters: this is a chart at
 the opening of its defining period, not one being assessed in retrospect.
 
+### Full re-audit
+
+This document has been extended and revised many times, and prose drifts even
+when arithmetic does not. `verify_audit.py` therefore re-derives **every
+headline figure the reading rests on** — from the natal longitudes and the
+supplied strength tables alone — and asserts each one, so any drift fails
+loudly instead of surviving quietly in a sentence.
+
+**52 checks across seven areas: chart geometry, strength tables, yogas and
+exchanges, Jaimini karakas and sensitive points, vargottama and avastha,
+structural counts, and cost structure. All 52 pass.** All sixteen verification
+scripts also run clean; the only flagged lines in the entire suite are the two
+deliberate source-error reports for D8 and D30 Ketu.
+
+**The audit did catch one error, and it is corrected throughout.** An earlier
+revision described Surya as "the cheapest graha in the chart" on the strength
+of its Kashta of 7.83. **Chandra is cheaper — 4.49.** The substantive finding
+survives intact, because Chandra's Shodhya Pinda is 33 and it barely delivers
+anything: **among grahas with real delivery capacity, Surya is the cheapest
+there is, and it holds the best net balance.** But the original phrasing
+overstated it, and the corrected form is used from here.
+
 ---
 
 ## 2. The chart
@@ -1076,7 +1098,7 @@ appears:
 | Deliverer | Houses | Shodhya Pinda | Kashta | Net | What it means |
 |---|---|---|---|---|---|
 | **Ketu** | **1, 10, 12** | — | — | — | self, career and release, all handed to the graha of dissolution |
-| **Surya** | **3, 8, 11** | 138 | **7.83** | **+39.05** | effort, transformation and gains on the chart's *cheapest* channel |
+| **Surya** | **3, 8, 11** | 138 | **7.83** | **+39.05** | effort, transformation and gains on the chart's **best net-balance** channel |
 | **Shukra** | 2, 9 | 95 | 11.87 | +35.62 | wealth and dharma paid by the self-disposited Atmakaraka |
 | **Rahu** | 4, 7 | — | — | — | home and marriage carry the foreign, unconventional signature |
 | **Chandra** | 5, 6 | **33 — lowest** | 4.49 | +20.05 | children and health on the weakest delivery capacity in the chart |
@@ -1107,8 +1129,10 @@ the reading reached separately:
 The 8th is **ruled by Mangal** — Shodhya Pinda 212 (rank 1), Kashta 38.87
 (rank 2). Expensive.
 
-But **Mangal stands in Krittika, whose lord is Surya — Kashta 7.83, the
-cheapest graha in the chart.**
+But **Mangal stands in Krittika, whose lord is Surya — Kashta 7.83.** Only
+Chandra is cheaper outright (4.49), and Chandra's Shodhya Pinda is 33: it
+barely delivers anything. **Among grahas with real delivery capacity, Surya is
+the cheapest there is**, and it holds the best net balance in the chart.
 
 **So the house of transformation is *owned* by the second-most-expensive graha
 and *routed through* the least expensive one.** At the level that determines
@@ -4248,6 +4272,78 @@ Stated once, in order, within the tradition's frame:
   through Guru, volume through Shani — while ease declines. The variable the
   chart leaves open is his: specialise and build structure, and the curve
   bends up; wait for recognition, and it flattens.
+
+### Good, but with friction — the claim tested
+
+*"His life is good but with friction."* Those are two separate quantities and
+both are measurable. **"Good" is about the net outcome balance. "Friction" is
+about resistance** — which is not the same thing as cost, and has its own
+signature. `verify_audit.py` tests each.
+
+#### Is the net good? Yes — modestly, and the timing favours him
+
+| Graha | Net (Ishta − Kashta) | Dasha years | |
+|---|---|---|---|
+| **Surya** | **+39.05** | 6 | `+++++++++++++` |
+| **Shukra** | **+35.62** | **20** | `+++++++++++` |
+| **Guru** | **+22.20** | **16** | `+++++++` |
+| **Chandra** | **+20.05** | 10 | `++++++` |
+| Budha | −11.41 | 17 | `---` |
+| Mangal | −19.21 | 7 | `------` |
+| **Shani** | **−34.35** | **19** | `-----------` |
+
+**Four of seven grahas carry a positive outcome balance; three do not.**
+Duration-weighted, the mean is **+5.49** across the 95 classical dasha years
+and **+8.57** across the full 120-year cycle.
+
+**Positive, but modestly.** This is not a good-fortune chart and it is not an
+affliction chart. It is a **mildly favourable** one — and crucially, **the
+favourable grahas hold the longer dashas.** Shukra (20 years), Guru (16) and
+Rahu-via-Shukra (18) own **54 of 120 years between them and are all
+net-positive.** Shani's nineteen negative years are the single largest drag,
+and they arrive last.
+
+#### Is there friction? Extreme — and structural rather than malefic
+
+Seven independent resistance markers, none of which is an affliction:
+
+| Marker | Value |
+|---|---|
+| **Dispositor mismatch** — field lord ≠ star lord | **9 of 9 — 100%** |
+| Kendras occupied by a classical graha | **1 of 4** (Guru alone) |
+| Lagna lord Shadbala ratio | **0.9234 — below its minimum** |
+| Aspects reaching the 8th house | **0 — none** |
+| SAV spread across the twelve signs | **20 bindus** (21 to 41) |
+| Personal points in Rakshasa gana | **2 of 2** |
+| Classical grahas in water signs | **0 — none** |
+
+**Note what is absent from that list.** No Kemadruma. No Kalasarpa. No
+debilitated lagna lord. No graha in the 6th or 12th. Not one classical
+affliction.
+
+**The friction is not malevolence. It is the complete absence of assistance.**
+Every placement is delivered by a graha other than the one owning its field;
+the kendras that would supply structure are empty; the lagna lord runs 8%
+short of its own minimum; the house that processes half the chart cannot be
+reached by anything; the terrain varies by twenty bindus between its best and
+worst ground; both personal points are constitutionally uncompromising; and
+there is no water anywhere to soften any of it.
+
+#### The precise formulation
+
+**Both halves of the claim are correct, and they are measuring different
+things.** The outputs are genuinely favourable. Every single one of them has
+to be dragged across a surface that offers no help.
+
+> **This is a good engine in a chassis with no bearings.**
+>
+> Nothing in this chart is trying to hurt him. **Nothing in it is helping him
+> either.** What looks like bad luck is almost always the absence of
+> assistance rather than the presence of harm — and those require completely
+> different responses. Harm is endured. **Absent assistance has to be
+> installed by hand**, which is why every practical conclusion in this reading
+> comes back to the same instruction: build the structure yourself, because
+> the chart will not supply it.
 
 ### Does everything cost? — the claim tested
 

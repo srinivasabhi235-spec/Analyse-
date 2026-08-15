@@ -347,6 +347,13 @@
       <li><strong>Time of day.</strong> Hora Bala of 60 to Surya, plus an ascendant 176° past the Sun, both indicate <strong>late afternoon or early evening</strong>.</li>
     </ul>
     <p><strong>The native is male and about 24.</strong> This is a chart at the opening of its defining period, not one assessed in retrospect.</p>
+
+    <h3>Full re-audit</h3>
+    <p>This document has been extended and revised many times, and prose drifts even when arithmetic does not. <code>verify_audit.py</code> therefore re-derives <strong>every headline figure the reading rests on</strong> — from the natal longitudes and the supplied strength tables alone — and asserts each one, so any drift fails loudly instead of surviving quietly in a sentence.</p>
+    <div class="callout">
+      <p><strong>52 checks across seven areas — chart geometry, strength tables, yogas and exchanges, Jaimini karakas and sensitive points, vargottama and avastha, structural counts, and cost structure. All 52 pass.</strong> All sixteen verification scripts also run clean; the only flagged lines in the whole suite are the two deliberate source-error reports for D8 and D30 Ketu.</p>
+      <p><strong>The audit did catch one error, corrected throughout.</strong> An earlier revision called Surya "the cheapest graha in the chart" on its Kashta of 7.83. <strong>Chandra is cheaper — 4.49.</strong> The substantive finding survives, because Chandra's Shodhya Pinda is 33 and it barely delivers anything: <strong>among grahas with real delivery capacity Surya is the cheapest there is</strong>, and it holds the best net balance. But the original phrasing overstated it.</p>
+    </div>
   </section>
 
 </div>
@@ -887,7 +894,7 @@
         <thead><tr><th>Deliverer</th><th>Houses</th><th>Shodhya</th><th>Kashta</th><th>Net</th><th>What it means</th></tr></thead>
         <tbody>
           <tr><td class="flag"><strong>Ketu</strong></td><td class="n flag"><strong>1, 10, 12</strong></td><td class="n">—</td><td class="n">—</td><td class="n">—</td><td>self, career and release, all handed to the graha of dissolution</td></tr>
-          <tr><td class="flag"><strong>Surya</strong></td><td class="n flag"><strong>3, 8, 11</strong></td><td class="n">138</td><td class="n flag"><strong>7.83</strong></td><td class="n flag"><strong>+39.05</strong></td><td>effort, transformation and gains on the chart's <em>cheapest</em> channel</td></tr>
+          <tr><td class="flag"><strong>Surya</strong></td><td class="n flag"><strong>3, 8, 11</strong></td><td class="n">138</td><td class="n flag"><strong>7.83</strong></td><td class="n flag"><strong>+39.05</strong></td><td>effort, transformation and gains on the chart's <strong>best net-balance</strong> channel</td></tr>
           <tr><td><strong>Shukra</strong></td><td class="n">2, 9</td><td class="n">95</td><td class="n">11.87</td><td class="n">+35.62</td><td>wealth and dharma paid by the self-disposited Atmakaraka</td></tr>
           <tr><td><strong>Rahu</strong></td><td class="n">4, 7</td><td class="n">—</td><td class="n">—</td><td class="n">—</td><td>home and marriage carry the foreign, unconventional signature</td></tr>
           <tr><td><strong>Chandra</strong></td><td class="n">5, 6</td><td class="n flag"><strong>33 — lowest</strong></td><td class="n">4.49</td><td class="n">+20.05</td><td>children and health on the weakest delivery capacity in the chart</td></tr>
@@ -898,7 +905,7 @@
     <p>Three consequences fall out, each tightening a conclusion reached separately elsewhere. <strong>Self, career and moksha all deliver through Ketu</strong> — which has no Shadbala figures at all, because it is a shadow: identity and profession are paid out by something with no substance of its own, which is the exact technical statement of the behind-the-scenes quality attributed to both. <strong>Children and health deliver through Chandra, Shodhya Pinda 33, the lowest in the chart</strong> — the delay-in-children finding and the health-attention finding were reached by separate routes and turn out to have the same cause. And <strong>home and marriage deliver through Rahu</strong>, giving the foreign, unorthodox marriage reading a fourth independent derivation.</p>
 
     <h4>And it forces a real refinement to the 8th-house reading</h4>
-    <p>The 8th is <strong>ruled by Mangal</strong> — Shodhya Pinda 212 (rank 1), Kashta 38.87 (rank 2). Expensive. But <strong>Mangal stands in Krittika, whose lord is Surya — Kashta 7.83, the cheapest graha in the chart.</strong></p>
+    <p>The 8th is <strong>ruled by Mangal</strong> — Shodhya Pinda 212 (rank 1), Kashta 38.87 (rank 2). Expensive. But <strong>Mangal stands in Krittika, whose lord is Surya — Kashta 7.83.</strong> Only Chandra is cheaper outright (4.49), and Chandra's Shodhya Pinda is 33 — it barely delivers anything. <strong>Among grahas with real delivery capacity, Surya is the cheapest there is</strong>, and it holds the best net balance in the chart.</p>
     <div class="callout big">
       <div class="eyebrow">Two techniques, one answer</div>
       <p><strong>The house of transformation is <em>owned</em> by the second-most-expensive graha and <em>routed through</em> the least expensive one.</strong> At the level that determines outcomes, the 8th pays out through the Sun — <strong>and Surya rules the 12th.</strong> The house of upheaval delivers through the lord of the house of release.</p>
@@ -2173,6 +2180,51 @@
       <div class="eyebrow">And the destination is now specified</div>
       <p>The D60 — the most karmically-weighted varga — places its single exaltation in <strong>Shukra in the 12th</strong>. The arc does not terminate in accumulation or in title. It terminates in the <strong>12th house</strong>: release, foreign residence, seclusion carrying authority, moksha.</p>
       <p>Across the four mahadashas the shape completes: <strong>Rahu builds the material, Guru is paid for it, Shani transmits it, and the 12th receives what remains.</strong> The strongest bhava in the chart is the one he ends in — which is why the contemplative thread was never a footnote here, and why the career, at its summit, still points somewhere past itself.</p>
+    </div>
+
+    <h3>Good, but with friction — the claim tested</h3>
+    <p><em>"His life is good but with friction."</em> Those are two separate quantities and both are measurable. <strong>"Good" is about the net outcome balance. "Friction" is about resistance</strong> — not the same thing as cost, and with its own signature. <code>verify_audit.py</code> tests each.</p>
+
+    <h4>Is the net good? Yes — modestly, and the timing favours him</h4>
+    <div class="scroll">
+      <table>
+        <thead><tr><th>Graha</th><th>Net (Ishta − Kashta)</th><th>Dasha years</th><th></th></tr></thead>
+        <tbody>
+          <tr><td><strong>Surya</strong></td><td class="n flag"><strong>+39.05</strong></td><td class="n">6</td><td class="n">+++++++++++++</td></tr>
+          <tr><td><strong>Shukra</strong></td><td class="n flag"><strong>+35.62</strong></td><td class="n flag"><strong>20</strong></td><td class="n">+++++++++++</td></tr>
+          <tr><td><strong>Guru</strong></td><td class="n flag"><strong>+22.20</strong></td><td class="n flag"><strong>16</strong></td><td class="n">+++++++</td></tr>
+          <tr><td><strong>Chandra</strong></td><td class="n">+20.05</td><td class="n">10</td><td class="n">++++++</td></tr>
+          <tr><td>Budha</td><td class="n">−11.41</td><td class="n">17</td><td class="n">---</td></tr>
+          <tr><td>Mangal</td><td class="n">−19.21</td><td class="n">7</td><td class="n">------</td></tr>
+          <tr><td><strong>Shani</strong></td><td class="n flag"><strong>−34.35</strong></td><td class="n flag"><strong>19</strong></td><td class="n">-----------</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p><strong>Four of seven grahas carry a positive outcome balance; three do not.</strong> Duration-weighted, the mean is <strong>+5.49</strong> across the 95 classical dasha years and <strong>+8.57</strong> across the full 120-year cycle.</p>
+    <p><strong>Positive, but modestly.</strong> This is not a good-fortune chart and it is not an affliction chart — it is a <strong>mildly favourable</strong> one, and crucially <strong>the favourable grahas hold the longer dashas.</strong> Shukra (20 years), Guru (16) and Rahu-via-Shukra (18) own <strong>54 of 120 years between them and are all net-positive.</strong> Shani's nineteen negative years are the single largest drag, and they arrive last.</p>
+
+    <h4>Is there friction? Extreme — and structural rather than malefic</h4>
+    <div class="scroll">
+      <table>
+        <thead><tr><th>Marker</th><th>Value</th></tr></thead>
+        <tbody>
+          <tr><td><strong>Dispositor mismatch</strong> — field lord ≠ star lord</td><td class="n flag"><strong>9 of 9 — 100%</strong></td></tr>
+          <tr><td>Kendras occupied by a classical graha</td><td class="n"><strong>1 of 4</strong> (Guru alone)</td></tr>
+          <tr><td>Lagna lord Shadbala ratio</td><td class="n"><strong>0.9234 — below its minimum</strong></td></tr>
+          <tr><td>Aspects reaching the 8th house</td><td class="n"><strong>0 — none</strong></td></tr>
+          <tr><td>SAV spread across the twelve signs</td><td class="n"><strong>20 bindus</strong> (21 to 41)</td></tr>
+          <tr><td>Personal points in Rakshasa gana</td><td class="n"><strong>2 of 2</strong></td></tr>
+          <tr><td>Classical grahas in water signs</td><td class="n"><strong>0 — none</strong></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p><strong>Note what is absent from that list.</strong> No Kemadruma. No Kalasarpa. No debilitated lagna lord. No graha in the 6th or 12th. Not one classical affliction. <strong>The friction is not malevolence — it is the complete absence of assistance.</strong> Every placement is delivered by a graha other than the one owning its field; the kendras that would supply structure are empty; the lagna lord runs 8% short of its own minimum; the house that processes half the chart cannot be reached by anything; the terrain varies by twenty bindus between its best and worst ground; both personal points are constitutionally uncompromising; and there is no water anywhere to soften any of it.</p>
+
+    <div class="callout big">
+      <div class="eyebrow">The precise formulation</div>
+      <p>Both halves of the claim are correct, and they measure different things. The outputs are genuinely favourable. Every single one of them has to be dragged across a surface that offers no help.</p>
+      <p><strong>This is a good engine in a chassis with no bearings.</strong></p>
+      <p>Nothing in this chart is trying to hurt him. <strong>Nothing in it is helping him either.</strong> What looks like bad luck is almost always the absence of assistance rather than the presence of harm — and those require completely different responses. Harm is endured. <strong>Absent assistance has to be installed by hand</strong>, which is why every practical conclusion in this reading returns to the same instruction: build the structure yourself, because the chart will not supply it.</p>
     </div>
 
     <h3>Does everything cost? — the claim tested</h3>
