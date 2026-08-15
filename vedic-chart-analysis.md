@@ -4109,6 +4109,104 @@ Stated once, in order, within the tradition's frame:
   chart leaves open is his: specialise and build structure, and the curve
   bends up; wait for recognition, and it flattens.
 
+### Does everything cost? — the claim tested
+
+*"He gets it all, but with pain."* That is a statement about **correlation**,
+and it is testable rather than merely plausible. The chart supplies two
+independent measures per graha: **Shodhya Pinda** (delivery capacity) and
+**Kashta Phala** (the cost half of the outcome balance). If the claim holds,
+the grahas that deliver most should be the grahas that cost most.
+`verify_cost.py` checks it.
+
+| Graha | Shodhya Pinda | rank | Kashta | rank | Ishta | net | Rules |
+|---|---|---|---|---|---|---|---|
+| **Mangal** | **212** | 1 | 38.87 | **2** | 19.66 | −19.21 | 3rd + **8th** |
+| **Shani** | **184** | 2 | **46.83** | **1** | 12.48 | **−34.35** | 5th + **6th** |
+| **Budha** | **152** | 3 | 30.32 | **3** | 18.91 | −11.41 | 1st + **10th** |
+| **Surya** | 138 | 4 | **7.83** | 6 | 46.88 | **+39.05** | **12th** |
+| Shukra | 95 | 5 | 11.87 | 5 | 47.49 | +35.62 | 2nd + 9th |
+| Guru | 81 | 6 | 15.10 | 4 | 37.30 | +22.20 | 4th + 7th |
+| Chandra | 33 | 7 | 4.49 | 7 | 24.54 | +20.05 | 11th |
+
+> **Spearman ρ = +0.82  ·  Pearson r = +0.84**
+
+A rank correlation of that size across seven grahas is not noise. **In this
+chart, what delivers is what costs.** The three highest-capacity grahas —
+Mangal, Shani, Budha — are also the three most expensive, and they rule the
+**8th, the 6th and the 10th**: transformation, adversity and career. **The
+claim is structurally correct.**
+
+#### And it holds at the timeline level too
+
+Splitting every antardasha from 2026 to 2078 into gain/cost quadrants,
+weighted by duration:
+
+| Quadrant | Years | Share |
+|---|---|---|
+| **Paid for** — high gain, high cost | 25.7 | **49%** |
+| Quiet — low gain, low cost | 18.7 | 35% |
+| Free — high gain, low cost | 5.8 | 11% |
+| Attrition — low gain, high cost | 2.5 | 5% |
+
+**Of everything in the remaining fifty-three years that delivers, 82% of it is
+charged for.** The same figure as the correlation, arrived at a different way.
+
+*(One honest caveat: the nodes carry no Shadbala figures, so they borrow their
+dispositor's — which makes Rahu look cheap via Shukra and lands Rahu–Budha
+2030–33 in the "free" quadrant despite it carrying the Saturn return, Sade
+Sati's peak and Marana Karaka Sthana. Read the quadrants as a structural
+summary, not a forecast of ease. **The ρ = +0.82 does not depend on that
+proxy** — it is computed on the seven classical grahas alone.)*
+
+#### Two refinements the raw claim misses
+
+**First: it is not that pain is the *price* of the reward. It is that the same
+grahas do both jobs.** There is no separate suffering department in this
+chart. Mangal, Shani and Budha carry the top three Shodhya Pindas *and* the
+top three Kashta figures, and between them they rule the houses of
+transformation, adversity and career. **The engine and the grinding are one
+mechanism.** He is not paying a toll to use the road — the road is made of
+the toll.
+
+**Second: there is an exemption, and it is exact.**
+
+| | Delivery rank | Cost rank | Gap |
+|---|---|---|---|
+| **Surya** | **4** | **6** | **+2 — the bargain** |
+| Shani | 2 | 1 | −1 |
+| Mangal | 1 | 2 | −1 |
+| Guru | 6 | 4 | −2 |
+
+**Surya is the one graha that breaks the correlation** — fourth in delivery
+capacity, sixth of seven in cost, the **best net balance in the chart
+(+39.05)**, exalted, vargottama, highest Vimshopaka. It gives substantially
+and charges almost nothing.
+
+**And Surya rules the 12th house.** Loss, foreign lands, seclusion,
+expenditure, moksha.
+
+So **the single painless delivery channel in this chart is the one whose
+subject matter is letting go.** That is not a moral being imposed on the
+data — it is where the numbers fall. Everything he grips costs him. The one
+thing that does not is the thing he releases.
+
+It also explains a texture the reading has noted repeatedly without
+accounting for it: **Guru is the mirror case** — sixth in delivery, fourth in
+cost, but with a comfortably positive net. That is why the Guru mahadasha
+reads as *fortunate* rather than as *productive*. **It pays out more than it
+manufactures.**
+
+#### The accurate sentence
+
+Not *"he gets everything, painfully."* The computation says something more
+specific and more useful:
+
+> **He gets everything he grips, painfully — and the one thing he gets freely
+> is what he stops gripping.**
+
+Which is the same conclusion the purpose section below reaches from an
+entirely different direction.
+
 ### Why — the purpose the structure implies
 
 The reading has established *that* the transformations happen, *how* they
