@@ -834,6 +834,77 @@
     </div>
     <p><strong>The 3rd house takes almost everything</strong> — Ketu occupies it while Mangal, Shani and Chandra all aspect it. This is the chart's real working house: effort put into <em>skill and output</em> pays disproportionately. <strong>Rahu aspects the lagna</strong> from the 9th, and runs the current mahadasha — identity under active reconstruction across 2022–2040. And <strong>Guru aspects the 6th</strong>, protective for health and adversaries.</p>
 
+    <h3>The two dispositor levels — and who actually pays out each house</h3>
+    <p>Jyotisha has <strong>two independent chains of authority</strong>. The <strong>rashi</strong> level asks who owns the sign a graha stands in; the <strong>nakshatra</strong> level asks who owns the lunar mansion. Classical practice reads the rashi level as the <em>field</em> a graha works in and the nakshatra level as the <em>agent that delivers the result</em> — so where they disagree, the nakshatra generally decides the outcome. <code>verify_dispositors.py</code> computes both in full; this is the first time they are set side by side.</p>
+    <div class="scroll">
+      <table>
+        <thead><tr><th>Graha</th><th>Position</th><th>Sign lord <em>(field)</em></th><th>Nakshatra</th><th>Star lord <em>(delivery)</em></th></tr></thead>
+        <tbody>
+          <tr><td>Surya</td><td class="n">1°28′ Mesha</td><td class="n">Mangal</td><td class="n">Ashwini p1</td><td class="n"><strong>Ketu</strong></td></tr>
+          <tr><td>Chandra</td><td class="n">1°47′ Vrishabha</td><td class="n">Shukra</td><td class="n">Krittika p2</td><td class="n"><strong>Surya</strong></td></tr>
+          <tr><td>Mangal</td><td class="n">7°20′ Vrishabha</td><td class="n">Shukra</td><td class="n">Krittika p4</td><td class="n"><strong>Surya</strong></td></tr>
+          <tr><td>Budha</td><td class="n">10°28′ Mesha</td><td class="n">Mangal</td><td class="n">Ashwini p4</td><td class="n"><strong>Ketu</strong></td></tr>
+          <tr><td>Guru</td><td class="n">14°48′ Mithuna</td><td class="n">Budha</td><td class="n">Ardra p3</td><td class="n"><strong>Rahu</strong></td></tr>
+          <tr><td class="flag"><strong>Shukra</strong></td><td class="n">23°37′ Mesha</td><td class="n">Mangal</td><td class="n flag"><strong>Bharani p4</strong></td><td class="n flag"><strong>Shukra — its own</strong></td></tr>
+          <tr><td>Shani</td><td class="n">17°54′ Vrishabha</td><td class="n">Shukra</td><td class="n">Rohini p3</td><td class="n"><strong>Chandra</strong></td></tr>
+          <tr><td>Rahu</td><td class="n">26°56′ Vrishabha</td><td class="n">Shukra</td><td class="n">Mrigashira p2</td><td class="n"><strong>Mangal</strong></td></tr>
+          <tr><td>Ketu</td><td class="n">26°56′ Vrischika</td><td class="n">Mangal</td><td class="n">Jyeshtha p4</td><td class="n"><strong>Budha</strong></td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h4>Not one graha has the same lord at both levels</h4>
+    <div class="callout">
+      <p><strong>Nine out of nine.</strong> There is not a single placement in this chart where the sign lord and the star lord are the same graha. <strong>Every placement is worked in one graha's field and paid out by a different graha entirely.</strong> He is always doing the work in one place and being paid from another — "visibility lags ability" stated through dispositorship rather than through Dig Bala, and structural rather than circumstantial.</p>
+    </div>
+
+    <h4>Two attractors, one per level</h4>
+    <p><strong>Rashi level — everything ends in Mangal ⇄ Shukra.</strong> <strong>Nakshatra level — eight of nine end in Budha ⇄ Ketu:</strong> Budha stands in Ashwini, Ketu's star, and Ketu stands in Jyeshtha, Budha's star. That is a genuine <strong>nakshatra parivartana</strong> — the star-level twin of the Mangal ⇄ Shukra exchange at sign level. The "closed Ketu–Budha loop" noted earlier is this, under its technical name.</p>
+    <p><strong>And the ninth graha is Shukra, which stands in its own nakshatra and therefore disposits itself</strong> — a fixed point answering to nothing. <strong>Shukra is the Atmakaraka.</strong> At the level the tradition holds actually delivers results, the soul-significator is sovereign: the only thing in this chart not routed through something else, and the only graha appearing as a terminus at <em>both</em> levels.</p>
+
+    <h4>Who actually pays out each house</h4>
+    <div class="scroll">
+      <table>
+        <thead><tr><th>House</th><th>Significations</th><th>Sign lord</th><th>Standing in</th><th>Actually paid by</th></tr></thead>
+        <tbody>
+          <tr><td class="n flag"><strong>1</strong></td><td>self</td><td class="n">Budha</td><td class="n">Ashwini</td><td class="n flag"><strong>Ketu</strong></td></tr>
+          <tr><td class="n">2</td><td>wealth, family, speech</td><td class="n">Shukra</td><td class="n">Bharani</td><td class="n"><strong>Shukra</strong></td></tr>
+          <tr><td class="n">3</td><td>effort, courage, siblings</td><td class="n">Mangal</td><td class="n">Krittika</td><td class="n"><strong>Surya</strong></td></tr>
+          <tr><td class="n">4</td><td>home, mother, roots</td><td class="n">Guru</td><td class="n">Ardra</td><td class="n"><strong>Rahu</strong></td></tr>
+          <tr><td class="n">5</td><td>children, romance</td><td class="n">Shani</td><td class="n">Rohini</td><td class="n"><strong>Chandra</strong></td></tr>
+          <tr><td class="n">6</td><td>adversity, health, service</td><td class="n">Shani</td><td class="n">Rohini</td><td class="n"><strong>Chandra</strong></td></tr>
+          <tr><td class="n">7</td><td>partnership</td><td class="n">Guru</td><td class="n">Ardra</td><td class="n"><strong>Rahu</strong></td></tr>
+          <tr><td class="n flag"><strong>8</strong></td><td>transformation</td><td class="n">Mangal</td><td class="n">Krittika</td><td class="n flag"><strong>Surya</strong></td></tr>
+          <tr><td class="n">9</td><td>dharma, father, fortune</td><td class="n">Shukra</td><td class="n">Bharani</td><td class="n"><strong>Shukra</strong></td></tr>
+          <tr><td class="n flag"><strong>10</strong></td><td>career, standing</td><td class="n">Budha</td><td class="n">Ashwini</td><td class="n flag"><strong>Ketu</strong></td></tr>
+          <tr><td class="n">11</td><td>gains, networks</td><td class="n">Chandra</td><td class="n">Krittika</td><td class="n"><strong>Surya</strong></td></tr>
+          <tr><td class="n flag"><strong>12</strong></td><td>loss, foreign, moksha</td><td class="n">Surya</td><td class="n">Ashwini</td><td class="n flag"><strong>Ketu</strong></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="scroll">
+      <table>
+        <thead><tr><th>Deliverer</th><th>Houses</th><th>Shodhya</th><th>Kashta</th><th>Net</th><th>What it means</th></tr></thead>
+        <tbody>
+          <tr><td class="flag"><strong>Ketu</strong></td><td class="n flag"><strong>1, 10, 12</strong></td><td class="n">—</td><td class="n">—</td><td class="n">—</td><td>self, career and release, all handed to the graha of dissolution</td></tr>
+          <tr><td class="flag"><strong>Surya</strong></td><td class="n flag"><strong>3, 8, 11</strong></td><td class="n">138</td><td class="n flag"><strong>7.83</strong></td><td class="n flag"><strong>+39.05</strong></td><td>effort, transformation and gains on the chart's <em>cheapest</em> channel</td></tr>
+          <tr><td><strong>Shukra</strong></td><td class="n">2, 9</td><td class="n">95</td><td class="n">11.87</td><td class="n">+35.62</td><td>wealth and dharma paid by the self-disposited Atmakaraka</td></tr>
+          <tr><td><strong>Rahu</strong></td><td class="n">4, 7</td><td class="n">—</td><td class="n">—</td><td class="n">—</td><td>home and marriage carry the foreign, unconventional signature</td></tr>
+          <tr><td><strong>Chandra</strong></td><td class="n">5, 6</td><td class="n flag"><strong>33 — lowest</strong></td><td class="n">4.49</td><td class="n">+20.05</td><td>children and health on the weakest delivery capacity in the chart</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p><strong>Four of the seven classical grahas rule houses and deliver none of them.</strong> Mangal, Shani, Budha and Guru hold eight of the twelve lordships between them and hand every single one to somebody else. <strong>They are conduits, not sources.</strong></p>
+    <p>Three consequences fall out, each tightening a conclusion reached separately elsewhere. <strong>Self, career and moksha all deliver through Ketu</strong> — which has no Shadbala figures at all, because it is a shadow: identity and profession are paid out by something with no substance of its own, which is the exact technical statement of the behind-the-scenes quality attributed to both. <strong>Children and health deliver through Chandra, Shodhya Pinda 33, the lowest in the chart</strong> — the delay-in-children finding and the health-attention finding were reached by separate routes and turn out to have the same cause. And <strong>home and marriage deliver through Rahu</strong>, giving the foreign, unorthodox marriage reading a fourth independent derivation.</p>
+
+    <h4>And it forces a real refinement to the 8th-house reading</h4>
+    <p>The 8th is <strong>ruled by Mangal</strong> — Shodhya Pinda 212 (rank 1), Kashta 38.87 (rank 2). Expensive. But <strong>Mangal stands in Krittika, whose lord is Surya — Kashta 7.83, the cheapest graha in the chart.</strong></p>
+    <div class="callout big">
+      <div class="eyebrow">Two techniques, one answer</div>
+      <p><strong>The house of transformation is <em>owned</em> by the second-most-expensive graha and <em>routed through</em> the least expensive one.</strong> At the level that determines outcomes, the 8th pays out through the Sun — <strong>and Surya rules the 12th.</strong> The house of upheaval delivers through the lord of the house of release.</p>
+      <p>That is the same conclusion the cost analysis reached from rank correlations — <em>the one thing he gets freely is what he stops gripping</em> — arrived at here through nakshatra lordship alone. It does not soften the cost of the 8th; the <em>field</em> is still Mangal's and still brutal. What it says is that <strong>the payout channel is the cheap one</strong>, which is why Vimala Yoga resolves upward and why the transformation is survivable rather than merely severe.</p>
+    </div>
+
     <h3>The 8th house — the full mechanism</h3>
     <p>The reading has called the 8th this chart's engine in every section without auditing the house itself. <code>verify_eighth.py</code> does that: what is in it, what routes through it, how weak it measures, what its lord is doing, whether the pattern repeats in the vargas, and when the apparatus comes online.</p>
 
