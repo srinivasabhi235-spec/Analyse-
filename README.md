@@ -9,6 +9,7 @@ table independently recomputed before interpretation.
 |---|---|
 | [`vedic-chart-analysis.md`](vedic-chart-analysis.md) | The reading — chart structure, yogas, strength analysis, life areas, timeline, transits |
 | [`chart-reading.html`](chart-reading.html) | The same reading as a formatted page |
+| [`build_html.py`](build_html.py) | Regenerates the HTML page from the markdown, preserving the design system |
 | [`verify_chart.py`](verify_chart.py) | Verifies positions, divisional charts, nakshatras, gandanta, dasha |
 | [`verify_bala.py`](verify_bala.py) | Verifies Shadbala, Bhava Bala, Ashtakavarga, Reduced Ashtakavarga, Shodhya Pinda |
 | [`verify_timeline.py`](verify_timeline.py) | Merges dasha and antardasha against Saturn and Jupiter transits into one life timeline, and scores every year 2026–2076 for transformation-window intensity |
