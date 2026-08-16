@@ -32,7 +32,7 @@ FOOT = '''
     <p class="pull">The difficulty and the fortune<br>are the same object.</p>
 
     <footer>
-      Prepared from supplied D1, D9, D10, D11, D8, D27, D30, upagraha, Vimshottari, Shadbala, Bhava Bala, Ashtakavarga, Reduced Ashtakavarga, Shodhya Pinda and transit data. All divisional charts, dasha boundaries and strength tables were independently recomputed and verified. Sixteen verification scripts accompany this reading; <code>verify_audit.py</code> re-derives and asserts all 52 headline figures. Two source errors (D8 and D30 Ketu) are corrected throughout; two unreconcilable columns are identified in §01 and excluded. An interpretation within the framework of Jyotisha, presented on its own terms.
+      Prepared from supplied D1, D9, D10, D11, D8, D27, D30, upagraha, Vimshottari, Shadbala, Bhava Bala, Ashtakavarga, Reduced Ashtakavarga, Shodhya Pinda and transit data. All divisional charts, dasha boundaries and strength tables were independently recomputed and verified. Sixteen verification scripts accompany this reading; <code>verify_audit.py</code> re-derives and asserts all 52 headline figures. All sixteen Shodashavarga charts are printed in full. An earlier claim of node errors in D8 and D30 is retracted in §01; two unreconcilable columns are identified there and excluded. An interpretation within the framework of Jyotisha, presented on its own terms.
     </footer>
   </section>
 </div>

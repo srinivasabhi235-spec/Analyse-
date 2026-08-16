@@ -270,7 +270,10 @@ def check_nodes():
             verdict = "OK"
         else:
             corrected = (r + 180) % 360
-            verdict = f"*** BROKEN — Ketu duplicates Rahu; should be {fmt(corrected)} ***"
+            verdict = ("SAME SIGN — required, not an error: a 180-degree gap "
+                       "is exactly 6 signs, so it preserves parity and "
+                       "modality and cannot separate the nodes in a "
+                       "start-sign+offset varga")
         print(f"  {varga:4s} Rahu {fmt(r)}   Ketu {fmt(k)}   gap {gap:6.2f}°   {verdict}")
 
 

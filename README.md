@@ -9,6 +9,7 @@ table independently recomputed before interpretation.
 |---|---|
 | [`vedic-chart-analysis.md`](vedic-chart-analysis.md) | The reading — chart structure, yogas, strength analysis, life areas, timeline, transits |
 | [`chart-reading.html`](chart-reading.html) | The same reading as a formatted page |
+| [`build_charts.py`](build_charts.py) | Computes and emits all sixteen Shodashavarga charts in full — master grid, dignity tally, and each varga with houses and classes |
 | [`build_html.py`](build_html.py) | Regenerates the HTML page from the markdown, preserving the design system |
 | [`verify_chart.py`](verify_chart.py) | Verifies positions, divisional charts, nakshatras, gandanta, dasha |
 | [`verify_bala.py`](verify_bala.py) | Verifies Shadbala, Bhava Bala, Ashtakavarga, Reduced Ashtakavarga, Shodhya Pinda |
@@ -47,8 +48,7 @@ python3 verify_audit.py     # 52/52 pass
 for f in verify_*.py; do python3 "$f"; done
 ```
 
-The only flagged lines across the whole suite are the two deliberate
-source-error reports for D8 and D30 Ketu, described below.
+Every script runs clean.
 
 | Check | Result |
 |---|---|
@@ -59,15 +59,14 @@ source-error reports for D8 and D30 Ketu, described below.
 | Sarvashtakavarga total | **337** — the classical value |
 | Reduced Ashtakavarga → Shodhya Pinda | Rebuilds all sixteen values via the standard Gunakara multipliers |
 
-**Two source errors found.** Rahu and Ketu must be exactly 180° apart. In **D8**
-and **D30** the generator printed Ketu at Rahu's own longitude:
-
-- D8 — Ketu should be **05°26′ Makara (11th)**, not Karka (5th)
-- D30 — Ketu should be **27°56′ Vrishabha (7th)**, not Vrischika (1st)
-
-The D30 correction is interpretively significant: it places Ketu 4° from Chandra
-in the 7th, a conjunction the printed chart hides entirely. The reading uses
-corrected values.
+**A retraction.** An earlier pass flagged D8 and D30 as containing node
+errors, reasoning that Rahu and Ketu are 180° apart and so must never share a
+divisional sign. **That reasoning was wrong and the supplied data was right.**
+A 180° separation is exactly six signs, which preserves sign parity and
+modality and leaves the degree-in-sign identical — so any varga built as
+"starting sign by parity/modality, plus an offset" *must* place both nodes in
+the same divisional sign. Only linear-map vargas (D9, D27) separate them.
+`build_charts.py` reproduces the supplied D8 and D30 placements exactly.
 
 **Two columns excluded.** The Shadbala table's "Bhava (in %)" row and the Reduced
 Ashtakavarga's "Sarv" column do not reconcile against any tested derivation, and

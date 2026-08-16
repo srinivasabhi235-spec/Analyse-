@@ -317,10 +317,21 @@
 </table>
 </div>
     <p>That last line matters more than it looks. Reproducing the supplied transit positions from first principles to three arcminutes is what licenses reading eclipse degrees and partile contacts closely later in this document.</p>
-    <h3>Two source errors, found and corrected</h3>
-    <p>Rahu and Ketu must be exactly 180° apart. In <strong>D8</strong> and <strong>D30</strong> the generator printed Ketu at Rahu's own longitude:</p>
-    <ul><li><strong>D8</strong> — Ketu should be <strong>05°26′ Makara (11th)</strong>, not Karka (5th)</li><li><strong>D30</strong> — Ketu should be <strong>27°56′ Vrishabha (7th)</strong>, not Vrischika (1st)</li></ul>
-    <p>The D30 correction is interpretively significant: it places Ketu 4° from Chandra in the 7th, a conjunction the printed chart hides entirely. <strong>This reading uses the corrected values throughout.</strong></p>
+    <h3>A correction to an earlier reading of the source data</h3>
+    <p>An earlier pass through this chart flagged <strong>D8 and D30 as containing source errors</strong>, on the grounds that Rahu and Ketu are exactly 180° apart and must therefore never share a divisional sign. <strong>That reasoning was wrong, and the supplied data was right.</strong></p>
+    <p>A 180° separation is <strong>exactly six signs</strong> — which preserves sign parity (6 is even) and modality (6 mod 3 = 0), and leaves the position-within-sign identical. So for <strong>any varga whose rule is "pick a starting sign by parity or modality, then add an offset from the degree in sign"</strong>, the two nodes are <em>mathematically required</em> to land in the same divisional sign.</p>
+    <div class="scroll">
+<table>
+<thead><tr><th>Varga</th><th>Rule type</th><th>Nodes</th><th>Correct?</th></tr></thead>
+<tbody>
+<tr><td class="n"><strong>D8, D30</strong></td><td class="n">start-sign + offset</td><td class="n"><strong>same sign</strong></td><td><strong>Required. Supplied data correct.</strong></td></tr>
+<tr><td class="n">D9, D27</td><td class="n">linear map (<code>⌊L·n/30⌋</code>)</td><td class="n">6 signs apart</td><td class="n">Separation preserved</td></tr>
+<tr><td class="n">Element-based rules</td><td>element differs across 180°</td><td class="n">may differ</td><td class="n">Depends on the rule</td></tr>
+</tbody>
+</table>
+</div>
+    <p>Only the <strong>linear-map</strong> vargas separate the nodes. <code>build_charts.py</code> reproduces the supplied D8 and D30 node placements from the verified longitudes, and <code>verify_chart.py</code>'s node-integrity test has been corrected to check longitudes rather than divisional signs.</p>
+    <p><strong>One reading is retracted as a consequence.</strong> The claim that D30 shows "Chandra conjunct Ketu within 4° in the 7th" was built on the mistaken correction. <strong>The actual D30 7th house holds Chandra, exalted and alone</strong> — which is a materially <em>better</em> placement for the marriage than what was previously stated. The detachment signature on the 7th survives on other evidence, recounted in §11.</p>
     <h3>Two columns excluded</h3>
     <p>The Shadbala table's "Bhava (in %)" row and the Reduced Ashtakavarga's "Sarv" column do not reconcile against any tested derivation. They are identified and set aside rather than guessed at.</p>
     <h3>Birth data, derived and triple-confirmed</h3>
@@ -949,36 +960,408 @@
 
 <div class="wrap">
   <section>
-    <h2><span class="num">09</span> The divisional charts</h2>
-    <p>The full <strong>Shodashavarga</strong> — all sixteen classical vargas — is computed in <code>verify_shodasha.py</code>. Eleven were supplied or derived directly; the remaining seven were computed from the verified D1 longitudes.</p>
-    <h3>The seven supplied vargas</h3>
-    <p><strong>D9 (Navamsha) — lagna Kanya, vargottama.</strong> <strong>Rahu conjoins the D9 lagna</strong>; <strong>Mangal and Ketu occupy the 7th</strong>; <strong>Shani sits in the 10th</strong>; <strong>Surya is exalted in the 8th</strong>, repeating its D1 placement exactly. All four D9 kendras are held by malefics. The D9 7th lord Guru falls in the 6th.</p>
-    <p><strong>D10 (Dashamsha) — lagna Kumbha, lord Shani.</strong> <strong>Shukra alone in the 10th</strong> (finance, risk, insurance, investigation, data); <strong>Shani in the 5th</strong>; <strong>Surya exalted in the 3rd</strong>; <strong>Rahu in the 8th</strong> — the career chart's house of upheaval holds the mahadasha lord. Census: 1 kendra, 2 trikonas, 3 upachayas, 3 dusthanas.</p>
-    <p><strong>D11 (Rudramsha) — lagna Dhanu.</strong> Both nodes debilitated. <strong>Ketu in the 7th.</strong> Gains capacity present but the gains <em>house</em> is weak — income arrives through specific channels rather than accumulating broadly.</p>
-    <p><strong>D8 (Ashtamsha) — lagna Meena.</strong> <strong>Mangal exalted in the 11th</strong> (joined by Ketu once corrected); <strong>Shani debilitated in the 2nd but neechabhanga</strong> via the Mangal ⇄ Shani exchange; <strong>Shukra in own sign and mooltrikona in the 8th</strong> — the varga <em>of</em> the 8th house placing the Atmakaraka in its own 8th.</p>
-    <p><strong>D27 (Bhamsha) — lagna Karka.</strong> Mangal, Budha, Shukra and Ketu all in the 7th, Rahu in the lagna — the 1/7 axis loading of D9 repeated. Mangal exalted. <strong>Zero dusthana occupancy</strong> — no constitutional weak point.</p>
-    <p><strong>D30 (Trimshamsha) — lagna Vrischika.</strong> Surya exalted in the 6th — good for overcoming adversity and disease. Guru in own sign in the 2nd. <strong>Chandra in mooltrikona in the 7th, conjunct Ketu within 4°</strong> once the source error is corrected.</p>
-    <p><strong>D1</strong> is covered throughout.</p>
-    <h3>The remaining nine, computed</h3>
+    <h2><span class="num">09</span> The divisional charts — all sixteen, in full</h2>
+    <p>The <strong>Shodashavarga</strong> is the sixteen-chart scheme Parashara treats as the complete apparatus. Seven were supplied with the source data; <strong>the other nine are derived here from the verified D1 longitudes</strong> by <code>build_charts.py</code>, using the same varga engine as <code>verify_shodasha.py</code>.</p>
+    <p><strong>That engine is calibrated, not assumed.</strong> Its D9, D10, D27 and D30 reproduce the supplied source tables <em>exactly</em> — which is what licenses trusting the nine it derives without external confirmation.</p>
+    <p>Every chart below is printed in full: sign, house from that varga's own ascendant, house class, and dignity. Nothing is summarised away.</p>
+    <h3>How to read a varga</h3>
+    <p>A divisional chart is not a separate horoscope. It is the <strong>same moment magnified</strong> on one department of life. The rules:</p>
+    <ul><li><strong>The varga lagna is its own ascendant.</strong> Houses count from there, not from the D1 lagna.</li><li><strong>Dignity in a varga is real dignity.</strong> An exalted graha in D24 is genuinely strong for education, whatever it is doing in D1.</li><li><strong>Kendra, trikona, upachaya and dusthana all apply</strong>, and the census tells you whether that department is structurally supported or structurally strained.</li><li><strong>A graha holding dignity across many vargas is durable.</strong> That is what Vimshopaka Bala measures, and it is the fairest single strength figure the system produces.</li></ul>
+    <h3>The complete Shodashavarga</h3>
+    <h4>The master grid — every body in every varga</h4>
     <div class="scroll">
 <table>
-<thead><tr><th>Varga</th><th>Lagna</th><th>Notable</th></tr></thead>
+<thead><tr><th>Body</th><th>D1</th><th>D2</th><th>D3</th><th>D4</th><th>D7</th><th>D9</th><th>D10</th><th>D12</th><th>D16</th><th>D20</th><th>D24</th><th>D27</th><th>D30</th><th>D40</th><th>D45</th><th>D60</th></tr></thead>
 <tbody>
-<tr><td class="n"><strong>D2</strong> Hora</td><td class="n">—</td><td>Wealth split; the Surya/Chandra hora balance</td></tr>
-<tr><td class="n"><strong>D3</strong> Drekkana</td><td class="n">Vrishabha</td><td><strong>Ketu in the 3rd of both D1 and D3</strong></td></tr>
-<tr><td class="n"><strong>D4</strong> Chaturthamsha</td><td class="n">—</td><td>Property and fixed assets</td></tr>
-<tr><td class="n"><strong>D7</strong> Saptamsha</td><td class="n"><strong>Kanya</strong></td><td><strong>Guru in the D7 lagna</strong>; Budha own-sign in its 10th; <strong>Surya exalted in its 8th</strong>; Chandra debilitated with Ketu in its 3rd; Shukra debilitated in its lagna</td></tr>
-<tr><td class="n"><strong>D12</strong> Dwadashamsha</td><td class="n">Simha</td><td><strong>Surya AND Chandra both exalted</strong> — both parents dignified; father powerful</td></tr>
-<tr><td class="n"><strong>D16</strong> Shodashamsha</td><td class="n">—</td><td>Vehicles, comforts, happiness</td></tr>
-<tr><td class="n"><strong>D20</strong> Vimshamsha</td><td class="n">—</td><td class="n">Spiritual practice</td></tr>
-<tr><td class="n"><strong>D24</strong> Siddhamsha</td><td class="n"><strong>Vrishabha</strong></td><td><strong>Guru exalted</strong> in the education varga; D24 lord Shukra in its 10th (<strong>Kumbha</strong>); <strong>Budha and Rahu in the 12th</strong> — foreign study</td></tr>
-<tr><td class="n"><strong>D40 · D45</strong></td><td class="n">Vrishabha</td><td>Shukra and Shani both exalted in D45</td></tr>
-<tr><td class="n"><strong>D60</strong> Shashtiamsha</td><td class="n">Mesha</td><td><strong>Shukra exalted in the 12th</strong> — the single exaltation in the most karmically-weighted varga</td></tr>
+<tr><td class="n"><strong>Lagna</strong></td><td class="n">Kany</td><td class="n">Simh</td><td class="n">Vris</td><td class="n">Mith</td><td class="n">Kany</td><td class="n">Kany</td><td class="n">Kumb</td><td class="n">Simh</td><td class="n">Kumb</td><td class="n">Kumb</td><td class="n">Vris</td><td class="n">Kark</td><td class="n">Vris</td><td class="n">Tula</td><td class="n">Vris</td><td class="n">Mesh</td></tr>
+<tr><td class="n">Surya</td><td class="n"><strong>Mesh</strong></td><td class="n">Simh</td><td class="n"><strong>Mesh</strong></td><td class="n"><strong>Mesh</strong></td><td class="n"><strong>Mesh</strong></td><td class="n"><strong>Mesh</strong></td><td class="n"><strong>Mesh</strong></td><td class="n"><strong>Mesh</strong></td><td class="n"><strong>Mesh</strong></td><td class="n"><strong>Mesh</strong></td><td class="n">Kany</td><td class="n">Vris</td><td class="n"><strong>Mesh</strong></td><td class="n">Vris</td><td class="n">Mith</td><td class="n">Mith</td></tr>
+<tr><td class="n">Chandra</td><td class="n"><strong>Vris</strong></td><td class="n">Kark</td><td class="n"><strong>Vris</strong></td><td class="n"><strong>Vris</strong></td><td class="n"><em>Vris</em></td><td class="n">Maka</td><td class="n">Maka</td><td class="n"><strong>Vris</strong></td><td class="n">Simh</td><td class="n">Maka</td><td class="n">Simh</td><td class="n">Simh</td><td class="n"><strong>Vris</strong></td><td class="n">Dhan</td><td class="n">Tula</td><td class="n">Simh</td></tr>
+<tr><td class="n">Mangal</td><td class="n">Vris</td><td class="n"><em>Kark</em></td><td class="n">Vris</td><td class="n">Vris</td><td class="n">Dhan</td><td class="n">Meen</td><td class="n">Meen</td><td class="n"><em>Kark</em></td><td class="n">Vris</td><td class="n">Mesh</td><td class="n">Dhan</td><td class="n"><strong>Maka</strong></td><td class="n">Kany</td><td class="n"><em>Kark</em></td><td class="n">Mith</td><td class="n"><em>Kark</em></td></tr>
+<tr><td class="n">Budha</td><td class="n">Mesh</td><td class="n">Simh</td><td class="n">Simh</td><td class="n">Kark</td><td class="n">Mith</td><td class="n">Kark</td><td class="n">Kark</td><td class="n">Simh</td><td class="n"><strong>Kany</strong></td><td class="n">Tula</td><td class="n">Mesh</td><td class="n">Maka</td><td class="n">Dhan</td><td class="n">Vris</td><td class="n">Kark</td><td class="n">Dhan</td></tr>
+<tr><td class="n">Guru</td><td class="n">Mith</td><td class="n">Simh</td><td class="n">Tula</td><td class="n">Kany</td><td class="n">Kany</td><td class="n">Kumb</td><td class="n">Tula</td><td class="n">Vris</td><td class="n"><strong>Kark</strong></td><td class="n">Vris</td><td class="n"><strong>Kark</strong></td><td class="n">Vris</td><td class="n">Dhan</td><td class="n">Vris</td><td class="n">Tula</td><td class="n">Vris</td></tr>
+<tr><td class="n">Shukra</td><td class="n">Mesh</td><td class="n">Kark</td><td class="n">Dhan</td><td class="n">Maka</td><td class="n"><em>Kany</em></td><td class="n">Vris</td><td class="n">Vris</td><td class="n">Maka</td><td class="n">Mesh</td><td class="n">Kark</td><td class="n">Kumb</td><td class="n">Maka</td><td class="n">Mith</td><td class="n">Vris</td><td class="n"><strong>Meen</strong></td><td class="n"><strong>Meen</strong></td></tr>
+<tr><td class="n">Shani</td><td class="n">Vris</td><td class="n">Simh</td><td class="n">Kany</td><td class="n">Vris</td><td class="n">Meen</td><td class="n">Mith</td><td class="n">Mith</td><td class="n">Dhan</td><td class="n">Vris</td><td class="n">Vris</td><td class="n">Kany</td><td class="n">Vris</td><td class="n">Meen</td><td class="n">Kany</td><td class="n"><strong>Tula</strong></td><td class="n"><em>Mesh</em></td></tr>
+<tr><td class="n">Rahu</td><td class="n">Vris</td><td class="n">Simh</td><td class="n">Maka</td><td class="n">Kumb</td><td class="n">Vris</td><td class="n">Kany</td><td class="n">Kany</td><td class="n">Meen</td><td class="n">Tula</td><td class="n">Vris</td><td class="n">Mesh</td><td class="n">Kark</td><td class="n">Vris</td><td class="n">Kany</td><td class="n">Dhan</td><td class="n">Tula</td></tr>
+<tr><td class="n">Ketu</td><td class="n">Vris</td><td class="n">Simh</td><td class="n">Kark</td><td class="n">Simh</td><td class="n">Vris</td><td class="n">Meen</td><td class="n">Meen</td><td class="n">Kany</td><td class="n">Tula</td><td class="n">Vris</td><td class="n">Mesh</td><td class="n">Maka</td><td class="n">Vris</td><td class="n">Kany</td><td class="n">Dhan</td><td class="n">Mesh</td></tr>
 </tbody>
 </table>
 </div>
-    <p><strong>The D60 finding is the destination.</strong> The most karmically-weighted of the sixteen vargas places its only exaltation in the <strong>12th house</strong>: release, foreign residence, seclusion carrying authority, moksha. <strong>The arc does not terminate in accumulation or title.</strong></p>
-    <h3>Kumbha, six times</h3>
+    <p><em>Bold = exalted · italic = debilitated. Sign names truncated to four letters for width; full tables follow.</em></p>
+    <h4>Dignity across all sixteen</h4>
+    <div class="scroll">
+<table>
+<thead><tr><th>Graha</th><th>Exalted</th><th>Own</th><th>Debilitated</th><th>Friend</th><th>Neutral</th><th>Enemy</th></tr></thead>
+<tbody>
+<tr><td class="n"><strong>Surya</strong></td><td class="n">10</td><td class="n">1</td><td class="n">0</td><td class="n">0</td><td class="n">3</td><td class="n">2</td></tr>
+<tr><td class="n"><strong>Chandra</strong></td><td class="n">5</td><td class="n">1</td><td class="n">1</td><td class="n">4</td><td class="n">5</td><td class="n">0</td></tr>
+<tr><td class="n"><strong>Mangal</strong></td><td class="n">1</td><td class="n">2</td><td class="n">4</td><td class="n">4</td><td class="n">3</td><td class="n">2</td></tr>
+<tr><td class="n"><strong>Budha</strong></td><td class="n">1</td><td class="n">1</td><td class="n">0</td><td class="n">5</td><td class="n">5</td><td class="n">4</td></tr>
+<tr><td class="n"><strong>Guru</strong></td><td class="n">2</td><td class="n">1</td><td class="n">0</td><td class="n">5</td><td class="n">1</td><td class="n">7</td></tr>
+<tr><td class="n"><strong>Shukra</strong></td><td class="n">2</td><td class="n">0</td><td class="n">1</td><td class="n">5</td><td class="n">6</td><td class="n">2</td></tr>
+<tr><td class="n"><strong>Shani</strong></td><td class="n">1</td><td class="n">0</td><td class="n">1</td><td class="n">7</td><td class="n">3</td><td class="n">4</td></tr>
+</tbody>
+</table>
+</div>
+    <h4>D1 · Rashi — <em>the body, and everything else</em></h4>
+    <p><strong>Lagna Kanya</strong>, lord <strong>Budha</strong> (in Mesha, house 8 of this varga)</p>
+    <div class="scroll">
+<table>
+<thead><tr><th>Body</th><th>Sign</th><th>House</th><th>Class</th><th>Dignity</th></tr></thead>
+<tbody>
+<tr><td class="n">Surya</td><td class="n">Mesha</td><td class="n">8</td><td class="n">dusthana</td><td class="n"><strong>exalted</strong></td></tr>
+<tr><td class="n">Chandra</td><td class="n">Vrishabha</td><td class="n">9</td><td class="n">trikona</td><td class="n"><strong>exalted</strong></td></tr>
+<tr><td class="n">Mangal</td><td class="n">Vrishabha</td><td class="n">9</td><td class="n">trikona</td><td class="n">neutral</td></tr>
+<tr><td class="n">Budha</td><td class="n">Mesha</td><td class="n">8</td><td class="n">dusthana</td><td class="n">neutral</td></tr>
+<tr><td class="n">Guru</td><td class="n">Mithuna</td><td class="n">10</td><td class="n">kendra+upachaya</td><td class="n">enemy</td></tr>
+<tr><td class="n">Shukra</td><td class="n">Mesha</td><td class="n">8</td><td class="n">dusthana</td><td class="n">neutral</td></tr>
+<tr><td class="n">Shani</td><td class="n">Vrishabha</td><td class="n">9</td><td class="n">trikona</td><td class="n">friend</td></tr>
+<tr><td class="n">Rahu</td><td class="n">Vrishabha</td><td class="n">9</td><td class="n">trikona</td><td class="n">—</td></tr>
+<tr><td class="n">Ketu</td><td class="n">Vrischika</td><td class="n">3</td><td class="n">upachaya</td><td class="n">—</td></tr>
+</tbody>
+</table>
+</div>
+    <p><em>Census — kendra 1 · trikona 4 · upachaya 2 · dusthana 3</em></p>
+    <h4>D2 · Hora — <em>wealth and its source</em></h4>
+    <p><strong>Lagna Simha</strong>, lord <strong>Surya</strong> (in Simha, house 1 of this varga)</p>
+    <div class="scroll">
+<table>
+<thead><tr><th>Body</th><th>Sign</th><th>House</th><th>Class</th><th>Dignity</th></tr></thead>
+<tbody>
+<tr><td class="n">Surya</td><td class="n">Simha</td><td class="n">1</td><td class="n">kendra+trikona</td><td class="n"><strong>own sign</strong></td></tr>
+<tr><td class="n">Chandra</td><td class="n">Karka</td><td class="n">12</td><td class="n">dusthana</td><td class="n"><strong>own sign</strong></td></tr>
+<tr><td class="n">Mangal</td><td class="n">Karka</td><td class="n">12</td><td class="n">dusthana</td><td class="n"><em>debilitated</em></td></tr>
+<tr><td class="n">Budha</td><td class="n">Simha</td><td class="n">1</td><td class="n">kendra+trikona</td><td class="n">friend</td></tr>
+<tr><td class="n">Guru</td><td class="n">Simha</td><td class="n">1</td><td class="n">kendra+trikona</td><td class="n">friend</td></tr>
+<tr><td class="n">Shukra</td><td class="n">Karka</td><td class="n">12</td><td class="n">dusthana</td><td class="n">enemy</td></tr>
+<tr><td class="n">Shani</td><td class="n">Simha</td><td class="n">1</td><td class="n">kendra+trikona</td><td class="n">enemy</td></tr>
+<tr><td class="n">Rahu</td><td class="n">Simha</td><td class="n">1</td><td class="n">kendra+trikona</td><td class="n">—</td></tr>
+<tr><td class="n">Ketu</td><td class="n">Simha</td><td class="n">1</td><td class="n">kendra+trikona</td><td class="n">—</td></tr>
+</tbody>
+</table>
+</div>
+    <p><em>Census — kendra 6 · trikona 6 · upachaya 0 · dusthana 3</em></p>
+    <h4>D3 · Drekkana — <em>siblings, courage, self-effort</em></h4>
+    <p><strong>Lagna Vrishabha</strong>, lord <strong>Shukra</strong> (in Dhanu, house 8 of this varga)</p>
+    <div class="scroll">
+<table>
+<thead><tr><th>Body</th><th>Sign</th><th>House</th><th>Class</th><th>Dignity</th></tr></thead>
+<tbody>
+<tr><td class="n">Surya</td><td class="n">Mesha</td><td class="n">12</td><td class="n">dusthana</td><td class="n"><strong>exalted</strong></td></tr>
+<tr><td class="n">Chandra</td><td class="n">Vrishabha</td><td class="n">1</td><td class="n">kendra+trikona</td><td class="n"><strong>exalted</strong></td></tr>
+<tr><td class="n">Mangal</td><td class="n">Vrishabha</td><td class="n">1</td><td class="n">kendra+trikona</td><td class="n">neutral</td></tr>
+<tr><td class="n">Budha</td><td class="n">Simha</td><td class="n">4</td><td class="n">kendra</td><td class="n">friend</td></tr>
+<tr><td class="n">Guru</td><td class="n">Tula</td><td class="n">6</td><td class="n">upachaya+dusthana</td><td class="n">enemy</td></tr>
+<tr><td class="n">Shukra</td><td class="n">Dhanu</td><td class="n">8</td><td class="n">dusthana</td><td class="n">neutral</td></tr>
+<tr><td class="n">Shani</td><td class="n">Kanya</td><td class="n">5</td><td class="n">trikona</td><td class="n">friend</td></tr>
+<tr><td class="n">Rahu</td><td class="n">Makara</td><td class="n">9</td><td class="n">trikona</td><td class="n">—</td></tr>
+<tr><td class="n">Ketu</td><td class="n">Karka</td><td class="n">3</td><td class="n">upachaya</td><td class="n">—</td></tr>
+</tbody>
+</table>
+</div>
+    <p><em>Census — kendra 3 · trikona 4 · upachaya 2 · dusthana 3</em></p>
+    <h4>D4 · Chaturthamsha — <em>property, fixed assets, home</em></h4>
+    <p><strong>Lagna Mithuna</strong>, lord <strong>Budha</strong> (in Karka, house 2 of this varga)</p>
+    <div class="scroll">
+<table>
+<thead><tr><th>Body</th><th>Sign</th><th>House</th><th>Class</th><th>Dignity</th></tr></thead>
+<tbody>
+<tr><td class="n">Surya</td><td class="n">Mesha</td><td class="n">11</td><td class="n">upachaya</td><td class="n"><strong>exalted</strong></td></tr>
+<tr><td class="n">Chandra</td><td class="n">Vrishabha</td><td class="n">12</td><td class="n">dusthana</td><td class="n"><strong>exalted</strong></td></tr>
+<tr><td class="n">Mangal</td><td class="n">Vrishabha</td><td class="n">12</td><td class="n">dusthana</td><td class="n">neutral</td></tr>
+<tr><td class="n">Budha</td><td class="n">Karka</td><td class="n">2</td><td class="n">—</td><td class="n">enemy</td></tr>
+<tr><td class="n">Guru</td><td class="n">Kanya</td><td class="n">4</td><td class="n">kendra</td><td class="n">enemy</td></tr>
+<tr><td class="n">Shukra</td><td class="n">Makara</td><td class="n">8</td><td class="n">dusthana</td><td class="n">friend</td></tr>
+<tr><td class="n">Shani</td><td class="n">Vrischika</td><td class="n">6</td><td class="n">upachaya+dusthana</td><td class="n">enemy</td></tr>
+<tr><td class="n">Rahu</td><td class="n">Kumbha</td><td class="n">9</td><td class="n">trikona</td><td class="n">—</td></tr>
+<tr><td class="n">Ketu</td><td class="n">Simha</td><td class="n">3</td><td class="n">upachaya</td><td class="n">—</td></tr>
+</tbody>
+</table>
+</div>
+    <p><em>Census — kendra 1 · trikona 1 · upachaya 3 · dusthana 4</em></p>
+    <h4>D7 · Saptamsha — <em>children and progeny</em></h4>
+    <p><strong>Lagna Kanya</strong>, lord <strong>Budha</strong> (in Mithuna, house 10 of this varga)</p>
+    <div class="scroll">
+<table>
+<thead><tr><th>Body</th><th>Sign</th><th>House</th><th>Class</th><th>Dignity</th></tr></thead>
+<tbody>
+<tr><td class="n">Surya</td><td class="n">Mesha</td><td class="n">8</td><td class="n">dusthana</td><td class="n"><strong>exalted</strong></td></tr>
+<tr><td class="n">Chandra</td><td class="n">Vrischika</td><td class="n">3</td><td class="n">upachaya</td><td class="n"><em>debilitated</em></td></tr>
+<tr><td class="n">Mangal</td><td class="n">Dhanu</td><td class="n">4</td><td class="n">kendra</td><td class="n">friend</td></tr>
+<tr><td class="n">Budha</td><td class="n">Mithuna</td><td class="n">10</td><td class="n">kendra+upachaya</td><td class="n"><strong>own sign</strong></td></tr>
+<tr><td class="n">Guru</td><td class="n">Kanya</td><td class="n">1</td><td class="n">kendra+trikona</td><td class="n">enemy</td></tr>
+<tr><td class="n">Shukra</td><td class="n">Kanya</td><td class="n">1</td><td class="n">kendra+trikona</td><td class="n"><em>debilitated</em></td></tr>
+<tr><td class="n">Shani</td><td class="n">Meena</td><td class="n">7</td><td class="n">kendra</td><td class="n">neutral</td></tr>
+<tr><td class="n">Rahu</td><td class="n">Vrishabha</td><td class="n">9</td><td class="n">trikona</td><td class="n">—</td></tr>
+<tr><td class="n">Ketu</td><td class="n">Vrischika</td><td class="n">3</td><td class="n">upachaya</td><td class="n">—</td></tr>
+</tbody>
+</table>
+</div>
+    <p><em>Census — kendra 5 · trikona 3 · upachaya 3 · dusthana 1</em></p>
+    <h4>D9 · Navamsha — <em>the spouse, and the chart's inner strength</em></h4>
+    <p><strong>Lagna Kanya</strong>, lord <strong>Budha</strong> (in Karka, house 11 of this varga)</p>
+    <div class="scroll">
+<table>
+<thead><tr><th>Body</th><th>Sign</th><th>House</th><th>Class</th><th>Dignity</th></tr></thead>
+<tbody>
+<tr><td class="n">Surya</td><td class="n">Mesha</td><td class="n">8</td><td class="n">dusthana</td><td class="n"><strong>exalted</strong></td></tr>
+<tr><td class="n">Chandra</td><td class="n">Makara</td><td class="n">5</td><td class="n">trikona</td><td class="n">neutral</td></tr>
+<tr><td class="n">Mangal</td><td class="n">Meena</td><td class="n">7</td><td class="n">kendra</td><td class="n">friend</td></tr>
+<tr><td class="n">Budha</td><td class="n">Karka</td><td class="n">11</td><td class="n">upachaya</td><td class="n">enemy</td></tr>
+<tr><td class="n">Guru</td><td class="n">Kumbha</td><td class="n">6</td><td class="n">upachaya+dusthana</td><td class="n">neutral</td></tr>
+<tr><td class="n">Shukra</td><td class="n">Vrischika</td><td class="n">3</td><td class="n">upachaya</td><td class="n">neutral</td></tr>
+<tr><td class="n">Shani</td><td class="n">Mithuna</td><td class="n">10</td><td class="n">kendra+upachaya</td><td class="n">friend</td></tr>
+<tr><td class="n">Rahu</td><td class="n">Kanya</td><td class="n">1</td><td class="n">kendra+trikona</td><td class="n">—</td></tr>
+<tr><td class="n">Ketu</td><td class="n">Meena</td><td class="n">7</td><td class="n">kendra</td><td class="n">—</td></tr>
+</tbody>
+</table>
+</div>
+    <p><em>Census — kendra 4 · trikona 2 · upachaya 4 · dusthana 2</em></p>
+    <h4>D10 · Dashamsha — <em>career, action, standing</em></h4>
+    <p><strong>Lagna Kumbha</strong>, lord <strong>Shani</strong> (in Mithuna, house 5 of this varga)</p>
+    <div class="scroll">
+<table>
+<thead><tr><th>Body</th><th>Sign</th><th>House</th><th>Class</th><th>Dignity</th></tr></thead>
+<tbody>
+<tr><td class="n">Surya</td><td class="n">Mesha</td><td class="n">3</td><td class="n">upachaya</td><td class="n"><strong>exalted</strong></td></tr>
+<tr><td class="n">Chandra</td><td class="n">Makara</td><td class="n">12</td><td class="n">dusthana</td><td class="n">neutral</td></tr>
+<tr><td class="n">Mangal</td><td class="n">Meena</td><td class="n">2</td><td class="n">—</td><td class="n">friend</td></tr>
+<tr><td class="n">Budha</td><td class="n">Karka</td><td class="n">6</td><td class="n">upachaya+dusthana</td><td class="n">enemy</td></tr>
+<tr><td class="n">Guru</td><td class="n">Tula</td><td class="n">9</td><td class="n">trikona</td><td class="n">enemy</td></tr>
+<tr><td class="n">Shukra</td><td class="n">Vrischika</td><td class="n">10</td><td class="n">kendra+upachaya</td><td class="n">neutral</td></tr>
+<tr><td class="n">Shani</td><td class="n">Mithuna</td><td class="n">5</td><td class="n">trikona</td><td class="n">friend</td></tr>
+<tr><td class="n">Rahu</td><td class="n">Kanya</td><td class="n">8</td><td class="n">dusthana</td><td class="n">—</td></tr>
+<tr><td class="n">Ketu</td><td class="n">Meena</td><td class="n">2</td><td class="n">—</td><td class="n">—</td></tr>
+</tbody>
+</table>
+</div>
+    <p><em>Census — kendra 1 · trikona 2 · upachaya 3 · dusthana 3</em></p>
+    <h4>D12 · Dwadashamsha — <em>parents and lineage</em></h4>
+    <p><strong>Lagna Simha</strong>, lord <strong>Surya</strong> (in Mesha, house 9 of this varga)</p>
+    <div class="scroll">
+<table>
+<thead><tr><th>Body</th><th>Sign</th><th>House</th><th>Class</th><th>Dignity</th></tr></thead>
+<tbody>
+<tr><td class="n">Surya</td><td class="n">Mesha</td><td class="n">9</td><td class="n">trikona</td><td class="n"><strong>exalted</strong></td></tr>
+<tr><td class="n">Chandra</td><td class="n">Vrishabha</td><td class="n">10</td><td class="n">kendra+upachaya</td><td class="n"><strong>exalted</strong></td></tr>
+<tr><td class="n">Mangal</td><td class="n">Karka</td><td class="n">12</td><td class="n">dusthana</td><td class="n"><em>debilitated</em></td></tr>
+<tr><td class="n">Budha</td><td class="n">Simha</td><td class="n">1</td><td class="n">kendra+trikona</td><td class="n">friend</td></tr>
+<tr><td class="n">Guru</td><td class="n">Vrischika</td><td class="n">4</td><td class="n">kendra</td><td class="n">friend</td></tr>
+<tr><td class="n">Shukra</td><td class="n">Makara</td><td class="n">6</td><td class="n">upachaya+dusthana</td><td class="n">friend</td></tr>
+<tr><td class="n">Shani</td><td class="n">Dhanu</td><td class="n">5</td><td class="n">trikona</td><td class="n">neutral</td></tr>
+<tr><td class="n">Rahu</td><td class="n">Meena</td><td class="n">8</td><td class="n">dusthana</td><td class="n">—</td></tr>
+<tr><td class="n">Ketu</td><td class="n">Kanya</td><td class="n">2</td><td class="n">—</td><td class="n">—</td></tr>
+</tbody>
+</table>
+</div>
+    <p><em>Census — kendra 3 · trikona 3 · upachaya 2 · dusthana 3</em></p>
+    <h4>D16 · Shodashamsha — <em>vehicles, comforts, happiness</em></h4>
+    <p><strong>Lagna Kumbha</strong>, lord <strong>Shani</strong> (in Vrishabha, house 4 of this varga)</p>
+    <div class="scroll">
+<table>
+<thead><tr><th>Body</th><th>Sign</th><th>House</th><th>Class</th><th>Dignity</th></tr></thead>
+<tbody>
+<tr><td class="n">Surya</td><td class="n">Mesha</td><td class="n">3</td><td class="n">upachaya</td><td class="n"><strong>exalted</strong></td></tr>
+<tr><td class="n">Chandra</td><td class="n">Simha</td><td class="n">7</td><td class="n">kendra</td><td class="n">friend</td></tr>
+<tr><td class="n">Mangal</td><td class="n">Vrischika</td><td class="n">10</td><td class="n">kendra+upachaya</td><td class="n"><strong>own sign</strong></td></tr>
+<tr><td class="n">Budha</td><td class="n">Kanya</td><td class="n">8</td><td class="n">dusthana</td><td class="n"><strong>exalted</strong></td></tr>
+<tr><td class="n">Guru</td><td class="n">Karka</td><td class="n">6</td><td class="n">upachaya+dusthana</td><td class="n"><strong>exalted</strong></td></tr>
+<tr><td class="n">Shukra</td><td class="n">Mesha</td><td class="n">3</td><td class="n">upachaya</td><td class="n">neutral</td></tr>
+<tr><td class="n">Shani</td><td class="n">Vrishabha</td><td class="n">4</td><td class="n">kendra</td><td class="n">friend</td></tr>
+<tr><td class="n">Rahu</td><td class="n">Tula</td><td class="n">9</td><td class="n">trikona</td><td class="n">—</td></tr>
+<tr><td class="n">Ketu</td><td class="n">Tula</td><td class="n">9</td><td class="n">trikona</td><td class="n">—</td></tr>
+</tbody>
+</table>
+</div>
+    <p><em>Census — kendra 3 · trikona 2 · upachaya 4 · dusthana 2</em></p>
+    <h4>D20 · Vimshamsha — <em>spiritual practice and devotion</em></h4>
+    <p><strong>Lagna Kumbha</strong>, lord <strong>Shani</strong> (in Vrischika, house 10 of this varga)</p>
+    <div class="scroll">
+<table>
+<thead><tr><th>Body</th><th>Sign</th><th>House</th><th>Class</th><th>Dignity</th></tr></thead>
+<tbody>
+<tr><td class="n">Surya</td><td class="n">Mesha</td><td class="n">3</td><td class="n">upachaya</td><td class="n"><strong>exalted</strong></td></tr>
+<tr><td class="n">Chandra</td><td class="n">Makara</td><td class="n">12</td><td class="n">dusthana</td><td class="n">neutral</td></tr>
+<tr><td class="n">Mangal</td><td class="n">Mesha</td><td class="n">3</td><td class="n">upachaya</td><td class="n"><strong>own sign</strong></td></tr>
+<tr><td class="n">Budha</td><td class="n">Tula</td><td class="n">9</td><td class="n">trikona</td><td class="n">friend</td></tr>
+<tr><td class="n">Guru</td><td class="n">Vrishabha</td><td class="n">4</td><td class="n">kendra</td><td class="n">enemy</td></tr>
+<tr><td class="n">Shukra</td><td class="n">Karka</td><td class="n">6</td><td class="n">upachaya+dusthana</td><td class="n">enemy</td></tr>
+<tr><td class="n">Shani</td><td class="n">Vrischika</td><td class="n">10</td><td class="n">kendra+upachaya</td><td class="n">enemy</td></tr>
+<tr><td class="n">Rahu</td><td class="n">Vrishabha</td><td class="n">4</td><td class="n">kendra</td><td class="n">—</td></tr>
+<tr><td class="n">Ketu</td><td class="n">Vrishabha</td><td class="n">4</td><td class="n">kendra</td><td class="n">—</td></tr>
+</tbody>
+</table>
+</div>
+    <p><em>Census — kendra 4 · trikona 1 · upachaya 4 · dusthana 2</em></p>
+    <h4>D24 · Siddhamsha — <em>education and learning</em></h4>
+    <p><strong>Lagna Vrishabha</strong>, lord <strong>Shukra</strong> (in Kumbha, house 10 of this varga)</p>
+    <div class="scroll">
+<table>
+<thead><tr><th>Body</th><th>Sign</th><th>House</th><th>Class</th><th>Dignity</th></tr></thead>
+<tbody>
+<tr><td class="n">Surya</td><td class="n">Kanya</td><td class="n">5</td><td class="n">trikona</td><td class="n">neutral</td></tr>
+<tr><td class="n">Chandra</td><td class="n">Simha</td><td class="n">4</td><td class="n">kendra</td><td class="n">friend</td></tr>
+<tr><td class="n">Mangal</td><td class="n">Dhanu</td><td class="n">8</td><td class="n">dusthana</td><td class="n">friend</td></tr>
+<tr><td class="n">Budha</td><td class="n">Mesha</td><td class="n">12</td><td class="n">dusthana</td><td class="n">neutral</td></tr>
+<tr><td class="n">Guru</td><td class="n">Karka</td><td class="n">3</td><td class="n">upachaya</td><td class="n"><strong>exalted</strong></td></tr>
+<tr><td class="n">Shukra</td><td class="n">Kumbha</td><td class="n">10</td><td class="n">kendra+upachaya</td><td class="n">friend</td></tr>
+<tr><td class="n">Shani</td><td class="n">Kanya</td><td class="n">5</td><td class="n">trikona</td><td class="n">friend</td></tr>
+<tr><td class="n">Rahu</td><td class="n">Mesha</td><td class="n">12</td><td class="n">dusthana</td><td class="n">—</td></tr>
+<tr><td class="n">Ketu</td><td class="n">Mesha</td><td class="n">12</td><td class="n">dusthana</td><td class="n">—</td></tr>
+</tbody>
+</table>
+</div>
+    <p><em>Census — kendra 2 · trikona 2 · upachaya 2 · dusthana 4</em></p>
+    <h4>D27 · Bhamsha — <em>strength, vitality, constitution</em></h4>
+    <p><strong>Lagna Karka</strong>, lord <strong>Chandra</strong> (in Simha, house 2 of this varga)</p>
+    <div class="scroll">
+<table>
+<thead><tr><th>Body</th><th>Sign</th><th>House</th><th>Class</th><th>Dignity</th></tr></thead>
+<tbody>
+<tr><td class="n">Surya</td><td class="n">Vrishabha</td><td class="n">11</td><td class="n">upachaya</td><td class="n">enemy</td></tr>
+<tr><td class="n">Chandra</td><td class="n">Simha</td><td class="n">2</td><td class="n">—</td><td class="n">friend</td></tr>
+<tr><td class="n">Mangal</td><td class="n">Makara</td><td class="n">7</td><td class="n">kendra</td><td class="n"><strong>exalted</strong></td></tr>
+<tr><td class="n">Budha</td><td class="n">Makara</td><td class="n">7</td><td class="n">kendra</td><td class="n">neutral</td></tr>
+<tr><td class="n">Guru</td><td class="n">Vrischika</td><td class="n">5</td><td class="n">trikona</td><td class="n">friend</td></tr>
+<tr><td class="n">Shukra</td><td class="n">Makara</td><td class="n">7</td><td class="n">kendra</td><td class="n">friend</td></tr>
+<tr><td class="n">Shani</td><td class="n">Vrischika</td><td class="n">5</td><td class="n">trikona</td><td class="n">enemy</td></tr>
+<tr><td class="n">Rahu</td><td class="n">Karka</td><td class="n">1</td><td class="n">kendra+trikona</td><td class="n">—</td></tr>
+<tr><td class="n">Ketu</td><td class="n">Makara</td><td class="n">7</td><td class="n">kendra</td><td class="n">—</td></tr>
+</tbody>
+</table>
+</div>
+    <p><em>Census — kendra 5 · trikona 3 · upachaya 1 · dusthana 0</em></p>
+    <h4>D30 · Trimshamsha — <em>misfortune, adversity, character flaws</em></h4>
+    <p><strong>Lagna Vrischika</strong>, lord <strong>Mangal</strong> (in Kanya, house 11 of this varga)</p>
+    <div class="scroll">
+<table>
+<thead><tr><th>Body</th><th>Sign</th><th>House</th><th>Class</th><th>Dignity</th></tr></thead>
+<tbody>
+<tr><td class="n">Surya</td><td class="n">Mesha</td><td class="n">6</td><td class="n">upachaya+dusthana</td><td class="n"><strong>exalted</strong></td></tr>
+<tr><td class="n">Chandra</td><td class="n">Vrishabha</td><td class="n">7</td><td class="n">kendra</td><td class="n"><strong>exalted</strong></td></tr>
+<tr><td class="n">Mangal</td><td class="n">Kanya</td><td class="n">11</td><td class="n">upachaya</td><td class="n">enemy</td></tr>
+<tr><td class="n">Budha</td><td class="n">Dhanu</td><td class="n">2</td><td class="n">—</td><td class="n">neutral</td></tr>
+<tr><td class="n">Guru</td><td class="n">Dhanu</td><td class="n">2</td><td class="n">—</td><td class="n"><strong>own sign</strong></td></tr>
+<tr><td class="n">Shukra</td><td class="n">Mithuna</td><td class="n">8</td><td class="n">dusthana</td><td class="n">friend</td></tr>
+<tr><td class="n">Shani</td><td class="n">Meena</td><td class="n">5</td><td class="n">trikona</td><td class="n">neutral</td></tr>
+<tr><td class="n">Rahu</td><td class="n">Vrischika</td><td class="n">1</td><td class="n">kendra+trikona</td><td class="n">—</td></tr>
+<tr><td class="n">Ketu</td><td class="n">Vrischika</td><td class="n">1</td><td class="n">kendra+trikona</td><td class="n">—</td></tr>
+</tbody>
+</table>
+</div>
+    <p><em>Census — kendra 3 · trikona 3 · upachaya 2 · dusthana 2</em></p>
+    <h4>D40 · Khavedamsha — <em>maternal legacy, auspicious effects</em></h4>
+    <p><strong>Lagna Tula</strong>, lord <strong>Shukra</strong> (in Vrischika, house 2 of this varga)</p>
+    <div class="scroll">
+<table>
+<thead><tr><th>Body</th><th>Sign</th><th>House</th><th>Class</th><th>Dignity</th></tr></thead>
+<tbody>
+<tr><td class="n">Surya</td><td class="n">Vrishabha</td><td class="n">8</td><td class="n">dusthana</td><td class="n">enemy</td></tr>
+<tr><td class="n">Chandra</td><td class="n">Dhanu</td><td class="n">3</td><td class="n">upachaya</td><td class="n">neutral</td></tr>
+<tr><td class="n">Mangal</td><td class="n">Karka</td><td class="n">10</td><td class="n">kendra+upachaya</td><td class="n"><em>debilitated</em></td></tr>
+<tr><td class="n">Budha</td><td class="n">Vrishabha</td><td class="n">8</td><td class="n">dusthana</td><td class="n">friend</td></tr>
+<tr><td class="n">Guru</td><td class="n">Vrischika</td><td class="n">2</td><td class="n">—</td><td class="n">friend</td></tr>
+<tr><td class="n">Shukra</td><td class="n">Vrischika</td><td class="n">2</td><td class="n">—</td><td class="n">neutral</td></tr>
+<tr><td class="n">Shani</td><td class="n">Kanya</td><td class="n">12</td><td class="n">dusthana</td><td class="n">friend</td></tr>
+<tr><td class="n">Rahu</td><td class="n">Kanya</td><td class="n">12</td><td class="n">dusthana</td><td class="n">—</td></tr>
+<tr><td class="n">Ketu</td><td class="n">Kanya</td><td class="n">12</td><td class="n">dusthana</td><td class="n">—</td></tr>
+</tbody>
+</table>
+</div>
+    <p><em>Census — kendra 1 · trikona 0 · upachaya 2 · dusthana 5</em></p>
+    <h4>D45 · Akshavedamsha — <em>paternal legacy, overall conduct</em></h4>
+    <p><strong>Lagna Vrishabha</strong>, lord <strong>Shukra</strong> (in Meena, house 11 of this varga)</p>
+    <div class="scroll">
+<table>
+<thead><tr><th>Body</th><th>Sign</th><th>House</th><th>Class</th><th>Dignity</th></tr></thead>
+<tbody>
+<tr><td class="n">Surya</td><td class="n">Mithuna</td><td class="n">2</td><td class="n">—</td><td class="n">neutral</td></tr>
+<tr><td class="n">Chandra</td><td class="n">Tula</td><td class="n">6</td><td class="n">upachaya+dusthana</td><td class="n">neutral</td></tr>
+<tr><td class="n">Mangal</td><td class="n">Mithuna</td><td class="n">2</td><td class="n">—</td><td class="n">enemy</td></tr>
+<tr><td class="n">Budha</td><td class="n">Karka</td><td class="n">3</td><td class="n">upachaya</td><td class="n">enemy</td></tr>
+<tr><td class="n">Guru</td><td class="n">Tula</td><td class="n">6</td><td class="n">upachaya+dusthana</td><td class="n">enemy</td></tr>
+<tr><td class="n">Shukra</td><td class="n">Meena</td><td class="n">11</td><td class="n">upachaya</td><td class="n"><strong>exalted</strong></td></tr>
+<tr><td class="n">Shani</td><td class="n">Tula</td><td class="n">6</td><td class="n">upachaya+dusthana</td><td class="n"><strong>exalted</strong></td></tr>
+<tr><td class="n">Rahu</td><td class="n">Dhanu</td><td class="n">8</td><td class="n">dusthana</td><td class="n">—</td></tr>
+<tr><td class="n">Ketu</td><td class="n">Dhanu</td><td class="n">8</td><td class="n">dusthana</td><td class="n">—</td></tr>
+</tbody>
+</table>
+</div>
+    <p><em>Census — kendra 0 · trikona 0 · upachaya 5 · dusthana 5</em></p>
+    <h4>D60 · Shashtiamsha — <em>accumulated karma — the finest division</em></h4>
+    <p><strong>Lagna Mesha</strong>, lord <strong>Mangal</strong> (in Karka, house 4 of this varga)</p>
+    <div class="scroll">
+<table>
+<thead><tr><th>Body</th><th>Sign</th><th>House</th><th>Class</th><th>Dignity</th></tr></thead>
+<tbody>
+<tr><td class="n">Surya</td><td class="n">Mithuna</td><td class="n">3</td><td class="n">upachaya</td><td class="n">neutral</td></tr>
+<tr><td class="n">Chandra</td><td class="n">Simha</td><td class="n">5</td><td class="n">trikona</td><td class="n">friend</td></tr>
+<tr><td class="n">Mangal</td><td class="n">Karka</td><td class="n">4</td><td class="n">kendra</td><td class="n"><em>debilitated</em></td></tr>
+<tr><td class="n">Budha</td><td class="n">Dhanu</td><td class="n">9</td><td class="n">trikona</td><td class="n">neutral</td></tr>
+<tr><td class="n">Guru</td><td class="n">Vrischika</td><td class="n">8</td><td class="n">dusthana</td><td class="n">friend</td></tr>
+<tr><td class="n">Shukra</td><td class="n">Meena</td><td class="n">12</td><td class="n">dusthana</td><td class="n"><strong>exalted</strong></td></tr>
+<tr><td class="n">Shani</td><td class="n">Mesha</td><td class="n">1</td><td class="n">kendra+trikona</td><td class="n"><em>debilitated</em></td></tr>
+<tr><td class="n">Rahu</td><td class="n">Tula</td><td class="n">7</td><td class="n">kendra</td><td class="n">—</td></tr>
+<tr><td class="n">Ketu</td><td class="n">Mesha</td><td class="n">1</td><td class="n">kendra+trikona</td><td class="n">—</td></tr>
+</tbody>
+</table>
+</div>
+    <p><em>Census — kendra 4 · trikona 4 · upachaya 1 · dusthana 2</em></p>
+    <h3>What the sixteen charts say together</h3>
+    <h4>Vimshopaka Bala — the weighted verdict</h4>
+    <p>Each varga is weighted by its classical importance (D60 at 4, D1 at 3.5, D9 at 3, D16 at 2, D2/D3/D30 at 1, the rest at 0.5) and dignity scored out of 20:</p>
+    <div class="scroll">
+<table>
+<thead><tr><th>Graha</th><th>Vimshopaka</th><th>Grade</th><th>Dignified in</th><th>Vaiseshikamsha</th></tr></thead>
+<tbody>
+<tr><td class="n"><strong>Surya</strong></td><td class="n"><strong>16.85</strong></td><td class="n">Excellent</td><td>11/16 — <strong>ten exaltations</strong></td><td class="n">Shridhamamsha</td></tr>
+<tr><td class="n"><strong>Chandra</strong></td><td class="n"><strong>15.32</strong></td><td class="n">Excellent</td><td>10/16 — five exaltations</td><td class="n">Shridhamamsha</td></tr>
+<tr><td class="n">Shukra</td><td class="n">12.60</td><td class="n">Good</td><td class="n">7/16</td><td class="n">Devalokamsha</td></tr>
+<tr><td class="n">Guru</td><td class="n">12.32</td><td class="n">Good</td><td class="n">8/16</td><td class="n">Brahmalokamsha</td></tr>
+<tr><td class="n">Budha</td><td class="n">11.45</td><td class="n">Good</td><td>7/16 — <strong>no debilitations</strong></td><td class="n">Devalokamsha</td></tr>
+<tr><td class="n">Shani</td><td class="n">11.22</td><td class="n">Good</td><td class="n">8/16</td><td class="n">Brahmalokamsha</td></tr>
+<tr><td class="n"><strong>Mangal</strong></td><td class="n"><strong>10.30</strong></td><td class="n">Good (lowest)</td><td>7/16 — <strong>four debilitations</strong></td><td class="n">Devalokamsha</td></tr>
+</tbody>
+</table>
+</div>
+    <p><strong>Surya is exalted in ten of sixteen divisions.</strong> That is not a strong graha; that is a graha that is strong <em>at every level of magnification</em>. Nothing else in this chart approaches it, and it is why the reading treats Surya's significations — authority, father, the core self, the 12th house — as the most reliable material available.</p>
+    <p><strong>Mangal is the mirror.</strong> Four debilitations, the lowest Vimshopaka, and the <em>highest</em> Shodhya Pinda. <strong>It delivers the most and is dignified the least</strong> — which is the varga-level root of why this chart's fortune arrives roughly, and why Mangal periods are flagged as forceful and difficult throughout.</p>
+    <h4>The house-class census, varga by varga</h4>
+    <div class="scroll">
+<table>
+<thead><tr><th>Varga</th><th>Kendra</th><th>Trikona</th><th>Upachaya</th><th>Dusthana</th><th>Reading</th></tr></thead>
+<tbody>
+<tr><td class="n"><strong>D1</strong></td><td class="n">1</td><td class="n">4</td><td class="n">1</td><td class="n">3</td><td>Almost no structural support; depth without scaffolding</td></tr>
+<tr><td class="n"><strong>D9</strong></td><td class="n"><strong>4</strong></td><td class="n">2</td><td class="n">4</td><td class="n">2</td><td><strong>All four kendras loaded</strong> — harsher, but genuinely load-bearing</td></tr>
+<tr><td class="n">D10</td><td class="n">1</td><td class="n">2</td><td class="n">3</td><td class="n">3</td><td>Dusthana-heavy career chart, but Shukra alone in its 10th</td></tr>
+<tr><td class="n">D24</td><td class="n">2</td><td class="n">2</td><td class="n">3</td><td class="n">2</td><td>Balanced — education is structurally sound</td></tr>
+<tr><td class="n"><strong>D27</strong></td><td class="n">4</td><td class="n">1</td><td class="n">1</td><td class="n"><strong>0</strong></td><td><strong>Zero dusthana occupancy</strong></td></tr>
+<tr><td class="n">D30</td><td class="n">2</td><td class="n">3</td><td class="n">2</td><td class="n">2</td><td>Adversity chart with Surya exalted in its 6th</td></tr>
+<tr><td class="n">D60</td><td class="n">2</td><td class="n">3</td><td class="n">2</td><td class="n">3</td><td>Karma chart; Shukra exalted in its 12th</td></tr>
+</tbody>
+</table>
+</div>
+    <p>Two findings carry the rest of this reading:</p>
+    <p><strong>D9 loads all four kendras.</strong> If the navamsha activates at marriage — the commonest form of that rule — what switches on is a fully-supported structure with <strong>Rahu on its ascendant</strong> (identity reconstruction by definition) and <strong>Shani in its 10th</strong> (career authority strengthening afterwards).</p>
+    <p><strong>D27 carries zero dusthana occupancy.</strong> The vitality and longevity chart has nothing in the 6th, 8th or 12th. <strong>This is the single most reassuring measurement in the document</strong>, and it is why every hard window in the timeline is described as severe rather than dangerous.</p>
+    <h4>The chart-by-chart readings</h4>
+    <p><strong>D1 · Rashi.</strong> Covered throughout. Seven grahas in three signs across 73°; three consecutive houses; only one kendra occupied.</p>
+    <p><strong>D2 · Hora.</strong> Lagna Simha. <strong>Four classical grahas in Simha, the Sun's hora</strong> (Surya in own sign, plus Budha, Guru and Shani) against <strong>three in Karka, the Moon's</strong> (Chandra in own sign, Shukra, and Mangal debilitated). The Sun's hora carries the majority and the ascendant, which is the "wealth earned by one's own effort" side rather than the inherited side — consistent with the 8th-house wealth reading. <strong>Mangal debilitated in the Moon's hora</strong> is the technical note that inherited or passively-held money does not prosper here.</p>
+    <p><strong>D3 · Drekkana.</strong> Lagna Vrishabha; <strong>Ketu in its 3rd</strong> — the same house it occupies in D1. Ketu in the 3rd of <em>both</em> charts makes self-effort permanently detachment-flavoured: he works alone and does not seek company for it.</p>
+    <p><strong>D4 · Chaturthamsha.</strong> Lagna Mithuna. Property and fixed assets are ordinary rather than emphasised — consistent with a chart whose money arrives in lumps and whose destination is the 12th.</p>
+    <p><strong>D7 · Saptamsha.</strong> Lagna <strong>Kanya</strong> — the fourth varga to repeat the birth ascendant. <strong>Guru in the D7 lagna</strong> is the saptamsha's best protective placement; <strong>Budha own-sign in its 10th</strong>; <strong>Surya exalted in its 8th</strong>. Against that: <strong>Chandra debilitated with Ketu in its 3rd</strong> and <strong>Shukra debilitated in its lagna</strong>. Delay and effort, not denial — and the Beeja Sphuta confirms it.</p>
+    <p><strong>D9 · Navamsha.</strong> The most important chart after D1. <strong>Lagna Kanya — vargottama.</strong> Rahu conjoins the lagna; <strong>Mangal and Ketu occupy the 7th</strong>; <strong>Shani sits in the 10th</strong>; <strong>Surya is exalted in the 8th</strong>, repeating its D1 placement exactly. All four kendras held by malefics.</p>
+    <p><strong>D10 · Dashamsha.</strong> Lagna <strong>Kumbha</strong>, lord Shani. <strong>Shukra alone in the 10th</strong> — finance, risk, insurance, investigation, data. <strong>Surya exalted in the 3rd</strong>; <strong>Shani in the 5th</strong>; <strong>Rahu in the 8th</strong> — the career chart's house of upheaval holds the mahadasha lord.</p>
+    <p><strong>D12 · Dwadashamsha.</strong> Lagna Simha. <strong>Surya AND Chandra both exalted</strong> — both parents dignified, and the father-signification unusually strong. This is the technical basis for the reading that the father, once persuaded, becomes the decisive ally. Against it: <strong>Mangal debilitated in Karka</strong>, in the varga's 12th — the lineage carries the chart's Mars problem.</p>
+    <p><strong>D16 · Shodashamsha.</strong> Lagna Kumbha. <strong>Three exaltations — Surya in Mesha, Budha in Kanya and Guru in Karka</strong> — the highest exaltation count of any varga in the set. Material ease and domestic comfort are considerably better supported than the D1's austerity suggests.</p>
+    <p><strong>D20 · Vimshamsha.</strong> Lagna Kumbha. <strong>Surya exalted.</strong> The spiritual-practice chart is led by the chart's strongest graha — which is the varga-level confirmation of the contemplative thread running through the whole reading.</p>
+    <p><strong>D24 · Siddhamsha.</strong> Lagna Vrishabha. <strong>Guru exalted</strong> — the single strongest education signal available. <strong>Shukra in Kumbha, the 10th of D24</strong> (education culminating in profession, and Kumbha again). <strong>Budha and Rahu in the 12th</strong> — foreign study, unambiguously.</p>
+    <p><strong>D27 · Bhamsha.</strong> Lagna Karka. <strong>Mangal exalted.</strong> Mangal, Budha, Shukra and Ketu in the 7th; Rahu in the lagna — the 1/7 loading of D9 repeated. <strong>Zero dusthana occupancy.</strong></p>
+    <p><strong>D30 · Trimshamsha.</strong> Lagna <strong>Vrischika</strong>, with <strong>both nodes on the ascendant</strong>. <strong>Surya exalted in its 6th</strong> — the best possible placement for overcoming adversity and disease — and <strong>Chandra exalted and ALONE in its 7th</strong>. Guru in own sign in the 2nd; Shukra in the 8th; Shani in the 5th. The misfortune chart is led by two exalted luminaries, which is precisely why adversity here is survivable.</p>
+    <p><strong>D40 · Khavedamsha.</strong> Lagna Tula. Mangal debilitated in Karka. The maternal line carries the chart's Mars problem.</p>
+    <p><strong>D45 · Akshavedamsha.</strong> Lagna Vrishabha. <strong>Shukra exalted in Meena</strong> and <strong>Shani exalted in Tula</strong> — two exaltations in the chart of overall conduct and paternal legacy. Conduct is better than circumstance.</p>
+    <p><strong>D60 · Shashtiamsha.</strong> Lagna Mesha — the most karmically weighted of the sixteen, and Parashara's final arbiter. <strong>Shukra exalted in Meena, the 12th house of this chart</strong> — its single exaltation. Against that, <strong>Mangal and Shani both debilitated</strong>.</p>
+    <div class="callout big"><p><strong>The D60 is the destination.</strong> The most karmically-weighted varga places its only exaltation in the <strong>12th house</strong>: release, foreign residence, seclusion carrying authority, moksha. <strong>The arc does not terminate in accumulation or in title.</strong> And its two debilitations are Mangal and Shani — the two grahas that carry the hardest work of the life. The karma chart says the labour is the debt and the release is the settlement.</p></div>
+    <h4>Kumbha, six times</h4>
     <p>One sign keeps arriving from unrelated directions:</p>
     <div class="scroll">
 <table>
@@ -993,24 +1376,11 @@
 </tbody>
 </table>
 </div>
-    <p><strong>Whatever this career becomes, it becomes it in Aquarius territory:</strong> systems, technology, networks, large impersonal structures.</p>
-    <h3>House-class census across the vargas</h3>
-    <div class="scroll">
-<table>
-<thead><tr><th>Varga</th><th>Kendra</th><th>Trikona</th><th>Upachaya</th><th>Dusthana</th></tr></thead>
-<tbody>
-<tr><td class="n">D1</td><td class="n">1</td><td class="n">4</td><td class="n">1</td><td class="n">3</td></tr>
-<tr><td class="n"><strong>D9</strong></td><td class="n"><strong>4</strong></td><td class="n">1</td><td class="n">1</td><td class="n">2</td></tr>
-<tr><td class="n">D10</td><td class="n">1</td><td class="n">2</td><td class="n">3</td><td class="n">3</td></tr>
-<tr><td class="n">D11</td><td class="n">2</td><td class="n">2</td><td class="n">3</td><td class="n">1</td></tr>
-<tr><td class="n">D8</td><td class="n">2</td><td class="n">2</td><td class="n">3</td><td class="n">1</td></tr>
-<tr><td class="n"><strong>D27</strong></td><td class="n">4</td><td class="n">1</td><td class="n">1</td><td class="n"><strong>0</strong></td></tr>
-<tr><td class="n">D30</td><td class="n">2</td><td class="n">3</td><td class="n">2</td><td class="n">2</td></tr>
-</tbody>
-</table>
-</div>
-    <p>Two findings:</p>
-    <ul><li><strong>D9 loads all four kendras</strong> — harsher structurally, but genuinely load-bearing. If the navamsha activates at marriage, what switches on is a fully-supported structure.</li><li><strong>D27 carries zero dusthana occupancy.</strong> The vitality chart has nothing in the 6th, 8th or 12th. <strong>This is the single most reassuring measurement in the document</strong>, and it is why every hard window in the timeline is described as severe rather than dangerous.</li></ul>
+    <p>And add two more from the full set: <strong>D16 lagna Kumbha</strong> and <strong>D20 lagna Kumbha.</strong> That is <strong>eight independent techniques on one sign.</strong></p>
+    <p><strong>Whatever this career becomes, it becomes it in Aquarius territory:</strong> systems, technology, networks, large impersonal structures — and the same sign carries his comforts and his spiritual practice.</p>
+    <h4>Kanya, four times</h4>
+    <p>The birth ascendant repeats as the varga lagna in <strong>D1, D7, D9 and D11</strong>, and is vargottama between D1 and D9.</p>
+    <p><strong>Four charts sharing an ascendant is a strength signature in its own right.</strong> It means the person, the progeny, the marriage and the gains all run on the same underlying frame — and it is the structural reason this reading keeps saying that whatever else fails him, the core holds.</p>
   </section>
 </div>
 
@@ -1222,9 +1592,20 @@
     <p>Add the long one: <strong>the Guru mahadasha, December 2040 to December 2056 — sixteen years governed by the lord of home and marriage, entirely inside the Sade Sati-free window.</strong> That is the stretch in which the relational houses are simply switched on and left on.</p>
     <p><strong>The nearest window is the current one.</strong> November 2026 to April 2027 is a Shukra pratyantar inside a Guru antardasha — the AK's period inside the 4th and 7th lord's. <strong>It is not a coincidence that this reading places the relationship becoming real in exactly those months.</strong></p>
     <h3>Partnership</h3>
-    <p><strong>The difficulty.</strong> In D1 the 7th is empty and its only aspect is <strong>Ketu's</strong>; its lord Guru sits in the 10th in an enemy's sign, 2° from Yama Ghantaka, with Upaketu in the 7th itself. In <strong>D9</strong>, Mangal and Ketu occupy the 7th while Rahu conjoins the lagna. In <strong>D27</strong>, four bodies sit in the 7th. In <strong>D30</strong> (corrected), Chandra conjoins Ketu within 4°. He is <strong>partially Manglik</strong> — not from the lagna, but Mangal is 1st from Chandra and 2nd from Shukra.</p>
-    <p><strong>Ketu touching the 7th in four separate vargas is a detachment signature</strong> — structural, not situational.</p>
-    <p><strong>The support.</strong> The 7th is <strong>Bhava rank 4</strong> with <strong>33 bindus, the second-highest SAV in the chart</strong>, and its lord is the second-strongest graha. D30 gives Chandra its own mooltrikona there.</p>
+    <p><strong>The difficulty.</strong> In D1 the 7th is empty and its only aspect is <strong>Ketu's</strong>; its lord Guru sits in the 10th in an enemy's sign, 2° from Yama Ghantaka, with Upaketu in the 7th itself. In <strong>D9</strong>, Mangal and Ketu occupy the 7th while Rahu conjoins the lagna. In <strong>D27</strong>, four bodies sit in the 7th, Ketu among them. He is <strong>partially Manglik</strong> — not from the lagna, but Mangal is 1st from Chandra and 2nd from Shukra.</p>
+    <p><strong>Ketu reaches the 7th house in nine of the sixteen Shodashavarga charts</strong> — computed varga by varga rather than sampled:</p>
+    <div class="scroll">
+<table>
+<thead><tr><th>Contact</th><th>Vargas</th></tr></thead>
+<tbody>
+<tr><td class="n"><strong>Occupies the 7th</strong></td><td><strong>D9, D27</strong> — and <strong>D11</strong> from the supplied set</td></tr>
+<tr><td class="n"><strong>Aspects the 7th</strong></td><td>D1, D2, D3, D4, D7, D30, D60</td></tr>
+<tr><td class="n">No contact</td><td>D10, D12, D16, D20, D24, D40, D45</td></tr>
+</tbody>
+</table>
+</div>
+    <p><strong>Nine of sixteen, with three occupations.</strong> That is a stronger detachment signature than the earlier "four vargas" figure, and it is structural rather than situational.</p>
+    <p><strong>The support.</strong> The 7th is <strong>Bhava rank 4</strong> with <strong>33 bindus, the second-highest SAV in the chart</strong>, and its lord is the second-strongest graha. And <strong>D30 — the misfortune chart — places Chandra exalted and ALONE in its 7th</strong>, which is one of the better marriage placements available in that varga.</p>
     <p><strong>The honest composite: a well-built house with a difficult tenant.</strong> Partnership is not structurally weak here — it is structurally sound and karmically complicated, which is a materially different and more workable proposition. Expect <strong>obstructed-then-confirmed</strong>: a visible obstacle or postponement before it formalises, and it formalises nonetheless.</p>
     <h4>Her traits — the five apparatuses</h4>
     <div class="scroll">
@@ -1650,12 +2031,12 @@
     <h3>Nine things to actually do</h3>
     <ol class="takeaways"><li><strong>Go deep, not wide.</strong> No talent for breadth, enormous talent for depth. Every configuration rewards specialising into something difficult and unfashionable.</li><li><strong>Compete and serve rather than position and wait.</strong> The 41-bindu 6th, the Aquarius D10 lagna and the rank-9 tenth all say results come from out-working and out-analysing the problem, never from appointment.</li><li><strong>Change position, don't just push harder.</strong> Budha's Dig Bala is 4.28 of 60 while its Chesta Bala is near the top of the chart. What is under-resourced is <em>where he stands</em>, not what he can do — most acutely in 2030–2033.</li><li><strong>Build structure deliberately, because the chart doesn't supply it.</strong> Empty kendras mean routine and external commitments have to be installed by hand. Rahu–Shani will impose this anyway from 2028; adopting it early converts an ordeal into an advantage.</li><li><strong>Use the window to January 2028 to commit, not to expand.</strong> It activates the 2nd- and 4th-strongest houses and is the last unobstructed run before Sade Sati. One direction, one mentor, one decision on the partnership question.</li><li><strong>Treat partnership as a conscious project</strong> — with better odds than the affliction alone suggests. A rank-4 house with 33 bindus and the second-strongest graha as its lord is a sound foundation with a difficult tenant.</li><li><strong>Protect the nervous system.</strong> A failing lagna lord and a Moon thin by four measures describe a system with limited reserves. Primary, not peripheral.</li><li><strong>Expect the payoff late, and plan for it.</strong> The Guru mahadasha from 2040, and Guru–Shukra in 2048–2051, are where the central yoga finally delivers. The first fifteen working years are the investment, not the return.</li><li><strong>The contemplative pull is native equipment.</strong> A nakshatra chain terminating in Ketu, both Ketu and the Sun in gandanta, and the 12th standing as the strongest bhava — the same instruction given three times.</li></ol>
     <h3>Scope notes, stated honestly</h3>
-    <ul><li><strong>Ayurdaya (longevity computation) is deliberately not performed.</strong> It is not responsible to compute lifespan from an unverified birth time, methods disagree by decades, and a number would be believed more than it deserves.</li><li><strong>The lagna is 2°23′ from Tula</strong> — roughly ten minutes of birth time. Every house-level conclusion depends on that margin holding. Nakshatra-level and strength-level findings are more robust.</li><li><strong>Two source columns are excluded</strong> as unreconcilable, and two source errors are corrected. Both are documented in §1.</li><li>**The spouse, the in-laws and the children are read from <em>his</em> chart.<strong> They describe the role each occupies in his life, filtered through his own karma. </strong>Guna milan and any real matching require the other charts, and none is present.**</li><li><strong>The nodes carry no Shadbala figures</strong>, so where a computation needs them they borrow their dispositor's. That proxy is flagged wherever it materially affects a result.</li><li><strong>Transit positions are mean-motion approximations</strong> — good to a few months at phase edges, not to the day. Dasha boundaries are exact.</li><li><strong>This is an interpretation within the framework of Jyotisha, presented on its own terms.</strong> It is not a claim about the framework's truth.</li></ul>
+    <ul><li><strong>Ayurdaya (longevity computation) is deliberately not performed.</strong> It is not responsible to compute lifespan from an unverified birth time, methods disagree by decades, and a number would be believed more than it deserves.</li><li><strong>The lagna is 2°23′ from Tula</strong> — roughly ten minutes of birth time. Every house-level conclusion depends on that margin holding. Nakshatra-level and strength-level findings are more robust.</li><li><strong>Two source columns are excluded</strong> as unreconcilable. An earlier claim that D8 and D30 contained node errors is <strong>retracted</strong> — the supplied data was correct and the reasoning behind the flag was wrong. Both are documented in §1.</li><li>**The spouse, the in-laws and the children are read from <em>his</em> chart.<strong> They describe the role each occupies in his life, filtered through his own karma. </strong>Guna milan and any real matching require the other charts, and none is present.**</li><li><strong>The nodes carry no Shadbala figures</strong>, so where a computation needs them they borrow their dispositor's. That proxy is flagged wherever it materially affects a result.</li><li><strong>Transit positions are mean-motion approximations</strong> — good to a few months at phase edges, not to the day. Dasha boundaries are exact.</li><li><strong>This is an interpretation within the framework of Jyotisha, presented on its own terms.</strong> It is not a claim about the framework's truth.</li></ul>
     <div class="callout big"><p><strong>The difficulty and the fortune are the same object.</strong></p></div>
     <p class="pull">The difficulty and the fortune<br>are the same object.</p>
 
     <footer>
-      Prepared from supplied D1, D9, D10, D11, D8, D27, D30, upagraha, Vimshottari, Shadbala, Bhava Bala, Ashtakavarga, Reduced Ashtakavarga, Shodhya Pinda and transit data. All divisional charts, dasha boundaries and strength tables were independently recomputed and verified. Sixteen verification scripts accompany this reading; <code>verify_audit.py</code> re-derives and asserts all 52 headline figures. Two source errors (D8 and D30 Ketu) are corrected throughout; two unreconcilable columns are identified in §01 and excluded. An interpretation within the framework of Jyotisha, presented on its own terms.
+      Prepared from supplied D1, D9, D10, D11, D8, D27, D30, upagraha, Vimshottari, Shadbala, Bhava Bala, Ashtakavarga, Reduced Ashtakavarga, Shodhya Pinda and transit data. All divisional charts, dasha boundaries and strength tables were independently recomputed and verified. Sixteen verification scripts accompany this reading; <code>verify_audit.py</code> re-derives and asserts all 52 headline figures. All sixteen Shodashavarga charts are printed in full. An earlier claim of node errors in D8 and D30 is retracted in §01; two unreconcilable columns are identified there and excluded. An interpretation within the framework of Jyotisha, presented on its own terms.
     </footer>
   </section>
 </div>
