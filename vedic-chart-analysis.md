@@ -1402,6 +1402,62 @@ gain capacity, weak gains house** — income arrives through the specific
 channels D11 indicates rather than accumulating broadly. **This argues strongly
 against leverage and speculation.**
 
+### Who loves him — and when he feels it
+
+Affection is not one house. Jyotisha distributes it across six, and **ranking
+those six against each other** is what answers the question. `verify_love.py`
+does that.
+
+| House | Register | Sign | SAV | **Bhava rank** | Occupants |
+|---|---|---|---|---|---|
+| **4** | **mother, home, emotional ground** | Dhanu | 29 | **2** | empty |
+| **2** | **family, kutumba** | Tula | 24 | **3** | empty |
+| **7** | **spouse** | Meena | **33** | **4** | empty + Upaketu |
+| 5 | children, disciples | Makara | 29 | 6 | empty |
+| 9 | father, gurus, mentors | Vrishabha | 22 | 7 | Chandra *(exalted)*, Mangal, Shani, Rahu |
+| **11** | **friends, peers** | Karka | 28 | **11 of 12** | empty + **Gulika, Mandi** |
+
+**The four best-built relational houses in this chart are the vertical and
+intimate ones — home, family, spouse, children. The house of peers ranks 11 of
+12 and carries both harsh shadow points.**
+
+That is the whole answer. **He is loved downward and upward — by family, by a
+spouse, by elders and mentors, by his own children — and competed with
+sideways.** The register that fails him is precisely the one most people
+default to for validation: the peer group.
+
+**And the strongest of them is the 4th.** Bhava rank 2, aspected by Guru,
+lord Guru forming Amala Yoga — **and the Upapada falls here too**, so the
+marriage attaches to the second-strongest house in the chart. Note the chart's
+signature pattern operating even here: **the house is superb and its lord is
+besieged.** Guru carries the worst Drik Bala in the chart (−8.58) and Yama
+Ghantaka 2°05′ away. **The capacity to be loved is excellent; the channel that
+delivers it is under pressure.**
+
+#### When he actually feels it
+
+**Shukra is the Atmakaraka, is self-disposited at nakshatra level, holds the
+highest Ishta Phala in the chart, and rules the 2nd (family) and the 9th
+(dharma). Its periods are when affection is felt rather than merely present.**
+
+| Period | Dates | Ages |
+|---|---|---|
+| **Rahu–Guru–Shukra** | **Nov 2026 – Apr 2027** | 24 | 
+| Rahu–Shani–Shukra | Feb – Jul 2029 | 26–27 |
+| **Rahu–Shukra** | **Jul 2034 – Jul 2037** | 32–35 |
+| **Guru–Shukra** | **Nov 2048 – Jul 2051** | 46–49 |
+| **Shani–Shukra** | **Oct 2063 – Dec 2066** | 61–64 |
+
+Add the long one: **the Guru mahadasha, December 2040 to December 2056 —
+sixteen years governed by the lord of home and marriage, entirely inside the
+Sade Sati-free window.** That is the stretch in which the relational houses are
+simply switched on and left on.
+
+**The nearest window is the current one.** November 2026 to April 2027 is a
+Shukra pratyantar inside a Guru antardasha — the AK's period inside the 4th and
+7th lord's. **It is not a coincidence that this reading places the relationship
+becoming real in exactly those months.**
+
 ### Partnership
 
 **The difficulty.** In D1 the 7th is empty and its only aspect is **Ketu's**;
@@ -1502,6 +1558,80 @@ Moon holds Ketu — **the mind does not elope; it waits to be confirmed.**
 marriage completes as a family-formalised one after the elders' gate is
 passed.** The obstruction in "obstructed-then-confirmed" is most probably **the
 family-approval passage itself.**
+
+#### Will the marriage satisfy — read in both directions
+
+Marital satisfaction is asymmetric here, and the asymmetry is computable.
+**His** experience of her is the 7th house and the 7th from Chandra. **Her**
+experience of him is the *7th from the 7th* — which is his own lagna.
+
+##### His side
+
+| | |
+|---|---|
+| 7th house | **Meena, SAV 33 — second-highest in the chart**, Bhava rank 4 |
+| 7th lord | **Guru — 8.21 raw Shadbala rupas, second only to Surya's 11.39** |
+| Occupants | empty, **with Upaketu inside** |
+| Aspects | **Ketu, and nothing else** |
+| 7th from Chandra | **Vrischika, holding Ketu** |
+
+**The house is well built. The problem is not capacity.** It is that Ketu is
+the *only* graha aspecting the 7th, Upaketu sits inside it, and Ketu also
+occupies the 7th from the Moon — **three detachment contacts on the same
+axis.**
+
+**Ketu's signature is not the absence of love. It is "the thing obtained is not
+the thing wanted"** — a structural sense of incompleteness that would attach to
+*any* partner. **His dissatisfaction, where it appears, is not evidence about
+her.** That distinction is the most useful thing this section contains for him.
+
+##### Her side
+
+Her experience of him is **his own lagna: Kanya, and vargottama** — the same
+sign in D1 and D9.
+
+**What she gets is a man who is the same person at every level.** No split, no
+performance, no second self, against an ascendant that is reliable, precise and
+useful. **That is a genuinely satisfying husband on the dimensions that matter
+across decades**, even though it is unglamorous on the dimensions that matter
+in the first year.
+
+Two derived houses sharpen it:
+
+| Derived | = his house | Rank | Contents |
+|---|---|---|---|
+| **4th from the 7th** — her domestic happiness | **10th** | 9 | **Guru + Amala Yoga**, and Yama Ghantaka |
+| **5th from the 7th** — her romantic expression | **11th** | **11 of 12** | empty, **Gulika and Mandi** |
+
+**Her contentment runs through his work and his good name rather than through
+his attention** — which also means it is exposed to whatever pressures his
+reputation, and Guru is the most aspectually besieged graha in the chart.
+
+**And her romantic expression derives to his shadowed 11th.** The affection is
+real; **the channel is shadowed.** It comes out as loyalty and practical care
+rather than as demonstrated warmth. **He should not read undemonstrativeness as
+absence.**
+
+##### The asymmetry, stated plainly
+
+> **She is likely to be more satisfied with him than he is with her — and the
+> reason is structural rather than personal.**
+>
+> What she experiences of him is a **vargottama lagna**: consistency, no gap
+> between the presented and the actual, reliability that compounds. What he
+> experiences of her is a 7th house touched only by **Ketu**, an Upaketu inside
+> it, and Ketu again on the 7th from his Moon. **He will feel a gap even when
+> nothing is wrong.**
+>
+> The marriage is sustained by the 2nd from the Upapada — **Makara under
+> Shani**: duty, endurance, slow deepening. **Neither of them will describe it
+> as effusive. Both of them will still be in it.**
+
+The instruction that follows is unusually concrete. **His satisfaction depends
+on not measuring the marriage by intensity of feeling** — the one axis Ketu
+guarantees will read low. **Hers depends on his work holding up**, because her
+contentment is routed through it. Those are different maintenance tasks, and
+**each of them is doing the one the other cannot see.**
 
 #### Will the in-laws be wealthy?
 
