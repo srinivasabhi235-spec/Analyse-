@@ -42,8 +42,9 @@ FOOT = '''
 def inline(t):
     t = html.escape(t, quote=False)
     t = re.sub(r'`([^`]+)`', r'<code>\1</code>', t)
-    t = re.sub(r'\*\*([^*]+)\*\*', r'<strong>\1</strong>', t)
+    # Italics first, so that **bold containing *italic* inside** still closes.
     t = re.sub(r'(?<!\*)\*([^*\n]+)\*(?!\*)', r'<em>\1</em>', t)
+    t = re.sub(r'\*\*([^*]+)\*\*', r'<strong>\1</strong>', t)
     return t
 
 

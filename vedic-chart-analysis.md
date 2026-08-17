@@ -4,7 +4,7 @@ A complete Parashari reading of one natal chart.
 
 Every supplied table was independently recomputed before any of it was
 interpreted, and every headline figure in this document is re-derived and
-asserted by `verify_audit.py`. Sixteen verification scripts accompany it.
+asserted by `verify_audit.py`. Twenty verification scripts accompany it.
 
 **The chart in one sentence.** A Kanya lagna with seven of nine grahas packed
 into two adjacent houses — the 8th and the 9th — which are in mutual exchange,
@@ -101,13 +101,22 @@ does not. `verify_audit.py` re-derives **every headline figure the document
 rests on** — from the natal longitudes and the supplied strength tables alone
 — and asserts each one.
 
-**52 checks across seven areas: chart geometry, strength tables, yogas and
+**53 checks across seven areas: chart geometry, strength tables, yogas and
 exchanges, Jaimini karakas and sensitive points, vargottama and avastha,
-structural counts, and cost structure. All 52 pass.** All sixteen scripts run
+structural counts, and cost structure. All 53 pass.** All twenty scripts run
 clean; the only flagged lines in the entire suite are the two deliberate
 source-error reports above.
 
-The audit caught one overstatement, corrected here: an earlier pass described
+A second audit runs alongside it and answers a different question. `verify_audit.py`
+asks *is each figure correct?*; **`verify_rarity.py` asks whether each figure is
+remarkable** — by generating 200,000 synthetic charts and counting how often
+each of this chart's features occurs. It found one configuration at **1 in
+3,571** and eight more below 1 in 100 that **no synthetic chart carried
+together**; it also found that the 9-of-9 dispositor mismatch this reading had
+called a signature occurs in **84.5% of charts**. §16 reports both halves, and
+§4 and §15 were rewritten where that measurement contradicted them.
+
+The first audit caught one overstatement, corrected here: an earlier pass described
 Surya as "the cheapest graha in the chart" on its Kashta of 7.83. **Chandra is
 cheaper — 4.49.** The finding survives, because Chandra's Shodhya Pinda is 33
 and it barely delivers anything: **among grahas with real delivery capacity,
@@ -338,12 +347,21 @@ where they disagree, the nakshatra generally decides the outcome.
 **Nine out of nine.** There is not a single placement in this chart where the
 sign lord and the star lord are the same graha.
 
-That is the technical root of the chart's most persistent complaint. **Every
-placement is worked in one graha's field and paid out by a different graha
-entirely.** He is always doing the work in one place and being paid from
-another. "Visibility lags ability" is usually stated through Budha's Dig Bala;
-this is the same fact at the level of dispositorship, and it is structural
-rather than circumstantial.
+**And this is ordinary — say so plainly.** A Monte Carlo over 200,000 charts
+(`verify_rarity.py`) puts a clean 9-of-9 mismatch at **84.5% of all charts.**
+It is the default condition, not a signature. An earlier draft of this reading
+called it "the technical root of the chart's most persistent complaint" and
+listed it first among the friction markers. **That was overselling, and it is
+withdrawn.**
+
+What survives is the *mechanism*, which is real regardless of how common it is:
+**every placement is worked in one graha's field and paid out by a different
+graha entirely.** He does the work in one place and is paid from another.
+"Visibility lags ability" is usually stated through Budha's Dig Bala; this is
+the same fact at the level of dispositorship. It is a correct description of
+how the chart routes — it is simply **not a distinguishing feature of *this*
+chart.** What distinguishes this chart is *which* grahas the mismatch routes
+through, and that is the subject of the rest of this section.
 
 ### Two attractors, one per level
 
@@ -2615,15 +2633,22 @@ drag, and they arrive last.
 
 **Is there friction?**
 
-| Marker | Value |
-|---|---|
-| **Dispositor mismatch** — field lord ≠ star lord | **9 of 9 — 100%** |
-| Kendras occupied by a classical graha | **1 of 4** (Guru alone) |
-| Lagna lord Shadbala ratio | **0.9234 — below its minimum** |
-| Aspects reaching the 8th house | **0** |
-| SAV spread across the twelve signs | **20 bindus** (21 to 41) |
-| Personal points in Rakshasa gana | **2 of 2** |
-| Classical grahas in water signs | **0** |
+| Marker | Value | How common (of 200,000) |
+|---|---|---|
+| Lagna lord Shadbala ratio | **0.9234 — below its minimum** | — |
+| Aspects reaching the 8th house | **0** | 16.1% |
+| SAV spread across the twelve signs | **20 bindus** (21 to 41) | — |
+| Kendras occupied by a classical graha | **1 of 4** (Guru alone) | 43.7% |
+| Personal points in Rakshasa gana | **2 of 2** | 11.1% |
+| Classical grahas in water signs | **0** | 15.9% |
+| Dispositor mismatch — field lord ≠ star lord | 9 of 9 — 100% | **84.5% — ordinary** |
+
+**The third column is a correction to this table's earlier form.** The
+dispositor mismatch headed the list until it was measured; at 84.5% it is the
+default condition of charts in general and belongs at the bottom, not the top.
+The friction is real — the lagna lord failing its own minimum is not common,
+and the empty kendras and the unaspected 8th are load-bearing — but **one of
+the seven markers was carrying rhetorical weight it had not earned.**
 
 **Note what is absent.** No Kemadruma. No Kalasarpa. No debilitated lagna lord.
 No graha in the 6th or 12th. **Not one classical affliction.**
@@ -2659,7 +2684,134 @@ life-restructuring are not consecutive events. **They are the same event seen
 from two angles.**
 
 ---
-## 16. Synthesis
+## 16. What is actually rare
+
+Every reading calls its chart remarkable. This one measured it.
+
+`verify_rarity.py` generates **200,000 synthetic charts** and counts how often
+each feature of this nativity shows up. The null model is deliberately
+realistic rather than flattering: Budha is held within 28° of Surya and Shukra
+within 47°, as they physically must be; Rahu and Ketu are placed exactly 180°
+apart; everything else is uniform. Without those constraints, ordinary
+solar-system geometry would masquerade as rarity.
+
+**Every feature was first confirmed true of the real chart** before its
+frequency was measured. All seventeen passed that check.
+
+### The rare features
+
+| Feature | Frequency | About 1 in |
+|---|---|---|
+| **Both luminaries exalted *and* both weak by avastha** | **0.028%** | **3,571** |
+| 9th, 10th and 12th lords **all** in the 8th house | 0.382% | 262 |
+| Seven of nine grahas in two adjacent houses | 0.480% | 208 |
+| Seven classical grahas inside a 75° arc | 0.608% | 164 |
+| Both luminaries exalted | 0.669% | 149 |
+| Surya exalted in D1, D9, D10, D12 **and** D30 at once | 0.723% | 138 |
+| Surya exalted **and** vargottama **and** gandanta | 0.950% | 105 |
+| 8th lord and 9th lord in mutual exchange | 0.955% | 105 |
+| Lagna **and** Surya both vargottama | 1.254% | 80 |
+| Seven classical grahas in three signs or fewer | 4.660% | 21 |
+
+### The single most uncommon thing in the chart
+
+**Both luminaries exalted, and both weak by avastha.** Twenty-eight charts in a
+hundred thousand — **about 1 in 3,571.**
+
+Surya is exalted in Mesha. Chandra is exalted in Vrishabha. That alone is 1 in
+149. But Surya sits in **Bala avastha** — infancy, a quarter of its effect —
+and Chandra sits in **Mrita avastha**, death-state, the weakest of the five,
+with the **lowest Shodhya Pinda in the chart at 33.** Exaltation is the highest
+dignity Jyotisha awards. Avastha is the *condition* the graha is in while
+holding it. **This chart gives him the highest possible dignity in both
+luminaries and then puts both of them in the worst possible condition to use
+it.**
+
+> **Both of his lights are enthroned and neither is awake.**
+>
+> This is not a metaphor added to the arithmetic — it *is* the arithmetic.
+> Every other conclusion in this reading that takes the form "he has the
+> capacity but not the delivery" descends from this one configuration, and this
+> configuration is the rarest thing in the chart by a factor of fourteen over
+> the next item on the list.
+
+It is also the exact technical statement of the complaint that runs through
+every section of this document: **the raw material is first-rate and the
+execution channel is not.** Not bad luck, not affliction, not a curse — a
+dignity/condition split, present in both luminaries at once, at roughly one
+chart in three and a half thousand.
+
+### The combination
+
+Eight of the features above occur in **fewer than 1 chart in 100.** Multiplying
+them out would be dishonest, because they are correlated — a 75° stellium and
+"seven grahas in two adjacent houses" are nearly the same fact twice, and both
+luminaries being exalted is contained inside the rarest item. So the script
+does not multiply. **It counts charts carrying all eight simultaneously.**
+
+```
+Charts carrying ALL 8 sub-1% features at once,
+measured directly rather than multiplied out:
+
+        0 of 200,000
+```
+
+**Zero.** The true rate is somewhere below 1 in 200,000; the simulation cannot
+resolve it further, and a larger run would only push the bound down without
+producing a defensible number. The honest statement is a bound, not a figure:
+**this particular assembly did not occur once in two hundred thousand charts.**
+
+### And the deflations, which matter as much
+
+A rarity audit that only reports what is rare is advertising. These are the
+features of this chart that a reading might be tempted to present as
+signatures, with what they actually are:
+
+| Presented as striking | Actual frequency | Verdict |
+|---|---|---|
+| Sign lord ≠ star lord for **all nine** grahas | **84.5%** | **The default. Not a feature at all.** |
+| Some graha in its own nakshatra | 63.7% | Ordinary |
+| At most one kendra occupied | 43.7% | Ordinary |
+| A nakshatra parivartana exists | 41.6% | Ordinary |
+| Nothing aspects the 8th house | 16.1% | Uncommon, not rare |
+| No graha in any water sign | 15.9% | Uncommon, not rare |
+| Both personal points in Rakshasa gana | 11.1% | Uncommon, not rare |
+
+**The first row is a correction to this reading's own earlier text.** §4 was
+built around the 9-of-9 dispositor mismatch and called it "the technical root
+of the chart's most persistent complaint"; §15 listed it first among the
+friction markers. At 84.5% it is what most charts do. **The interpretive
+mechanism survives — work in one field, payment from another, and that is
+genuinely how this chart routes — but its remarkability does not, and both
+passages have been rewritten.**
+
+Note also what the bottom four rows do to the friction case: the empty kendras,
+the unaspected 8th, the missing water element and the double Rakshasa gana are
+each **between 1-in-6 and 1-in-9.** Real, worth reading, and not extraordinary.
+**The friction in this chart is ordinary friction. The potential is not
+ordinary at all.** That asymmetry is the finding.
+
+### What the numbers do and do not license
+
+- **A uniform null overstates rarity for slow-graha features.** Everyone born
+  in the same year shares Guru and Shani placements, so features driven by
+  them are far more common among actual contemporaries than among synthetic
+  charts. The 8th/9th lord exchange and the stellium both inherit some of this.
+- **It understates rarity for nothing here.**
+- **Read these as orders of magnitude, not odds.** "About 1 in 3,571" means
+  *rare enough to be the chart's defining feature*, not a number to quote to
+  three figures.
+- **Rare is not the same as good.** The rarest thing in this chart is a
+  *limitation* — two enthroned, sleeping lights. Uncommonness measures how
+  unusual a configuration is, and says nothing whatever about whether it is
+  fortunate.
+
+> **The uncommon thing about this chart is not that it is difficult. Difficulty
+> is common. It is that the difficulty sits on top of exalted material.**
+
+---
+
+## 17. Synthesis
 
 ### The trajectory
 
@@ -2944,7 +3096,9 @@ could overturn part of it.**
 *Prepared from supplied D1, D9, D10, D11, D8, D27, D30, upagraha, Vimshottari,
 Shadbala, Bhava Bala, Ashtakavarga, Reduced Ashtakavarga, Shodhya Pinda and
 transit data. All divisional charts, dasha boundaries and strength tables were
-independently recomputed and verified. Sixteen verification scripts accompany
-this document; `verify_audit.py` re-derives and asserts all 52 headline figures.*
+independently recomputed and verified. Twenty verification scripts accompany
+this document; `verify_audit.py` re-derives and asserts all 53 headline figures,
+and `verify_rarity.py` measures the chart's claimed rarity against 200,000
+synthetic charts.*
 
 > **The difficulty and the fortune are the same object.**

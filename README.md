@@ -16,10 +16,11 @@ table independently recomputed before interpretation.
 | [`verify_timeline.py`](verify_timeline.py) | Merges dasha and antardasha against Saturn and Jupiter transits into one life timeline, and scores every year 2026–2076 for transformation-window intensity |
 | [`verify_shodasha.py`](verify_shodasha.py) | Computes all sixteen Shodashavarga charts, Vimshopaka Bala and the Vaiseshikamsha dignity census |
 | [`verify_houseclass.py`](verify_houseclass.py) | Kendra/trikona/upachaya/dusthana census across all seven vargas |
+| [`verify_rarity.py`](verify_rarity.py) | Monte Carlo over 200,000 synthetic charts — measures how rare each feature of this nativity actually is, and retracts the ones that turned out ordinary |
 | [`verify_gaps.py`](verify_gaps.py) | Gap audit — vargas not computed and why, per-varga birth-time sensitivity, whole techniques never applied, and data never supplied |
 | [`verify_love.py`](verify_love.py) | The six registers of affection ranked, every Shukra period dated, and marital satisfaction read in both directions |
 | [`verify_perception.py`](verify_perception.py) | How others see him: the Arudha Lagna and what touches it, arudha-relative houses, the 6th of rivals, the 11th of peers, and Drik Bala |
-| [`verify_audit.py`](verify_audit.py) | **Master audit** — tests the good-but-with-friction claim, then re-derives and asserts all 52 headline figures the reading rests on |
+| [`verify_audit.py`](verify_audit.py) | **Master audit** — tests the good-but-with-friction claim, then re-derives and asserts all 53 headline figures the reading rests on |
 | [`verify_dispositors.py`](verify_dispositors.py) | Both dispositor chains — rashi and nakshatra — with the house lords routed through their star lords to show who delivers each house |
 | [`verify_cost.py`](verify_cost.py) | Tests whether delivery and cost correlate: Shodhya Pinda against Kashta Phala, plus gain/cost quadrants across the remaining timeline |
 | [`verify_career.py`](verify_career.py) | Dashamsha audit, the three-fold tenth, the Jaimini career apparatus, and a scored growth curve across every antardasha to 2078 |
@@ -41,11 +42,11 @@ Ashtakavarga; Shodhya Pinda; and a transit chart for August 2026.
 ## Verification
 
 Nothing was taken at face value. Every script runs standalone, and
-`verify_audit.py` re-derives and asserts all 52 headline figures the reading
+`verify_audit.py` re-derives and asserts all 53 headline figures the reading
 rests on:
 
 ```
-python3 verify_audit.py     # 52/52 pass
+python3 verify_audit.py     # 53/53 pass
 for f in verify_*.py; do python3 "$f"; done
 ```
 

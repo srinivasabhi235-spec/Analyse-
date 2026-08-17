@@ -351,8 +351,9 @@
     <p><strong>The native is male and about 24.</strong> This is a chart at the opening of its defining period, not one being assessed in retrospect.</p>
     <h3>The audit</h3>
     <p>This reading was built over many passes, and prose drifts even when arithmetic does not. <code>verify_audit.py</code> re-derives <strong>every headline figure the document rests on</strong> — from the natal longitudes and the supplied strength tables alone — and asserts each one.</p>
-    <p><strong>52 checks across seven areas: chart geometry, strength tables, yogas and exchanges, Jaimini karakas and sensitive points, vargottama and avastha, structural counts, and cost structure. All 52 pass.</strong> All sixteen scripts run clean; the only flagged lines in the entire suite are the two deliberate source-error reports above.</p>
-    <p>The audit caught one overstatement, corrected here: an earlier pass described Surya as "the cheapest graha in the chart" on its Kashta of 7.83. <strong>Chandra is cheaper — 4.49.</strong> The finding survives, because Chandra's Shodhya Pinda is 33 and it barely delivers anything: <strong>among grahas with real delivery capacity, Surya is the cheapest there is</strong>, and it holds the best net balance. The corrected phrasing is used throughout.</p>
+    <p><strong>53 checks across seven areas: chart geometry, strength tables, yogas and exchanges, Jaimini karakas and sensitive points, vargottama and avastha, structural counts, and cost structure. All 53 pass.</strong> All twenty scripts run clean; the only flagged lines in the entire suite are the two deliberate source-error reports above.</p>
+    <p>A second audit runs alongside it and answers a different question. <code>verify_audit.py</code> asks <em>is each figure correct?</em>; <strong><code>verify_rarity.py</code> asks whether each figure is remarkable</strong> — by generating 200,000 synthetic charts and counting how often each of this chart's features occurs. It found one configuration at <strong>1 in 3,571</strong> and eight more below 1 in 100 that <strong>no synthetic chart carried together</strong>; it also found that the 9-of-9 dispositor mismatch this reading had called a signature occurs in <strong>84.5% of charts</strong>. §16 reports both halves, and §4 and §15 were rewritten where that measurement contradicted them.</p>
+    <p>The first audit caught one overstatement, corrected here: an earlier pass described Surya as "the cheapest graha in the chart" on its Kashta of 7.83. <strong>Chandra is cheaper — 4.49.</strong> The finding survives, because Chandra's Shodhya Pinda is 33 and it barely delivers anything: <strong>among grahas with real delivery capacity, Surya is the cheapest there is</strong>, and it holds the best net balance. The corrected phrasing is used throughout.</p>
     <h3>The one fragility worth stating up front</h3>
     <p><strong>The lagna is 27°37′37″ Kanya — 2°23′ from Tula.</strong> That is roughly ten minutes of birth time. Everything in this document that depends on house placement depends on that margin holding. The nakshatra-level and strength-level findings are more robust; the house-level ones are not.</p>
   </section>
@@ -519,7 +520,8 @@
 </div>
     <h3>Not one graha has the same lord at both levels</h3>
     <p><strong>Nine out of nine.</strong> There is not a single placement in this chart where the sign lord and the star lord are the same graha.</p>
-    <p>That is the technical root of the chart's most persistent complaint. <strong>Every placement is worked in one graha's field and paid out by a different graha entirely.</strong> He is always doing the work in one place and being paid from another. "Visibility lags ability" is usually stated through Budha's Dig Bala; this is the same fact at the level of dispositorship, and it is structural rather than circumstantial.</p>
+    <p><strong>And this is ordinary — say so plainly.</strong> A Monte Carlo over 200,000 charts (<code>verify_rarity.py</code>) puts a clean 9-of-9 mismatch at <strong>84.5% of all charts.</strong> It is the default condition, not a signature. An earlier draft of this reading called it "the technical root of the chart's most persistent complaint" and listed it first among the friction markers. <strong>That was overselling, and it is withdrawn.</strong></p>
+    <p>What survives is the <em>mechanism</em>, which is real regardless of how common it is: <strong>every placement is worked in one graha's field and paid out by a different graha entirely.</strong> He does the work in one place and is paid from another. "Visibility lags ability" is usually stated through Budha's Dig Bala; this is the same fact at the level of dispositorship. It is a correct description of how the chart routes — it is simply <strong>not a distinguishing feature of <em>this</em> chart.</strong> What distinguishes this chart is <em>which</em> grahas the mismatch routes through, and that is the subject of the rest of this section.</p>
     <h3>Two attractors, one per level</h3>
     <p><strong>Rashi level — everything ends in Mangal ⇄ Shukra:</strong></p>
     <div class="callout"><p><code>Surya → Mangal ⇄ Shukra          Guru → Budha → Mangal ⇄ Shukra<br>Chandra → Shukra ⇄ Mangal        Shani → Shukra ⇄ Mangal<br>Budha → Mangal ⇄ Shukra          Shukra ⇄ Mangal</code></p></div>
@@ -568,7 +570,7 @@
     <h3>The refinement this forces on the 8th</h3>
     <p>The 8th is <strong>ruled by Mangal</strong> — Shodhya Pinda 212 (rank 1), Kashta 38.87 (rank 2). Expensive.</p>
     <p>But <strong>Mangal stands in Krittika, whose lord is Surya — Kashta 7.83.</strong> Only Chandra is cheaper outright (4.49), and Chandra's Shodhya Pinda is 33: it barely delivers anything. <strong>Among grahas with real delivery capacity, Surya is the cheapest there is</strong>, and it holds the best net balance in the chart.</p>
-    <p>**So the house of transformation is <em>owned</em> by the second-most-expensive graha and <em>routed through</em> the cheapest effective one. And Surya rules the 12th.** The house of upheaval delivers through the lord of the house of release.</p>
+    <p><strong>So the house of transformation is <em>owned</em> by the second-most-expensive graha and <em>routed through</em> the cheapest effective one. And Surya rules the 12th.</strong> The house of upheaval delivers through the lord of the house of release.</p>
     <p>This does not soften the cost of the 8th — the <em>field</em> is still Mangal's and still brutal. What it says is that <strong>the payout channel is the cheap one</strong>, which is why Vimala resolves upward and why the transformation is survivable rather than merely severe.</p>
   </section>
 </div>
@@ -816,7 +818,7 @@
 </tbody>
 </table>
 </div>
-    <p><strong>Chandra ranks second at 15.32.</strong> Set against its weak Shadbala (1.07), thin Paksha Bala (20.21), two bindus and Shodhya Pinda of 33, the resolution is precise rather than contradictory: **the Moon is superbly <em>made</em> and poorly <em>supplied</em>.<strong> Its structural quality across the divisional fabric is excellent; its light, motion and positional strength are thin. </strong>His emotional and mental equipment is genuinely fine, not fragile** — but it runs on a small tank. The counsel is rest and routine, and the reason is fuelling something excellent rather than protecting something delicate.</p>
+    <p><strong>Chandra ranks second at 15.32.</strong> Set against its weak Shadbala (1.07), thin Paksha Bala (20.21), two bindus and Shodhya Pinda of 33, the resolution is precise rather than contradictory: <strong>the Moon is superbly <em>made</em> and poorly <em>supplied</em>.</strong> Its structural quality across the divisional fabric is excellent; its light, motion and positional strength are thin. <strong>His emotional and mental equipment is genuinely fine, not fragile</strong> — but it runs on a small tank. The counsel is rest and routine, and the reason is fuelling something excellent rather than protecting something delicate.</p>
     <h3>The three measures disagree usefully</h3>
     <div class="scroll">
 <table>
@@ -1891,7 +1893,7 @@
 <tr><td class="n"><strong>to 21 Sep 2026</strong></td><td class="n">Guru pratyantar</td><td>Lagna lord: <strong>ship visible output.</strong> Guru clears combustion 13 Aug</td></tr>
 <tr><td class="n">Sep – Nov 2026</td><td class="n">Ketu</td><td>Withdrawal. Consolidate; no moves</td></tr>
 <tr><td class="n"><strong>Nov 2026 – Apr 2027</strong></td><td class="n"><strong>Shukra</strong></td><td><strong>The relationship becomes real.</strong> Best money sub-period; applications season</td></tr>
-<tr><td class="n"><strong>Apr – May 2027</strong></td><td class="n"><strong>Surya</strong></td><td>**Recognition <em>and</em> disclosure together<strong> — and </strong>the parents learn.** Solar return 15 April inside the window</td></tr>
+<tr><td class="n"><strong>Apr – May 2027</strong></td><td class="n"><strong>Surya</strong></td><td><strong>Recognition <em>and</em> disclosure together</strong> — and <strong>the parents learn.</strong> Solar return 15 April inside the window</td></tr>
 <tr><td class="n">May – Aug 2027</td><td class="n">Chandra</td><td>Mother mediates; relocation preparation</td></tr>
 <tr><td class="n"><strong>~mid-late 2027</strong></td><td class="n"><em>transit</em></td><td><strong>Sade Sati #1 begins. Shani enters the natal 8th</strong></td></tr>
 <tr><td class="n">Aug – Sep 2027</td><td class="n">Mangal</td><td>Friction peak. Do not burn bridges</td></tr>
@@ -1937,7 +1939,7 @@
     <div class="callout big"><p><strong>Spearman ρ = +0.82 · Pearson r = +0.84</strong></p></div>
     <p><strong>In this chart, what delivers is what costs.</strong> The three highest-capacity grahas — Mangal, Shani, Budha — are also the three most expensive, and they rule the <strong>8th, the 6th and the 10th.</strong> Splitting every antardasha to 2078 into gain/cost quadrants gives the same answer a different way: <strong>of everything that delivers, 82% of it is charged for.</strong></p>
     <p><strong>Two refinements the raw claim misses:</strong></p>
-    <p>**Pain is not the <em>price</em> of the reward — the same grahas do both jobs.<strong> There is no separate suffering department in this chart. </strong>He is not paying a toll to use the road; the road is made of the toll.**</p>
+    <p><strong>Pain is not the <em>price</em> of the reward — the same grahas do both jobs.</strong> There is no separate suffering department in this chart. <strong>He is not paying a toll to use the road; the road is made of the toll.</strong></p>
     <p><strong>There is one exemption, and it is exact.</strong> <strong>Surya</strong> breaks the correlation: 4th in delivery capacity, 6th of 7 in cost, <strong>the best net balance in the chart (+39.05)</strong>, exalted, vargottama, highest Vimshopaka. It gives substantially and charges almost nothing. <strong>And Surya rules the 12th.</strong></p>
     <div class="callout big"><p><strong>He gets everything he grips, painfully — and the one thing he gets freely is what he stops gripping.</strong></p></div>
     <h3>"His life is good but with friction"</h3>
@@ -1961,18 +1963,19 @@
     <p><strong>Is there friction?</strong></p>
     <div class="scroll">
 <table>
-<thead><tr><th>Marker</th><th>Value</th></tr></thead>
+<thead><tr><th>Marker</th><th>Value</th><th>How common (of 200,000)</th></tr></thead>
 <tbody>
-<tr><td><strong>Dispositor mismatch</strong> — field lord ≠ star lord</td><td class="n"><strong>9 of 9 — 100%</strong></td></tr>
-<tr><td>Kendras occupied by a classical graha</td><td class="n"><strong>1 of 4</strong> (Guru alone)</td></tr>
-<tr><td>Lagna lord Shadbala ratio</td><td><strong>0.9234 — below its minimum</strong></td></tr>
-<tr><td>Aspects reaching the 8th house</td><td class="n"><strong>0</strong></td></tr>
-<tr><td>SAV spread across the twelve signs</td><td class="n"><strong>20 bindus</strong> (21 to 41)</td></tr>
-<tr><td>Personal points in Rakshasa gana</td><td class="n"><strong>2 of 2</strong></td></tr>
-<tr><td>Classical grahas in water signs</td><td class="n"><strong>0</strong></td></tr>
+<tr><td>Lagna lord Shadbala ratio</td><td><strong>0.9234 — below its minimum</strong></td><td class="n">—</td></tr>
+<tr><td>Aspects reaching the 8th house</td><td class="n"><strong>0</strong></td><td class="n">16.1%</td></tr>
+<tr><td>SAV spread across the twelve signs</td><td class="n"><strong>20 bindus</strong> (21 to 41)</td><td class="n">—</td></tr>
+<tr><td>Kendras occupied by a classical graha</td><td class="n"><strong>1 of 4</strong> (Guru alone)</td><td class="n">43.7%</td></tr>
+<tr><td>Personal points in Rakshasa gana</td><td class="n"><strong>2 of 2</strong></td><td class="n">11.1%</td></tr>
+<tr><td>Classical grahas in water signs</td><td class="n"><strong>0</strong></td><td class="n">15.9%</td></tr>
+<tr><td>Dispositor mismatch — field lord ≠ star lord</td><td class="n">9 of 9 — 100%</td><td class="n"><strong>84.5% — ordinary</strong></td></tr>
 </tbody>
 </table>
 </div>
+    <p><strong>The third column is a correction to this table's earlier form.</strong> The dispositor mismatch headed the list until it was measured; at 84.5% it is the default condition of charts in general and belongs at the bottom, not the top. The friction is real — the lagna lord failing its own minimum is not common, and the empty kendras and the unaspected 8th are load-bearing — but <strong>one of the seven markers was carrying rhetorical weight it had not earned.</strong></p>
     <p><strong>Note what is absent.</strong> No Kemadruma. No Kalasarpa. No debilitated lagna lord. No graha in the 6th or 12th. <strong>Not one classical affliction.</strong></p>
     <div class="callout big"><p><strong>This is a good engine in a chassis with no bearings.</strong></p><p>Nothing in this chart is trying to hurt him. <strong>Nothing in it is helping him either.</strong> What looks like bad luck is almost always the absence of assistance rather than the presence of harm — and those require completely different responses. Harm is endured. <strong>Absent assistance has to be installed by hand</strong>, which is why every practical conclusion here returns to the same instruction.</p></div>
     <h3>"Will marriage trigger transformation?"</h3>
@@ -1985,7 +1988,66 @@
 
 <div class="wrap">
   <section>
-    <h2><span class="num">16</span> Synthesis</h2>
+    <h2><span class="num">16</span> What is actually rare</h2>
+    <p>Every reading calls its chart remarkable. This one measured it.</p>
+    <p><code>verify_rarity.py</code> generates <strong>200,000 synthetic charts</strong> and counts how often each feature of this nativity shows up. The null model is deliberately realistic rather than flattering: Budha is held within 28° of Surya and Shukra within 47°, as they physically must be; Rahu and Ketu are placed exactly 180° apart; everything else is uniform. Without those constraints, ordinary solar-system geometry would masquerade as rarity.</p>
+    <p><strong>Every feature was first confirmed true of the real chart</strong> before its frequency was measured. All seventeen passed that check.</p>
+    <h3>The rare features</h3>
+    <div class="scroll">
+<table>
+<thead><tr><th>Feature</th><th>Frequency</th><th>About 1 in</th></tr></thead>
+<tbody>
+<tr><td><strong>Both luminaries exalted <em>and</em> both weak by avastha</strong></td><td class="n"><strong>0.028%</strong></td><td class="n"><strong>3,571</strong></td></tr>
+<tr><td>9th, 10th and 12th lords <strong>all</strong> in the 8th house</td><td class="n">0.382%</td><td class="n">262</td></tr>
+<tr><td>Seven of nine grahas in two adjacent houses</td><td class="n">0.480%</td><td class="n">208</td></tr>
+<tr><td>Seven classical grahas inside a 75° arc</td><td class="n">0.608%</td><td class="n">164</td></tr>
+<tr><td>Both luminaries exalted</td><td class="n">0.669%</td><td class="n">149</td></tr>
+<tr><td>Surya exalted in D1, D9, D10, D12 <strong>and</strong> D30 at once</td><td class="n">0.723%</td><td class="n">138</td></tr>
+<tr><td>Surya exalted <strong>and</strong> vargottama <strong>and</strong> gandanta</td><td class="n">0.950%</td><td class="n">105</td></tr>
+<tr><td>8th lord and 9th lord in mutual exchange</td><td class="n">0.955%</td><td class="n">105</td></tr>
+<tr><td>Lagna <strong>and</strong> Surya both vargottama</td><td class="n">1.254%</td><td class="n">80</td></tr>
+<tr><td>Seven classical grahas in three signs or fewer</td><td class="n">4.660%</td><td class="n">21</td></tr>
+</tbody>
+</table>
+</div>
+    <h3>The single most uncommon thing in the chart</h3>
+    <p><strong>Both luminaries exalted, and both weak by avastha.</strong> Twenty-eight charts in a hundred thousand — <strong>about 1 in 3,571.</strong></p>
+    <p>Surya is exalted in Mesha. Chandra is exalted in Vrishabha. That alone is 1 in</p>
+    <ol><li>But Surya sits in <strong>Bala avastha</strong> — infancy, a quarter of its effect —</li></ol>
+    <p>and Chandra sits in <strong>Mrita avastha</strong>, death-state, the weakest of the five, with the <strong>lowest Shodhya Pinda in the chart at 33.</strong> Exaltation is the highest dignity Jyotisha awards. Avastha is the <em>condition</em> the graha is in while holding it. <strong>This chart gives him the highest possible dignity in both luminaries and then puts both of them in the worst possible condition to use it.</strong></p>
+    <div class="callout big"><p><strong>Both of his lights are enthroned and neither is awake.</strong></p><p>This is not a metaphor added to the arithmetic — it <em>is</em> the arithmetic. Every other conclusion in this reading that takes the form "he has the capacity but not the delivery" descends from this one configuration, and this configuration is the rarest thing in the chart by a factor of fourteen over the next item on the list.</p></div>
+    <p>It is also the exact technical statement of the complaint that runs through every section of this document: <strong>the raw material is first-rate and the execution channel is not.</strong> Not bad luck, not affliction, not a curse — a dignity/condition split, present in both luminaries at once, at roughly one chart in three and a half thousand.</p>
+    <h3>The combination</h3>
+    <p>Eight of the features above occur in <strong>fewer than 1 chart in 100.</strong> Multiplying them out would be dishonest, because they are correlated — a 75° stellium and "seven grahas in two adjacent houses" are nearly the same fact twice, and both luminaries being exalted is contained inside the rarest item. So the script does not multiply. <strong>It counts charts carrying all eight simultaneously.</strong></p>
+    <div class="callout"><p><code>Charts carrying ALL 8 sub-1% features at once,<br>measured directly rather than multiplied out:<br><br>        0 of 200,000</code></p></div>
+    <p><strong>Zero.</strong> The true rate is somewhere below 1 in 200,000; the simulation cannot resolve it further, and a larger run would only push the bound down without producing a defensible number. The honest statement is a bound, not a figure: <strong>this particular assembly did not occur once in two hundred thousand charts.</strong></p>
+    <h3>And the deflations, which matter as much</h3>
+    <p>A rarity audit that only reports what is rare is advertising. These are the features of this chart that a reading might be tempted to present as signatures, with what they actually are:</p>
+    <div class="scroll">
+<table>
+<thead><tr><th>Presented as striking</th><th>Actual frequency</th><th>Verdict</th></tr></thead>
+<tbody>
+<tr><td>Sign lord ≠ star lord for <strong>all nine</strong> grahas</td><td class="n"><strong>84.5%</strong></td><td><strong>The default. Not a feature at all.</strong></td></tr>
+<tr><td>Some graha in its own nakshatra</td><td class="n">63.7%</td><td class="n">Ordinary</td></tr>
+<tr><td>At most one kendra occupied</td><td class="n">43.7%</td><td class="n">Ordinary</td></tr>
+<tr><td>A nakshatra parivartana exists</td><td class="n">41.6%</td><td class="n">Ordinary</td></tr>
+<tr><td>Nothing aspects the 8th house</td><td class="n">16.1%</td><td class="n">Uncommon, not rare</td></tr>
+<tr><td>No graha in any water sign</td><td class="n">15.9%</td><td class="n">Uncommon, not rare</td></tr>
+<tr><td>Both personal points in Rakshasa gana</td><td class="n">11.1%</td><td class="n">Uncommon, not rare</td></tr>
+</tbody>
+</table>
+</div>
+    <p><strong>The first row is a correction to this reading's own earlier text.</strong> §4 was built around the 9-of-9 dispositor mismatch and called it "the technical root of the chart's most persistent complaint"; §15 listed it first among the friction markers. At 84.5% it is what most charts do. <strong>The interpretive mechanism survives — work in one field, payment from another, and that is genuinely how this chart routes — but its remarkability does not, and both passages have been rewritten.</strong></p>
+    <p>Note also what the bottom four rows do to the friction case: the empty kendras, the unaspected 8th, the missing water element and the double Rakshasa gana are each <strong>between 1-in-6 and 1-in-9.</strong> Real, worth reading, and not extraordinary. <strong>The friction in this chart is ordinary friction. The potential is not ordinary at all.</strong> That asymmetry is the finding.</p>
+    <h3>What the numbers do and do not license</h3>
+    <ul><li><strong>A uniform null overstates rarity for slow-graha features.</strong> Everyone born in the same year shares Guru and Shani placements, so features driven by them are far more common among actual contemporaries than among synthetic charts. The 8th/9th lord exchange and the stellium both inherit some of this.</li><li><strong>It understates rarity for nothing here.</strong></li><li><strong>Read these as orders of magnitude, not odds.</strong> "About 1 in 3,571" means <em>rare enough to be the chart's defining feature</em>, not a number to quote to three figures.</li><li><strong>Rare is not the same as good.</strong> The rarest thing in this chart is a <em>limitation</em> — two enthroned, sleeping lights. Uncommonness measures how unusual a configuration is, and says nothing whatever about whether it is fortunate.</li></ul>
+    <div class="callout big"><p><strong>The uncommon thing about this chart is not that it is difficult. Difficulty is common. It is that the difficulty sits on top of exalted material.</strong></p></div>
+  </section>
+</div>
+
+<div class="wrap">
+  <section>
+    <h2><span class="num">17</span> Synthesis</h2>
     <h3>The trajectory</h3>
     <p><strong>Standing, competence and achievement rise</strong> — late and steeply through the Guru mahadasha, then, after a hard six-year trough at 55–61, again through the second half of the Shani mahadasha. <strong>The load rises with them.</strong></p>
     <div class="scroll">
@@ -2103,7 +2165,7 @@
     <ol><li><strong>Birth time to the minute.</strong> The only input that would <em>change</em> conclusions rather than add to them.</li><li><strong>Her chart.</strong> Half the partnership analysis is one-sided by necessity.</li><li><strong>Chara dasha and Argala.</strong> Two whole Jaimini systems, both computable from data already here — and Chara dasha would independently test the timeline.</li><li><strong>Bhava Chalit.</strong> Whole-sign has been used throughout without ever checking what a cuspal system would move.</li><li><strong>Confirmed events.</strong> Without one, this is an <em>unfalsified</em> reading rather than a <em>tested</em> one.</li></ol>
     <p><strong>Everything else on that list would enrich the reading. Only the birth time could overturn part of it.</strong></p>
     <h3>Scope notes, stated honestly</h3>
-    <ul><li><strong>Ayurdaya (longevity computation) is deliberately not performed.</strong> It is not responsible to compute lifespan from an unverified birth time, methods disagree by decades, and a number would be believed more than it deserves.</li><li><strong>The lagna is 2°23′ from Tula</strong> — roughly ten minutes of birth time. Every house-level conclusion depends on that margin holding. Nakshatra-level and strength-level findings are more robust.</li><li><strong>Two source columns are excluded</strong> as unreconcilable. An earlier claim that D8 and D30 contained node errors is <strong>retracted</strong> — the supplied data was correct and the reasoning behind the flag was wrong. Both are documented in §1.</li><li>**The spouse, the in-laws and the children are read from <em>his</em> chart.<strong> They describe the role each occupies in his life, filtered through his own karma. </strong>Guna milan and any real matching require the other charts, and none is present.**</li><li><strong>The nodes carry no Shadbala figures</strong>, so where a computation needs them they borrow their dispositor's. That proxy is flagged wherever it materially affects a result.</li><li><strong>Transit positions are mean-motion approximations</strong> — good to a few months at phase edges, not to the day. Dasha boundaries are exact.</li><li><strong>This is an interpretation within the framework of Jyotisha, presented on its own terms.</strong> It is not a claim about the framework's truth.</li></ul>
+    <ul><li><strong>Ayurdaya (longevity computation) is deliberately not performed.</strong> It is not responsible to compute lifespan from an unverified birth time, methods disagree by decades, and a number would be believed more than it deserves.</li><li><strong>The lagna is 2°23′ from Tula</strong> — roughly ten minutes of birth time. Every house-level conclusion depends on that margin holding. Nakshatra-level and strength-level findings are more robust.</li><li><strong>Two source columns are excluded</strong> as unreconcilable. An earlier claim that D8 and D30 contained node errors is <strong>retracted</strong> — the supplied data was correct and the reasoning behind the flag was wrong. Both are documented in §1.</li><li><strong>The spouse, the in-laws and the children are read from <em>his</em> chart.</strong> They describe the role each occupies in his life, filtered through his own karma. <strong>Guna milan and any real matching require the other charts, and none is present.</strong></li><li><strong>The nodes carry no Shadbala figures</strong>, so where a computation needs them they borrow their dispositor's. That proxy is flagged wherever it materially affects a result.</li><li><strong>Transit positions are mean-motion approximations</strong> — good to a few months at phase edges, not to the day. Dasha boundaries are exact.</li><li><strong>This is an interpretation within the framework of Jyotisha, presented on its own terms.</strong> It is not a claim about the framework's truth.</li></ul>
     <div class="callout big"><p><strong>The difficulty and the fortune are the same object.</strong></p></div>
     <p class="pull">The difficulty and the fortune<br>are the same object.</p>
 
