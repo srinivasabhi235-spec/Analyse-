@@ -2030,6 +2030,78 @@
     <p><strong>The strongest bhava in the chart is the one he ends in</strong> — which is why the contemplative thread was never a footnote here, and why the career, at its summit, still points somewhere past itself.</p>
     <h3>Nine things to actually do</h3>
     <ol class="takeaways"><li><strong>Go deep, not wide.</strong> No talent for breadth, enormous talent for depth. Every configuration rewards specialising into something difficult and unfashionable.</li><li><strong>Compete and serve rather than position and wait.</strong> The 41-bindu 6th, the Aquarius D10 lagna and the rank-9 tenth all say results come from out-working and out-analysing the problem, never from appointment.</li><li><strong>Change position, don't just push harder.</strong> Budha's Dig Bala is 4.28 of 60 while its Chesta Bala is near the top of the chart. What is under-resourced is <em>where he stands</em>, not what he can do — most acutely in 2030–2033.</li><li><strong>Build structure deliberately, because the chart doesn't supply it.</strong> Empty kendras mean routine and external commitments have to be installed by hand. Rahu–Shani will impose this anyway from 2028; adopting it early converts an ordeal into an advantage.</li><li><strong>Use the window to January 2028 to commit, not to expand.</strong> It activates the 2nd- and 4th-strongest houses and is the last unobstructed run before Sade Sati. One direction, one mentor, one decision on the partnership question.</li><li><strong>Treat partnership as a conscious project</strong> — with better odds than the affliction alone suggests. A rank-4 house with 33 bindus and the second-strongest graha as its lord is a sound foundation with a difficult tenant.</li><li><strong>Protect the nervous system.</strong> A failing lagna lord and a Moon thin by four measures describe a system with limited reserves. Primary, not peripheral.</li><li><strong>Expect the payoff late, and plan for it.</strong> The Guru mahadasha from 2040, and Guru–Shukra in 2048–2051, are where the central yoga finally delivers. The first fifteen working years are the investment, not the return.</li><li><strong>The contemplative pull is native equipment.</strong> A nakshatra chain terminating in Ketu, both Ketu and the Sun in gandanta, and the 12th standing as the strongest bhava — the same instruction given three times.</li></ol>
+    <h3>What is still missing — the gap audit</h3>
+    <p>Eighteen divisional charts have been computed or supplied, and roughly forty classical techniques applied. <code>verify_gaps.py</code> audits what has <em>not</em> been, and sorts it into three kinds — because they are not equally closable.</p>
+    <h4>Vargas beyond the eighteen</h4>
+    <p>All sixteen of the Shodashavarga are computed, and the source additionally supplied <strong>D8</strong> and <strong>D11</strong>, which sit outside that scheme. Beyond them the remaining named vargas split cleanly:</p>
+    <div class="scroll">
+<table>
+<thead><tr><th>Class</th><th>Vargas</th><th>Status</th></tr></thead>
+<tbody>
+<tr><td><strong>Pure linear maps</strong> — no start-sign rule, so unambiguous</td><td><strong>D81</strong> Nava-navamsha · <strong>D108</strong> Ashtottaramsha · <strong>D144</strong> Dwadash-dwadashamsha · <strong>D150</strong> Nadiamsha</td><td>Computable, but see the birth-time constraint below</td></tr>
+<tr><td><strong>Rule-contested</strong> — the schools disagree on the starting sign</td><td><strong>D5</strong> Panchamamsha (fame) · <strong>D6</strong> Shashtamsha (health) · D15 · D18 · D22 · D36</td><td><strong>Deliberately not computed</strong></td></tr>
+</tbody>
+</table>
+</div>
+    <p><strong>D6 is the one worth regretting.</strong> It is the health varga, and this chart has a thin Moon and a failing lagna lord — exactly the profile where it would matter. It is omitted because the odd/even starting rule is not settled, <strong>not because it would be hard to compute.</strong> A number there would be a guess wearing a decimal point.</p>
+    <h4>The binding constraint — and it is measurable</h4>
+    <p>Every varga divides a sign into <em>n</em> parts, so the ascendant must be known to better than 30/n degrees for that varga's lagna to be trustworthy. <strong>The ascendant moves roughly one degree every four minutes of clock time.</strong></p>
+    <div class="scroll">
+<table>
+<thead><tr><th>Varga</th><th>Division</th><th>Birth time needed</th></tr></thead>
+<tbody>
+<tr><td class="n">D1</td><td class="n">30°</td><td class="n">120 min</td></tr>
+<tr><td class="n">D9</td><td class="n">3°20′</td><td class="n">13.3 min</td></tr>
+<tr><td class="n">D12</td><td class="n">2°30′</td><td class="n">10.0 min</td></tr>
+<tr><td class="n"><strong>D16</strong></td><td class="n">1°52′</td><td class="n"><strong>7.5 min</strong></td></tr>
+<tr><td class="n"><strong>D24</strong></td><td class="n">1°15′</td><td class="n"><strong>5.0 min</strong></td></tr>
+<tr><td class="n"><strong>D30</strong></td><td class="n">1°00′</td><td class="n"><strong>4.0 min</strong></td></tr>
+<tr><td class="n"><strong>D60</strong></td><td class="n">0°30′</td><td class="n"><strong>2.0 min</strong></td></tr>
+<tr><td class="n">D150</td><td class="n">0°12′</td><td class="n">0.8 min</td></tr>
+</tbody>
+</table>
+</div>
+    <p><strong>The birth date is solid — three independent confirmations. The birth time is not.</strong> It is pinned only by the lagna falling in Kanya rather than Tula, which is a window of about <strong>ten minutes</strong>.</p>
+    <p>So everything up to about <strong>D12 is safe</strong> at that resolution. <strong>D16 and finer are progressively less certain.</strong></p>
+    <h4>How much would actually move</h4>
+    <p>Shifting the ascendant and watching which varga lagnas change gives the real stability band for each:</p>
+    <div class="scroll">
+<table>
+<thead><tr><th>Varga</th><th>Stability band</th><th>In birth time</th></tr></thead>
+<tbody>
+<tr><td class="n"><strong>D9</strong></td><td class="n">−57′ to +60′</td><td class="n"><strong>7.8 min</strong></td></tr>
+<tr><td class="n">D10</td><td class="n">−37′ to +60′</td><td class="n">6.5 min</td></tr>
+<tr><td class="n">D16</td><td class="n">−60′ to +29′</td><td class="n">5.9 min</td></tr>
+<tr><td class="n">D24</td><td class="n">−7′ to +60′</td><td class="n">4.5 min</td></tr>
+<tr><td class="n">D27</td><td class="n">−57′ to +9′</td><td class="n">4.4 min</td></tr>
+<tr><td class="n"><strong>D60</strong></td><td class="n"><strong>−7′ to +22′</strong></td><td class="n"><strong>1.9 min</strong></td></tr>
+</tbody>
+</table>
+</div>
+    <p><strong>D9 and D10 are robust</strong> — they hold across the entire ±half-degree band, which is why the marriage and career readings built on them are the most dependable structural material in this document.</p>
+    <div class="callout big"><p><strong>And one finding must be marked down honestly.</strong> The <strong>D60 claim about the destination</strong> — Shukra exalted in its 12th — rests on the <strong>narrowest band of any structural finding here: about two minutes of birth time.</strong> It agrees with four other techniques, which is why it survives. <strong>On its own it would not.</strong></p></div>
+    <h4>Whole techniques never applied</h4>
+    <div class="scroll">
+<table>
+<thead><tr><th>Technique</th><th>Value</th><th>Why it matters</th></tr></thead>
+<tbody>
+<tr><td class="n"><strong>Chara dasha</strong> (Jaimini)</td><td class="n"><strong>High</strong></td><td>The main Jaimini rashi-dasha. An entirely <strong>independent timing system</strong> and the natural cross-check on the whole Vimshottari timeline. Computable from data already in hand.</td></tr>
+<tr><td><strong>Argala</strong> (Jaimini intervention)</td><td class="n"><strong>High</strong></td><td>Which houses intervene on which, and which interventions are obstructed. A whole Jaimini layer left untouched.</td></tr>
+<tr><td><strong>Bhava Chalit / cuspal houses</strong></td><td class="n"><strong>High</strong></td><td>This reading uses <strong>whole-sign houses throughout</strong>. With the lagna at 27°37′, a cuspal system would push several grahas into adjacent houses. <strong>The largest methodological gap in the document.</strong></td></tr>
+<tr><td>Rashi drishti (sign aspects)</td><td class="n">Medium</td><td>Jaimini sign-to-sign aspects — a second reading of what reaches the otherwise-unaspected 8th.</td></tr>
+<tr><td class="n">Kakshya transit</td><td class="n">Medium</td><td>The eight sub-divisions per sign. Would sharpen transit timing from months to weeks.</td></tr>
+<tr><td class="n">Varshaphal / Tajika</td><td class="n">Medium</td><td>Solar-return chart with Muntha and year-lord — a dedicated reading of 2027 rather than a dasha-plus-transit composite.</td></tr>
+<tr><td>Ashtottari · Yogini · Kalachakra</td><td class="n">Low</td><td>Alternative dasha systems; Ashtottari's applicability would need checking first.</td></tr>
+<tr><td>Tara Bala, Chandra avasthas</td><td class="n">Low</td><td>Refinement rather than new structure.</td></tr>
+<tr><td>Shubha / Papa Kartari yogas</td><td class="n">Low</td><td>Whether key houses are hemmed by benefics or malefics. Quick, and would refine the 7th and 10th.</td></tr>
+</tbody>
+</table>
+</div>
+    <h4>Data never supplied — the gaps no computation can close</h4>
+    <ul><li><strong>Exact birth time.</strong> The binding constraint. Gates D16 and finer, every house cusp, and all eleven upagrahas. Known only to ~10 minutes.</li><li><strong>Birth place and coordinates.</strong> Never supplied. Needed for the true ascendant and for any cuspal or location-dependent work.</li><li><strong>Her birth data.</strong> No guna milan, no ashtakoota, no Mangal-dosha comparison, no reading of her own dashas. <strong>Everything said about her is derived from his chart.</strong></li><li><strong>Confirmed life events.</strong> Nothing to rectify against. One falsifiable retrodiction was offered — a relationship beginning Jan–May 2026 — and it remains unconfirmed.</li><li><strong>The parents' charts.</strong> Both threads are read by bhavat bhavam from his chart alone.</li></ul>
+    <h4>The ranked answer</h4>
+    <ol><li><strong>Birth time to the minute.</strong> The only input that would <em>change</em> conclusions rather than add to them.</li><li><strong>Her chart.</strong> Half the partnership analysis is one-sided by necessity.</li><li><strong>Chara dasha and Argala.</strong> Two whole Jaimini systems, both computable from data already here — and Chara dasha would independently test the timeline.</li><li><strong>Bhava Chalit.</strong> Whole-sign has been used throughout without ever checking what a cuspal system would move.</li><li><strong>Confirmed events.</strong> Without one, this is an <em>unfalsified</em> reading rather than a <em>tested</em> one.</li></ol>
+    <p><strong>Everything else on that list would enrich the reading. Only the birth time could overturn part of it.</strong></p>
     <h3>Scope notes, stated honestly</h3>
     <ul><li><strong>Ayurdaya (longevity computation) is deliberately not performed.</strong> It is not responsible to compute lifespan from an unverified birth time, methods disagree by decades, and a number would be believed more than it deserves.</li><li><strong>The lagna is 2°23′ from Tula</strong> — roughly ten minutes of birth time. Every house-level conclusion depends on that margin holding. Nakshatra-level and strength-level findings are more robust.</li><li><strong>Two source columns are excluded</strong> as unreconcilable. An earlier claim that D8 and D30 contained node errors is <strong>retracted</strong> — the supplied data was correct and the reasoning behind the flag was wrong. Both are documented in §1.</li><li>**The spouse, the in-laws and the children are read from <em>his</em> chart.<strong> They describe the role each occupies in his life, filtered through his own karma. </strong>Guna milan and any real matching require the other charts, and none is present.**</li><li><strong>The nodes carry no Shadbala figures</strong>, so where a computation needs them they borrow their dispositor's. That proxy is flagged wherever it materially affects a result.</li><li><strong>Transit positions are mean-motion approximations</strong> — good to a few months at phase edges, not to the day. Dasha boundaries are exact.</li><li><strong>This is an interpretation within the framework of Jyotisha, presented on its own terms.</strong> It is not a claim about the framework's truth.</li></ul>
     <div class="callout big"><p><strong>The difficulty and the fortune are the same object.</strong></p></div>

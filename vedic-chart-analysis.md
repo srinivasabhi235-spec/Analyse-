@@ -2800,6 +2800,121 @@ summit, still points somewhere past itself.
    terminating in Ketu, both Ketu and the Sun in gandanta, and the 12th
    standing as the strongest bhava — the same instruction given three times.
 
+### What is still missing — the gap audit
+
+Eighteen divisional charts have been computed or supplied, and roughly forty
+classical techniques applied. `verify_gaps.py` audits what has *not* been, and
+sorts it into three kinds — because they are not equally closable.
+
+#### Vargas beyond the eighteen
+
+All sixteen of the Shodashavarga are computed, and the source additionally
+supplied **D8** and **D11**, which sit outside that scheme. Beyond them the
+remaining named vargas split cleanly:
+
+| Class | Vargas | Status |
+|---|---|---|
+| **Pure linear maps** — no start-sign rule, so unambiguous | **D81** Nava-navamsha · **D108** Ashtottaramsha · **D144** Dwadash-dwadashamsha · **D150** Nadiamsha | Computable, but see the birth-time constraint below |
+| **Rule-contested** — the schools disagree on the starting sign | **D5** Panchamamsha (fame) · **D6** Shashtamsha (health) · D15 · D18 · D22 · D36 | **Deliberately not computed** |
+
+**D6 is the one worth regretting.** It is the health varga, and this chart has
+a thin Moon and a failing lagna lord — exactly the profile where it would
+matter. It is omitted because the odd/even starting rule is not settled, **not
+because it would be hard to compute.** A number there would be a guess wearing
+a decimal point.
+
+#### The binding constraint — and it is measurable
+
+Every varga divides a sign into *n* parts, so the ascendant must be known to
+better than 30/n degrees for that varga's lagna to be trustworthy. **The
+ascendant moves roughly one degree every four minutes of clock time.**
+
+| Varga | Division | Birth time needed |
+|---|---|---|
+| D1 | 30° | 120 min |
+| D9 | 3°20′ | 13.3 min |
+| D12 | 2°30′ | 10.0 min |
+| **D16** | 1°52′ | **7.5 min** |
+| **D24** | 1°15′ | **5.0 min** |
+| **D30** | 1°00′ | **4.0 min** |
+| **D60** | 0°30′ | **2.0 min** |
+| D150 | 0°12′ | 0.8 min |
+
+**The birth date is solid — three independent confirmations. The birth time is
+not.** It is pinned only by the lagna falling in Kanya rather than Tula, which
+is a window of about **ten minutes**.
+
+So everything up to about **D12 is safe** at that resolution. **D16 and finer
+are progressively less certain.**
+
+#### How much would actually move
+
+Shifting the ascendant and watching which varga lagnas change gives the real
+stability band for each:
+
+| Varga | Stability band | In birth time |
+|---|---|---|
+| **D9** | −57′ to +60′ | **7.8 min** |
+| D10 | −37′ to +60′ | 6.5 min |
+| D16 | −60′ to +29′ | 5.9 min |
+| D24 | −7′ to +60′ | 4.5 min |
+| D27 | −57′ to +9′ | 4.4 min |
+| **D60** | **−7′ to +22′** | **1.9 min** |
+
+**D9 and D10 are robust** — they hold across the entire ±half-degree band,
+which is why the marriage and career readings built on them are the most
+dependable structural material in this document.
+
+> **And one finding must be marked down honestly.** The **D60 claim about the
+> destination** — Shukra exalted in its 12th — rests on the **narrowest band of
+> any structural finding here: about two minutes of birth time.** It agrees
+> with four other techniques, which is why it survives. **On its own it would
+> not.**
+
+#### Whole techniques never applied
+
+| Technique | Value | Why it matters |
+|---|---|---|
+| **Chara dasha** (Jaimini) | **High** | The main Jaimini rashi-dasha. An entirely **independent timing system** and the natural cross-check on the whole Vimshottari timeline. Computable from data already in hand. |
+| **Argala** (Jaimini intervention) | **High** | Which houses intervene on which, and which interventions are obstructed. A whole Jaimini layer left untouched. |
+| **Bhava Chalit / cuspal houses** | **High** | This reading uses **whole-sign houses throughout**. With the lagna at 27°37′, a cuspal system would push several grahas into adjacent houses. **The largest methodological gap in the document.** |
+| Rashi drishti (sign aspects) | Medium | Jaimini sign-to-sign aspects — a second reading of what reaches the otherwise-unaspected 8th. |
+| Kakshya transit | Medium | The eight sub-divisions per sign. Would sharpen transit timing from months to weeks. |
+| Varshaphal / Tajika | Medium | Solar-return chart with Muntha and year-lord — a dedicated reading of 2027 rather than a dasha-plus-transit composite. |
+| Ashtottari · Yogini · Kalachakra | Low | Alternative dasha systems; Ashtottari's applicability would need checking first. |
+| Tara Bala, Chandra avasthas | Low | Refinement rather than new structure. |
+| Shubha / Papa Kartari yogas | Low | Whether key houses are hemmed by benefics or malefics. Quick, and would refine the 7th and 10th. |
+
+#### Data never supplied — the gaps no computation can close
+
+- **Exact birth time.** The binding constraint. Gates D16 and finer, every
+  house cusp, and all eleven upagrahas. Known only to ~10 minutes.
+- **Birth place and coordinates.** Never supplied. Needed for the true
+  ascendant and for any cuspal or location-dependent work.
+- **Her birth data.** No guna milan, no ashtakoota, no Mangal-dosha
+  comparison, no reading of her own dashas. **Everything said about her is
+  derived from his chart.**
+- **Confirmed life events.** Nothing to rectify against. One falsifiable
+  retrodiction was offered — a relationship beginning Jan–May 2026 — and it
+  remains unconfirmed.
+- **The parents' charts.** Both threads are read by bhavat bhavam from his
+  chart alone.
+
+#### The ranked answer
+
+1. **Birth time to the minute.** The only input that would *change*
+   conclusions rather than add to them.
+2. **Her chart.** Half the partnership analysis is one-sided by necessity.
+3. **Chara dasha and Argala.** Two whole Jaimini systems, both computable from
+   data already here — and Chara dasha would independently test the timeline.
+4. **Bhava Chalit.** Whole-sign has been used throughout without ever checking
+   what a cuspal system would move.
+5. **Confirmed events.** Without one, this is an *unfalsified* reading rather
+   than a *tested* one.
+
+**Everything else on that list would enrich the reading. Only the birth time
+could overturn part of it.**
+
 ### Scope notes, stated honestly
 
 - **Ayurdaya (longevity computation) is deliberately not performed.** It is not
