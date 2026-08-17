@@ -16,9 +16,9 @@ The document is in three parts, and the third is not an appendix.
 
 | Part | Sections | What it is |
 |---|---|---|
-| **One — the concepts** | 1–18 | Every technique the reading uses, computed for this chart and stated plainly. No interpretation of his life; this is the apparatus and its readings, ending with the single structure all fourteen instruments collapse into |
-| **Two — the questions asked** | 19–30 | Each question that was actually put to the chart, in the words it was asked, with the script that answered it. Claims embedded in questions were tested rather than agreed with — two came back partly false |
-| **Three — the questions not asked** | 31–39 | The father, the mother, the siblings, speech, the enemies house, property, foreign residence, spiritual practice, the strongest bhava, the blind spots, remedy, the declined question, and the technical and data gaps — and every correction the exact birth data forced |
+| **One — the concepts** | 1–19 | Every technique the reading uses, computed for this chart and stated plainly. No interpretation of his life; this is the apparatus and its readings, ending with the single structure all fourteen instruments collapse into |
+| **Two — the questions asked** | 20–31 | Each question that was actually put to the chart, in the words it was asked, with the script that answered it. Claims embedded in questions were tested rather than agreed with — two came back partly false |
+| **Three — the questions not asked** | 32–41 | Twenty areas across two passes — the parents, siblings, speech, the enemies house, property, foreign residence, spiritual practice, the strongest bhava, whether the marriage lasts, fame, accident risk, escape, which illnesses, employment mode, purva punya, children — plus the blind spots, remedy, the declined question, and the technical and data gaps — and every correction the exact birth data forced |
 
 Part three exists because a reading is shaped as much by what nobody thought to
 ask as by what was put to it. It overturned no finding — and four of the most
@@ -43,6 +43,8 @@ useful conclusions in the document were hiding in it.
 | [`verify_timeline.py`](verify_timeline.py) | Merges dasha and antardasha against Saturn and Jupiter transits into one life timeline, and scores every year 2026–2076 for transformation-window intensity |
 | [`verify_shodasha.py`](verify_shodasha.py) | Computes all sixteen Shodashavarga charts, Vimshopaka Bala and the Vaiseshikamsha dignity census |
 | [`verify_houseclass.py`](verify_houseclass.py) | Kendra/trikona/upachaya/dusthana census across all seven vargas |
+| [`verify_deepvarga.py`](verify_deepvarga.py) | The varga apparatus beyond the charts themselves — four Vimshopaka schemes, the sixty named shashtiamshas, the trimshamsha lords, vargottama across all 28, varga-level raja yogas, and Pushkara bhaga |
+| [`verify_missed2.py`](verify_missed2.py) | The second pass of un-asked questions — marriage durability, fame, accident risk, escape, Kalapurusha illness mapping, employment mode, purva punya, and children |
 | [`verify_unasked.py`](verify_unasked.py) | The areas nobody asked about — father, mother, siblings, speech, the 6th, property, foreign residence, spiritual practice, the blind spots, remedy, and why longevity is declined |
 | [`verify_rarity.py`](verify_rarity.py) | Monte Carlo over 200,000 synthetic charts — measures how rare each feature of this nativity actually is, and retracts the ones that turned out ordinary |
 | [`verify_gaps.py`](verify_gaps.py) | Gap audit — vargas not computed and why, per-varga birth-time sensitivity, whole techniques never applied, and data never supplied |
@@ -79,7 +81,7 @@ python3 verify_audit.py           # 53/53 pass
 for f in verify_*.py; do python3 "$f"; done
 ```
 
-Every script runs clean. Twenty-nine scripts, one document, no drift.
+Every script runs clean. Thirty-one scripts, one document, no drift.
 
 | Check | Result |
 |---|---|
