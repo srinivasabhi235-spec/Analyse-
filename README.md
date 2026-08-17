@@ -3,12 +3,26 @@
 A complete Parashari reading of a single Vedic natal chart, with every supplied
 table independently recomputed before interpretation.
 
+## How the reading is organised
+
+The document is in three parts, and the third is not an appendix.
+
+| Part | Sections | What it is |
+|---|---|---|
+| **One — the concepts** | 1–15 | Every technique the reading uses, computed for this chart and stated plainly. No interpretation of his life; this is the apparatus and its readings, ending with the single structure all fourteen instruments collapse into |
+| **Two — the questions asked** | 16–27 | Each question that was actually put to the chart, in the words it was asked, with the script that answered it. Claims embedded in questions were tested rather than agreed with — two came back partly false |
+| **Three — the questions not asked** | 28–36 | The father, the mother, the siblings, speech, the enemies house, property, foreign residence, spiritual practice, the strongest bhava, the blind spots, remedy, the declined question, and the technical and data gaps |
+
+Part three exists because a reading is shaped as much by what nobody thought to
+ask as by what was put to it. It overturned no finding — and four of the most
+useful conclusions in the document were hiding in it.
+
 ## Contents
 
 | File | What it is |
 |---|---|
-| [`vedic-chart-analysis.md`](vedic-chart-analysis.md) | The reading — chart structure, yogas, strength analysis, life areas, timeline, transits |
-| [`chart-reading.html`](chart-reading.html) | The same reading as a formatted page |
+| [`vedic-chart-analysis.md`](vedic-chart-analysis.md) | **The reading** — concepts, the questions asked, the questions not asked |
+| [`chart-reading.html`](chart-reading.html) | The same reading as a formatted page, generated from the markdown |
 | [`build_charts.py`](build_charts.py) | Computes and emits all sixteen Shodashavarga charts in full — master grid, dignity tally, and each varga with houses and classes |
 | [`build_html.py`](build_html.py) | Regenerates the HTML page from the markdown, preserving the design system |
 | [`verify_chart.py`](verify_chart.py) | Verifies positions, divisional charts, nakshatras, gandanta, dasha |
@@ -16,6 +30,7 @@ table independently recomputed before interpretation.
 | [`verify_timeline.py`](verify_timeline.py) | Merges dasha and antardasha against Saturn and Jupiter transits into one life timeline, and scores every year 2026–2076 for transformation-window intensity |
 | [`verify_shodasha.py`](verify_shodasha.py) | Computes all sixteen Shodashavarga charts, Vimshopaka Bala and the Vaiseshikamsha dignity census |
 | [`verify_houseclass.py`](verify_houseclass.py) | Kendra/trikona/upachaya/dusthana census across all seven vargas |
+| [`verify_unasked.py`](verify_unasked.py) | The areas nobody asked about — father, mother, siblings, speech, the 6th, property, foreign residence, spiritual practice, the blind spots, remedy, and why longevity is declined |
 | [`verify_rarity.py`](verify_rarity.py) | Monte Carlo over 200,000 synthetic charts — measures how rare each feature of this nativity actually is, and retracts the ones that turned out ordinary |
 | [`verify_gaps.py`](verify_gaps.py) | Gap audit — vargas not computed and why, per-varga birth-time sensitivity, whole techniques never applied, and data never supplied |
 | [`verify_love.py`](verify_love.py) | The six registers of affection ranked, every Shukra period dated, and marital satisfaction read in both directions |
@@ -50,7 +65,7 @@ python3 verify_audit.py     # 53/53 pass
 for f in verify_*.py; do python3 "$f"; done
 ```
 
-Every script runs clean.
+Every script runs clean. Twenty-one scripts, one document, no drift.
 
 | Check | Result |
 |---|---|
