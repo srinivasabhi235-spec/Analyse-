@@ -1,7 +1,14 @@
 # Analyse-
 
-A complete Parashari reading of a single Vedic natal chart, with every supplied
-table independently recomputed before interpretation.
+A complete Parashari reading of a single Vedic natal chart, computed from the
+birth moment with the Swiss Ephemeris and cross-checked against every supplied
+table.
+
+**Birth data:** 15 April 2002, 18:02:45 IST, Guntur, Andhra Pradesh, India.
+The nine grahas reproduce the supplied chart to **under one arcminute**; the
+whole Vimshottari timeline reproduces to the month; and three predictions the
+reading had made *from the chart alone, before the data arrived* — the date,
+the weekday and the tithi — all held.
 
 ## How the reading is organised
 
@@ -9,9 +16,9 @@ The document is in three parts, and the third is not an appendix.
 
 | Part | Sections | What it is |
 |---|---|---|
-| **One — the concepts** | 1–15 | Every technique the reading uses, computed for this chart and stated plainly. No interpretation of his life; this is the apparatus and its readings, ending with the single structure all fourteen instruments collapse into |
-| **Two — the questions asked** | 16–27 | Each question that was actually put to the chart, in the words it was asked, with the script that answered it. Claims embedded in questions were tested rather than agreed with — two came back partly false |
-| **Three — the questions not asked** | 28–36 | The father, the mother, the siblings, speech, the enemies house, property, foreign residence, spiritual practice, the strongest bhava, the blind spots, remedy, the declined question, and the technical and data gaps |
+| **One — the concepts** | 1–18 | Every technique the reading uses, computed for this chart and stated plainly. No interpretation of his life; this is the apparatus and its readings, ending with the single structure all fourteen instruments collapse into |
+| **Two — the questions asked** | 19–30 | Each question that was actually put to the chart, in the words it was asked, with the script that answered it. Claims embedded in questions were tested rather than agreed with — two came back partly false |
+| **Three — the questions not asked** | 31–39 | The father, the mother, the siblings, speech, the enemies house, property, foreign residence, spiritual practice, the strongest bhava, the blind spots, remedy, the declined question, and the technical and data gaps — and every correction the exact birth data forced |
 
 Part three exists because a reading is shaped as much by what nobody thought to
 ask as by what was put to it. It overturned no finding — and four of the most
@@ -23,6 +30,12 @@ useful conclusions in the document were hiding in it.
 |---|---|
 | [`vedic-chart-analysis.md`](vedic-chart-analysis.md) | **The reading** — concepts, the questions asked, the questions not asked |
 | [`chart-reading.html`](chart-reading.html) | The same reading as a formatted page, generated from the markdown |
+| [`ephem_core.py`](ephem_core.py) | Shared Swiss Ephemeris engine — birth moment, positions, rise/set, and the varga rules for all 28 schemes |
+| [`verify_birthdata.py`](verify_birthdata.py) | Tests the birth moment against the chart: graha-by-graha agreement, the ayanamsa variant, the ascendant residual measured across 27 vargas, the panchanga, and the dasha rebuilt from the exact Moon |
+| [`verify_chalit.py`](verify_chalit.py) | **Bhava Chalit** — four house systems, which grahas move under each, and which yogas survive. Closes the gap audit's largest item |
+| [`verify_upagraha.py`](verify_upagraha.py) | All eleven upagrahas recomputed from sunrise, with the source's own convention reverse-engineered from the data |
+| [`verify_transits.py`](verify_transits.py) | Every transit to 2070 computed to the day, retrogrades included — Sade Sati, Ashtama Shani, the three returns, the Bhrigu Bindu, and the eclipse series |
+| [`build_allvargas.py`](build_allvargas.py) | The twelve vargas outside the Shodashavarga, D8 and D11 rebuilt from recovered rules, and a dignity census across all 28 schemes |
 | [`build_charts.py`](build_charts.py) | Computes and emits all sixteen Shodashavarga charts in full — master grid, dignity tally, and each varga with houses and classes |
 | [`build_html.py`](build_html.py) | Regenerates the HTML page from the markdown, preserving the design system |
 | [`verify_chart.py`](verify_chart.py) | Verifies positions, divisional charts, nakshatras, gandanta, dasha |
@@ -61,11 +74,12 @@ Nothing was taken at face value. Every script runs standalone, and
 rests on:
 
 ```
-python3 verify_audit.py     # 53/53 pass
+pip install -r requirements.txt   # pyswisseph, for the ephemeris scripts
+python3 verify_audit.py           # 53/53 pass
 for f in verify_*.py; do python3 "$f"; done
 ```
 
-Every script runs clean. Twenty-one scripts, one document, no drift.
+Every script runs clean. Twenty-nine scripts, one document, no drift.
 
 | Check | Result |
 |---|---|
@@ -89,10 +103,12 @@ the same divisional sign. Only linear-map vargas (D9, D27) separate them.
 Ashtakavarga's "Sarv" column do not reconcile against any tested derivation, and
 are identified and set aside rather than guessed at.
 
-**Birth data derived.** Not supplied, but determined by the chart and confirmed
-three ways: the Vimshottari balance implies **15 April 2002**; the Sun at 1°28′
-sidereal Mesha matches mid-April; and Vara Bala of 45 to Chandra requires a
-Monday — which 15 April 2002 was. Paksha Bala fixes the tithi at Shukla Tritiya.
+**Birth data — derived first, then supplied, then confirmed.** Before the data
+was given, the reading determined it from the chart alone three ways: the
+Vimshottari balance implied **15 April 2002**; Vara Bala of 45 to Chandra
+required a **Monday**; Paksha Bala fixed the tithi at **Shukla Tritiya**. All
+three were later confirmed against the ephemeris. That is the only genuinely
+falsifiable prediction the reading ever made, and it held.
 
 ## Note
 
