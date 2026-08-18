@@ -14,7 +14,7 @@ from the Swiss Ephemeris rather than taken from a table.
 **Everything material survived, and four things did not.** The corrections are
 carried in the text where they occur and collected in §42.
 
-Thirty-four scripts accompany this document. Every headline figure is
+Thirty-five scripts accompany this document. Every headline figure is
 re-derived and asserted by `verify_audit.py`, and where a measurement
 contradicted something already written, the text was changed rather than the
 measurement.
@@ -2113,6 +2113,172 @@ vargas, the lowest Vimshopaka, and **four of the ten trimshamsha portions.**
 > age fourteen — and the 2028–2033 window is the second pass, not the first.**
 
 That is the single strongest falsifiable claim in this document.
+
+### What kind of transformation the Mangal mahadasha was
+
+§18 established that this was an 8th-house life-phase and §19 scored it against
+the window ahead. Neither said **what kind**. `verify_marsdasha.py` opens it.
+
+#### Mangal is not a generic malefic — it is a specific instrument
+
+| | |
+|---|---|
+| Position | 07°19′32″ Vrishabha — the **9th house** |
+| Nakshatra | **Krittika pada 4** — lord **Surya** |
+| Rules | the **3rd** (effort, siblings) and the **8th** (transformation) |
+| Aspects | the **12th, 3rd and 4th** |
+| Shodhya Pinda | **212 — the highest in the chart** |
+| Kashta | **38.87 — second worst**; net −19.21 |
+| Avastha | **Vriddha** — old |
+| Paid out by | **Surya** — Kashta 7.83, the cheapest effective channel |
+
+**And where it is debilitated matters more than the fact that it is:**
+
+| Debilitated in | What that varga governs |
+|---|---|
+| **D12** | **the parents** |
+| **D40** | **the maternal line** |
+| **D2** | inherited wealth *(the Moon's hora)* |
+| **D60** | accumulated karma |
+| **Exalted in D27** | **vitality — the only one** |
+
+> **The seven years it governed were structurally aimed at the family and the
+> inheritance, and structurally *not* aimed at the body.** That is the first
+> real answer to "what kind", and it is an unusual combination.
+
+#### The shakti — what this nakshatra actually does
+
+Mangal stands in **Krittika**, presiding deity **Agni**, shakti **dahana
+shakti — the power to burn away.**
+
+Krittika is the razor, the flame, the blade that separates. Its classical
+function is not to destroy but to **cut away what is not wanted so that what
+remains is clean.** The chart's janma nakshatra is the same star.
+
+And Krittika's lord is **Surya** — which is why the 8th lord's payout runs on
+the cheapest channel the chart owns. **Mangal burns; Surya collects.**
+
+#### Every antardasha, with the real transits
+
+| Antardasha | Ages | Years | Transit Shani | Transit Guru | |
+|---|---|---|---|---|---|
+| Mangal–Mangal | 13.7 – 14.1 | 2016 | Vrischika *(3rd)* | Simha *(12th)* | |
+| **Mangal–Rahu** | **14.1 – 15.1** | 2016–17 | Vrischika *(3rd)* | Kanya *(1st)* | |
+| **Mangal–Guru** | **15.1 – 16.1** | 2017–18 | **Dhanu** *(4th)* | Tula *(2nd)* | **Ashtama Shani** |
+| **Mangal–Shani** | **16.1 – 17.2** | 2018–19 | **Dhanu** *(4th)* | Vrischika *(3rd)* | **Ashtama Shani** |
+| **Mangal–Budha** | **17.2 – 18.2** | 2019–20 | **Dhanu** *(4th)* | Dhanu *(4th)* | **Ashtama Shani** |
+| **Mangal–Ketu** | **18.2 – 18.6** | 2020 | Makara *(5th)* | Dhanu *(4th)* | **Rahu return 20 Nov 2020** |
+| **Mangal–Shukra** | **18.6 – 19.8** | 2021–22 | Makara *(5th)* | Kumbha *(6th)* | |
+| Mangal–Surya | 19.8 – 20.1 | 2022 | Makara *(5th)* | Kumbha *(6th)* | |
+| Mangal–Chandra | 20.1 – 20.7 | 2022 | Makara *(5th)* | Meena *(7th)* | |
+
+#### The six that carry the weight
+
+**Mangal–Rahu, 14.1–15.1.** The 8th lord's period sub-ruled by the **Avayogi
+from Marana Karaka Sthana in the 9th.** Rahu in the 9th disrupts inherited
+belief and the father's authority specifically — and **Mangal is
+simultaneously the Pitrikaraka**, the Jaimini father-significator. Two
+father-markers active at once, one of them the chart's most destabilising body.
+*A break with something received rather than chosen — and not chosen by him
+either. Rahu does not consult.*
+
+**Mangal–Guru, 15.1–16.1.** Guru rules the **4th** (home, mother, schooling)
+and the 7th, sits in the 10th forming Amala, and carries the worst Drik Bala in
+the chart. **Ashtama Shani begins inside this period** — Saturn enters Dhanu,
+the 8th from the natal Moon. And **Guru itself matures at 16, inside this
+window.** *The home and the schooling come under pressure at the exact moment
+the chart's one protective graha comes into its strength. Both at once — which
+is why this reads as strained rather than simply bad.*
+
+**Mangal–Shani, 16.1–17.2.** Ashtama Shani throughout. Shani is the
+Amatyakaraka, holds the **worst Kashta in the chart (46.83)**, and rules the 5th
+(education, mind) and 6th (health, adversity). *The heaviest and slowest stretch
+of the seven years. **Where Rahu breaks, Shani grinds.** The chart marks this
+for endurance rather than event.*
+
+**Mangal–Budha, 17.2–18.2.** Budha is the **lagna lord and the 10th lord**,
+combust, in the 8th, and the only graha in the chart failing its Shadbala
+minimum — Dig Bala 4.28 of 60, the lowest of any body. *Ages 17–18 is exactly
+when a life is asked "who are you and what will you do", and **the chart
+answers with its weakest instrument.** Expect the question to have been forced
+and the answer to have been unavailable.*
+
+**Mangal–Ketu, 18.2–18.6.** Five months under the **Yogi planet in the severest
+gandanta pada** — and the **Rahu return falls here, 20 November 2020.**
+*Emptying. Short, and it clears the ground.*
+
+**Mangal–Shukra, 18.6–19.8.** Fourteen months under the **Atmakaraka** —
+highest Ishta Phala in the chart, self-disposited, ruler of the 2nd and 9th, and
+the one Ashtakavarga column that supports the weak 8th. **The turn — and it
+arrives at the end of the mahadasha rather than the beginning.** *The one
+genuinely favourable stretch of the seven years comes after the breaking and
+the grinding, not before.*
+
+#### The shape they make
+
+| Ages | | |
+|---|---|---|
+| 14.1 – 15.1 | **Rahu** | a break with the inherited |
+| **15.1 – 18.2** | **Guru, Shani, Budha** | **the long middle — Ashtama Shani across all three** |
+| 18.2 – 18.6 | **Ketu** | emptying, with the Rahu return inside it |
+| 18.6 – 19.8 | **Shukra** | **the turn**, under the Atmakaraka |
+| 19.8 – 20.7 | Surya, Chandra | the close |
+
+> **Three consecutive years of Ashtama Shani sit in the middle of it, ages 15.1
+> to 18.2.** That is the spine of the period, and this reading had never
+> identified it.
+
+#### So what kind?
+
+Six markers, converging:
+
+1. **Where it was aimed.** Aspects the 12th, 3rd and 4th; stands in the 9th;
+   debilitated in the vargas of both parents. **Loss, schooling, home,
+   father** — not career and not the body.
+2. **How much it delivered.** Shodhya Pinda 212, the highest of any graha.
+   **This was not a thin period.**
+3. **What it cost.** Kashta 38.87, second worst. It charged heavily.
+4. **How it moved.** Fast, hot, sharp — and **Vriddha, the old state.** Not
+   fresh vigour: force applied wearily. Action that is necessary rather than
+   eager.
+5. **What it did.** Krittika, Agni, *dahana* — not destruction but
+   **separation.** Something was cut off rather than smashed.
+6. **Who collected.** The star lord is **Surya** — cheapest effective graha,
+   ruler of the 12th, exalted in the 8th, forming Vimala. **The 8th lord's
+   outcomes were paid out through the lord of release.**
+
+> **A separation, not a catastrophe.**
+>
+> Aimed at home, family and the conditions of his schooling. Heavy in volume,
+> expensive, and carried out with a kind of tired force rather than violence.
+> Something was burned away — and because the payout channel is the 12th lord,
+> **what it produced was release rather than wreckage.**
+
+And what makes it survivable rather than merely severe is the one varga where
+Mangal is **exalted: D27, the chart of vitality.** The instrument that governed
+those seven years is at its strongest in precisely the chart that measures
+whether the body can take it.
+
+#### What it left behind
+
+**The 3rd house is where he works, and Mangal rules it.** The 3rd is the
+most-contacted house in the chart, and its lord ran his adolescence at maximum
+delivery. The reading's repeated finding that **effort into skill pays faster
+than effort into position** was installed here. A boy whose 8th-and-3rd lord
+governs ages 14 to 21 learns to work alone, under load, without external
+scaffolding — because that is the only thing available.
+
+**And it ran before Mangal matured.** Mangal matures at 28, in 2030; the
+mahadasha ended in December 2022. **The 8th lord governed those years without
+its full strength** — which is the structural reason §19 concludes the coming
+window is a different instrument rather than a repeat.
+
+> **One note on proportion.** This was seven years under the chart's most
+> expensive effective graha, ending in a Rahu return. It was *also* part of the
+> stretch whose net texture (**+13.98** across ages 0–24.3) is the most
+> favourable of his life (§18). **Both are true.** The Mangal years were the
+> hard part of an otherwise cheap opening — which is why they read as formative
+> rather than as ruin.
 
 **Ages 20.7 onward · Rahu** — the Avayogi, in Marana Karaka Sthana in the 9th,
 aspecting the lagna. *Expect since about twenty-one: identity under active
@@ -4876,7 +5042,7 @@ D30, upagraha, Vimshottari, Shadbala, Bhava Bala, Ashtakavarga, Reduced
 Ashtakavarga, Shodhya Pinda and transit data — which reproduce to under one
 arcminute. Twenty-eight divisional charts, four house systems, all eleven
 upagrahas, the full panchanga and every transit to 2070 were computed
-independently. Thirty-four scripts accompany this document; `verify_audit.py`
+independently. Thirty-five scripts accompany this document; `verify_audit.py`
 re-derives and asserts all 53 headline figures, `verify_birthdata.py` tests the
 birth moment against the chart, `verify_chalit.py` closes the house-frame gap,
 `verify_rarity.py` measures the chart's rarity against 200,000 synthetic charts,
