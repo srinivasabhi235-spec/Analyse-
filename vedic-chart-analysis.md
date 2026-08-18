@@ -12,9 +12,9 @@ date into an approximation. It is now supplied, and the chart has been rebuilt
 from the Swiss Ephemeris rather than taken from a table.
 
 **Everything material survived, and four things did not.** The corrections are
-carried in the text where they occur and collected in §40.
+carried in the text where they occur and collected in §41.
 
-Thirty-two scripts accompany this document. Every headline figure is
+Thirty-three scripts accompany this document. Every headline figure is
 re-derived and asserted by `verify_audit.py`, and where a measurement
 contradicted something already written, the text was changed rather than the
 measurement.
@@ -27,6 +27,7 @@ weakest ground it owns.
 ---
 
 ## 1. Part one — the concepts
+
 
 
 
@@ -58,8 +59,9 @@ attempted here; that is Part two.
 | 16 | **Sensitive points** | Upagrahas, gandanta, Bhrigu Bindu — now verified from sunrise |
 | 17 | **Timing** | Vimshottari, and transits computed to the day |
 | 18 | **What has already been lived** | Three mahadashas are finished — what that tests, and what it narrows |
-| 19 | **Rarity** | A null model, so "remarkable" means something measurable |
-| 20 | **The one structure** | What all nineteen collapse into |
+| 19 | **The transformation already lived** | The past 8th-house window scored against the coming one — and what that corrects |
+| 20 | **Rarity** | A null model, so "remarkable" means something measurable |
+| 21 | **The one structure** | What all twenty collapse into |
 
 ### Provenance — what was supplied and what was derived
 
@@ -118,6 +120,7 @@ computation in §9 shows it is not.
 ---
 
 ## 2. The birth data, and the chart it produces
+
 
 
 
@@ -252,6 +255,7 @@ them under a cuspal frame.*
 
 
 
+
 The five limbs of the day, computable only once the moment is known:
 
 | Limb | Value |
@@ -315,6 +319,7 @@ exact birth data.**
 
 
 
+
 Two different questions get confused constantly. **Dignity** asks how
 well-made a graha is — exalted, own sign, friend, enemy, debilitated.
 **Avastha** asks what *condition* it is in while holding that dignity. A graha
@@ -336,7 +341,7 @@ Two readings fall straight out of that table.
 
 **The luminaries are the best-made and least-deployed bodies in the chart.**
 Both exalted; one an infant, the other dead. This is the single rarest
-configuration the chart contains — §19 measures it at roughly **1 in 3,571** —
+configuration the chart contains — §20 measures it at roughly **1 in 3,571** —
 and every conclusion in this document that takes the form *"the capacity is
 there and the delivery is not"* descends from it.
 
@@ -376,6 +381,7 @@ them are a healer and a riser.
 ---
 
 ## 5. The nakshatra level
+
 
 
 
@@ -427,6 +433,7 @@ through Budha.** Ketu dissolves; Budha analyses.
 
 
 
+
 Jyotisha has **two independent chains of authority.** The **rashi** level asks
 who owns the sign a graha stands in. The **nakshatra** level asks who owns the
 lunar mansion. The rashi level is the *field* a graha works in; the nakshatra
@@ -449,7 +456,7 @@ nakshatra generally decides the outcome.
 
 There is not a single placement here where the sign lord and the star lord are
 the same graha. **A Monte Carlo over 200,000 charts puts a clean 9-of-9
-mismatch at 84.5% of all charts** (§19). It is the default condition, not a
+mismatch at 84.5% of all charts** (§20). It is the default condition, not a
 signature, and an earlier draft of this reading oversold it badly.
 
 What survives is the *mechanism*, which is real regardless of how common it is:
@@ -533,6 +540,7 @@ cause:
 ---
 
 ## 7. Strength — four measures that disagree
+
 
 
 
@@ -641,6 +649,7 @@ not fragile — but it runs on a small tank, and it costs almost nothing to use.
 
 
 
+
 Ashtakavarga scores each sign by benefic points contributed by each graha;
 Bhava Bala scores each house by lordship, direction and aspect. **They are
 independent, and here they disagree in two places that matter.**
@@ -675,6 +684,7 @@ dispersion: this chart is not evenly supported anywhere.
 ---
 
 ## 9. Houses — and which frame
+
 
 
 
@@ -733,7 +743,7 @@ casualty, and this document leaned on Vimala for its central claim that
 - **Dharma-Karmadhipati as a conjunction** — both lords in Mesha, 13°09′ apart
 - every dignity, exaltation, avastha and vargottama finding
 - the seven-grahas-in-73° concentration
-- **the entire rarity measurement in §19**, which counts signs and spacing
+- **the entire rarity measurement in §20**, which counts signs and spacing
 
 ### A correction this forces
 
@@ -777,6 +787,7 @@ grahas.
 ---
 
 ## 10. Drishti — and the house nothing reaches
+
 
 
 
@@ -826,6 +837,7 @@ name is also the most aspectually besieged body in the chart.**
 ---
 
 ## 11. The sixteen divisional charts
+
 
 
 
@@ -1275,7 +1287,7 @@ both debilitated.**
 > way nothing else in this reading is. **Shukra's exaltation in Meena is not** —
 > that is a fact about Shukra's longitude alone. What is uncertain is which
 > house of D60 Meena becomes, and the answer is the 12th at 18:02:45 and the
-> 11th a minute later. **The finding agrees with five other techniques (§33),
+> 11th a minute later. **The finding agrees with five other techniques (§36),
 > which is why it survives. On its own it would not.** **The arc does not terminate in accumulation or
 > in title.** Its two debilitations are Mangal and Shani — the two grahas
 > carrying the hardest work of the life. The karma chart says the labour is the
@@ -1307,7 +1319,7 @@ The birth ascendant repeats as the varga lagna in **D1, D5, D7, D9 and D11**,
 and is vargottama between D1 and D9.
 
 *(This reading long said four. The fifth is **D5 Panchamamsha**, which was
-computed but never read until §36 — one more correction the deeper varga pass
+computed but never read until §37 — one more correction the deeper varga pass
 forced.)*
 
 **Five charts sharing an ascendant is a strength signature in its own right:**
@@ -1317,6 +1329,7 @@ same underlying frame.
 ---
 
 ## 12. The twelve further vargas
+
 
 
 
@@ -1464,6 +1477,7 @@ The stated birth time and the source's own ascendant differ by about 59 seconds 
 ## 13. The varga apparatus, deeper
 
 
+
 Twenty-eight divisional charts, read one at a time, is only the first layer.
 Parashara builds four further structures on top of the vargas, and the reading
 had touched none of them.
@@ -1565,7 +1579,7 @@ that names the *kind* of adversity.
 **Mangal dominates the adversity chart, and it takes the lagna itself.** All
 five D30 portions belong to malefics — that is why it is the adversity varga —
 so the question is never *whether* but *which*. Here the answer is Mars:
-**acute, hot, sharp, sudden.** §36 reads what that means.
+**acute, hot, sharp, sudden.** §37 reads what that means.
 
 ### Vargottama across the whole set
 
@@ -1646,6 +1660,7 @@ route.
 
 
 
+
 ### Dharma-Karmadhipati Yoga — the chart's only raja yoga
 
 **The 9th lord Shukra (23°37′ Mesha) conjunct the 10th lord Budha (10°28′
@@ -1719,6 +1734,7 @@ lagna lord, no graha in the 6th or 12th. **Not one classical affliction.**
 ---
 
 ## 15. The Jaimini layer
+
 
 
 
@@ -1804,6 +1820,7 @@ touches. **Desire is represented in this chart by its own negation.**
 
 
 
+
 Upagrahas are shadow points, not bodies. Five are simple offsets from the Sun.
 The other six are **the ascendant taken at a particular eighth of the day**,
 which requires sunrise, sunset and the weekday — none of it computable until
@@ -1874,6 +1891,7 @@ only route by which houses 1 and 10 deliver is through Ketu.
 ---
 
 ## 17. Timing — Vimshottari, and transits to the day
+
 
 
 
@@ -1985,6 +2003,7 @@ claim to within months.
 
 ## 18. What has already been lived
 
+
 Three mahadashas are finished and a fourth is a fifth gone. This document has
 been almost entirely forward-looking — it opens at August 2026 and runs to
 2076, and it has never once turned round to ask what the chart says about the
@@ -2079,7 +2098,8 @@ for. High variance rather than steady gain.*
 
 **The two that have fired are the 10th-house benefic and the exalted 12th lord.
 The two that have not are the Atmakaraka and the 8th lord** — which is exactly
-why the reading places the defining transformation ahead rather than behind.
+why the heaviest components of the transformation apparatus sit ahead rather
+than behind — though **not the whole of it**, as §19 shows.
 
 ### Yes — and here is the thing the forward-looking reading missed entirely
 
@@ -2159,7 +2179,7 @@ is carried almost entirely by one sixteen-year block between ages 38.7 and 54.7.
 
 The "now" section reads 11–12 August 2026 and the marriage window it describes
 is **open today.** That window closes **3 June 2027** — not January 2028, per
-the correction in §40 — which leaves roughly **nine months** of the clearest
+the correction in §41 — which leaves roughly **nine months** of the clearest
 activation the chart offers.
 
 ### What does not change, stated plainly
@@ -2173,7 +2193,172 @@ they were then.**
 
 ---
 
-## 19. Rarity — measuring instead of asserting
+## 19. The transformation already lived, against the one ahead
+
+§18 found that the **Mangal mahadasha ran ages 13.7 to 20.7** — the lord of the
+8th house governing seven straight years — and concluded that the 8th-house
+life began around age fourteen rather than in 2027.
+
+That raises the obvious next question, and it is not rhetorical. **If a major
+8th-house passage has already happened, does it change what 2028–2033 is?**
+
+Three answers are possible. Only one of them survives.
+
+### The same scoring, run backwards
+
+The forward transformation table scored every year on eight markers. Extending
+that scoring to birth puts both windows on one scale:
+
+| PAST — Mangal mahadasha | | AHEAD — the 2028–2033 window | |
+|---|---|---|---|
+| 2016 · age 14.2 | **5** █████ | 2027 · age 25.2 | 3 ███ |
+| 2017 · age 15.2 | 3 ███ | 2028 · age 26.2 | 3 ███ |
+| 2018 · age 16.2 | 4 ████ | 2029 · age 27.2 | 3 ███ |
+| 2019 · age 17.2 | **5** █████ | 2030 · age 28.2 | 2 ██ |
+| 2020 · age 18.2 | 4 ████ | 2031 · age 29.2 | **4** ████ |
+| 2021 · age 19.2 | 4 ████ | 2032 · age 30.2 | 2 ██ |
+| 2022 · age 20.2 | **5** █████ | 2033 · age 31.2 | 1 █ |
+| **total** | **30** | **total** | **18** |
+| **mean** | **4.3** | **mean** | **2.6** |
+
+**That contradicts what this reading has been saying, so it gets stated
+plainly: on its own markers, the window already lived scores higher than the
+one ahead.**
+
+### And then the methodological problem gets admitted
+
+One marker in that table — *"8th lord mahadasha", worth 3 points* — was added
+in order to run the scoring backwards. The original forward table had no such
+marker, **because no future mahadasha belongs to Mangal.** It therefore exists
+only to describe the past window, and it pays 3 points in every one of its
+seven years.
+
+| | Past | Ahead | |
+|---|---|---|---|
+| Counting the 8th lord's mahadasha | **30** | 18 | past is heavier |
+| Not counting it | **9** | **18** | ahead is heavier |
+
+**Both readings are defensible and they disagree.** The honest statement is
+that **the two windows are comparable in weight**, and which measures heavier
+depends entirely on whether a seven-year mahadasha of the 8th lord counts as a
+transformation marker. Classical practice says it does — a mahadasha of the 8th
+lord is a standard description of an 8th-house life phase, and it ran
+continuously where the coming window's transit markers come and go.
+
+> **What is not defensible is this document's existing language.** Calling
+> 2028–2033 *"the defining transformation"* implied it was both the first and
+> the largest. **It is neither clearly the largest nor the first.**
+
+### So: discharged, repeated, or something else?
+
+**Not discharged.** Nothing in Parashari says a house is consumed by being
+activated. The 8th fires whenever its lord or occupants are active or transits
+reach it, and the coming window is not lighter for having a predecessor.
+
+**Not a repeat either — and that is the more tempting error.** The two windows
+are driven by *completely different instruments:*
+
+| | **Past (2016–2022)** | **Ahead (2028–2033)** |
+|---|---|---|
+| **What activates the 8th** | **its own lord, as mahadasha** | **transit Shani, plus Rahu–Budha** |
+| Governing graha | **Mangal — Shodhya Pinda 212, the highest** | Rahu, then Budha — the failing lagna lord |
+| Saturn return | no | **yes — 2 June 2031** |
+| Sade Sati | no | **yes — from 3 June 2027** |
+| Ashtama Shani from Chandra | **yes — Saturn in Dhanu 2017–20** | no |
+| Rahu return | **yes — 20 Nov 2020, age 18.6** | no (half-return ~2030) |
+| Bhrigu Bindu crossing | no | **yes — 3 Sep 2030, three passes** |
+
+Read the first row twice. **In the past window the eighth house's own lord was
+running the whole show from inside. In the coming one the 8th is being worked
+on from outside by transit**, while the dasha is held by Rahu and then by the
+chart's only failing graha.
+
+> **One is the house acting. The other is the house being acted upon.**
+
+### The decisive asymmetry — maturity
+
+| Graha | Matures | Year | In the past window? | In the window ahead? |
+|---|---|---|---|---|
+| **Guru** | 16 | 2018 | **yes** | — |
+| Surya | 22 | 2024 | — | — |
+| Chandra | 24 | 2026 | — | — |
+| **Shukra** | **25** | **2027** | — | **yes** |
+| **Mangal** | **28** | **2030** | — | **yes** |
+| Budha | 32 | 2034 | — | — |
+| Shani | 36 | 2038 | — | — |
+
+> **The Mangal mahadasha ran before Mangal itself matured.**
+>
+> Mangal matures at 28, in 2030. Its mahadasha ended in December 2022 — **more
+> than seven years before the graha came into its own strength.** The 8th lord
+> governed seven years of his life while it was still, in the classical sense,
+> not yet itself.
+
+**And Mangal's maturation falls inside the coming window — 2030, the exact peak
+year the forward scoring identified independently.**
+
+One graha did mature during the past window: **Guru, in 2018** — the one benefic
+in a kendra, the Amala giver. Worth noting on its own. **The only maturation
+available to him during his hardest early stretch was the graha of protection
+and reputation.** Two mature inside or beside the coming one: **Shukra in 2027
+and Mangal in 2030** — the Atmakaraka and the 8th lord itself.
+
+### The other asymmetry, stated as what it is
+
+Jyotisha describes structure, not agency, so this is an observation about the
+person rather than a computation.
+
+**Past window, ages 13.7 to 20.7:** no position, no resources, no independent
+household, no professional standing. The 8th arrived and there was nothing to
+do but undergo it.
+
+**Window ahead, ages 25.1 to 31.0:** by the chart's own timeline — married by
+early 2028, the career-foundation antardasha opening the same week, a child
+around 2029, Shukra matured in 2027.
+
+**The same house, at an age with something to lose and something to steer.**
+
+### What this changes
+
+**1. The coming window is not his first, and this document should stop implying
+it is.** That language has been corrected wherever it appeared.
+
+**2. It is not clearly the harder of the two.** Which is heavier depends on a
+scoring choice that can go either way. What *is* certain: the coming window
+carries three markers the past one did not — the Saturn return, Sade Sati and
+the Bhrigu Bindu crossing — while the past one carried two the coming one does
+not: **the 8th lord's own mahadasha, and the Rahu return.**
+
+**3. A seventh blind spot, and it is new.** §38 lists six. This is the seventh,
+and it is the only one that exists *because* of something he has lived:
+
+> **He has survived an 8th-house passage already, and the natural inference —
+> "I have been through this, I know what it feels like" — is wrong here,
+> because the instruments differ.**
+>
+> The past window was the 8th lord acting from inside, at maximum delivery
+> capacity, with little at stake externally. The coming one is transit pressure
+> on a matured apparatus with a marriage, a child and a career attached.
+> **Pattern-matching the second to the first will understate it.**
+
+**4. It makes one piece of counsel actionable for the first time.** *"Change
+position, don't just push harder"* was written for a man who, at fourteen, had
+no position to change. At twenty-eight he will have one. **The instruction
+becomes usable exactly when the chart most needs it to be.**
+
+**5. And one reassurance that is earned rather than offered.** He came through
+seven years governed by the 8th lord at the highest delivery capacity in the
+chart, with only Guru matured and no resources of his own. D27's zero dusthana
+occupancy said the transformations were survivable.
+
+> **The past window is the first evidence that they actually were — and it is
+> the only evidence anywhere in this document that comes from his life rather
+> than from his chart.**
+
+---
+
+## 20. Rarity — measuring instead of asserting
+
 
 
 
@@ -2245,7 +2430,8 @@ same as good:** the rarest thing in this chart is a *limitation*.
 
 ---
 
-## 20. The one structure
+## 21. The one structure
+
 
 
 
@@ -2349,7 +2535,8 @@ take it.
 
 ---
 
-## 21. Part two — the questions asked
+## 22. Part two — the questions asked
+
 
 
 
@@ -2376,14 +2563,15 @@ agreed with**, and two of them came back partly false.
 
 Four further requests shaped the document rather than adding sections of their
 own: *"Dispositor of nakshtras and house plants lords"* became §6; *"And Vargas
-or gaps that are still need to found about him"* became §41, most of which has
+or gaps that are still need to found about him"* became §42, most of which has
 since been closed; *"calculate all other Vargas"* became §12 and §13; and **"as
-few major mahadasha passed does it change the analysis"** became **§18**, which
+few major mahadasha passed does it change the analysis"** became **§18** and **§19**, which
 is where this document first turned round and looked backwards.
 
 ---
 
-## 22. "What are his natural traits"
+## 23. "What are his natural traits"
+
 
 
 
@@ -2465,7 +2653,8 @@ trapped, and the way out runs through Jupiter.
 
 ---
 
-## 23. "Why do people feel jealous or insecure about him"
+## 24. "Why do people feel jealous or insecure about him"
+
 
 
 
@@ -2554,7 +2743,8 @@ holds them.**
 
 ---
 
-## 24. The three questions about transformation
+## 25. The three questions about transformation
+
 
 
 
@@ -2611,7 +2801,8 @@ Bindu, and a mahadasha junction (2).
 
 | Window | Ages | Peak | What converges |
 |---|---|---|---|
-| **Late 2027 – mid 2033** | **25–31** | **█████ at 2031** | **The defining transformation.** Shani enters the natal 8th ~Oct 2027; Rahu half-return 2030; Rahu–Budha Dec 2030–Jun 2033; Saturn return late 2031; Bhrigu Bindu crossing 2031; Sade Sati throughout |
+| *(2016 – 2022)* | *13.7–20.7* | *████ mean 4.3* | ***The window already lived*** — added in §19. The 8th lord's own mahadasha, Ashtama Shani from Chandra 2017–20, the Rahu return Nov 2020 |
+| **Jun 2027 – mid 2033** | **25–31** | **█████ at 2031** | **The second pass, and the first one driven from outside.** Shani enters the natal 8th **3 Jun 2027** in three passes to Apr 2030; Rahu–Budha Dec 2030–Jun 2033; **Saturn return 2 Jun 2031**; **Bhrigu Bindu 3 Sep 2030**; Sade Sati from 3 Jun 2027 |
 | 2034 – 2038 | 32–36 | ██ | Rahu–Shukra then Rahu–Surya — the 8th's occupants on their *benefic* side |
 | 2039 – 2041 | 37–39 | ███ | Rahu–Mangal (8th lord, highest Shodhya Pinda) + Rahu return + the Dec 2040 junction |
 | 2046 – 2054 | 44–52 | ███ | The 8th's occupants inside the Guru mahadasha; Ashtama Shani 2048–50 |
@@ -2694,7 +2885,8 @@ whose whole job is detachment, has been given the chart.**
 
 ---
 
-## 25. "His wife traits"
+## 26. "His wife traits"
+
 
 
 
@@ -2806,7 +2998,8 @@ from two angles.**
 
 ---
 
-## 26. "Will his in laws be wealthy"
+## 27. "Will his in laws be wealthy"
+
 
 
 
@@ -2867,7 +3060,8 @@ should be verified rather than assumed.**
 
 ---
 
-## 27. "Who are the people loving him, and when can he experience it — and will he be satisfied with his wife's love, and she with his"
+## 28. "Who are the people loving him, and when can he experience it — and will he be satisfied with his wife's love, and she with his"
+
 
 
 
@@ -2997,7 +3191,8 @@ contentment is routed through it. Those are different maintenance tasks, and
 
 ---
 
-## 28. "Career growth"
+## 29. "Career growth"
+
 
 
 
@@ -3143,7 +3338,8 @@ within a domain. **Ownership before title. The title follows in the 2040s.**
 
 ---
 
-## 29. "How would the solar eclipse affect him"
+## 30. "How would the solar eclipse affect him"
+
 
 
 
@@ -3220,7 +3416,8 @@ illuminates it.**
 
 ---
 
-## 30. The four claims he put to the chart
+## 31. The four claims he put to the chart
+
 
 
 
@@ -3343,7 +3540,7 @@ delivery capacity, on a different axis entirely.
 
 ### "Any unique point that is so uncommon"
 
-Measured, not asserted — §19 has the full method and the deflations. The single
+Measured, not asserted — §20 has the full method and the deflations. The single
 answer:
 
 > **Both luminaries exalted, and both weak by avastha. About 1 in 3,571.**
@@ -3360,7 +3557,8 @@ of exalted material.**
 
 ---
 
-## 31. Answered along the way
+## 32. Answered along the way
+
 
 
 
@@ -3429,7 +3627,8 @@ Saturn-driven. **Tired, not broken.**
 
 ---
 
-## 32. The timeline all the answers share
+## 33. The timeline all the answers share
+
 
 
 
@@ -3510,7 +3709,8 @@ the junction. **The 12th receives what remains.**
 
 ---
 
-## 33. Part three — the questions not asked
+## 34. Part three — the questions not asked
+
 
 
 
@@ -3539,14 +3739,15 @@ had acquired:
 | 4 | **Six blind spots are derivable**, each traceable to a specific measurement | **New** |
 
 The gaps come in four kinds, and they are not equally closable: **areas never
-asked about** (§34–§36, twenty areas across two passes), **things about him
+asked about** (§35–§37, twenty areas across two passes), **things about him
 nobody thought to ask**
-(§37–§39), **the corrections the exact birth data forced** (§40), and **what
-remains unknown** (§41).
+(§38–§40), **the corrections the exact birth data forced** (§41), and **what
+remains unknown** (§42).
 
 ---
 
-## 34. The people never asked about
+## 35. The people never asked about
+
 
 
 
@@ -3654,7 +3855,8 @@ is exactly the condition under which the 3rd pays best.
 
 ---
 
-## 35. The areas never asked about
+## 36. The areas never asked about
+
 
 
 
@@ -3783,7 +3985,8 @@ why the career, at its summit, still points somewhere past itself.
 
 ---
 
-## 36. The second pass — eight more never asked
+## 37. The second pass — eight more never asked
+
 
 
 The first pass covered twelve areas. **Eight more remain**, and each is loud
@@ -3826,7 +4029,7 @@ On its own terms the technique says two things that point the same way:
 > marriage hard to break.**
 >
 > Durable, and not effusive. That is what an entirely independent apparatus
-> says — and it is exactly what the satisfaction analysis in §27 found from the
+> says — and it is exactly what the satisfaction analysis in §28 found from the
 > Ketu contacts and the 2nd from Upapada: *neither of them will describe it as
 > effusive, and both of them will still be in it.*
 
@@ -3978,7 +4181,7 @@ is consistent to the point of bluntness:
 
 > **The chart describes someone paying in rather than drawing down.**
 
-That is the same conclusion the purpose analysis in §24 reached from the
+That is the same conclusion the purpose analysis in §25 reached from the
 purushartha tally — arriving here from an unrelated technique.
 
 ### 8. How many children
@@ -4006,7 +4209,8 @@ small family rather than a large one is the direction everything points, and
 
 ---
 
-## 37. What he cannot see
+## 38. What he cannot see
+
 
 
 
@@ -4045,9 +4249,20 @@ affliction is present. **What this chart has is missing scaffolding**, and the
 two require opposite responses. **Enduring a difficulty that is actually an
 absence wastes the decade.**
 
+**7. He will pattern-match the coming transformation to the one he survived.**
+Added after §19, and it is the only blind spot on this list that exists because
+of something he has *lived* rather than something the chart withholds. He came
+through an 8th-house passage at ages 13.7–20.7 driven by the 8th lord's own
+mahadasha. **The 2028–2033 window is driven by different instruments entirely**
+— transit Saturn, the Saturn return, Sade Sati, and the chart's failing lagna
+lord — **on a matured apparatus with a marriage, a child and a career
+attached.** "I have been through this before" is the natural inference and it
+is the wrong one.
+
 ---
 
-## 38. Remedy — never asked, and derivable
+## 39. Remedy — never asked, and derivable
+
 
 
 
@@ -4124,7 +4339,8 @@ not choose, and relinquishing one he did.
 
 ---
 
-## 39. The question deliberately declined
+## 40. The question deliberately declined
+
 
 
 
@@ -4169,7 +4385,8 @@ than contradicting it.
 
 ---
 
-## 40. Every correction the birth data forced
+## 41. Every correction the birth data forced
+
 
 
 
@@ -4223,7 +4440,8 @@ corrections are all to *dates* and to *one frame-dependent count*.
 
 ---
 
-## 41. What remains unknown
+## 42. What remains unknown
+
 
 
 
@@ -4234,7 +4452,7 @@ follows is the honest remainder.
 
 | Was | Now |
 |---|---|
-| **1. Birth time to the minute** — *"the only input that would change conclusions rather than add to them"* | **CLOSED.** Known to the second. It changed four dates and one frame-dependent count (§40) |
+| **1. Birth time to the minute** — *"the only input that would change conclusions rather than add to them"* | **CLOSED.** Known to the second. It changed four dates and one frame-dependent count (§41) |
 | **3. Chara dasha and Argala** | *(still open — see below)* |
 | **4. Bhava Chalit** — *"the largest methodological gap in the document"* | **CLOSED.** Computed under three cuspal systems in §9. The gap is not merely measured but quantified: four grahas and one yoga |
 | **Vargas beyond the eighteen** | **CLOSED.** All twenty-eight computed in §11, §12 and §13 |
@@ -4253,7 +4471,7 @@ follows is the honest remainder.
   to a passed test the document contains, and it tests the *source data*, not
   the interpretation.
 - **The parents' charts.** Both threads are read by bhavat bhavam from his
-  chart alone, which is why §34 describes roles rather than people.
+  chart alone, which is why §35 describes roles rather than people.
 
 ### Still open, and computable
 
@@ -4291,7 +4509,7 @@ on any of them.**
 
 ### Scope notes, stated honestly
 
-- **Ayurdaya is still not performed** — §39 gives the reasons, and the birth
+- **Ayurdaya is still not performed** — §40 gives the reasons, and the birth
   time removes only one of the three.
 - **The house frame is whole-sign and is now a declared choice**, not an
   assumption (§9).
@@ -4309,7 +4527,8 @@ on any of them.**
 
 ---
 
-## 42. The whole thing on one page
+## 43. The whole thing on one page
+
 
 
 
@@ -4368,7 +4587,7 @@ D30, upagraha, Vimshottari, Shadbala, Bhava Bala, Ashtakavarga, Reduced
 Ashtakavarga, Shodhya Pinda and transit data — which reproduce to under one
 arcminute. Twenty-eight divisional charts, four house systems, all eleven
 upagrahas, the full panchanga and every transit to 2070 were computed
-independently. Thirty-two scripts accompany this document; `verify_audit.py`
+independently. Thirty-three scripts accompany this document; `verify_audit.py`
 re-derives and asserts all 53 headline figures, `verify_birthdata.py` tests the
 birth moment against the chart, `verify_chalit.py` closes the house-frame gap,
 `verify_rarity.py` measures the chart's rarity against 200,000 synthetic charts,
