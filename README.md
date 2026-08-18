@@ -43,6 +43,7 @@ useful conclusions in the document were hiding in it.
 | [`verify_timeline.py`](verify_timeline.py) | Merges dasha and antardasha against Saturn and Jupiter transits into one life timeline, and scores every year 2026–2076 for transformation-window intensity |
 | [`verify_shodasha.py`](verify_shodasha.py) | Computes all sixteen Shodashavarga charts, Vimshopaka Bala and the Vaiseshikamsha dignity census |
 | [`verify_houseclass.py`](verify_houseclass.py) | Kendra/trikona/upachaya/dusthana census across all seven vargas |
+| [`verify_pastfuture.py`](verify_pastfuture.py) | Past against future in detail — how the outputs differ across eight dimensions, including a weighting reversal the script reports rather than hides |
 | [`verify_marsdasha.py`](verify_marsdasha.py) | The Mangal mahadasha opened up — every antardasha with real transits, the three-year Ashtama Shani spine, and what kind of transformation it was |
 | [`verify_relinquish.py`](verify_relinquish.py) | Why he sets down what he wanted most — the desire apparatus tested, Ketu's reach across the kama trikona, and whether the mechanism is loss, renunciation or dissolution |
 | [`verify_pastwindow.py`](verify_pastwindow.py) | The 8th-house passage he has already lived, scored against the one ahead on the same markers — whether it discharges, repeats, or is a different instrument on the same target |
@@ -85,7 +86,7 @@ python3 verify_audit.py           # 53/53 pass
 for f in verify_*.py; do python3 "$f"; done
 ```
 
-Every script runs clean. Thirty-five scripts, one document, no drift.
+Every script runs clean. Thirty-six scripts, one document, no drift.
 
 | Check | Result |
 |---|---|

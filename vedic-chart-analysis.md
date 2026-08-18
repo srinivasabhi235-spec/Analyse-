@@ -14,7 +14,7 @@ from the Swiss Ephemeris rather than taken from a table.
 **Everything material survived, and four things did not.** The corrections are
 carried in the text where they occur and collected in §42.
 
-Thirty-five scripts accompany this document. Every headline figure is
+Thirty-six scripts accompany this document. Every headline figure is
 re-derived and asserted by `verify_audit.py`, and where a measurement
 contradicted something already written, the text was changed rather than the
 measurement.
@@ -2478,6 +2478,188 @@ on from outside by transit**, while the dasha is held by Rahu and then by the
 chart's only failing graha.
 
 > **One is the house acting. The other is the house being acted upon.**
+
+### How the results differ, in detail
+
+The comparison above was about **instruments**. This one is about **outputs**.
+`verify_pastfuture.py` runs eight dimensions, and the honest result includes a
+methodological reversal that has to be reported rather than smoothed over.
+
+#### 1. The target moves
+
+Counting every house each period's lords touch — by rulership, occupancy and
+aspect, duration-weighted:
+
+| House | | Past | Future | Shift |
+|---|---|---|---|---|
+| **3** | effort, siblings, skill | **12.3** | 4.7 | **−7.6** |
+| **8** | transformation | **9.5** | 2.5 | **−7.0** |
+| 9 | dharma, father, fortune | 11.1 | 9.4 | −1.7 |
+| **4** | **home, mother, schooling** | **4.9** | 1.6 | **−3.3** |
+| **12** | loss, foreign, moksha | **3.9** | 0.0 | **−3.9** |
+| **5** | children, romance | 1.6 | **6.1** | **+4.5** |
+| **1** | **self** | 1.5 | **5.8** | **+4.3** |
+| **6** | adversity, health | 2.1 | **4.8** | **+2.7** |
+| 10 | career, standing | 1.9 | 3.6 | +1.7 |
+
+> **Same house at the centre. Completely different periphery.**
+>
+> The past reached into the **family** — home, father, schooling, effort. The
+> future reaches into the **self and the work** — identity, children, career,
+> health.
+
+#### 2. Delivery and cost — and here the measures reverse
+
+Two weightings, because they answer different questions. **AD** weights only
+the antardasha lord — what is running right now. **MD+AD** weights the
+mahadasha lord equally — the period's background colour.
+
+| Measure | Past (AD) | Future (AD) | Past (MD+AD) | Future (MD+AD) |
+|---|---|---|---|---|
+| Shodhya Pinda — delivery | 126.0 | **154.4** | **168.9** | 124.7 |
+| Kashta — cost | 22.8 | **35.0** | **30.8** | 23.5 |
+| Net Ishta−Kashta | **+8.58** | −15.89 | −5.30 | **+9.87** |
+| **Career score** | 4.02 | **5.96** | 3.19 | **3.74** |
+
+| Measure | AD difference | MD+AD difference | Same direction? |
+|---|---|---|---|
+| delivery | +28.35 | −44.26 | **NO — reverses** |
+| cost | +12.26 | −7.36 | **NO — reverses** |
+| net | −24.47 | +15.17 | **NO — reverses** |
+| **career** | **+1.94** | **+0.56** | **YES** |
+
+**Three of the four measures reverse depending on the weighting.** The reason
+is not mysterious: the past window's mahadasha lord is **Mangal** — highest
+delivery in the chart, second-worst cost, net −19.21 — while the future's is
+**Rahu**, borrowing Shukra's modest delivery and low cost. Weighting the
+mahadasha lord pulls the past up on delivery and down on net, and does the
+exact opposite to the future.
+
+> **Whether the past or the future is "heavier" depends on whether you weight
+> the continuous background or the active foreground. Both are legitimate
+> readings, and this document does not get to pick the one it prefers.**
+
+That is the same methodological shape §19 found in its scoring, and it points
+the same way: **the two periods are comparable in weight and different in
+kind.**
+
+**But the career score is robust** — higher in the future on *both* weightings.
+That makes it the one number here worth leaning on. **However you weight it,
+the coming window converts into position and standing in a way the past one
+structurally could not.**
+
+#### 3. The payout channel inverts — and this is the sharpest difference
+
+Every graha works in one field (its sign lord) and is **paid out** by another
+(its nakshatra lord). So *what a period actually hands you* is answered by the
+star lord of its ruling graha.
+
+| Period lord | Nakshatra | Paid out by | Kashta | What that channel is |
+|---|---|---|---|---|
+| **Mangal** | Krittika | **Surya** | **7.83** | **the 12th lord — release, healing, authority** |
+| Rahu | Mrigashira | Mangal | 38.87 | the 8th lord itself — force, at maximum cost |
+| **Budha** | Ashwini | **Ketu** | — | **a shadow — no Shadbala figures at all** |
+| Shani | Rohini | Chandra | 4.49 | exalted but Mrita — the thinnest supply in the chart |
+| Guru | Ardra | Rahu | — | the Avayogi, from Marana Karaka Sthana |
+| Shukra | Bharani | Shukra | 11.87 | itself — the only fixed point in the chart |
+
+**The past window was governed by Mangal for all seven years**, and Mangal
+stands in Krittika, whose lord is **Surya** — the cheapest effective graha in
+the chart, ruler of the 12th, exalted in the 8th, forming Vimala.
+
+**The future window's central antardasha from December 2030 is Rahu–Budha**,
+and Budha stands in Ashwini, whose lord is **Ketu** — a shadow with no strength
+figures at all.
+
+> **past:** burned by Mangal, collected by **Surya** → **loss that heals**
+> **future:** pressed by Shani, collected by **Ketu** → **loss that empties**
+>
+> Surya gives back. **Ketu does not give back — it removes the wanting.** Those
+> are different outcomes from a structurally similar amount of pressure, and
+> it is why the past window reads as formative while the coming one is
+> described throughout this reading as a hinge.
+
+**This was not in the document anywhere**, and it required no arithmetic at all
+— only reading the nakshatra dispositors of the two governing grahas.
+
+#### 4. The transit load, and what it targets
+
+| | Past 2016–2022 | Future 2027–2033 |
+|---|---|---|
+| Saturn's path | Vrischika → Dhanu → Makara | Meena → Mesha → Vrishabha → Mithuna |
+| From the **lagna** | 3rd, 4th, 5th | **7th, 8th, 9th, 10th** |
+| From the **Moon** | 7th, **8th**, 9th | **12th, 1st, 2nd — Sade Sati** |
+| Ashtama Shani | **yes — 3 years, from the Moon** | no |
+| Sade Sati | no | **yes — from 3 Jun 2027** |
+| Saturn in the natal 8th | no | **yes — 3 passes, Jun 2027 – Apr 2030** |
+| Saturn return | no | **yes — 2 Jun 2031** |
+| Rahu return | **yes — 20 Nov 2020** | no |
+| Bhrigu Bindu | no | **yes — 3 Sep 2030, 3 passes** |
+
+**The past window's Saturn worked from the Moon.** Ashtama Shani presses the
+mind and the emotional supply, and it never touches the ascendant.
+
+**The future window's Saturn works from the lagna and the Moon at once** —
+Sade Sati over the Moon, transit Saturn in the natal 8th, and the Saturn return
+inside it. **Three separate Saturn mechanisms where the past had one.**
+
+> **Past: pressure on the inner life, with the outer world unchanged.
+> Future: pressure on the outer structure, with the inner life already built.**
+
+#### 5. The arc, side by side
+
+| | **Past 2016–2022** | **Future 2027–2033** |
+|---|---|---|
+| **opens with** | **Rahu** — a break with the inherited. Nothing chosen | **Guru** — the 7th and 4th lord. **Marriage, and it is chosen** |
+| **the middle** | Guru, Shani, Budha under **three years of Ashtama Shani.** Endurance | **Shani** — D10 lagna lord and Amatyakaraka. **The career foundation.** Construction |
+| **the hinge** | Budha at 17–18 — the who-are-you question, answered by the chart's weakest graha, **with nothing at stake** | Budha from Dec 2030 — **the same graha**, now with a career and a family attached, under the Saturn return and Sade Sati at peak. **Everything at stake** |
+| **closes with** | **Shukra** — the Atmakaraka. The turn, at the end | Ketu then Shukra (2033–37) — withdrawal, then the material peak |
+
+**Note the hinge row.** Both windows put **Budha** — the lagna and 10th lord,
+combust, the only graha failing its Shadbala minimum — at the decisive point.
+**The same weak instrument is asked the same question twice**, once at
+seventeen with nothing to lose and once at twenty-eight with everything
+attached.
+
+#### 6. So how do the results differ
+
+| | Past | Future |
+|---|---|---|
+| **Target** | family, home, father | **self, career, marriage** |
+| Delivery — AD / MD+AD | 126 / 169 | 154 / 125 |
+| Cost — AD / MD+AD | 22.8 / 30.8 | 35.0 / 23.5 |
+| **Career — AD / MD+AD** | 4.02 / 3.19 | **5.96 / 3.74** |
+| **Paid out through** | **Surya — release** | **Ketu — dissolution** |
+| Grahas maturing | 1 — Guru | **2 — Shukra and Mangal** |
+| Saturn mechanisms | 1 — Ashtama Shani | **3** |
+| What is at stake | **nothing external** | **marriage, child, work** |
+
+**Delivery and cost do not settle it** — they reverse with the weighting.
+**Three things do**, because none depends on a scoring choice: **the target
+moved**, **the payout channel inverted**, and **career conversion is higher
+ahead on both weightings.**
+
+> **The past produced a person.** Aimed at the family, paid out through the
+> graha of release, with nothing external to lose and almost no conversion
+> into the world. It burned things away and left someone who works alone under
+> load. **That is formation.**
+>
+> **The future produces a life.** Aimed at the self and the work, three Saturn
+> mechanisms instead of one, a marriage and a child and a career attached to
+> the outcome, and the highest career conversion of anything before 2040.
+> **That is conversion.**
+
+And the deepest difference is the one with no arithmetic in it:
+
+> **What the past took, Surya gave back as authority and healing. What the
+> future takes, Ketu does not give back — it removes the wanting.**
+>
+> So the honest answer is not that one is harder. §19 established they are
+> comparable in weight. It is that **the past cost him things he had not
+> chosen and returned a self. The future costs him things he will have chosen
+> and returns a role.**
+>
+> **One built the instrument. The other plays it, and charges admission.**
 
 ### The decisive asymmetry — maturity
 
@@ -5042,7 +5224,7 @@ D30, upagraha, Vimshottari, Shadbala, Bhava Bala, Ashtakavarga, Reduced
 Ashtakavarga, Shodhya Pinda and transit data — which reproduce to under one
 arcminute. Twenty-eight divisional charts, four house systems, all eleven
 upagrahas, the full panchanga and every transit to 2070 were computed
-independently. Thirty-five scripts accompany this document; `verify_audit.py`
+independently. Thirty-six scripts accompany this document; `verify_audit.py`
 re-derives and asserts all 53 headline figures, `verify_birthdata.py` tests the
 birth moment against the chart, `verify_chalit.py` closes the house-frame gap,
 `verify_rarity.py` measures the chart's rarity against 200,000 synthetic charts,
