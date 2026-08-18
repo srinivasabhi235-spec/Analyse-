@@ -16,9 +16,9 @@ The document is in three parts, and the third is not an appendix.
 
 | Part | Sections | What it is |
 |---|---|---|
-| **One — the concepts** | 1–21 | Every technique the reading uses, computed for this chart and stated plainly. No interpretation of his life; this is the apparatus and its readings, ending with the single structure all fourteen instruments collapse into |
-| **Two — the questions asked** | 22–34 | Each question that was actually put to the chart, in the words it was asked, with the script that answered it. Claims embedded in questions were tested rather than agreed with — two came back partly false |
-| **Three — the questions not asked** | 35–44 | Twenty areas across two passes — the parents, siblings, speech, the enemies house, property, foreign residence, spiritual practice, the strongest bhava, whether the marriage lasts, fame, accident risk, escape, which illnesses, employment mode, purva punya, children — plus the blind spots, remedy, the declined question, and the technical and data gaps — and every correction the exact birth data forced |
+| **One — the concepts** | 1–22 | Every technique the reading uses, computed for this chart and stated plainly. No interpretation of his life; this is the apparatus and its readings, ending with the single structure all twenty-one instruments collapse into — plus a plain-language section (20) that says the past-and-future comparison without the Sanskrit or the arithmetic |
+| **Two — the questions asked** | 23–35 | Each question that was actually put to the chart, in the words it was asked, with the script that answered it. Claims embedded in questions were tested rather than agreed with — two came back partly false |
+| **Three — the questions not asked** | 36–45 | Twenty areas across two passes — the parents, siblings, speech, the enemies house, property, foreign residence, spiritual practice, the strongest bhava, whether the marriage lasts, fame, accident risk, escape, which illnesses, employment mode, purva punya, children — plus the blind spots, remedy, the declined question, and the technical and data gaps — and every correction the exact birth data forced |
 
 Part three exists because a reading is shaped as much by what nobody thought to
 ask as by what was put to it. It overturned no finding — and four of the most
