@@ -168,7 +168,7 @@ print("""
   down.  And the chart arranges them in ascending order of irrevocability,
   across thirty months.
 
-  Set that against what section 33 established -- that this is a chart whose
+  Set that against what section 37 established -- that this is a chart whose
   central mechanism is SETTING THINGS DOWN, and whose only occupant of the
   three houses of desire is the graha that removes attachment.
 
@@ -188,7 +188,7 @@ print("""
      domestic base is well built.
 
   2. THE MARRIAGE IS DURABLE PRECISELY BECAUSE ITS DISSOLUTION-HOUSE IS WEAK.
-     Section 39 found the 8th from the Upapada is his 11th -- rank 11 of 12
+     Section 44 found the 8th from the Upapada is his 11th -- rank 11 of 12
      with both harsh shadow points.  The house that would END the marriage is
      too feeble to act.  The same configuration that thins his friendships is
      what makes the marriage hard to break.

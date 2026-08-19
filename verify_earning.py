@@ -2,7 +2,7 @@
 """
 Career and earning through employment -- how it grows from a job held now.
 
-Section 40 already settled the MODE: this chart is built for employment inside
+Section 44 already settled the MODE: this chart is built for employment inside
 an institution, not for proprietorship.  That leaves the question actually
 asked, which is different and has never been computed:
 

@@ -17,7 +17,7 @@ What it CAN do is three things, and they are worth having:
     2. test whether this chart supports THAT MODE OF EARNING at all
     3. date the windows when the apparatus is actually activated
 
-Section 40 already found this chart is built for employment inside an
+Section 44 already found this chart is built for employment inside an
 institution rather than proprietorship, so question 2 is not a formality.  It
 is the real question, and the answer is not the encouraging one.
 
@@ -130,7 +130,7 @@ print(f"""
   And it is sitting alone in his houses of ambition -- in the 3rd, the house of
   going out and asking, IN THE SEVEREST GANDANTA PADA.
 
-  This is not a new finding.  It is the central mechanism section 34 identified
+  This is not a new finding.  It is the central mechanism section 37 identified
   when asked why he walks away from what he wanted most.  WHAT IS NEW IS THAT
   THE RANK QUESTION LANDS EXACTLY ON IT.
 """)
@@ -139,7 +139,7 @@ sub('And the rest of the kama trikona is thin in the same direction')
 print(f"""
       the 7th  — the house of dealing with the public — is EMPTY, is aspected
                  by NOTHING except Ketu, and contains UPAKETU, a shadow point.
-                 Section 40 called it the weakest signature in the chart.
+                 Section 44 called it the weakest signature in the chart.
 
       the 11th — the house of gains and networks — is EMPTY of grahas, and
                  carries BOTH GULIKA AND MANDI, the two harshest upagrahas in
@@ -221,7 +221,7 @@ print(f"""
   arrive until 2038 — age 36.
 
   And the natural karaka of expansion, Guru, opens its MAHADASHA in Dec 2040
-  and runs sixteen years.  Section 32 had already called December 2040 the
+  and runs sixteen years.  Section 34 had already called December 2040 the
   step, reached by a different route entirely.
 
   SO THE DATED ANSWER, WITH THE CAVEAT THAT NO CHART NAMES A COMPANY'S TIERS:
@@ -247,13 +247,13 @@ print("""
      work converts; routed through building a downline it runs into an empty
      11th with both harsh upagrahas in it.
 
-  2. THE 6TH AND THE D10 SAY EMPLOYMENT.  Section 40's finding stands: the
+  2. THE 6TH AND THE D10 SAY EMPLOYMENT.  Section 44's finding stands: the
      house of service is his strongest, the house of independent trade his
      weakest.  A rank inside an EMPLOYER'S structure — a grade, a band, a
      promotion — sits on completely different houses than a rank inside a
      selling network, and those houses are the ones he actually owns.
 
-  3. AND SECTION 34 IS THE WARNING.  The one occupant of his three houses of
+  3. AND SECTION 37 IS THE WARNING.  The one occupant of his three houses of
      desire is the graha that removes wanting.  The chart's repeated pattern is
      that he pursues something in the kama trikona, reaches it, and finds the
      wanting has gone out of it.  IF HE CLIMBS THIS LADDER, THE STRUCTURAL
