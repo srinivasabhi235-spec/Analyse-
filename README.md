@@ -16,9 +16,9 @@ The document is in three parts, and the third is not an appendix.
 
 | Part | Sections | What it is |
 |---|---|---|
-| **One — the concepts** | 1–24 | Every technique the reading uses, computed for this chart and stated plainly. No interpretation of his life; this is the apparatus and its readings, ending with the single structure all twenty-three instruments collapse into — plus a plain-language section (20) that says the past-and-future comparison without the Sanskrit or the arithmetic, a section (21) that names which role the coming window actually carries, and a section (22) on career and earning through employment |
-| **Two — the questions asked** | 25–37 | Each question that was actually put to the chart, in the words it was asked, with the script that answered it. Claims embedded in questions were tested rather than agreed with — two came back partly false |
-| **Three — the questions not asked** | 38–47 | Twenty areas across two passes — the parents, siblings, speech, the enemies house, property, foreign residence, spiritual practice, the strongest bhava, whether the marriage lasts, fame, accident risk, escape, which illnesses, employment mode, purva punya, children — plus the blind spots, remedy, the declined question, and the technical and data gaps — and every correction the exact birth data forced |
+| **One — the concepts** | 1–25 | Every technique the reading uses, computed for this chart and stated plainly. No interpretation of his life; this is the apparatus and its readings, ending with the single structure all twenty-four instruments collapse into — plus a plain-language section (20) that says the past-and-future comparison without the Sanskrit or the arithmetic, a section (21) that names which role the coming window actually carries, a section (22) on career and earning through employment, and a section (23) that answers the same question again with every score discarded |
+| **Two — the questions asked** | 26–38 | Each question that was actually put to the chart, in the words it was asked, with the script that answered it. Claims embedded in questions were tested rather than agreed with — two came back partly false |
+| **Three — the questions not asked** | 39–48 | Twenty areas across two passes — the parents, siblings, speech, the enemies house, property, foreign residence, spiritual practice, the strongest bhava, whether the marriage lasts, fame, accident risk, escape, which illnesses, employment mode, purva punya, children — plus the blind spots, remedy, the declined question, and the technical and data gaps — and every correction the exact birth data forced |
 
 Part three exists because a reading is shaped as much by what nobody thought to
 ask as by what was put to it. It overturned no finding — and four of the most
@@ -44,6 +44,7 @@ useful conclusions in the document were hiding in it.
 | [`verify_shodasha.py`](verify_shodasha.py) | Computes all sixteen Shodashavarga charts, Vimshopaka Bala and the Vaiseshikamsha dignity census |
 | [`verify_houseclass.py`](verify_houseclass.py) | Kendra/trikona/upachaya/dusthana census across all seven vargas |
 | [`verify_pastfuture.py`](verify_pastfuture.py) | Past against future in detail — how the outputs differ across eight dimensions, including a weighting reversal the script reports rather than hides |
+| [`verify_placement.py`](verify_placement.py) | The same career and earning question with every strength figure discarded — house lords, aspects, dignity, combustion, exchange and placement-only yogas. Finds a second unaspected house the drishti section had missed, and overturns one of the score-based conclusions |
 | [`verify_earning.py`](verify_earning.py) | Career and earning from a job held now — the four channels separated (standing, service, income, retention), the growth curve to 2040, the two maturities that set the timetable, and where transit and antardasha support coincide |
 | [`verify_role.py`](verify_role.py) | Which role the coming window names and what kind of authority it carries — the past's assigned positions against three roles entered rather than inherited, and the finding that all three are the same structure |
 | [`verify_marsdasha.py`](verify_marsdasha.py) | The Mangal mahadasha opened up — every antardasha with real transits, the three-year Ashtama Shani spine, and what kind of transformation it was |
@@ -88,7 +89,7 @@ python3 verify_audit.py           # 53/53 pass
 for f in verify_*.py; do python3 "$f"; done
 ```
 
-Every script runs clean. Thirty-eight scripts, one document, no drift.
+Every script runs clean. Thirty-nine scripts, one document, no drift.
 
 | Check | Result |
 |---|---|
