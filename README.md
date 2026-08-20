@@ -16,9 +16,9 @@ The document is in three parts, and the third is not an appendix.
 
 | Part | Sections | What it is |
 |---|---|---|
-| **One — the concepts** | 1–27 | Every technique the reading uses, computed for this chart and stated plainly. No interpretation of his life; this is the apparatus and its readings, ending with the single structure all twenty-six instruments collapse into — plus a plain-language section (20) that says the past-and-future comparison without the Sanskrit or the arithmetic, a section (21) that names which role the coming window actually carries, a section (22) on career and earning through employment, a section (23) that answers the same question again with every score discarded, a section (24) on a named rank in a selling organisation, and a section (25) testing every classical cancellation doctrine |
-| **Two — the questions asked** | 28–40 | Each question that was actually put to the chart, in the words it was asked, with the script that answered it. Claims embedded in questions were tested rather than agreed with — two came back partly false |
-| **Three — the questions not asked** | 41–50 | Twenty areas across two passes — the parents, siblings, speech, the enemies house, property, foreign residence, spiritual practice, the strongest bhava, whether the marriage lasts, fame, accident risk, escape, which illnesses, employment mode, purva punya, children — plus the blind spots, remedy, the declined question, and the technical and data gaps — and every correction the exact birth data forced |
+| **One — the concepts** | 1–28 | Every technique the reading uses, computed for this chart and stated plainly. No interpretation of his life; this is the apparatus and its readings, ending with the single structure all twenty-seven instruments collapse into — plus a plain-language section (20) that says the past-and-future comparison without the Sanskrit or the arithmetic, a section (21) that names which role the coming window actually carries, a section (22) on career and earning through employment, a section (23) that answers the same question again with every score discarded, a section (24) on a named rank in a selling organisation, a section (25) testing every classical cancellation doctrine, and a section (26) reading the navamsa as a chart in its own right |
+| **Two — the questions asked** | 29–41 | Each question that was actually put to the chart, in the words it was asked, with the script that answered it. Claims embedded in questions were tested rather than agreed with — two came back partly false |
+| **Three — the questions not asked** | 42–51 | Twenty areas across two passes — the parents, siblings, speech, the enemies house, property, foreign residence, spiritual practice, the strongest bhava, whether the marriage lasts, fame, accident risk, escape, which illnesses, employment mode, purva punya, children — plus the blind spots, remedy, the declined question, and the technical and data gaps — and every correction the exact birth data forced |
 
 Part three exists because a reading is shaped as much by what nobody thought to
 ask as by what was put to it. It overturned no finding — and four of the most
@@ -44,6 +44,7 @@ useful conclusions in the document were hiding in it.
 | [`verify_shodasha.py`](verify_shodasha.py) | Computes all sixteen Shodashavarga charts, Vimshopaka Bala and the Vaiseshikamsha dignity census |
 | [`verify_houseclass.py`](verify_houseclass.py) | Kendra/trikona/upachaya/dusthana census across all seven vargas |
 | [`verify_pastfuture.py`](verify_pastfuture.py) | Past against future in detail — how the outputs differ across eight dimensions, including a weighting reversal the script reports rather than hides |
+| [`verify_navamsa.py`](verify_navamsa.py) | The D9 read as a chart rather than a table row — its own lagna and house lords, dignity gained and lost between D1 and D9, vargottama, the yogas it does not carry, the D9 seventh, and the 64th navamsa from both the Moon and the lagna |
 | [`verify_bhanga.py`](verify_bhanga.py) | Every classical cancellation doctrine tested against this chart — Kuja dosha and its bhangas (computed here for the first time), Kemadruma, neecha bhanga, papakartari, the combustion exemption, yoga bhanga, and the viparita yoga that may be cancelled by its own lord being too strong |
 | [`verify_rank.py`](verify_rank.py) | A named achievement tier in a selling organisation — what Jyotisha can and cannot say about a corporate rank, the kama trikona and its single occupant, and when the gains apparatus is actually under period support |
 | [`verify_placement.py`](verify_placement.py) | The same career and earning question with every strength figure discarded — house lords, aspects, dignity, combustion, exchange and placement-only yogas. Finds a second unaspected house the drishti section had missed, and overturns one of the score-based conclusions |
@@ -91,7 +92,7 @@ python3 verify_audit.py           # 53/53 pass
 for f in verify_*.py; do python3 "$f"; done
 ```
 
-Every script runs clean. Forty-one scripts, one document, no drift.
+Every script runs clean. Forty-two scripts, one document, no drift.
 
 | Check | Result |
 |---|---|
