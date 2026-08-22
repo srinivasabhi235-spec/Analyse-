@@ -4838,9 +4838,10 @@ using reference books.*
 **What was actually available.** Fetching primary texts is blocked in this
 environment — `archive.org`, `sanskritdocuments.org`, `wisdomlib.org` and the
 archive CDN all refuse the connection, by curl and by fetch alike. What
-arrived instead was **the table of contents of Volume 2 of R. Santhanam's
-translation of the Brihat Parashara Hora Shastra, chapters 46–96**, supplied
-directly.
+arrived instead was **the table of contents of R. Santhanam's translation of
+the Brihat Parashara Hora Shastra — Volume 2, chapters 46–96, and the tail of
+Volume 1, chapters 42–45** — supplied directly. Between them they fix the
+volume split at 45/46.
 
 **So this section states exactly what it is.** A **chapter-level** map from the
 reading's techniques to the BPHS chapters that govern them, built from a real
@@ -4879,10 +4880,22 @@ a reader with the book can check it.**
 | 81–83 | Body features, moles, curses from past births | **Not used** |
 | 84–96 | Remedial measures | §52 derives remedy from the chart rather than from these |
 
-### The gap the table of contents exposed
+### Volume 1's tail — chapters 42 to 45
 
-**BPHS Chapter 79 is titled *Yogas leading to asceticism*, and its subject is
-planetary combinations for entering holy orders — and for relinquishing them.**
+A second paste supplied the end of Volume 1's contents, which **fixes the
+volume split: Volume 1 runs to chapter 45, Volume 2 opens at 46.**
+
+| BPHS Vol 1 | Chapter subject | Used in this reading for |
+|---|---|---|
+| **42** | **Combinations for penury** | **Never applied.** §22 and §23 read wealth at length and never tested the daridra combinations |
+| **43** | **Longevity** — Pindayu, Naisargayu, Amsayu, choice among them, rectifications | **Declined.** §53 refuses ayurdaya; this names precisely what was refused — three methods, not one |
+| **44** | **Maraka planets** — marakas by lordship, maraka dasa, star groups, Rahu–Ketu as marakas, **the 3rd house and death**, **occupants of the 8th** | §27 computed the maraka houses for the first time and found both empty. **It did not know about the 3rd-house rule or the 8th-occupant rule** — and his 8th holds three grahas |
+| **45** | **Avasthas** — Baladi, Jagradadi, **Deeptadi (nine states)**, **Lajjitadi**, **Sayanadi (eleven)**, Cheshta | **See below. The reading uses two of five.** |
+
+### Three gaps, not one
+
+**First: Chapter 79, *Yogas leading to asceticism*** — combinations for
+entering holy orders, and for relinquishing them.
 
 This document's central mechanism, argued across §44 at length, is that **he
 sets down the things he wanted most**: Ketu as the sole occupant of the three
@@ -4894,16 +4907,37 @@ removed.
 chapter that codifies exactly this.** §44 uses the word *renunciation* six
 times and never once applies the classical sannyasa yogas.
 
-> **That is the most useful thing the contents page revealed**, and it is a
-> genuine hole rather than a refinement. The reading may be describing a
-> textbook configuration without having opened the textbook — or the classical
-> combinations may be absent from this chart entirely, which would qualify §44
-> considerably. **Both outcomes matter and neither is currently known.**
+**Second: Chapter 45 lists five avastha schemes and this reading uses two.**
 
-### What Volume 2 cannot settle
+| Scheme | Status here |
+|---|---|
+| **Baladi** — infant to dead, by degree | **Used heavily** — Mrita Chandra, Vriddha Mangal, Bala Darakaraka |
+| **Jagradadi** — waking, dreaming, sleeping | **Used once** — Sushupti Guru, as one of Amala's six qualifications |
+| **Deeptadi** — nine states | **Never computed** |
+| **Lajjitadi** | **Never computed** |
+| **Sayanadi** — eleven states | **Never computed** |
 
-The eight disputed rules this reading has flagged as school-dependent are
-**almost all governed by chapters in Volume 1**, which is not in hand:
+That matters more than a missing technique usually would, because **avastha
+carries load-bearing claims here**: §32's rarity figure rests on *"both
+luminaries exalted and both weak by avastha"* at 1 in 3,571; §21's whole
+survivability argument rests on *"Shani and Guru are the only grahas in adult
+avastha"*. **Both are computed from one scheme out of five.**
+
+**Third: Chapter 42, combinations for penury** — never tested, in a reading
+that has answered questions about earning, income channels, retention and a
+rank ladder.
+
+> **These are holes rather than refinements.** In each case the reading may be
+> describing a textbook configuration without having opened the textbook — or
+> the classical combinations may be absent from this chart entirely, which
+> would qualify the relevant sections considerably. **Both outcomes matter and
+> none of the three is currently known.**
+
+### What is still not settled
+
+The eight disputed rules this reading has flagged as school-dependent all live
+in **Volume 1's chapters 1 to 41** — not in Volume 2, and not in the tail of
+Volume 1 that is now in hand:
 
 | Dispute | Where it lives |
 |---|---|
@@ -4916,10 +4950,12 @@ The eight disputed rules this reading has flagged as school-dependent are
 | Kuja dosha reckoned from Shukra | Vol 1 |
 | Argala and its counter-houses | Vol 1 |
 
-**Volume 1 is the volume that would change the reading.** Volume 2 confirms
-addresses for what is already being done; Volume 1 contains the construction
-rules that six declined divisional charts and four contested judgements depend
-on.
+**So the two contents pages between them cover chapters 42 to 96, and every
+disputed rule sits in 1 to 41.** What has arrived names what the reading does
+and exposes what it never did; what would actually change a finding is still
+missing. **The Shodashavarga chapter is the single most valuable page in the
+book for this document** — six declined divisional charts and two
+reverse-engineered ones depend on it.
 
 ### The standard this section holds itself to
 
@@ -4930,9 +4966,9 @@ on.
    confirm or refute a rule.
 3. **What it does change is the reading's honesty about its own footing.**
    Until now the techniques were applied without any stated source at all.
-   **Twenty-one of them now have an address, four are marked unused, and one —
-   Chapter 79 — turns out to be missing from a place the reading argues
-   hardest.**
+   **Twenty-five of them now have an address, seven are marked unused, and
+   three — Chapters 42, 45 and 79 — turn out to be missing from places the
+   reading argues hardest.**
 
 ---
 
