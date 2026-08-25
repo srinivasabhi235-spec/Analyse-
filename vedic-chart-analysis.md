@@ -12,7 +12,7 @@ date into an approximation. It is now supplied, and the chart has been rebuilt
 from the Swiss Ephemeris rather than taken from a table.
 
 **Everything material survived, and four things did not.** The corrections are
-carried in the text where they occur and collected in §60.
+carried in the text where they occur and collected in §61.
 
 Thirty-six scripts accompany this document. Every headline figure is
 re-derived and asserted by `verify_audit.py`, and where a measurement
@@ -81,8 +81,9 @@ attempted here; that is Part two.
 | 35 | **Every chapter, and where it stands** | All fifty-five chapters assigned a state — five computed here, fifteen inauspicious-birth conditions tested, and a hand-tally overturned |
 | 36 | **Chapters 1 to 41** | The half of Parashara with no contents page — what lives there, and every disputed rule priced by what it would change |
 | 37 | **The contents page for 1–45** | The missing half arrives — the varga apparatus checked against the source, a §35 hedge overturned, sixty-one yogas swept, and the one lagna in twelve with a symmetric lordship map |
-| 38 | **Rarity** | A null model, so "remarkable" means something measurable |
-| 39 | **The one structure** | What all thirty-eight collapse into |
+| 38 | **The classical sequence** | The ten-step bhava krama run in strict order on the 10th house, with the running verdict logged after every step |
+| 39 | **Rarity** | A null model, so "remarkable" means something measurable |
+| 40 | **The one structure** | What all thirty-nine collapse into |
 
 ### Provenance — what was supplied and what was derived
 
@@ -371,7 +372,7 @@ Two readings fall straight out of that table.
 
 **The luminaries are the best-made and least-deployed bodies in the chart.**
 Both exalted; one an infant, the other dead. This is the single rarest
-configuration the chart contains — §38 measures it at roughly **1 in 3,571** —
+configuration the chart contains — §39 measures it at roughly **1 in 3,571** —
 and every conclusion in this document that takes the form *"the capacity is
 there and the delivery is not"* descends from it.
 
@@ -492,7 +493,7 @@ nakshatra generally decides the outcome.
 
 There is not a single placement here where the sign lord and the star lord are
 the same graha. **A Monte Carlo over 200,000 charts puts a clean 9-of-9
-mismatch at 84.5% of all charts** (§38). It is the default condition, not a
+mismatch at 84.5% of all charts** (§39). It is the default condition, not a
 signature, and an earlier draft of this reading oversold it badly.
 
 What survives is the *mechanism*, which is real regardless of how common it is:
@@ -788,7 +789,7 @@ casualty, and this document leaned on Vimala for its central claim that
 - **Dharma-Karmadhipati as a conjunction** — both lords in Mesha, 13°09′ apart
 - every dignity, exaltation, avastha and vargottama finding
 - the seven-grahas-in-73° concentration
-- **the entire rarity measurement in §38**, which counts signs and spacing
+- **the entire rarity measurement in §39**, which counts signs and spacing
 
 ### A correction this forces
 
@@ -865,13 +866,13 @@ for Mesha. The 8th holds the lagna lord, the Atmakaraka and the exalted Sun,
 and **nothing outside can help it and nothing outside can interfere with it.**
 It is a sealed chamber, and it resolves internally or not at all.
 
-**A correction, found later by §38's placement-only pass: the 8th is not the
+**A correction, found later by §39's placement-only pass: the 8th is not the
 only one.** A full twelve-house aspect census returns **two** empty sets —
 Mesha, and **Mithuna, the 10th.** This section originally reported one sealed
 house and there are two, **and the second one is the career house.** It holds
 Guru and receives nothing from outside: no help, no interference, no
 correction. **His career runs on its single occupant and on nothing else.**
-The consequences are worked out in §38.
+The consequences are worked out in §39.
 
 **Drik Bala** measures net aspectual pressure on each graha:
 
@@ -1346,7 +1347,7 @@ both debilitated.**
 > way nothing else in this reading is. **Shukra's exaltation in Meena is not** —
 > that is a fact about Shukra's longitude alone. What is uncertain is which
 > house of D60 Meena becomes, and the answer is the 12th at 18:02:45 and the
-> 11th a minute later. **The finding agrees with five other techniques (§55),
+> 11th a minute later. **The finding agrees with five other techniques (§56),
 > which is why it survives. On its own it would not.** **The arc does not terminate in accumulation or
 > in title.** Its two debilitations are Mangal and Shani — the two grahas
 > carrying the hardest work of the life. The karma chart says the labour is the
@@ -1378,7 +1379,7 @@ The birth ascendant repeats as the varga lagna in **D1, D5, D7, D9 and D11**,
 and is vargottama between D1 and D9.
 
 *(This reading long said four. The fifth is **D5 Panchamamsha**, which was
-computed but never read until §56 — one more correction the deeper varga pass
+computed but never read until §57 — one more correction the deeper varga pass
 forced.)*
 
 **Five charts sharing an ascendant is a strength signature in its own right:**
@@ -1644,7 +1645,7 @@ that names the *kind* of adversity.
 **Mangal dominates the adversity chart, and it takes the lagna itself.** All
 five D30 portions belong to malefics — that is why it is the adversity varga —
 so the question is never *whether* but *which*. Here the answer is Mars:
-**acute, hot, sharp, sudden.** §56 reads what that means.
+**acute, hot, sharp, sudden.** §57 reads what that means.
 
 ### Vargottama across the whole set
 
@@ -2136,7 +2137,7 @@ absent in some unusual way, from the very start.*
 delivery capacity in the chart, and **Kashta 4.49, the lowest cost of any
 graha.** *Expect a gentle, unremarkable, low-conflict childhood. Emotionally
 well-supplied and materially thin rather than the reverse. The mother is the
-dominant figure of the decade — §54 found her the most benign presence in the
+dominant figure of the decade — §55 found her the most benign presence in the
 chart. Schooling steady, nothing dramatic.* **If that decade was turbulent,
 this reading has a problem.**
 
@@ -2425,7 +2426,7 @@ is carried almost entirely by one sixteen-year block between ages 38.7 and 54.7.
 
 The "now" section reads 11–12 August 2026 and the marriage window it describes
 is **open today.** That window closes **3 June 2027** — not January 2028, per
-the correction in §60 — which leaves roughly **nine months** of the clearest
+the correction in §61 — which leaves roughly **nine months** of the clearest
 activation the chart offers.
 
 ### What does not change, stated plainly
@@ -2760,7 +2761,7 @@ carries three markers the past one did not — the Saturn return, Sade Sati and
 the Bhrigu Bindu crossing — while the past one carried two the coming one does
 not: **the 8th lord's own mahadasha, and the Rahu return.**
 
-**3. A seventh blind spot, and it is new.** §57 lists six. This is the seventh,
+**3. A seventh blind spot, and it is new.** §58 lists six. This is the seventh,
 and it is the only one that exists *because* of something he has lived:
 
 > **He has survived an 8th-house passage already, and the natural inference —
@@ -2916,7 +2917,7 @@ This is the part that matters, and there are seven things.
 **1. Do not assume it will feel like last time.** He has survived one of these.
 The natural instinct will be *"I know what this is."* **He does not** — the
 mechanism is different, the target is different, and he has things at stake now
-that did not exist before. **This is listed in §57 as his seventh blind spot,
+that did not exist before. **This is listed in §58 as his seventh blind spot,
 and it is the only one on that list that exists because of something he has
 actually lived.**
 
@@ -2946,7 +2947,7 @@ of knowing better.
 **6. Do not measure it by how it feels.** His chart carries a built-in sense of
 incompleteness — it attaches to whatever he obtains, regardless of whether the
 thing is good. **The feeling is not the evidence.** This applies to the
-marriage most of all, and §46 says so at length: *his dissatisfaction, where it
+marriage most of all, and §47 says so at length: *his dissatisfaction, where it
 appears, is not evidence about her.*
 
 **7. He will not be doing it alone this time, and that is the actual
@@ -3096,7 +3097,7 @@ This is the finding, and it took naming all three to see it.
 down.** And the chart arranges them in **ascending order of irrevocability**,
 across thirty months.
 
-Set that against what §50 established — that this is a chart whose central
+Set that against what §51 established — that this is a chart whose central
 mechanism is **setting things down**, and whose only occupant of the three
 houses of desire is the graha that removes attachment.
 
@@ -3113,7 +3114,7 @@ Three answers, each found for other reasons and worth collecting here.
    domestic base is well built** — the same rank-2 4th that came through the
    Mangal years intact.
 2. **The marriage is durable precisely because its dissolution-house is weak.**
-   §56 found the 8th from the Upapada is his **11th** — rank 11 of 12, carrying
+   §57 found the 8th from the Upapada is his **11th** — rank 11 of 12, carrying
    both Gulika and Mandi. **The house that would end the marriage is too feeble
    to act.** The same configuration that thins his friendships is what makes
    the marriage hard to break.
@@ -3142,7 +3143,7 @@ something Jyotisha can settle.**
 
 ## 22. Career and earning through a job — how it grows
 
-§56 already settled the **mode**: this chart is built for employment inside an
+§57 already settled the **mode**: this chart is built for employment inside an
 institution, not for proprietorship. That leaves the question actually asked,
 which is different and had never been computed — **if he is in a job now, how
 does it grow, and what does the chart say about the money?**
@@ -3338,22 +3339,22 @@ transit Guru on the income house to June 2027 — **the near term is
 well-supported.** It is the stretch *after* it, 2028–2033, that is heavy on
 construction and light on return.
 
-### Against what §47 already found
+### Against what §48 already found
 
-§47 answered *"career growth"* from the chart alone, with no premise about a
+§48 answered *"career growth"* from the chart alone, with no premise about a
 job. It is worth checking whether this section, built on a different premise
 and a different apparatus, agrees with it. **It does, on three points reached
 independently:**
 
-- §47: **"Rahu–Shukra and Rahu–Surya are a money and recognition window, not a
+- §48: **"Rahu–Shukra and Rahu–Surya are a money and recognition window, not a
   position window."** §22 finds those two antardashas hold the **top two income
   scores** and that Rahu–Shukra is where all four convergences land.
-- §47: **"advancement through demonstrated competence, not through position."**
+- §48: **"advancement through demonstrated competence, not through position."**
   §22 finds the 6th outranks the 10th and the 10th lord ranks fourth.
-- §47: **"growth is real, late, and stepped."** §22 finds both career grahas
+- §48: **"growth is real, late, and stepped."** §22 finds both career grahas
   mature at 32 and 36, and puts the income crossover at April 2034.
 
-**And they disagree about nothing, but they measure different things.** §47's
+**And they disagree about nothing, but they measure different things.** §48's
 big step is **December 2040**, when the Guru mahadasha opens — beyond this
 section's horizon. §22 is about the shape *inside* the Rahu mahadasha.
 
@@ -3591,12 +3592,12 @@ on.**
 > houses of ambition, in the 3rd — the house of going out and asking — in the
 > severest gandanta pada.**
 
-This is not a new finding; it is the mechanism §50 identified when asked why he
+This is not a new finding; it is the mechanism §51 identified when asked why he
 walks away from what he wanted most. **What is new is that the rank question
 lands exactly on it.**
 
 And the rest of the trikona is thin in the same direction. **The 7th is empty,
-aspected by nothing but Ketu, and contains Upaketu** — §56 called it the
+aspected by nothing but Ketu, and contains Upaketu** — §57 called it the
 weakest signature in the chart. **The 11th is empty of grahas and carries both
 Gulika and Mandi**, the two harshest upagrahas in the scheme; it receives
 Shani's aspect and Ketu's, and **no benefic reaches it.** The 3rd receives four
@@ -3648,7 +3649,7 @@ a poor one to expect the tier from.**
 > **A start is supported now; the tier is not dated before 2038.**
 >
 > The gains apparatus does not come under its own lord's period until **June
-> 2038**, with the real expansion from **December 2040** — which §45 had
+> 2038**, with the real expansion from **December 2040** — which §46 had
 > already called the step, by an entirely different route.
 >
 > And the stretch in between, **2028 to 2033, is pointed somewhere else
@@ -3663,11 +3664,11 @@ a poor one to expect the tier from.**
    routed through mentors, institutions and people who already respect his work
    converts; routed into building a downline it runs into an empty 11th with
    both harsh upagrahas in it.
-2. **The 6th and the D10 say employment.** §56's finding stands — the house of
+2. **The 6th and the D10 say employment.** §57's finding stands — the house of
    service is his strongest, the house of independent trade his weakest. **A
    rank inside an employer's structure sits on completely different houses than
    a rank inside a selling network, and those are the houses he owns.**
-3. **And §50 is the warning.** The one occupant of his three houses of desire
+3. **And §51 is the warning.** The one occupant of his three houses of desire
    is the graha that removes wanting. **If he climbs this ladder, the
    structural prediction is not that he fails. It is that he arrives and stops
    caring.** That is worth knowing before the effort rather than after it.
@@ -3771,7 +3772,7 @@ Moon in its exaltation sign.**
 > cancelled by conjunction with an exalted Chandra and with Shani.**
 >
 > Note what that does *not* say. It does not say the marriage is unafflicted —
-> §56 found the 7th empty, aspected only by Ketu and holding Upaketu, and none
+> §57 found the 7th empty, aspected only by Ketu and holding Upaketu, and none
 > of that involves Mangal. **It says the specific dosha people ask about is not
 > the problem in this chart.**
 
@@ -4058,7 +4059,7 @@ The navamsa is weighted more heavily after about 35.
 
 **Shani in the D9 tenth** is the placement that matters most for the later
 decades, and it is one of the four career credentials the reading has cited
-since §47. **Here is where it actually comes from**: the graha of structure
+since §48. **Here is where it actually comes from**: the graha of structure
 occupies the career house of the chart that governs the second half of life.
 Its own mahadasha opens December 2056.
 
@@ -4239,7 +4240,7 @@ best net balance in the chart.
 ### Maraka — zero mentions until now
 
 **The rule.** The 2nd and 7th are maraka houses and their lords are marakas.
-**This reading declines longevity (§59) and continues to decline it**; what
+**This reading declines longevity (§60) and continues to decline it**; what
 follows is structural only, with no application to lifespan.
 
 | | Sign | Lord | Occupants |
@@ -4445,7 +4446,7 @@ grahas outside their benefic gochara houses.**
 
 ## 29. Job loss and career disruption
 
-Never asked, and it is a different question from *"career growth"* (§47) or
+Never asked, and it is a different question from *"career growth"* (§48) or
 *"how will earning grow"* (§22). Those ask what the career **does**. This asks
 what happens when it **breaks**.
 
@@ -4573,7 +4574,7 @@ Shani transit**, and Ketu is the *more* relevant graha here, not the less.
 | **Jun 2033 – Jul 2034** | Shani in the 10th **+ Rahu–Ketu** — severance, under the same one-bindu transit |
 
 **Twenty-five months, in two phases, with the third phase of Sade Sati running
-throughout.** §17 already called Rahu–Budha "the hinge" and §52 called it
+throughout.** §17 already called Rahu–Budha "the hinge" and §53 called it
 identity and career reassessment — both reached before this question was asked.
 
 > **That is the career-vulnerable stretch in this chart, and there is only
@@ -4591,7 +4592,7 @@ the position; the 10th holds only Guru and Amala stands; the 6th — disputes an
 rivals — is his strongest house by bindus; the 10th is upachaya and recovers.
 
 **For leaving:** **Ketu is the sole occupant of the three houses of desire**
-(§27), and Ketu's function is to make a thing stop mattering; §50 established
+(§27), and Ketu's function is to make a thing stop mattering; §51 established
 the chart's central mechanism as **setting things down**; the
 12th-from-the-10th holds four grahas, so career is *spent*; and the 10th lord
 sits in the **8th**, the house of endings that are not endings.
@@ -4611,7 +4612,7 @@ is not that someone takes his job.
 > **It is that he puts it down, at the worst possible moment, and calls it a
 > decision.**
 
-§52's timeline already carries *"do not resign here"* against a much smaller
+§53's timeline already carries *"do not resign here"* against a much smaller
 window in December 2028. **The same advice belongs to 2032–34 and carries far
 more weight there** — and this reading had never put it there.
 
@@ -4882,7 +4883,7 @@ a reader with the book can check it.**
 | **68** | **Ekadhipatya sodhana** | §8's reduced Ashtakavarga |
 | **69** | **Pinda sadhana** | **Shodhya Pinda — used as a delivery measure throughout §19 and §22** |
 | 70 | Effects of each planet's Ashtakavarga | §8 |
-| 71 | Longevity through Ashtakavarga | **Declined — see §59** |
+| 71 | Longevity through Ashtakavarga | **Declined — see §60** |
 | **72** | **Sarvashtakavarga, and the rekha thresholds per rasi** | **§22 and §28 judge transits by bindu counts. This chapter sets the classical thresholds and has not been checked.** |
 | 73 | Rays of the planets | **Computed in §35**, with its scaling assumption labelled, and supporting nothing |
 | **74** | **Sudarshana Chakra** — the twelve houses read from lagna, Moon and Sun | **§30's "three career references" is this technique. The reading reached it independently; this is its address.** |
@@ -4892,7 +4893,7 @@ a reader with the book can check it.**
 | **79** | **Yogas leading to asceticism** — combinations for entering holy orders *and relinquishing them* | **See below. This is the gap.** |
 | 80 | Female horoscopy | Not applicable |
 | 81–83 | Body features, moles, curses from past births | **Not used** |
-| 84–96 | Remedial measures | §58 derives remedy from the chart rather than from these. **Corrected in §35: chapters 85–94 also *define* the inauspicious birth conditions, all fifteen of which are now computed and all fifteen negative** |
+| 84–96 | Remedial measures | §59 derives remedy from the chart rather than from these. **Corrected in §35: chapters 85–94 also *define* the inauspicious birth conditions, all fifteen of which are now computed and all fifteen negative** |
 
 ### Volume 1's tail — chapters 42 to 45
 
@@ -4902,7 +4903,7 @@ volume split: Volume 1 runs to chapter 45, Volume 2 opens at 46.**
 | BPHS Vol 1 | Chapter subject | Used in this reading for |
 |---|---|---|
 | **42** | **Combinations for penury** | **Never applied.** §22 and §23 read wealth at length and never tested the daridra combinations |
-| **43** | **Longevity** — Pindayu, Naisargayu, Amsayu, choice among them, rectifications | **Declined.** §59 refuses ayurdaya; this names precisely what was refused — three methods, not one |
+| **43** | **Longevity** — Pindayu, Naisargayu, Amsayu, choice among them, rectifications | **Declined.** §60 refuses ayurdaya; this names precisely what was refused — three methods, not one |
 | **44** | **Maraka planets** — marakas by lordship, maraka dasa, star groups, Rahu–Ketu as marakas, **the 3rd house and death**, **occupants of the 8th** | §27 computed the maraka houses for the first time and found both empty. **It did not know about the 3rd-house rule or the 8th-occupant rule** — and his 8th holds three grahas |
 | **45** | **Avasthas** — Baladi, Jagradadi, **Deeptadi (nine states)**, **Lajjitadi**, **Sayanadi (eleven)**, Cheshta | **See below. The reading uses two of five.** |
 
@@ -4911,14 +4912,14 @@ volume split: Volume 1 runs to chapter 45, Volume 2 opens at 46.**
 **First: Chapter 79, *Yogas leading to asceticism*** — combinations for
 entering holy orders, and for relinquishing them.
 
-This document's central mechanism, argued across §50 at length, is that **he
+This document's central mechanism, argued across §51 at length, is that **he
 sets down the things he wanted most**: Ketu as the sole occupant of the three
 houses of desire, the chart weighted seven to two toward meaning and release
 over acquisition, the repeated finding that he walks away rather than being
 removed.
 
 **All of that was reasoned from placement. None of it was tested against the
-chapter that codifies exactly this.** §50 uses the word *renunciation* six
+chapter that codifies exactly this.** §51 uses the word *renunciation* six
 times and never once applies the classical sannyasa yogas.
 
 **Second: Chapter 45 lists five avastha schemes and this reading uses two.**
@@ -4932,7 +4933,7 @@ times and never once applies the classical sannyasa yogas.
 | **Sayanadi** — eleven states | **Never computed** |
 
 That matters more than a missing technique usually would, because **avastha
-carries load-bearing claims here**: §38's rarity figure rests on *"both
+carries load-bearing claims here**: §39's rarity figure rests on *"both
 luminaries exalted and both weak by avastha"* at 1 in 3,571; §21's whole
 survivability argument rests on *"Shani and Guru are the only grahas in adult
 avastha"*. **Both are computed from one scheme out of five.**
@@ -5034,12 +5035,12 @@ results are the extremes rather than that column.
 > Chandra by sitting with Shani.
 >
 > That is the Lajjitadi scheme saying, in its own vocabulary, **exactly what
-> §38's rarity finding says in Baladi's**: the two lights are enthroned and
+> §39's rarity finding says in Baladi's**: the two lights are enthroned and
 > underfed. **Two independent avastha schemes, the same verdict.**
 
 ### Whether the gap damaged the two claims that rest on avastha
 
-**Claim A — §38's rarity headline**, *"both luminaries exalted and both weak by
+**Claim A — §39's rarity headline**, *"both luminaries exalted and both weak by
 avastha"*, at 1 in 3,571. Baladi says Surya *Bala* and Chandra *Mrita*, both
 crippled; Lajjitadi says both *Garvita and Kshudita*.
 
@@ -5099,7 +5100,7 @@ But note what the ambiguity itself says: **the chart sits exactly on the
 threshold of the principal renunciation yoga, in the house of dharma, with the
 node of severance supplying the fourth body.**
 
-> **What §50 gets from this is not what I expected.** It argued the
+> **What §51 gets from this is not what I expected.** It argued the
 > "sets things down" mechanism entirely from Ketu in the kama trikona and the
 > purushartha weighting, and never tested the classical yogas. Tested now, they
 > come back **on the line — twice, by two independent rules.**
@@ -5107,7 +5108,7 @@ node of severance supplying the fourth body.**
 > **That is stronger than a clean miss and weaker than a clean hit.** The chart
 > is not a textbook renunciate. **It is a chart that keeps arriving at the
 > threshold of the classical combination and not quite crossing it** — which is
-> almost exactly what §50 described behaviourally: a man who sets things down
+> almost exactly what §51 described behaviourally: a man who sets things down
 > repeatedly without ever making it a renunciation.
 
 ### The penury combinations — Chapter 42, tested
@@ -5144,13 +5145,13 @@ found the 11th lord exalted.
 
 ### What this pass changed
 
-1. **Lajjitadi computed** — and it independently confirms §38's rarity finding
+1. **Lajjitadi computed** — and it independently confirms §39's rarity finding
    by a different rule set.
 2. **It qualified §21.** Shani delighted, Guru starved — not two grahas alike.
 3. **Deeptadi adds nothing** as applied, and that is reported.
 4. **Sayanadi declined** — the construction rule is not securely known.
 5. **The sannyasa yogas come back on the boundary**, twice, each turning on
-   whether a node counts as a body. §50 is neither confirmed nor refuted; it is
+   whether a node counts as a body. §51 is neither confirmed nor refuted; it is
    placed exactly where its own behavioural description put it.
 6. **Two penury combinations form**, naming a weakness the reading already knew
    under a name it did not.
@@ -5429,7 +5430,7 @@ death, occupants of the 8th, fate of the corpse, serpent decanates, prenatal
 abode, ascent after death.
 
 **§27 used one of the ten.** Four others are computable and untouched; the rest
-belong to the longevity question §59 declines.
+belong to the longevity question §60 declines.
 
 **Chapters 62 and 63 — Sookshma and Prana dasas.** The reading stops at
 pratyantardasha; Parashara goes two levels finer. Nothing here would change,
@@ -5437,7 +5438,7 @@ pratyantardasha; Parashara goes two levels finer. Nothing here would change,
 
 **Chapters 73, 76, 77 — rays of the planets, the five elements, the three
 gunas.** All three **never touched**, all three computable, and the reading
-answered *"what are his natural traits"* (§41) without any of them.
+answered *"what are his natural traits"* (§42) without any of them.
 
 **Chapter 83 — curses from a previous birth**, with combinations for lack of a
 male issue. **Never touched, and the reading has a children section.** This one
@@ -5619,7 +5620,7 @@ a month, the birth time itself carries a residual of about a minute (§2), and
 ### Chapter 44 — the maraka sub-topics that are structural
 
 §27 used one of the ten. **Four more are structural rather than predictive**,
-and can be recorded without touching longevity, which §59 declines and
+and can be recorded without touching longevity, which §60 declines and
 continues to decline.
 
 | Sub-topic | This chart |
@@ -5638,7 +5639,7 @@ out of it entirely.
 groups related to death, fate of the corpse, serpent decanates, prenatal abode
 and ascent after death — **are declined.** Two of them I cannot state the rule
 for; the rest are longevity and afterlife doctrine that this reading refused
-from §59 onward and **does not reopen at the back door.**
+from §60 onward and **does not reopen at the back door.**
 
 ### Chapters 85 to 94 — the inauspicious births, tested
 
@@ -5711,7 +5712,7 @@ is the single largest correction this sweep produces.**
 | 80, 81 | Female horoscopy; features of a woman's body | **Not applicable** to this nativity |
 | 82 | Moles and marks | **Not applicable** without physical data, which has not been supplied and will not be asked for |
 | **83** | **Curses from a previous birth** | **Declined deliberately — a judgement, not a limitation.** The doctrine attributes childlessness to curses from named relatives: the father, the mother, the wife, a maternal uncle. **Computing which relative cursed a living man is not something this reading will do, and no amount of source text would change that** |
-| 84–96 | Remedial rites | **Diagnostic half now computed** *(above)*; the **ritual half stands open.** §58 derives remedy from the chart's own structure rather than from prescribed rites, and does not pretend that is equivalent |
+| 84–96 | Remedial rites | **Diagnostic half now computed** *(above)*; the **ritual half stands open.** §59 derives remedy from the chart's own structure rather than from prescribed rites, and does not pretend that is equivalent |
 | 46 | The other twenty-five dasha systems | **Two of twenty-six now computed** — Vimshottari throughout, Yogini in §34. The remaining twenty-four are untouched, and §34 records why that matters |
 
 ### The complete ledger — all fifty-five chapters
@@ -5719,7 +5720,7 @@ is the single largest correction this sweep produces.**
 | Ch | Subject | State |
 |---|---|---|
 | 42 | Combinations for penury | **computed** §32 |
-| 43 | Longevity — Pindayu, Naisargayu, Amsayu | **declined** §59 |
+| 43 | Longevity — Pindayu, Naisargayu, Amsayu | **declined** §60 |
 | 44 | Maraka planets | **5 of 10 sub-topics computed** §27, §35 |
 | 45 | Avasthas — five schemes | **4 of 5 computed** §4, §32 |
 | 46 | Dasas of planets — twenty-six systems | **2 of 26 computed** §17, §34 |
@@ -5737,7 +5738,7 @@ is the single largest correction this sweep produces.**
 | 68 | Ekadhipatya sodhana | applied §8 |
 | 69 | Pinda sadhana | applied §19, §22 |
 | 70 | Effects of each Ashtakavarga | applied §8 |
-| 71 | Longevity through Ashtakavarga | **declined** §59 |
+| 71 | Longevity through Ashtakavarga | **declined** §60 |
 | 72 | Sarvashtakavarga and rekha thresholds | applied §8, §22, §28 |
 | **73** | **Rays of the planets** | **computed §35 — supports nothing** |
 | 74 | Sudarshana Chakra | applied §30 |
@@ -5749,7 +5750,7 @@ is the single largest correction this sweep produces.**
 | 80, 81 | Female horoscopy | **n/a** |
 | 82 | Moles and marks | **n/a** |
 | 83 | Curses from a previous birth | **declined by judgement** |
-| 84 | Remedial measures generally | ritual half open; §58 is the structural answer |
+| 84 | Remedial measures generally | ritual half open; §59 is the structural answer |
 | **85–94** | **Inauspicious births and their remedies** | **tested §35 — all fifteen conditions negative** |
 | 95, 96 | Daughter after sons; unusual delivery | **n/a** |
 
@@ -6099,14 +6100,14 @@ It does four things, and only the first is the one that was expected.
 | Ch | Subject | Used in |
 |---|---|---|
 | 3 | Planetary characters; exaltation and debilitation; natural and temporal relationships; **upagrahas, Gulika, Pranapada** | §4, §6, §16 |
-| 4 | Zodiacal signs; limbs of Kalapurusha; Nisheka Lagna | §9, §56 |
+| 4 | Zodiacal signs; limbs of Kalapurusha; Nisheka Lagna | §9, §57 |
 | **5** | **Special ascendants — Bhava, Ghatika and Hora Lagna; Varnada Dasa** | **never used** |
 | **6** | **The sixteen divisions of a sign** | §11, §12, §13 |
 | 7 | Divisional consideration; **Vimsopaka strength**; indications from houses | §7, §11, §27 |
 | **8** | **Aspects of the signs — *sign* aspects and planetary aspects** | §10 — planetary only |
 | **9, 10** | **Evils at birth, and antidotes for them** | **never used** |
 | 11 | Judgement of houses — prosperity or annihilation of a house | §9 |
-| 12–23 | Effects of the 1st to the 12th house, one chapter each | §9, §54–56 |
+| 12–23 | Effects of the 1st to the 12th house, one chapter each | §9, §55–56 |
 | 24 | **Effects of the bhava lords — 144 combinations** | §6, §9, throughout |
 | **25** | **Effects of the non-luminous points *by house*** | §16 — positions only |
 | 26 | Evaluation of planetary aspects; special rules for Shani, Mangal, Guru | §10 |
@@ -6342,7 +6343,186 @@ of which this section closes every one whose rule can be stated.
 
 ---
 
-## 38. Rarity — measuring instead of asserting
+## 38. The classical sequence, run in order on the 10th house
+
+A methodological correction was put to this reading: **don't invent percentage
+weights** — *"I would not say D1 = 35%, Varga = 25%, Shadbala = 8%. That is not
+a classical prescription."* Instead, judge in sequence:
+
+> **Subject → Bhava → Bhava Lord → Kāraka → Relevant Varga → Planetary
+> Strength → Bhava Strength → Yogas and Afflictions → Dasha → Transit and
+> Ashtakavarga**
+
+**Two claims, and they need separate answers.**
+
+**The weights: nothing to retract, because there is nothing there.** This
+document has never assigned a percentage weight to a technique. Checked by
+search across the whole file — **zero occurrences.** The only percentages in it
+are **Vimshopaka's own varga weights**, which are classical and come from the
+very chapter that defines the measure (ch. 7), and **rarity frequencies from an
+explicit null model** in §39. The correction is sound as general method and
+simply does not describe this reading.
+
+**The order: that one lands.** This document computed everything and
+synthesised afterwards, which is not the same as judging in sequence. It
+reached for Shadbala early and often. **So the test is to run the sequence in
+strict order on the 10th house and record the running verdict after every step
+— and see where it moves.**
+
+### The ten steps
+
+**1 — the subject.** The 10th: profession, authority, status, the karma one is
+seen doing. Here it is **Mithuna**, lord **Budha**. Nothing judged yet.
+
+**2 — the bhava itself.** Sign, occupants, aspects, *before* the lord.
+
+| | |
+|---|---|
+| sign | Mithuna — dual, air |
+| occupants | **Guru** |
+| aspects onto it | **none — from any graha** |
+
+A benefic sits in the career house, unaspected by malefics *and* unaspected by
+benefics. **No affliction and no help. A sealed chamber.**
+
+> **Running verdict:** career house occupied by a benefic, sealed from all
+> outside influence.
+
+**3 — the bhava lord.** This is the heart of it.
+
+| | |
+|---|---|
+| lord | Budha — **also the lagna lord** |
+| placed in | the **8th** — a dusthana, lowest SAV in the chart (21) |
+| dignity | neutral |
+| combustion | **9.00° from Surya — combust** |
+| conjoined with | Surya, **Shukra** |
+| aspected by | **none** |
+
+The lord of the career house is buried in the house of upheaval, combust,
+unaspected — and the self and the career run through **one** compromised graha.
+**One counterweight, and it is real:** Budha sits with **Shukra, the 9th lord**
+— the **Dharma-Karmadhipati yoga**, the strongest raja yoga in Parashari
+astrology. **It forms in the 8th.**
+
+> **Running verdict — moved:** real promise, damaged channel, delivery only
+> through upheaval.
+
+**4 — the kārakas.**
+
+| Karaka | House | Dignity | Ishta | |
+|---|---|---|---|---|
+| Surya | 8th | **exalted** | 46.88 | authority — but rules the 12th |
+| Budha | 8th | neutral | 18.91 | the damaged lord from step 3 |
+| Guru | **10th** | **enemy** | 37.30 | present but uncomfortable |
+| Shani | 9th | friend | **12.48 — lowest in the chart** | service, the long grind |
+
+**The authority karaka is splendid and placed in loss; the counsel karaka is
+present and uncomfortable; the transaction karaka is burnt; the service karaka
+delivers least of anything he owns.** *Corroborates step 3. Verdict unchanged.*
+
+**5 — the relevant varga, D10.** And here the drafted expectation was wrong.
+
+| Graha | D10 sign | D10 house | Dignity |
+|---|---|---|---|
+| Budha | Karka | 6th | **enemy** |
+| Guru | Tula | 9th | **enemy** |
+| **Shukra** | **Vrischika** | **10th** | neutral |
+| Surya | Mesha | 3rd | exalted |
+
+> **I expected the D10 to flatter the chart** — the standard caution that a
+> varga carries sign dignity but not affliction, so a combust, buried graha can
+> look clean in the divisional. **It does not flatter. Budha and Guru are both
+> in enemy signs there, and the varga is harsher than the D1.**
+
+**The risk turns out to be narrower and sharper.** The D10 contains exactly one
+flattering fact — **Shukra, the Atmakaraka and highest Ishta in the chart,
+sitting in the D10's own 10th house.** Read early and alone, that single
+placement will carry a confident career story. Read at step 5, it arrives after
+the sealed bhava and the buried lord and can only qualify them. *Verdict
+unchanged.*
+
+**6 — planetary strength.**
+
+| | Rupas | Required | Ratio | Rank |
+|---|---|---|---|---|
+| **Budha** | 6.46 | 7.00 | **0.92 — fails** | **7 of 7** |
+| Guru | 8.21 | 6.50 | 1.26 | 4 |
+| Surya | 11.39 | 5.00 | 2.28 | 1 |
+
+**Budha is the only graha in the chart failing its Shadbala minimum, and it is
+both the career lord and the lagna lord.** Note what this step did and did not
+do: **it did not discover the problem** — step 3 already had the lord combust
+in a dusthana. **It measured how bad the problem is**, which is exactly the role
+the sequence assigns it.
+
+> **Had strength come first**, the reading would have opened from *"Budha rank
+> 7, Surya rank 1"* and been tempted to build the career story on **Surya** —
+> the strongest graha in the chart, which rules the **12th** and is only a
+> karaka here, not the lord. **The sequence prevents that substitution.**
+
+*Verdict unchanged.*
+
+**7 — bhava strength.** The 10th is **7.39 rupas, rank 9 of 12** — below the
+middle, not catastrophic. **And here the two strength measures disagree, which
+is the point of keeping them separate:** the *house* is mediocre while its
+*lord* is the worst graha in the chart. **The house is ordinary. The man who
+runs it is not well.** *Verdict unchanged.*
+
+**8 — benefic/malefic, affliction, yogas.** No aspect at all onto the bhava.
+Guru in an enemy sign carrying kendradhipati dosha. The lord combust between a
+malefic and a benefic. **Both career-positive yogas present and both
+compromised in the same direction** — the raja yoga fires through the 8th;
+Amala runs through a graha that is uncomfortable, asleep, and possibly a
+functional malefic. *Verdict unchanged.*
+
+**9 — only now, timing.** Rahu mahadasha to 2040. **Rahu–Guru** to Jan 2028 —
+the 10th-house occupant. **Rahu–Budha, Dec 2030 – Jun 2033 — the career lord
+itself.**
+
+> **The period that most directly activates the career house hands it to the
+> graha step 6 found failing its minimum.** The career lord gets its own period
+> and arrives at it as the weakest body in the chart.
+
+*Verdict unchanged.*
+
+**10 — Ashtakavarga and transit, last.** The 10th itself is well supported at
+**29 bindus**; its lord sits in the **lowest-SAV sign in the chart, 21**.
+Used last and used for transits — which is what §29 did in finding Shani
+crossing the natal 10th on a single bindu. **It qualifies the timing. It does
+not decide the promise.** *Verdict unchanged.*
+
+### What the sequence proved
+
+| | |
+|---|---|
+| after step 2 | **set** — sealed career house with a benefic in it |
+| after step 3 | **moved** — real promise, damaged channel, delivery through upheaval |
+| after steps 4–10 | **unchanged, seven times running** |
+
+**The verdict was set at step 3 and moved zero times across the seven steps
+after it. That result cuts both ways.**
+
+**In this reading's favour: the conclusion is robust to method order.** Varga,
+Shadbala, Bhava Bala, yogas, dasha and Ashtakavarga qualified and dated the
+judgment without changing it. **The career conclusions in §22, §23, §29 and §30
+survive being rebuilt in strict classical sequence.**
+
+> **Against it: the judgment was settled by step 3, and this document spent
+> thirty sections getting there.** The bhava is sealed and its lord is combust
+> in a dusthana carrying a raja yoga. Everything after that is refinement. **A
+> reading built in classical order would have said the essential thing on its
+> first page.**
+
+**And the sequence is a guard against a mistake this document was not
+protected from.** §11 read the D10 early and at length. It did not in fact
+overreach — but nothing in the method was stopping it, and the D10 holds
+exactly one placement (Shukra in its own 10th) capable of carrying a career
+story the D1 does not support. **The order is that missing guard.**
+
+---
+
+## 39. Rarity — measuring instead of asserting
 
 
 
@@ -6418,7 +6598,7 @@ same as good:** the rarest thing in this chart is a *limitation*.
 
 ---
 
-## 39. The one structure
+## 40. The one structure
 
 
 
@@ -6526,7 +6706,7 @@ take it.
 
 ---
 
-## 40. Part two — the questions asked
+## 41. Part two — the questions asked
 
 
 
@@ -6545,20 +6725,20 @@ agreed with**, and two of them came back partly false.
 
 | § | The question, as asked | Script |
 |---|---|---|
-| **41** | *"What are his natural traits"* | `verify_traits.py` |
-| **42** | *"Why do people feel jealous or insecure about him"* | `verify_perception.py` |
-| **43** | *"How 8th house transform him"* · *"When can he expect major transformation"* · *"Why do people go through such deep transformations does he has any purpose to it"* | `verify_eighth.py` · `verify_timeline.py` · `verify_purpose.py` |
-| **44** | *"His wife traits"* | `verify_spouse.py` |
-| **45** | *"Will his in laws be wealthy"* | `verify_inlaws.py` |
-| **46** | *"So who are the people loving him and when can he experience it. And will he be satisfied with his wife love in marriage and vice versa"* | `verify_love.py` |
-| **47** | *"Career growth"* | `verify_career.py` |
-| **48** | *"How would the solar eclipse affect him"* | `verify_eclipse.py` |
-| **49** | *"Which means he gets all but with pain"* · *"Which means his life is good but with friction"* · *"So it overall upward trajectory in life right"* · *"Any unique point that is so uncommon"* | `verify_cost.py` · `verify_audit.py` · `verify_rarity.py` |
-| **50** | *"Why will he walk away from the things he wanted most"* | `verify_relinquish.py` |
+| **42** | *"What are his natural traits"* | `verify_traits.py` |
+| **43** | *"Why do people feel jealous or insecure about him"* | `verify_perception.py` |
+| **44** | *"How 8th house transform him"* · *"When can he expect major transformation"* · *"Why do people go through such deep transformations does he has any purpose to it"* | `verify_eighth.py` · `verify_timeline.py` · `verify_purpose.py` |
+| **45** | *"His wife traits"* | `verify_spouse.py` |
+| **46** | *"Will his in laws be wealthy"* | `verify_inlaws.py` |
+| **47** | *"So who are the people loving him and when can he experience it. And will he be satisfied with his wife love in marriage and vice versa"* | `verify_love.py` |
+| **48** | *"Career growth"* | `verify_career.py` |
+| **49** | *"How would the solar eclipse affect him"* | `verify_eclipse.py` |
+| **50** | *"Which means he gets all but with pain"* · *"Which means his life is good but with friction"* · *"So it overall upward trajectory in life right"* · *"Any unique point that is so uncommon"* | `verify_cost.py` · `verify_audit.py` · `verify_rarity.py` |
+| **51** | *"Why will he walk away from the things he wanted most"* | `verify_relinquish.py` |
 
 Four further requests shaped the document rather than adding sections of their
 own: *"Dispositor of nakshtras and house plants lords"* became §6; *"And Vargas
-or gaps that are still need to found about him"* became §61, most of which has
+or gaps that are still need to found about him"* became §62, most of which has
 since been closed; *"calculate all other Vargas"* became §12 and §13; and **"as
 few major mahadasha passed does it change the analysis"** became **§18** and **§19**, which
 is where this document first turned round and looked backwards.
@@ -6585,7 +6765,8 @@ and *"reanalyse the whole file with the titles given"* became **§34**;
 and *"does the .md file contain every chapter given above"* became **§35**;
 and *"what about 1 to 41 chapters"* became **§36**;
 and the contents page for chapters 1 to 45, supplied in answer to it, became
-**§37**.
+**§37**; and a methodological correction — *"rather than inventing percentage
+weights, the house judgment can be organized like this"* — became **§38**.
 
 **Two of those are the only sections in Part one that do not derive everything
 from the chart alone.** §22 is conditioned on a fact the chart did not supply —
@@ -6594,7 +6775,7 @@ entirely. Every other section in Part one starts from the longitudes.
 
 ---
 
-## 41. "What are his natural traits"
+## 42. "What are his natural traits"
 
 
 
@@ -6680,7 +6861,7 @@ trapped, and the way out runs through Jupiter.
 
 ---
 
-## 42. "Why do people feel jealous or insecure about him"
+## 43. "Why do people feel jealous or insecure about him"
 
 
 
@@ -6773,7 +6954,7 @@ holds them.**
 
 ---
 
-## 43. The three questions about transformation
+## 44. The three questions about transformation
 
 
 
@@ -6918,7 +7099,7 @@ whose whole job is detachment, has been given the chart.**
 
 ---
 
-## 44. "His wife traits"
+## 45. "His wife traits"
 
 
 
@@ -6989,7 +7170,7 @@ computed varga by varga rather than sampled:
 
 | Contact | Vargas |
 |---|---|
-| **Occupies the 7th** | **D9, D27** *(an earlier draft added D11 — withdrawn in §49; Ketu is in D11's 10th)* |
+| **Occupies the 7th** | **D9, D27** *(an earlier draft added D11 — withdrawn in §50; Ketu is in D11's 10th)* |
 | **Aspects the 7th** | D1, D2, D3, D4, D7, D30, D60 |
 | No contact | D10, D12, D16, D20, D24, D40, D45 |
 
@@ -7034,7 +7215,7 @@ from two angles.**
 
 ---
 
-## 45. "Will his in laws be wealthy"
+## 46. "Will his in laws be wealthy"
 
 
 
@@ -7099,7 +7280,7 @@ should be verified rather than assumed.**
 
 ---
 
-## 46. "Who are the people loving him, and when can he experience it — and will he be satisfied with his wife's love, and she with his"
+## 47. "Who are the people loving him, and when can he experience it — and will he be satisfied with his wife's love, and she with his"
 
 
 
@@ -7233,7 +7414,7 @@ contentment is routed through it. Those are different maintenance tasks, and
 
 ---
 
-## 47. "Career growth"
+## 48. "Career growth"
 
 
 
@@ -7383,7 +7564,7 @@ within a domain. **Ownership before title. The title follows in the 2040s.**
 
 ---
 
-## 48. "How would the solar eclipse affect him"
+## 49. "How would the solar eclipse affect him"
 
 
 
@@ -7464,7 +7645,7 @@ illuminates it.**
 
 ---
 
-## 49. The four claims he put to the chart
+## 50. The four claims he put to the chart
 
 
 
@@ -7591,7 +7772,7 @@ delivery capacity, on a different axis entirely.
 
 ### "Any unique point that is so uncommon"
 
-Measured, not asserted — §38 has the full method and the deflations. The single
+Measured, not asserted — §39 has the full method and the deflations. The single
 answer:
 
 > **Both luminaries exalted, and both weak by avastha. About 1 in 3,571.**
@@ -7608,7 +7789,7 @@ of exalted material.**
 
 ---
 
-## 50. Why he sets down the things he wanted most
+## 51. Why he sets down the things he wanted most
 
 
 
@@ -7811,7 +7992,7 @@ what he opens his hand around.
 
 ---
 
-## 51. Answered along the way
+## 52. Answered along the way
 
 
 
@@ -7884,7 +8065,7 @@ Saturn-driven. **Tired, not broken.**
 
 ---
 
-## 52. The timeline all the answers share
+## 53. The timeline all the answers share
 
 
 
@@ -7969,7 +8150,7 @@ the junction. **The 12th receives what remains.**
 
 ---
 
-## 53. Part three — the questions not asked
+## 54. Part three — the questions not asked
 
 
 
@@ -8002,14 +8183,14 @@ had acquired:
 | 4 | **Six blind spots are derivable**, each traceable to a specific measurement | **New** |
 
 The gaps come in four kinds, and they are not equally closable: **areas never
-asked about** (§54–§56, twenty areas across two passes), **things about him
+asked about** (§55–§57, twenty areas across two passes), **things about him
 nobody thought to ask**
-(§57–§59), **the corrections the exact birth data forced** (§60), and **what
-remains unknown** (§61).
+(§58–§60), **the corrections the exact birth data forced** (§61), and **what
+remains unknown** (§62).
 
 ---
 
-## 54. The people never asked about
+## 55. The people never asked about
 
 
 
@@ -8121,7 +8302,7 @@ is exactly the condition under which the 3rd pays best.
 
 ---
 
-## 55. The areas never asked about
+## 56. The areas never asked about
 
 
 
@@ -8254,7 +8435,7 @@ why the career, at its summit, still points somewhere past itself.
 
 ---
 
-## 56. The second pass — eight more never asked
+## 57. The second pass — eight more never asked
 
 
 
@@ -8301,7 +8482,7 @@ On its own terms the technique says two things that point the same way:
 > marriage hard to break.**
 >
 > Durable, and not effusive. That is what an entirely independent apparatus
-> says — and it is exactly what the satisfaction analysis in §46 found from the
+> says — and it is exactly what the satisfaction analysis in §47 found from the
 > Ketu contacts and the 2nd from Upapada: *neither of them will describe it as
 > effusive, and both of them will still be in it.*
 
@@ -8453,7 +8634,7 @@ is consistent to the point of bluntness:
 
 > **The chart describes someone paying in rather than drawing down.**
 
-That is the same conclusion the purpose analysis in §43 reached from the
+That is the same conclusion the purpose analysis in §44 reached from the
 purushartha tally — arriving here from an unrelated technique.
 
 ### 8. How many children
@@ -8481,7 +8662,7 @@ small family rather than a large one is the direction everything points, and
 
 ---
 
-## 57. What he cannot see
+## 58. What he cannot see
 
 
 
@@ -8536,7 +8717,7 @@ is the wrong one.
 
 ---
 
-## 58. Remedy — never asked, and derivable
+## 59. Remedy — never asked, and derivable
 
 
 
@@ -8617,7 +8798,7 @@ not choose, and relinquishing one he did.
 
 ---
 
-## 59. The question deliberately declined
+## 60. The question deliberately declined
 
 
 
@@ -8666,7 +8847,7 @@ than contradicting it.
 
 ---
 
-## 60. Every correction the birth data forced
+## 61. Every correction the birth data forced
 
 
 
@@ -8724,7 +8905,7 @@ corrections are all to *dates* and to *one frame-dependent count*.
 
 ---
 
-## 61. What remains unknown
+## 62. What remains unknown
 
 
 
@@ -8739,7 +8920,7 @@ follows is the honest remainder.
 
 | Was | Now |
 |---|---|
-| **1. Birth time to the minute** — *"the only input that would change conclusions rather than add to them"* | **CLOSED.** Known to the second. It changed four dates and one frame-dependent count (§60) |
+| **1. Birth time to the minute** — *"the only input that would change conclusions rather than add to them"* | **CLOSED.** Known to the second. It changed four dates and one frame-dependent count (§61) |
 | **3. Chara dasha and Argala** | *(still open — see below)* |
 | **4. Bhava Chalit** — *"the largest methodological gap in the document"* | **CLOSED.** Computed under three cuspal systems in §9. The gap is not merely measured but quantified: four grahas and one yoga |
 | **Vargas beyond the eighteen** | **CLOSED.** All twenty-eight computed in §11, §12 and §13 |
@@ -8758,7 +8939,7 @@ follows is the honest remainder.
   to a passed test the document contains, and it tests the *source data*, not
   the interpretation.
 - **The parents' charts.** Both threads are read by bhavat bhavam from his
-  chart alone, which is why §54 describes roles rather than people.
+  chart alone, which is why §55 describes roles rather than people.
 
 ### Still open, and computable
 
@@ -8796,7 +8977,7 @@ on any of them.**
 
 ### Scope notes, stated honestly
 
-- **Ayurdaya is still not performed** — §59 gives the reasons, and the birth
+- **Ayurdaya is still not performed** — §60 gives the reasons, and the birth
   time removes only one of the three.
 - **The house frame is whole-sign and is now a declared choice**, not an
   assumption (§9).
@@ -8814,7 +8995,7 @@ on any of them.**
 
 ---
 
-## 62. The whole thing on one page
+## 63. The whole thing on one page
 
 
 
