@@ -1,0 +1,634 @@
+<title>A Kanya Lagna Chart — Complete Reading</title>
+
+<style>
+  /* ---- Light palette: cool slate paper, indigo ink, brass accent ---- */
+  :root {
+    --ground:      #EBEDF1;
+    --surface:     #F7F8FA;
+    --surface-alt: #E2E5EC;
+    --ink:         #141829;
+    --ink-mid:     #3D445C;
+    --ink-soft:    #626A85;
+    --rule:        #C6CBD8;
+    --rule-soft:   #D8DCE5;
+    --brass:       #96661C;
+    --brass-fill:  #EFE3CE;
+    --lapis:       #2E4A85;
+    --lapis-fill:  #DBE2F1;
+
+    --serif: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
+    --sans:  ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    --mono:  ui-monospace, "SF Mono", SFMono-Regular, "Cascadia Mono", Menlo, Consolas, monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --ground:      #0C0F1D;
+      --surface:     #141930;
+      --surface-alt: #1B2140;
+      --ink:         #E5E8F1;
+      --ink-mid:     #B3BACE;
+      --ink-soft:    #8790A9;
+      --rule:        #2B3252;
+      --rule-soft:   #212743;
+      --brass:       #D9A94F;
+      --brass-fill:  #2B2415;
+      --lapis:       #83A3DD;
+      --lapis-fill:  #17203C;
+    }
+  }
+  :root[data-theme="dark"] {
+    --ground:      #0C0F1D;
+    --surface:     #141930;
+    --surface-alt: #1B2140;
+    --ink:         #E5E8F1;
+    --ink-mid:     #B3BACE;
+    --ink-soft:    #8790A9;
+    --rule:        #2B3252;
+    --rule-soft:   #212743;
+    --brass:       #D9A94F;
+    --brass-fill:  #2B2415;
+    --lapis:       #83A3DD;
+    --lapis-fill:  #17203C;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    background: var(--ground);
+    color: var(--ink);
+    font-family: var(--serif);
+    font-size: 17px;
+    line-height: 1.68;
+    margin: 0;
+    padding: 0 1.5rem 6rem;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .wrap { max-width: 46rem; margin: 0 auto; }
+  .wide { max-width: 58rem; margin: 0 auto; }
+  .flush { padding: 0; }
+
+  /* ---------------- masthead ---------------- */
+  .masthead {
+    padding: 4.5rem 0 2rem;
+    border-bottom: 1px solid var(--rule);
+    display: flex; flex-direction: column; gap: 1.5rem;
+  }
+  .eyebrow {
+    font-family: var(--sans); font-size: .69rem; font-weight: 600;
+    letter-spacing: .17em; text-transform: uppercase; color: var(--brass);
+  }
+  h1 {
+    font-family: var(--serif); font-size: clamp(2.1rem, 5.5vw, 3.1rem);
+    line-height: 1.12; font-weight: 400; letter-spacing: -.015em;
+    text-wrap: balance; margin: 0;
+  }
+  .standfirst { font-size: 1.12rem; color: var(--ink-mid); max-width: 34rem; margin: 0; }
+
+  .facts {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr));
+    gap: 1.4rem 1.8rem; padding-top: .5rem;
+  }
+  .fact { display: flex; flex-direction: column; gap: .18rem; }
+  .fact dt {
+    font-family: var(--sans); font-size: .66rem; font-weight: 600;
+    letter-spacing: .13em; text-transform: uppercase; color: var(--ink-soft);
+  }
+  .fact dd {
+    margin: 0; font-family: var(--mono); font-size: .93rem;
+    font-variant-numeric: tabular-nums; color: var(--ink);
+  }
+
+  /* ---------------- sections ---------------- */
+  section { padding-top: 3.6rem; }
+  h2 {
+    font-size: 1.6rem; font-weight: 400; line-height: 1.2; letter-spacing: -.01em;
+    text-wrap: balance; margin: 0 0 1.1rem;
+    display: flex; align-items: baseline; gap: .8rem;
+  }
+  h2 .num {
+    font-family: var(--mono); font-size: .78rem; color: var(--brass);
+    font-variant-numeric: tabular-nums; flex: none; padding-top: .1rem;
+  }
+  h3 {
+    font-family: var(--sans); font-size: .78rem; font-weight: 700;
+    letter-spacing: .1em; text-transform: uppercase; color: var(--ink-mid);
+    margin: 2.3rem 0 .7rem;
+  }
+  h4 {
+    font-family: var(--sans); font-size: .74rem; font-weight: 700;
+    letter-spacing: .08em; text-transform: uppercase; color: var(--brass);
+    margin: 1.8rem 0 .6rem;
+  }
+  p { margin: 0 0 1.1rem; }
+  strong { font-weight: 700; color: var(--ink); }
+  a { color: var(--lapis); }
+
+  ul { margin: 0 0 1.2rem; padding-left: 1.15rem; }
+  li { margin-bottom: .55rem; }
+  li::marker { color: var(--brass); }
+
+  code, .deg {
+    font-family: var(--mono); font-size: .88em; font-variant-numeric: tabular-nums;
+  }
+
+  /* ---------------- callout ---------------- */
+  .callout {
+    background: var(--surface); border: 1px solid var(--rule);
+    border-left: 3px solid var(--brass); padding: 1.4rem 1.5rem; margin: 0 0 1.4rem;
+    display: flex; flex-direction: column; gap: .8rem;
+  }
+  .callout p { margin: 0; }
+  .callout.big p:first-of-type { font-size: 1.1rem; line-height: 1.5; }
+
+  .pull {
+    margin: 2rem 0; padding: 1.5rem 0; border-top: 2px solid var(--ink-mid);
+    border-bottom: 2px solid var(--ink-mid); font-size: 1.35rem; line-height: 1.4;
+    text-wrap: balance; text-align: center; color: var(--ink);
+  }
+
+  /* ---------------- rashi chart ---------------- */
+  .chart-figure { margin: 2rem 0 1.6rem; display: flex; flex-direction: column; gap: 1rem; }
+  .rashi {
+    display: grid; grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(5.6rem, auto); gap: 2px;
+    background: var(--rule); border: 2px solid var(--ink-mid); padding: 2px;
+  }
+  .cell {
+    background: var(--surface); padding: .5rem .55rem;
+    display: flex; flex-direction: column; gap: .3rem; min-width: 0;
+  }
+  .cell .sign {
+    font-family: var(--sans); font-size: .6rem; font-weight: 600;
+    letter-spacing: .1em; text-transform: uppercase; color: var(--ink-soft);
+    display: flex; justify-content: space-between; gap: .3rem;
+  }
+  .cell .bh { color: var(--ink-soft); font-family: var(--mono); }
+  .cell .grahas {
+    display: flex; flex-wrap: wrap; gap: .22rem .3rem;
+    font-family: var(--mono); font-size: .76rem; line-height: 1.3; color: var(--ink);
+  }
+  .cell.loaded { background: var(--brass-fill); }
+  .cell.loaded .sign, .cell.loaded .bh { color: var(--brass); }
+  .cell.lagna { background: var(--lapis-fill); }
+  .cell.lagna .sign, .cell.lagna .bh { color: var(--lapis); }
+  .cell .g { white-space: nowrap; }
+  .cell .g.ex { color: var(--brass); font-weight: 700; }
+  .cell.core {
+    grid-column: 2 / 4; grid-row: 2 / 4; background: var(--surface-alt);
+    display: flex; flex-direction: column; justify-content: center;
+    gap: .5rem; padding: 1.1rem; text-align: center;
+  }
+  .core .big {
+    font-family: var(--mono); font-size: clamp(1.5rem, 5vw, 2.2rem);
+    color: var(--brass); line-height: 1; font-variant-numeric: tabular-nums;
+  }
+  .core .cap {
+    font-family: var(--sans); font-size: .68rem; letter-spacing: .06em;
+    color: var(--ink-mid); line-height: 1.45;
+  }
+  figcaption { font-family: var(--sans); font-size: .78rem; line-height: 1.6; color: var(--ink-soft); }
+
+  /* ---------------- tables ---------------- */
+  .scroll { overflow-x: auto; margin: 0 0 1.5rem; }
+  table { border-collapse: collapse; width: 100%; font-size: .88rem; min-width: 30rem; }
+  caption {
+    text-align: left; font-family: var(--sans); font-size: .68rem; font-weight: 600;
+    letter-spacing: .12em; text-transform: uppercase; color: var(--ink-soft); padding-bottom: .6rem;
+  }
+  th {
+    text-align: left; font-family: var(--sans); font-size: .67rem; font-weight: 600;
+    letter-spacing: .09em; text-transform: uppercase; color: var(--ink-soft);
+    border-bottom: 1px solid var(--rule); padding: .5rem .7rem .5rem 0; vertical-align: bottom;
+  }
+  td {
+    border-bottom: 1px solid var(--rule-soft); padding: .58rem .7rem .58rem 0;
+    vertical-align: top; color: var(--ink-mid);
+  }
+  td:first-child { color: var(--ink); }
+  td.n { font-family: var(--mono); font-variant-numeric: tabular-nums; white-space: nowrap; }
+  .flag { color: var(--brass); font-weight: 700; }
+
+  /* ---------------- shadbala bars ---------------- */
+  .bars { margin: 1.8rem 0 1.2rem; display: flex; flex-direction: column; gap: .5rem; }
+  .bar-row { display: grid; grid-template-columns: 5.2rem 1fr 3.4rem; align-items: center; gap: .7rem; }
+  .bar-row .lbl {
+    font-family: var(--sans); font-size: .76rem; font-weight: 600;
+    color: var(--ink-mid); text-align: right;
+  }
+  .bar-track { position: relative; height: 1.35rem; background: var(--surface); border: 1px solid var(--rule-soft); }
+  .bar-fill { height: 100%; background: var(--lapis); opacity: .55; }
+  .bar-row.top .bar-fill { background: var(--brass); opacity: .8; }
+  .bar-row.fail .bar-fill { background: var(--brass); opacity: .28; }
+  .bar-track .thr { position: absolute; top: -3px; bottom: -3px; left: 41.67%; width: 2px; background: var(--ink-mid); }
+  .bar-row .val { font-family: var(--mono); font-size: .78rem; font-variant-numeric: tabular-nums; color: var(--ink); }
+  .bar-row.fail .val { color: var(--brass); font-weight: 700; }
+  .thr-note { font-family: var(--sans); font-size: .72rem; color: var(--ink-soft); display: flex; align-items: center; gap: .45rem; }
+  .thr-note::before { content: ""; width: 2px; height: .85rem; background: var(--ink-mid); flex: none; }
+
+  /* ---------------- ashtakavarga strip ---------------- */
+  .bindu-strip { display: grid; grid-template-columns: repeat(12, 1fr); gap: 2px; margin: 1.8rem 0 .8rem; align-items: end; }
+  .bindu { display: flex; flex-direction: column; align-items: center; gap: .3rem; min-width: 0; }
+  .bindu .col { width: 100%; background: var(--lapis); opacity: .45; border-top: 2px solid var(--lapis); }
+  .bindu.hi .col { background: var(--brass); opacity: .75; border-top-color: var(--brass); }
+  .bindu.lo .col { background: var(--brass); opacity: .22; border-top-color: var(--brass); }
+  .bindu .v { font-family: var(--mono); font-size: .74rem; font-variant-numeric: tabular-nums; color: var(--ink); }
+  .bindu .h { font-family: var(--sans); font-size: .6rem; letter-spacing: .04em; color: var(--ink-soft); white-space: nowrap; }
+  .bindu.hi .v, .bindu.lo .v { color: var(--brass); font-weight: 700; }
+
+  /* ---------------- timeline ---------------- */
+  .timeline { margin: 2rem 0 1.4rem; display: flex; flex-direction: column; gap: .55rem; }
+  .track { display: flex; height: 3.8rem; border: 1px solid var(--rule); background: var(--surface); position: relative; overflow: hidden; }
+  .seg { border-right: 1px solid var(--rule); padding: .42rem .4rem; min-width: 0; display: flex; flex-direction: column; gap: .12rem; overflow: hidden; }
+  .seg:last-child { border-right: 0; }
+  .seg .nm { font-family: var(--sans); font-size: .66rem; font-weight: 600; letter-spacing: .04em; color: var(--ink-mid); white-space: nowrap; }
+  .seg .yr { font-family: var(--mono); font-size: .62rem; color: var(--ink-soft); font-variant-numeric: tabular-nums; }
+  .seg.on { background: var(--brass-fill); }
+  .seg.on .nm { color: var(--brass); }
+  .seg.key { background: var(--lapis-fill); }
+  .seg.key .nm { color: var(--lapis); }
+  .now { position: absolute; top: 0; bottom: 0; width: 2px; background: var(--brass); left: 20.1%; }
+  .now::after {
+    content: "now"; position: absolute; top: .1rem; left: .3rem;
+    font-family: var(--sans); font-size: .58rem; font-weight: 700;
+    letter-spacing: .1em; text-transform: uppercase; color: var(--brass);
+  }
+
+  .period { margin: 1.8rem 0 0; padding-top: 1.4rem; border-top: 1px solid var(--rule-soft); }
+  .period-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: .3rem .9rem; margin-bottom: .6rem; }
+  .period-head .t { font-size: 1.12rem; }
+  .period-head .d { font-family: var(--mono); font-size: .78rem; color: var(--ink-soft); font-variant-numeric: tabular-nums; }
+
+  /* ---------------- closing ---------------- */
+  .takeaways { counter-reset: t; list-style: none; padding: 0; }
+  .takeaways li { counter-increment: t; position: relative; padding-left: 2.2rem; margin-bottom: 1rem; }
+  .takeaways li::before {
+    content: counter(t, decimal-leading-zero); position: absolute; left: 0; top: .18rem;
+    font-family: var(--mono); font-size: .72rem; color: var(--brass);
+  }
+  footer {
+    margin-top: 4rem; padding-top: 1.4rem; border-top: 1px solid var(--rule);
+    font-family: var(--sans); font-size: .74rem; line-height: 1.65; color: var(--ink-soft);
+  }
+
+  @media (max-width: 640px) {
+    body { font-size: 16px; padding: 0 1.1rem 4rem; }
+    .rashi { grid-auto-rows: minmax(4.6rem, auto); }
+    .cell .grahas { font-size: .68rem; }
+    .seg .yr { display: none; }
+    .pull { font-size: 1.15rem; }
+  }
+</style>
+
+<div class="wrap">
+  <header class="masthead">
+    <div class="eyebrow">Par&#257;&#347;ari bhava krama &middot; twelve houses &middot; ten steps &middot; in order</div>
+    <h1>The chart, judged in classical order</h1>
+    <p class="standfirst">Every house taken in turn through the classical sequence &mdash; bhava, lord, k&#257;raka, varga, planetary strength, bhava strength, affliction, dasha, ashtakavarga &mdash; with no technique given a percentage weight and none allowed to speak before its turn.</p>
+
+    <dl class="facts">
+      <div class="fact"><dt>Lagna</dt><dd>27&deg;37&prime; Kanya</dd></div>
+      <div class="fact"><dt>Empty bhavas</dt><dd>8 of 12</dd></div>
+      <div class="fact"><dt>Untouched</dt><dd>1st &middot; 5th &middot; 7th</dd></div>
+      <div class="fact"><dt>All twelve lords</dt><dd>in 3 houses</dd></div>
+      <div class="fact"><dt>Strongest bhava</dt><dd>the 12th</dd></div>
+      <div class="fact"><dt>Weakest bhava</dt><dd>the 8th</dd></div>
+    </dl>
+  </header>
+</div>
+<div class="wrap">
+  <section>
+    <h2>Why this document exists, and how it differs</h2>
+    <p>The existing reading — 63 sections — was built by <strong>accretion</strong>: a question was asked, an instrument was applied, a section was written. That produces a thorough document and a badly ordered one. It reaches for Shadbala early, computes vargas at length before the houses they qualify, and arrives at bhava-level judgments last.</p>
+    <p><strong>This document inverts that.</strong> It follows one sequence and does not depart from it:</p>
+    <div class="callout big"><p><strong>1</strong> what the bhava represents → <strong>2</strong> the bhava itself: sign, occupants, aspects → <strong>3</strong> the bhava lord → <strong>4</strong> the natural kāraka → <strong>5</strong> the relevant varga → <strong>6</strong> planetary strength → <strong>7</strong> bhava strength → <strong>8</strong> benefic/malefic influence, affliction, yogas → <strong>9</strong> dasha — <em>only now</em> → <strong>10</strong> Ashtakavarga and transit, last</p></div>
+    <p>Or, compressed: <strong>what is promised</strong> (bhava) → <strong>who delivers it</strong> (lord, kāraka) → <strong>how strong</strong> (dignity, Shadbala, Bhava Bala, varga) → <strong>when</strong> (dasha) → <strong>how transit modifies it</strong> (Ashtakavarga).</p>
+    <p><strong>No technique is assigned a percentage weight.</strong> The bhava and its lord are central; everything after qualifies, corroborates and times. Where a step adds nothing, it is reported as adding nothing rather than padded.</p>
+    <p><strong>Every figure below is computed</strong> — <code>verify_krama_all.py</code> produces the full workup and nothing is asserted here that does not appear in its output.</p>
+  </section>
+</div>
+
+<div class="wrap">
+  <section>
+    <h2>The chart, before any judgment</h2>
+    <div class="scroll">
+<table>
+<thead><tr><th>Graha</th><th>Longitude</th><th>House</th><th>Dignity</th><th>Note</th></tr></thead>
+<tbody>
+<tr><td class="n"><strong>Surya</strong></td><td class="n">1°28′ Mesha</td><td class="n">8</td><td class="n"><strong>exalted</strong></td><td class="n">vargottama; gandanta</td></tr>
+<tr><td class="n"><strong>Chandra</strong></td><td class="n">1°47′ Vrishabha</td><td class="n">9</td><td class="n"><strong>exalted</strong></td><td>Krittika 2; <em>mrita</em> by avastha</td></tr>
+<tr><td class="n">Mangal</td><td class="n">7°20′ Vrishabha</td><td class="n">9</td><td class="n">neutral</td><td class="n"></td></tr>
+<tr><td class="n"><strong>Budha</strong></td><td class="n">10°28′ Mesha</td><td class="n">8</td><td class="n">neutral</td><td class="n"><strong>combust, 9°00′</strong></td></tr>
+<tr><td class="n">Guru</td><td class="n">14°48′ Mithuna</td><td class="n">10</td><td class="n"><strong>enemy</strong></td><td>sole occupant of a kendra</td></tr>
+<tr><td class="n"><strong>Shukra</strong></td><td class="n">23°37′ Mesha</td><td class="n">8</td><td class="n">neutral</td><td class="n">Atmakaraka</td></tr>
+<tr><td class="n">Shani</td><td class="n">17°54′ Vrishabha</td><td class="n">9</td><td class="n">friend</td><td class="n"></td></tr>
+<tr><td class="n">Rahu</td><td class="n">26°56′ Vrishabha</td><td class="n">9</td><td class="n">—</td><td class="n">Marana Karaka Sthana</td></tr>
+<tr><td class="n">Ketu</td><td class="n">26°56′ Vrischika</td><td class="n">3</td><td class="n">—</td><td>severest gandanta pada</td></tr>
+</tbody>
+</table>
+</div>
+    <p><strong>Seven of nine grahas in two adjacent houses, the 8th and the 9th.</strong> That one fact will govern almost every judgment below, and the sequence is what keeps it from being asserted rather than derived.</p>
+  </section>
+</div>
+
+<div class="wrap">
+  <section>
+    <h2><span class="num">01</span> Kanya · the self</h2>
+    <p><strong>1. Subject.</strong> Body, constitution, the visible person.</p>
+    <p><strong>2. The bhava.</strong> <strong>Empty. And it receives no aspect from any graha.</strong> Nothing whatever reaches the first house.</p>
+    <p><strong>3. The lord.</strong> <strong>Budha</strong>, in the <strong>8th</strong> — a dusthana — in a neutral sign, <strong>combust at 9°00′</strong>, conjoined Surya and Shukra, <strong>unaspected</strong>. It also rules the 10th.</p>
+    <div class="callout big"><p><strong>The self is administered from the house of upheaval by a burnt graha.</strong> And because Budha rules both the 1st and the 10th, <strong>the identity and the career run through one compromised body.</strong></p></div>
+    <p><strong>4. Kāraka.</strong> Surya, <strong>exalted</strong>, Ishta 46.88 — the highest capacity in the chart — but it too sits in the 8th.</p>
+    <p><strong>5. Varga (D9).</strong> <strong>The D9 lagna is also Kanya — the ascendant is vargottama.</strong> Budha falls to the D9 11th in an enemy sign; Surya holds the D9 8th, still exalted.</p>
+    <p><strong>6. Planetary strength.</strong> Budha <strong>6.46 rupas against 7.00 required — ratio 0.92, rank 7 of 7. The only graha in the chart that fails its minimum.</strong></p>
+    <p><strong>7. Bhava strength.</strong> 8.39 rupas, <strong>rank 5 of 12</strong> — above the middle.</p>
+    <p><strong>8. Affliction.</strong> Empty and unaspected; lord combust in a dusthana.</p>
+    <p><strong>9. Dasha.</strong> Budha is activated at <strong>Rahu–Budha, Dec 2030 – Jun 2033</strong>.</p>
+    <p><strong>10. Ashtakavarga.</strong> Kanya <strong>29 bindus</strong> — well supported. The lord's sign Mesha, <strong>21 — the lowest in the chart.</strong></p>
+    <div class="callout big"><p><strong>The verdict is set at step 3 and nothing after moves it.</strong> The house is sound — rank 5, 29 bindus, a vargottama ascendant — and <strong>the graha responsible for it is the weakest thing he owns.</strong> A well-built room with a failing tenant.</p></div>
+  </section>
+</div>
+
+<div class="wrap">
+  <section>
+    <h2><span class="num">02</span> Tula · wealth, family, speech</h2>
+    <p><strong>1. Subject.</strong> Wealth held, family, speech, food.</p>
+    <p><strong>2. The bhava.</strong> Empty, but <strong>four grahas aspect it</strong> — Surya (7th), Budha (7th), Shukra (7th), Guru (5th). <strong>Three of the four are benefic.</strong></p>
+    <div class="callout big"><p><strong>This is the most attended empty house in the chart.</strong> Step 2 is not silent here, and that matters: of the eight empty houses, <strong>this is the only one receiving benefic aspect from more than one source.</strong></p></div>
+    <p><strong>3. The lord.</strong> <strong>Shukra</strong>, in the <strong>8th</strong>, neutral, unaspected, conjoined Surya and Budha. <strong>It also rules the 9th</strong> — one of Kanya's mirror pairs.</p>
+    <p><strong>4. Kāraka.</strong> Guru (10th, enemy, Ishta 37.30); Budha (8th, failing).</p>
+    <p><strong>5. Varga (D2 Hora).</strong> Shukra falls to the D2 12th in an enemy sign; <strong>Guru and Budha both land in the D2 lagna in a friendly sign.</strong></p>
+    <p><strong>6. Planetary strength.</strong> Shukra 1.21× its minimum, Guru 1.26×; Budha fails.</p>
+    <p><strong>7. Bhava strength.</strong> 9.18 rupas — <strong>rank 3 of 12.</strong></p>
+    <p><strong>8. Affliction.</strong> Lord in a dusthana. No other structural flag.</p>
+    <p><strong>9. Dasha.</strong> Shukra at <strong>Rahu–Shukra, Jul 2034 – Jul 2037</strong> — the period the existing reading calls the material peak. Guru now, to Jan 2028.</p>
+    <p><strong>10. Ashtakavarga.</strong> Tula 24; the lord's sign 21.</p>
+    <div class="callout big"><p><strong>Wealth is genuinely promised and it is held through upheaval.</strong> Rank 3 of 12 with three benefic aspects is a real endowment; a lord in the 8th is a real obstruction. <strong>Both are true and neither cancels the other</strong> — which is what the sequence is for, because a strength-first reading would have taken rank 3 and stopped.</p></div>
+  </section>
+</div>
+
+<div class="wrap">
+  <section>
+    <h2><span class="num">03</span> Vrischika · siblings, courage, effort</h2>
+    <p><strong>1. Subject.</strong> Younger siblings, courage, initiative, the hands.</p>
+    <p><strong>2. The bhava.</strong> <strong>Ketu occupies it</strong>, in the severest gandanta pada in the zodiac. Aspected by Chandra (7th), Mangal (7th) and Shani (7th) — <strong>one benefic against three malefic influences counting the occupant.</strong></p>
+    <p><strong>3. The lord.</strong> <strong>Mangal</strong>, in the <strong>9th — a trikona</strong> — neutral, conjoined Chandra, Shani and Rahu, unaspected. <strong>It also rules the 8th.</strong></p>
+    <p><strong>4. Kāraka.</strong> Mangal itself, so the lord and kāraka coincide — Ishta 19.66 against <strong>Kashta 38.87</strong>, one of the two most expensive grahas in the chart.</p>
+    <p><strong>5. Varga (D3 Drekkana).</strong> The D3 3rd is Karka and <strong>Ketu is there too</strong> — the node repeats itself in the siblings varga. Mangal holds the D3 lagna.</p>
+    <p><strong>6. Planetary strength.</strong> Mangal 1.27× its minimum, rank 3 — comfortably sufficient.</p>
+    <p><strong>7. Bhava strength.</strong> 7.49 rupas, rank 8 of 12.</p>
+    <p><strong>8. Affliction.</strong> Nothing structural beyond the malefic weight and the gandanta occupant.</p>
+    <p><strong>9. Dasha.</strong> <strong>Mangal's mahadasha is already lived — 2015 to 2022, ages 13.7 to 20.7.</strong> Its next window is Rahu–Mangal, Dec 2039 – Dec 2040.</p>
+    <p><strong>10. Ashtakavarga.</strong> Vrischika 28.</p>
+    <div class="callout big"><p><strong>A heavily trafficked house carrying a gandanta node, run by a graha that delivers moderately and charges heavily.</strong> The lord in a trikona is the redeeming fact and it is a real one. <strong>Note what step 9 adds that no other house gets: this department's period is in the past, not the future.</strong></p></div>
+  </section>
+</div>
+
+<div class="wrap">
+  <section>
+    <h2><span class="num">04</span> Dhanu · mother, home, land</h2>
+    <p><strong>1. Subject.</strong> Mother, dwelling, land, vehicles, inner ease.</p>
+    <p><strong>2. The bhava.</strong> Empty; aspected by <strong>Guru (7th)</strong> and Mangal (8th).</p>
+    <p><strong>3. The lord.</strong> <strong>Guru</strong>, in the <strong>10th — a kendra</strong> — but in an <strong>enemy sign</strong>, unaspected, alone. It also rules the 7th.</p>
+    <p><strong>4. Kāraka.</strong> <strong>Chandra, exalted in the 9th, Kashta 4.49 — the lowest cost of any graha in the chart.</strong> Mangal second kāraka, neutral in the 9th.</p>
+    <p><strong>5. Varga (D4).</strong> <strong>Guru occupies the D4's own 4th house.</strong> The lord of the 4th, in the 4th of the property varga.</p>
+    <p><strong>6. Planetary strength.</strong> All three pass — Guru 1.26×, Chandra 1.07×, Mangal 1.27×.</p>
+    <p><strong>7. Bhava strength.</strong> 9.28 rupas — <strong>rank 2 of 12.</strong></p>
+    <p><strong>8. Affliction.</strong> <strong>Nothing structural to flag</strong> — one of only three houses in the chart that returns a clean sheet at step 8, and the only one of the three that is also strong.</p>
+    <p><strong>9. Dasha.</strong> <strong>Guru runs now, to 31 January 2028</strong>, and again as mahadasha from Dec 2040. Chandra's mahadasha is lived (2005–2015).</p>
+    <p><strong>10. Ashtakavarga.</strong> Dhanu 29; the lord's sign Mithuna 29. <strong>Both well supported.</strong></p>
+    <div class="callout big"><p><strong>This is one of the two strongest departments in the chart, and the existing reading never said so in these terms.</strong> Rank 2 by Bhava Bala, benefic aspect, lord in a kendra and in its own 4th in the D4, kāraka exalted at the lowest cost in the chart, nothing to flag, and <strong>the lord's period is running right now.</strong></p><p>The single blemish is Guru's enemy sign. <strong>Everything else about the mother, the home and the land is well made.</strong></p></div>
+  </section>
+</div>
+
+<div class="wrap">
+  <section>
+    <h2><span class="num">05</span> Makara · children, intelligence, purva punya</h2>
+    <p><strong>1. Subject.</strong> Children, discernment, merit carried forward, mantra.</p>
+    <p><strong>2. The bhava.</strong> <strong>Empty, and no aspect from any graha.</strong> Silent.</p>
+    <p><strong>3. The lord.</strong> <strong>Shani</strong>, in the <strong>9th — a trikona</strong> — in a friendly sign, conjoined Chandra, Mangal and Rahu, unaspected. <strong>It also rules the 6th</strong> — and this is the trikona-plus-dusthana lordship the existing §36 prices as an unresolved dispute.</p>
+    <p><strong>4. Kāraka.</strong> Guru, in the 10th, enemy sign.</p>
+    <p><strong>5. Varga (D7).</strong> <strong>The D7 5th is Makara and it is empty too.</strong> Shani falls to the D7 7th; Guru to the D7 lagna in an enemy sign.</p>
+    <p><strong>6. Planetary strength.</strong> Shani 1.28× — <strong>the best ratio in the chart after Surya</strong> — and Guru 1.26×. Both sufficient.</p>
+    <p><strong>7. Bhava strength.</strong> 7.91 rupas, rank 6 of 12.</p>
+    <p><strong>8. Affliction.</strong> Empty and unaspected. Nothing else.</p>
+    <p><strong>9. Dasha.</strong> <strong>Rahu–Shani, Jan 2028 – Dec 2030.</strong></p>
+    <p><strong>10. Ashtakavarga.</strong> Makara 29 — well supported.</p>
+    <div class="callout big"><p><strong>Silent in the D1, silent in the D7, and administered by a graha whose nature is itself disputed.</strong> The strength numbers are good and the house is supported at 29 bindus, but <strong>nothing occupies or aspects this bhava in either chart</strong>, and its lord's other lordship is the 6th.</p><p><strong>The honest reading is deferral rather than denial</strong> — and the one period that activates it is dated: <strong>January 2028 to December 2030.</strong></p></div>
+  </section>
+</div>
+
+<div class="wrap">
+  <section>
+    <h2><span class="num">06</span> Kumbha · enemies, disease, service, competition</h2>
+    <p><strong>1. Subject.</strong> Opposition, illness, debt, employment, contest.</p>
+    <p><strong>2. The bhava.</strong> Empty; aspected by <strong>Guru (9th)</strong> and <strong>Shani (10th)</strong> — one benefic, one malefic.</p>
+    <p><strong>3. The lord.</strong> <strong>Shani</strong>, in the 9th, friendly sign, unaspected, <strong>also lord of the 5th.</strong></p>
+    <p><strong>4. Kāraka.</strong> Mangal and Shani, <strong>both in the 9th</strong> — and Shani carries <strong>Kashta 46.83, the highest cost in the chart.</strong></p>
+    <p><strong>5. Varga (D30).</strong> The D30 6th is Mesha and <strong>Surya occupies it.</strong></p>
+    <p><strong>6. Planetary strength.</strong> Shani 1.28×, Mangal 1.27× — both strong.</p>
+    <p><strong>7. Bhava strength.</strong> 7.21 rupas, <strong>rank 10 of 12.</strong></p>
+    <p><strong>8. Affliction.</strong> Nothing structural.</p>
+    <p><strong>9. Dasha.</strong> <strong>Rahu–Shani, Jan 2028 – Dec 2030</strong>; Shani's own mahadasha from Dec 2056. Mangal's mahadasha is already lived.</p>
+    <p><strong>10. Ashtakavarga.</strong> <strong>Kumbha 41 bindus — the highest of any sign in this chart.</strong></p>
+    <div class="callout big"><p><strong>And here two measures disagree sharply, which is exactly why the sequence keeps them apart.</strong> The 6th is <strong>rank 10 of 12 by Bhava Bala</strong> and carries <strong>the chart's highest Ashtakavarga support.</strong></p><p><strong>The house is weakly built and heavily supported.</strong> Read as it should be — Ashtakavarga last, and for transits — that means: <strong>he wins contests he should not comfortably win, and the winning costs him</strong>, since both kārakas are the two most expensive grahas he owns.</p></div>
+  </section>
+</div>
+
+<div class="wrap">
+  <section>
+    <h2><span class="num">07</span> Meena · spouse, partnership</h2>
+    <p><strong>1. Subject.</strong> Spouse, the other, contract.</p>
+    <p><strong>2. The bhava.</strong> <strong>Empty, and no aspect from any graha.</strong> The second of the three wholly untouched houses.</p>
+    <p><strong>3. The lord.</strong> <strong>Guru</strong>, in the <strong>10th — a kendra</strong> — enemy sign, unaspected, alone. It also rules the 4th. <strong>Guru is additionally the badhakesh for a dual lagna, and carries kendradhipati dosha.</strong></p>
+    <p><strong>4. Kāraka.</strong> <strong>Shukra, Ishta 47.49 — the highest deliverer in the chart</strong> — but placed in the 8th.</p>
+    <p><strong>5. Varga (D9 — the marriage varga, and here it speaks).</strong> <strong>The D9 7th is Meena and it holds Mangal <em>and</em> Ketu.</strong> Guru falls to the D9 6th; Shukra to the D9 3rd.</p>
+    <div class="callout big"><p><strong>The natal 7th is untouched and the navamsa 7th carries two malefics.</strong> Step 2 was silent and step 5 was not. <strong>This is the one house in the chart where the varga does the work the bhava could not.</strong></p></div>
+    <p><strong>6. Planetary strength.</strong> Guru 1.26×, Shukra 1.21× — both sufficient.</p>
+    <p><strong>7. Bhava strength.</strong> 8.86 rupas — <strong>rank 4 of 12.</strong></p>
+    <p><strong>8. Affliction.</strong> Empty and unaspected in the D1; two malefics in the D9 7th; lord in an enemy sign carrying two disputed doshas.</p>
+    <p><strong>9. Dasha.</strong> <strong>Rahu–Guru now, to 31 January 2028</strong> — the marriage window the existing reading dates. Shukra follows at Jul 2034.</p>
+    <p><strong>10. Ashtakavarga.</strong> Meena 33 — the second-highest in the chart.</p>
+    <div class="callout big"><p><strong>Structurally strong and specifically afflicted.</strong> Rank 4, 33 bindus, a kendra lord and the best kāraka in the chart — against an untouched natal house, two malefics in the navamsa seventh, and a lord that is badhakesh.</p><p><strong>The sequence produces a sharper statement than the existing reading did: the marriage is well endowed and the difficulty is located precisely — in the navamsa, not the rashi.</strong></p></div>
+  </section>
+</div>
+
+<div class="wrap">
+  <section>
+    <h2><span class="num">08</span> Mesha · upheaval, longevity, the hidden</h2>
+    <p><strong>1. Subject.</strong> Upheaval, the hidden, inheritance, the manner of endings.</p>
+    <p><strong>2. The bhava.</strong> <strong>Surya, Budha and Shukra occupy it. And it receives no aspect from any graha.</strong> Three grahas sealed in.</p>
+    <p><strong>3. The lord.</strong> <strong>Mangal</strong>, in the 9th, neutral, conjoined Chandra, Shani and Rahu, unaspected. It also rules the 3rd.</p>
+    <p><strong>4. Kāraka.</strong> Shani, in the 9th, friend — Kashta 46.83.</p>
+    <p><strong>5. Varga (D30).</strong> The D30 8th is Mithuna, holding Shukra. Mangal falls to the D30 11th in an enemy sign.</p>
+    <p><strong>6. Planetary strength.</strong> Mangal 1.27×, Shani 1.28× — both sufficient.</p>
+    <p><strong>7. Bhava strength.</strong> 7.00 rupas — <strong>rank 12 of 12. The weakest bhava in the chart.</strong></p>
+    <p><strong>8. Affliction.</strong> Receives no aspect at all.</p>
+    <p><strong>9. Dasha.</strong> Mangal's mahadasha is lived. Shani runs Jan 2028 – Dec 2030.</p>
+    <p><strong>10. Ashtakavarga.</strong> <strong>Mesha 21 — the lowest SAV in the chart.</strong></p>
+    <div class="callout big"><p><strong>Three grahas — including the lords of the 1st, 2nd, 9th, 10th and 12th — stand in the weakest bhava the chart owns, on its lowest bindu count, reached by nothing.</strong></p><p>This is the structural centre of the nativity and it is also its poorest ground. <strong>Every judgment in this document that ends "through upheaval" ends there because of this house</strong>, and the sequence reaches it as a fact about the 8th rather than as an interpretation imposed on the others.</p></div>
+  </section>
+</div>
+
+<div class="wrap">
+  <section>
+    <h2><span class="num">09</span> Vrishabha · fortune, father, dharma</h2>
+    <p><strong>1. Subject.</strong> Fortune, the father, dharma, the teacher.</p>
+    <p><strong>2. The bhava.</strong> <strong>Chandra, Mangal, Shani and Rahu occupy it — four grahas, more than any other house. And it receives no aspect from any graha.</strong></p>
+    <p><strong>3. The lord.</strong> <strong>Shukra</strong>, in the <strong>8th</strong>, neutral, unaspected, conjoined Surya and Budha. <strong>It also rules the 2nd.</strong></p>
+    <p><strong>4. Kāraka.</strong> <strong>Surya, exalted</strong>, in the 8th (Ishta 46.88); <strong>Guru</strong>, in the 10th, enemy sign.</p>
+    <p><strong>5. Varga (D9).</strong> <strong>The D9 9th is Vrishabha and it is empty.</strong> Shukra falls to the D9 3rd; Surya holds the D9 8th, exalted; Guru the D9 6th.</p>
+    <p><strong>6. Planetary strength.</strong> All three pass — Surya at <strong>2.28×, the strongest ratio in the chart.</strong></p>
+    <p><strong>7. Bhava strength.</strong> 7.61 rupas, rank 7 of 12.</p>
+    <p><strong>8. Affliction.</strong> No aspect at all; lord in a dusthana.</p>
+    <p><strong>9. Dasha.</strong> Shukra at Jul 2034; Surya at Jul 2037; <strong>Guru now.</strong></p>
+    <p><strong>10. Ashtakavarga.</strong> <strong>Vrishabha 22 — the second-lowest in the chart.</strong></p>
+    <div class="callout big"><p><strong>The most crowded house in the chart is also its second-weakest by Ashtakavarga, and nothing aspects it.</strong> Four grahas including an exalted Moon, standing on thin ground, unreached.</p><p><strong>The fortune is real and it is not supported</strong> — and its lord has been displaced into the 8th, which is where the raja yoga with the 10th lord forms. <strong>Fortune in this chart is inseparable from upheaval by construction, not by interpretation.</strong></p></div>
+  </section>
+</div>
+
+<div class="wrap">
+  <section>
+    <h2><span class="num">10</span> Mithuna · profession, authority, status</h2>
+    <p><strong>1. Subject.</strong> Profession, authority, standing, action in the world.</p>
+    <p><strong>2. The bhava.</strong> <strong>Guru occupies it, alone. It receives no aspect from any graha</strong> — a benefic sealed in with no help and no harm.</p>
+    <p><strong>3. The lord.</strong> <strong>Budha</strong>, in the <strong>8th</strong>, neutral, <strong>combust at 9°00′</strong>, conjoined Surya and Shukra, unaspected. <strong>It is also the lagna lord.</strong></p>
+    <div class="callout big"><p><strong>One counterweight and it is real:</strong> Budha stands with <strong>Shukra, the 9th lord</strong> — the <strong>Dharma-Karmadhipati yoga</strong>, the strongest raja yoga in Parāśari astrology. <strong>It forms in the 8th house.</strong></p></div>
+    <p><strong>4. Kāraka.</strong> Four of them, and they split — Surya exalted but in the 8th ruling the 12th; Guru present but in an enemy sign; Budha burnt; <strong>Shani with the lowest Ishta in the chart.</strong></p>
+    <p><strong>5. Varga (D10).</strong> Budha falls to the <strong>D10 6th in an enemy sign</strong>; Guru to the <strong>D10 9th, also enemy</strong>. <strong>The D10 is harsher on the career lord than the D1 is.</strong> Its one favourable fact: <strong>Shukra occupies the D10's own 10th house.</strong></p>
+    <p><strong>6. Planetary strength.</strong> <strong>Budha fails — 0.92, rank 7 of 7.</strong></p>
+    <p><strong>7. Bhava strength.</strong> 7.39 rupas, rank 9 of 12.</p>
+    <p><strong>8. Affliction.</strong> No aspect; lord combust in a dusthana; benefic influence only; Guru carrying kendradhipati dosha; Amala yoga present and qualified six ways.</p>
+    <p><strong>9. Dasha.</strong> <strong>Rahu–Guru now to Jan 2028</strong> — the 10th-house occupant. <strong>Rahu–Budha, Dec 2030 – Jun 2033 — the career lord itself</strong>, arriving as the weakest graha in the chart.</p>
+    <p><strong>10. Ashtakavarga.</strong> Mithuna 29 — well supported; the lord's sign 21.</p>
+    <div class="callout big"><p><strong>Real promise, damaged channel, delivery only through upheaval.</strong> Set at step 3 and unmoved by the seven steps after it.</p></div>
+  </section>
+</div>
+
+<div class="wrap">
+  <section>
+    <h2><span class="num">11</span> Karka · gains, income, networks</h2>
+    <p><strong>1. Subject.</strong> Gains, income, elder siblings, the wider circle.</p>
+    <p><strong>2. The bhava.</strong> Empty; aspected <strong>only by Shani (3rd) — malefic influence and nothing else.</strong></p>
+    <p><strong>3. The lord.</strong> <strong>Chandra — exalted</strong> — in the 9th, conjoined Mangal, Shani and Rahu, unaspected. <strong>It rules nothing else.</strong></p>
+    <div class="callout big"><p><strong>This is the only house in the chart whose lord is exalted and whose lord has no second lordship to divide it.</strong></p></div>
+    <p><strong>4. Kāraka.</strong> Guru, in the 10th, enemy sign.</p>
+    <p><strong>5. Varga (D11).</strong> The D11 11th is Karka and holds <strong>Budha and Guru</strong> — and <strong>Guru is exalted there.</strong> <em>(D11 is outside Parashara's sixteen; its construction was reverse-engineered from the supplied chart and reproduces it 10 of 10.)</em></p>
+    <p><strong>6. Planetary strength.</strong> Chandra 1.07× — sufficient but the second-narrowest margin in the chart. Guru 1.26×.</p>
+    <p><strong>7. Bhava strength.</strong> 7.08 rupas — <strong>rank 11 of 12.</strong></p>
+    <p><strong>8. Affliction.</strong> <strong>Lord exalted; malefic influence only.</strong></p>
+    <p><strong>9. Dasha.</strong> Chandra's mahadasha is lived (2005–2015); its next window is <strong>Rahu–Chandra, Jun 2038 – Dec 2039.</strong></p>
+    <p><strong>10. Ashtakavarga.</strong> Karka 28.</p>
+    <div class="callout big"><p><strong>The sharpest disagreement between steps in the whole document.</strong> Step 3 gives an <strong>exalted, undivided lord</strong>. Step 7 gives <strong>rank 11 of 12.</strong> Step 8 gives <strong>malefic aspect and nothing else.</strong></p><p><strong>Income is not the weak channel it looks like from the house, and it is not the strong channel it looks like from the lord.</strong> The existing reading reached this by overturning itself across two sections; <strong>the sequence produces it in one pass, because it never let Bhava Bala speak before the lord had.</strong></p></div>
+  </section>
+</div>
+
+<div class="wrap">
+  <section>
+    <h2><span class="num">12</span> Simha · loss, expenditure, foreign lands, moksha</h2>
+    <p><strong>1. Subject.</strong> Loss, expenditure, distant places, the bed, release.</p>
+    <p><strong>2. The bhava.</strong> Empty; aspected <strong>only by Mangal (4th) — malefic and nothing else.</strong></p>
+    <p><strong>3. The lord.</strong> <strong>Surya — exalted</strong> — in the 8th, conjoined Budha and Shukra, unaspected. <strong>It rules nothing else.</strong></p>
+    <p><strong>4. Kāraka.</strong> Shani (9th, friend); Ketu (3rd, gandanta).</p>
+    <p><strong>5. Varga (D12).</strong> <strong>Surya holds the D12 9th, still exalted.</strong> The D12 12th is Karka, holding Mangal.</p>
+    <p><strong>6. Planetary strength.</strong> Surya <strong>2.28× — the strongest in the chart.</strong> Shani 1.28×.</p>
+    <p><strong>7. Bhava strength.</strong> <strong>12.59 rupas — rank 1 of 12. The strongest bhava in the chart, by a margin of 3.31 rupas over the second.</strong></p>
+    <p><strong>8. Affliction.</strong> Lord in a dusthana; lord exalted; malefic influence only.</p>
+    <p><strong>9. Dasha.</strong> Surya's mahadasha is lived; <strong>Rahu–Ketu, Jun 2033 – Jul 2034</strong>; Rahu–Surya, Jul 2037 – Jun 2038.</p>
+    <p><strong>10. Ashtakavarga.</strong> Simha 24.</p>
+    <div class="callout big"><p><strong>The best-made department in this chart is the twelfth.</strong> Strongest bhava, exalted and undivided lord, exalted again in the D12, the chart's strongest graha responsible for it.</p><p><strong>Loss, expenditure, foreign residence, retreat and release are the things this nativity is built to do well.</strong> Read in sequence that is not a paradox and not a consolation — it is simply what the twelve workups return when they are ranked.</p></div>
+  </section>
+</div>
+
+<div class="wrap">
+  <section>
+    <h2>The cross-bhava picture</h2>
+    <p>Facts that appear only when all twelve are done in order.</p>
+    <h3>Step 2 is usually silent</h3>
+    <div class="scroll">
+<table>
+<thead><tr><th>houses with <strong>no occupant</strong></th><th>1, 2, 4, 5, 6, 7, 11, 12 — <strong>eight</strong></th></tr></thead>
+<tbody>
+<tr><td>houses receiving <strong>no aspect</strong></td><td>1, 5, 7, 8, 9, 10 — <strong>six</strong></td></tr>
+<tr><td>houses with <strong>neither</strong></td><td class="n"><strong>1, 5, 7</strong></td></tr>
+</tbody>
+</table>
+</div>
+    <div class="callout big"><p><strong>The three wholly untouched houses are the self, the children and the spouse</strong> — the three most personal departments in the chart.</p></div>
+    <p>For eight of twelve houses the bhava itself returns almost nothing and the judgment falls entirely to the lord. <strong>The classical sequence puts the bhava first for good reason; in a chart this concentrated, the bhava is usually silent and the lord does the speaking.</strong></p>
+    <h3>Every house in this chart is administered from three houses</h3>
+    <div class="scroll">
+<table>
+<thead><tr><th>Lords sitting in</th><th>Govern the houses</th></tr></thead>
+<tbody>
+<tr><td class="n"><strong>the 8th</strong></td><td class="n">1, 2, 9, 10, 12</td></tr>
+<tr><td class="n"><strong>the 9th</strong></td><td class="n">3, 5, 6, 8, 11</td></tr>
+<tr><td class="n"><strong>the 10th</strong></td><td class="n">4, 7</td></tr>
+</tbody>
+</table>
+</div>
+    <div class="callout big"><p><strong>The lords of all twelve bhavas stand in three adjacent houses.</strong> Whatever the subject — mother, children, spouse, wealth, enemies, loss — <strong>the graha responsible for it is standing in the 8th, the 9th or the 10th</strong>, two of which are the stellium and one of which is sealed.</p></div>
+    <p>That single fact is why nearly every verdict above contains the same clause. <strong>It is not a theme imposed on the reading. It is the administrative structure of the chart.</strong></p>
+    <h3>The houses ranked, as the sequence leaves them</h3>
+    <div class="scroll">
+<table>
+<thead><tr><th>Rank</th><th>Bhava</th><th>Bhava Bala</th><th>Lord's condition</th><th>Verdict from the sequence</th></tr></thead>
+<tbody>
+<tr><td class="n">1</td><td class="n"><strong>12th</strong></td><td class="n">12.59</td><td class="n"><strong>exalted, undivided</strong></td><td>best-made department in the chart</td></tr>
+<tr><td class="n">2</td><td class="n"><strong>4th</strong></td><td class="n">9.28</td><td class="n">kendra, enemy sign</td><td>strong and clean — nothing to flag</td></tr>
+<tr><td class="n">3</td><td class="n"><strong>2nd</strong></td><td class="n">9.18</td><td class="n">8th house</td><td>promised, held through upheaval</td></tr>
+<tr><td class="n">4</td><td class="n"><strong>7th</strong></td><td class="n">8.86</td><td class="n">kendra, badhakesh</td><td>endowed; afflicted <strong>in the navamsa</strong></td></tr>
+<tr><td class="n">5</td><td class="n"><strong>1st</strong></td><td class="n">8.39</td><td><strong>combust, fails Shadbala</strong></td><td>sound room, failing tenant</td></tr>
+<tr><td class="n">6</td><td class="n">5th</td><td class="n">7.91</td><td class="n">trikona, dual lordship</td><td>silent in D1 <em>and</em> D7 — deferred</td></tr>
+<tr><td class="n">7</td><td class="n">9th</td><td class="n">7.61</td><td class="n">8th house</td><td>fortune real, unsupported, unreached</td></tr>
+<tr><td class="n">8</td><td class="n">3rd</td><td class="n">7.49</td><td class="n">trikona</td><td>trafficked, malefic, gandanta node</td></tr>
+<tr><td class="n">9</td><td class="n"><strong>10th</strong></td><td class="n">7.39</td><td><strong>combust, fails Shadbala</strong></td><td>promise real, channel damaged</td></tr>
+<tr><td class="n">10</td><td class="n">6th</td><td class="n">7.21</td><td class="n">trikona</td><td>weak house, <strong>highest bindus (41)</strong></td></tr>
+<tr><td class="n">11</td><td class="n">11th</td><td class="n">7.08</td><td class="n"><strong>exalted, undivided</strong></td><td>lord and house flatly disagree</td></tr>
+<tr><td class="n">12</td><td class="n"><strong>8th</strong></td><td class="n">7.00</td><td class="n">trikona</td><td>weakest bhava, <strong>lowest bindus (21)</strong>, three occupants</td></tr>
+</tbody>
+</table>
+</div>
+  </section>
+</div>
+
+<div class="wrap">
+  <section>
+    <h2>The synthesis, in the sequence's own terms</h2>
+    <p><strong>What is promised</strong> — from the bhavas. A chart whose strongest departments are the <strong>12th, the 4th and the 2nd</strong>: release, the mother and the home, and wealth held. Whose weakest are the <strong>8th, the 11th and the 6th</strong>. And whose <strong>self, children and spouse are untouched by any graha at all.</strong></p>
+    <p><strong>Who delivers it</strong> — from the lords and kārakas. <strong>Shukra</strong> (Ishta 47.49) and <strong>Surya</strong> (46.88) are the two real deliverers, and <strong>both stand in the 8th.</strong> <strong>Budha</strong>, which rules the self and the career, is the one graha in the chart that fails its own minimum. <strong>Chandra and Surya are the only exalted, undivided lords, and they hold the 11th and the 12th.</strong></p>
+    <p><strong>How strong</strong> — dignity, Shadbala, Bhava Bala, varga, taken in that order and not before their turn. Six of seven grahas pass Shadbala comfortably; the seventh runs the identity and the profession. The vargas <strong>corroborate rather than rescue</strong> — the D10 is harsher than the D1, the D7 repeats the D1's silence, and only the <strong>D9 adds new information</strong>, by putting two malefics in the seventh house of a marriage the rashi chart left untouched.</p>
+    <p><strong>When</strong> — and only now.</p>
+    <div class="scroll">
+<table>
+<thead><tr><th><strong>to 31 Jan 2028</strong></th><th><strong>Rahu–Guru</strong> — lord of the 4th and 7th, occupant of the 10th. Home, marriage and standing all activated together</th></tr></thead>
+<tbody>
+<tr><td class="n"><strong>Jan 2028 – Dec 2030</strong></td><td><strong>Rahu–Shani</strong> — lord of the 5th and 6th. Children and contest; the foundation period</td></tr>
+<tr><td class="n"><strong>Dec 2030 – Jun 2033</strong></td><td><strong>Rahu–Budha</strong> — lord of the 1st and 10th, <strong>the failing graha</strong>. Identity and career, run by the weakest body in the chart</td></tr>
+<tr><td class="n">Jun 2033 – Jul 2034</td><td>Rahu–Ketu — the 12th's second kāraka</td></tr>
+<tr><td class="n"><strong>Jul 2034 – Jul 2037</strong></td><td><strong>Rahu–Shukra</strong> — lord of the 2nd and 9th, <strong>highest Ishta</strong>. Wealth and fortune</td></tr>
+<tr><td class="n">Jul 2037 – Jun 2038</td><td>Rahu–Surya — lord of the 12th, exalted</td></tr>
+</tbody>
+</table>
+</div>
+    <p><strong>How transit modifies it</strong> — Ashtakavarga, last and for transits only. Kumbha <strong>41</strong>, the 6th house, is the best-supported sign he owns; Mesha <strong>21</strong>, the 8th, the worst — and <strong>five house-lords stand in that 21-bindu sign.</strong></p>
+  </section>
+</div>
+
+<div class="wrap">
+  <section>
+    <h2>What this rebuild changed, and what it did not</h2>
+    <p><strong>It changed no computed fact.</strong> Every longitude, dignity, strength figure, dasha boundary and bindu count is identical to the existing reading; they come from the same verified ephemeris and the same supplied tables.</p>
+    <p><strong>It changed the order, and the order changed three things.</strong></p>
+    <ol><li><strong>The 4th house.</strong> Read in sequence it comes out <strong>rank 2, clean at step 8, lord in a kendra and in its own 4th in the D4, kāraka exalted at the lowest cost in the chart, and its lord's period running now.</strong> The existing reading never assembled those facts in one place, because it never judged the 4th as a bhava — it met the 4th's components scattered across sections on avastha, vargas and the un-asked questions.</li></ol>
+    <ol><li><strong>The 11th.</strong> The existing reading said income was the weak channel, then overturned itself when asked to look at placement alone. <strong>The sequence reaches the correct answer in one pass</strong> — because step 3 (exalted, undivided lord) comes before step 7 (rank 11 of 12), and the strength number is never allowed to speak first.</li></ol>
+    <ol><li><strong>The 7th.</strong> The rashi seventh is untouched and step 2 returns nothing; the <strong>D9 seventh holds Mangal and Ketu.</strong> Putting the varga at step 5 rather than early makes this a <em>specific located affliction</em> instead of a general unease.</li></ol>
+    <p><strong>And it exposed one thing no single-house reading could.</strong> All twelve lords stand in three adjacent houses, eight bhavas are empty, and three — self, children, spouse — are untouched entirely. <strong>The chart is not twelve departments. It is three rooms administering twelve.</strong></p>
+    <p><em>Computed by <code>verify_krama_all.py</code> from the verified birth moment; strength figures from the supplied Shadbala, Bhava Bala and Ashtakavarga tables, all independently reproduced by <code>verify_bala.py</code>. The 63-section reading remains in <code>vedic-chart-analysis.md</code> — it holds the derivations, the alternative methods and the record of every correction this analysis has had to make. This document is that material re-judged in classical order, not a replacement for it.</em></p>
+    <p class="pull">The chart is not twelve departments.<br>It is three rooms administering twelve.</p>
+
+    <footer>
+      Every house judged in the Par&#257;&#347;ari sequence: subject, bhava, bhava lord, natural k&#257;raka, relevant varga, planetary strength, bhava strength, affliction and yoga, dasha, and ashtakavarga last. Computed by <code>verify_krama_all.py</code> from the verified birth moment; strength figures from the supplied Shadbala, Bhava Bala and Ashtakavarga tables, independently reproduced by <code>verify_bala.py</code>. No technique carries a percentage weight. The 63-section reading in <code>vedic-chart-analysis.md</code> holds the derivations, the alternative methods and the record of every correction; this is that material re-judged in order, not a replacement for it.
+    </footer>
+  </section>
+</div>

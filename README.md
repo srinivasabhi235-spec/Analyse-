@@ -28,6 +28,8 @@ useful conclusions in the document were hiding in it.
 
 | File | What it is |
 |---|---|
+| [`bhava-krama.md`](bhava-krama.md) | **The reading rebuilt in classical order** — all twelve bhavas judged through the Parāśari ten-step sequence, no technique given a percentage weight and none allowed to speak before its turn |
+| [`bhava-krama.html`](bhava-krama.html) | The same, as a formatted page |
 | [`vedic-chart-analysis.md`](vedic-chart-analysis.md) | **The reading** — concepts, the questions asked, the questions not asked |
 | [`chart-reading.html`](chart-reading.html) | The same reading as a formatted page, generated from the markdown |
 | [`ephem_core.py`](ephem_core.py) | Shared Swiss Ephemeris engine — birth moment, positions, rise/set, and the varga rules for all 28 schemes |
@@ -46,6 +48,7 @@ useful conclusions in the document were hiding in it.
 | [`verify_pastfuture.py`](verify_pastfuture.py) | Past against future in detail — how the outputs differ across eight dimensions, including a weighting reversal the script reports rather than hides |
 | [`verify_titlesweep.py`](verify_titlesweep.py) | The whole reading swept against Parashara's chapter titles as a checklist — and Yogini dasha computed as an independent second timeline, which confirms the December 2030 hinge to within eighteen days |
 | [`verify_rahutransit.py`](verify_rahutransit.py) | Tests the claim that Rahu through Dhanishtha matters because it touches the D10 ascendant — computes the two windows and their real end dates, maps the transit into the D10 properly, and finds the reason the claim should have given |
+| [`verify_krama_all.py`](verify_krama_all.py) | Runs the classical ten-step bhava sequence on all twelve houses and produces the full computed workup `bhava-krama.md` is written from — plus the cross-bhava facts only a complete pass exposes: eight empty bhavas, three untouched entirely, and all twelve house lords standing in three adjacent houses |
 | [`verify_bhavakrama.py`](verify_bhavakrama.py) | Runs the classical bhava-judgment sequence in strict order on the 10th house — subject, bhava, bhava lord, karaka, varga, planetary strength, bhava strength, yogas, dasha, Ashtakavarga — recording the running verdict after each step to test whether the reading's career conclusions depend on the order its evidence was gathered in |
 | [`verify_vol1.py`](verify_vol1.py) | Works the BPHS chapters 1–45 contents page — maps all nineteen foundational technique families to chapters, checks the sixteen divisions the reading built against the sixteen chapter 6 names, shows chapter 28 makes the chapter-73 ray scaling testable against supplied data, sweeps all sixty-one yogas in chapters 35–38, and finds Kanya to be the only lagna of twelve with a fully mirror-symmetric lordship map |
 | [`verify_foundation.py`](verify_foundation.py) | Prices the eight school-dependent rules that live in the forty-one BPHS chapters no contents page covers — finds that six Shodashavarga members carry the same disputed starting-sign defect section 12 declined six other vargas for, bounds Vimshopaka Bala exactly under every possible rule, and shows all six adjacencies in the strength order are reversible |
@@ -103,7 +106,7 @@ python3 verify_audit.py           # 53/53 pass
 for f in verify_*.py; do python3 "$f"; done
 ```
 
-Every script runs clean. Fifty-three scripts, one document, no drift.
+Every script runs clean. Fifty-four scripts, no drift.
 
 | Check | Result |
 |---|---|
