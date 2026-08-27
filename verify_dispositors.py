@@ -186,3 +186,101 @@ print('  the visible situation and the actual result never have the same')
 print('  owner.  He is always doing the work in one place and being paid')
 print('  from another -- which is exactly what "visibility lags ability" is,')
 print('  stated at the level of dispositorship rather than of Dig Bala.')
+
+# ===========================================================================
+# ADDED LATER: THE D1 CHAIN'S STRUCTURE, MEASURED RATHER THAN ASSERTED.
+#
+# The section above establishes that every graha in the rashi chart funnels
+# into the Mangal-Shukra exchange.  It never asked HOW UNUSUAL THAT IS, and
+# section 6 learned the hard way -- with the 9-of-9 nakshatra mismatch -- that
+# a striking-looking structural fact can turn out to be the default condition.
+#
+# So the same null model section 46 uses is applied here.
+# ===========================================================================
+import random
+from ephem_core import SIGNS as _S, SUPPLIED as _P, LORD as _L, sign_of as _sg
+
+_G7 = ['Surya', 'Chandra', 'Mangal', 'Budha', 'Guru', 'Shukra', 'Shani']
+
+
+def _analyse(pos):
+    """pos: graha -> sign index.  Returns (set of attractor cycles, max depth)."""
+    disp = {g: _L[pos[g]] for g in _G7}
+    loops, depth = set(), 0
+    for g in _G7:
+        path, cur = [], g
+        while cur not in path:
+            path.append(cur)
+            cur = disp[cur]
+        loops.add(frozenset(path[path.index(cur):]))
+        depth = max(depth, path.index(cur))
+    return loops, depth
+
+
+print('\n' + '=' * 74)
+print('  THE D1 DISPOSITOR STRUCTURE, MEASURED')
+print('=' * 74)
+_pos = {g: _sg(_P[g]) for g in _G7}
+_loops, _depth = _analyse(_pos)
+_own = sum(1 for g in _G7 if _L[_pos[g]] == g)
+print(f"""
+  THIS CHART
+      attractors            {len(_loops)}  -- {sorted(next(iter(_loops)))}
+      its size              {len(next(iter(_loops)))}-cycle, i.e. a PARIVARTANA
+      grahas in own sign    {_own}
+      max depth to the loop {_depth}   (Guru -> Budha -> Mangal <-> Shukra)
+""")
+random.seed(20260812)
+N = 200_000
+one, own0, one2, dep = 0, 0, 0, {}
+for _ in range(N):
+    su = random.uniform(0, 360)
+    p = {'Surya': su, 'Budha': (su + random.uniform(-28, 28)) % 360,
+         'Shukra': (su + random.uniform(-47, 47)) % 360,
+         'Chandra': random.uniform(0, 360), 'Mangal': random.uniform(0, 360),
+         'Guru': random.uniform(0, 360), 'Shani': random.uniform(0, 360)}
+    pp = {g: int(p[g] // 30) for g in _G7}
+    l, d = _analyse(pp)
+    dep[d] = dep.get(d, 0) + 1
+    if len(l) == 1:
+        one += 1
+        if len(next(iter(l))) == 2:
+            one2 += 1
+    if not any(_L[pp[g]] == g for g in _G7):
+        own0 += 1
+print(f"""  OVER {N:,} RANDOM CHARTS, SAME NULL MODEL AS SECTION 46
+
+      a SINGLE attractor                    {one/N*100:5.2f}%
+      NO graha in its own sign              {own0/N*100:5.2f}%
+      a single attractor that is a 2-CYCLE  {one2/N*100:5.2f}%
+      max depth exactly {_depth}                   {dep[_depth]/N*100:5.2f}%   (the commonest depth)
+
+  AND THE VERDICT IS THE SAME LESSON SECTION 6 ALREADY LEARNED ONCE.
+
+  NOTHING ABOUT THIS CHAIN'S SHAPE IS RARE.  Half of all charts funnel into a
+  single attractor.  A third have no graha in its own sign.  Even the sharpest
+  version -- a lone attractor that is a mutual exchange -- is one chart in six,
+  and the depth is the single commonest value.
+
+  IF THE DISPOSITOR CHAIN WERE PRESENTED AS A SIGNATURE OF THIS NATIVITY, THAT
+  WOULD BE THE SAME OVERSELL THE 9-OF-9 MISMATCH TURNED OUT TO BE.
+
+  WHAT SURVIVES IS WHAT SECTION 6 ALREADY SAID, AND IT SURVIVES INTACT: the
+  distinguishing fact is not THAT there is one attractor but WHICH GRAHAS IT
+  RUNS THROUGH.
+""")
+_h = lambda g: [i + 1 for i in range(12) if _L[(_sg(_P['Lagna']) + i) % 12] == g]
+print(f"""      Mangal rules houses {_h('Mangal')}
+      Shukra rules houses {_h('Shukra')}
+      and seven of nine grahas stand in the 8TH AND THE 9TH
+
+  SO THE SOLE ATTRACTOR OF THE ENTIRE RASHI CHART IS THE 8TH LORD IN MUTUAL
+  EXCHANGE WITH THE 9TH LORD -- and those are precisely the two houses holding
+  the stellium.
+
+  EVERY GRAHA HE OWNS ULTIMATELY ANSWERS TO THE PAIR THAT OWNS THE CROWD.  That
+  is structural rather than statistical, it does not depend on being rare, and
+  it is the technical statement of why the 8th/9th axis governs this reading
+  from end to end.
+""")
+print('=' * 74)

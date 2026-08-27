@@ -518,6 +518,44 @@ Chandra → Shukra ⇄ Mangal        Shani → Shukra ⇄ Mangal
 Budha → Mangal ⇄ Shukra          Shukra ⇄ Mangal
 ```
 
+#### And the D1 chain's shape, measured
+
+§6 learned once already — with the 9-of-9 mismatch — that a striking-looking
+structural fact can turn out to be the default condition. **So the same null
+model §46 uses was applied to the rashi chain itself:**
+
+| | This chart | Over 200,000 random charts |
+|---|---|---|
+| attractors | **1** — Mangal ⇄ Shukra | a single attractor: **47.93%** |
+| grahas in own sign | **0** | none in own sign: **34.42%** |
+| the attractor's size | **2-cycle — a parivartana** | sole attractor a 2-cycle: **16.07%** |
+| max depth to the loop | **2** *(Guru → Budha → Mangal ⇄ Shukra)* | depth exactly 2: **40.24%** — the commonest value |
+
+> **Nothing about this chain's shape is rare.** Half of all charts funnel into a
+> single attractor; a third have no graha in its own sign; even the sharpest
+> version — a lone attractor that is a mutual exchange — is one chart in six.
+> **Presenting the chain as a signature would repeat the 9-of-9 oversell
+> exactly.**
+
+**What survives is what this section already said, and it survives intact: the
+distinguishing fact is not *that* there is one attractor but *which grahas it
+runs through.***
+
+| | |
+|---|---|
+| **Mangal** rules | the **3rd and the 8th** |
+| **Shukra** rules | the **2nd and the 9th** |
+| and seven of nine grahas stand in | **the 8th and the 9th** |
+
+> **The sole attractor of the entire rashi chart is the 8th lord in mutual
+> exchange with the 9th lord — and those are precisely the two houses holding
+> the stellium. Every graha he owns ultimately answers to the pair that owns
+> the crowd.**
+>
+> That is structural rather than statistical. It does not depend on being rare,
+> and it is the technical statement of why the 8th/9th axis governs this
+> reading from end to end.
+
 **Nakshatra level — eight of nine end in Budha ⇄ Ketu:**
 
 ```
