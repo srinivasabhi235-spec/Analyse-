@@ -48,6 +48,7 @@ useful conclusions in the document were hiding in it.
 | [`verify_pastfuture.py`](verify_pastfuture.py) | Past against future in detail — how the outputs differ across eight dimensions, including a weighting reversal the script reports rather than hides |
 | [`verify_titlesweep.py`](verify_titlesweep.py) | The whole reading swept against Parashara's chapter titles as a checklist — and Yogini dasha computed as an independent second timeline, which confirms the December 2030 hinge to within eighteen days |
 | [`verify_rahutransit.py`](verify_rahutransit.py) | Tests the claim that Rahu through Dhanishtha matters because it touches the D10 ascendant — computes the two windows and their real end dates, maps the transit into the D10 properly, and finds the reason the claim should have given |
+| [`verify_loop.py`](verify_loop.py) | Tests whether a closed dispositor loop means adversity converts to good — classifies the chart's single parivartana by type for the first time (Dainya, not Maha), checks whether its one viparita yoga fires, and sets the measured delivery-cost correlation against the assumption |
 | [`verify_trigger.py`](verify_trigger.py) | Asks whether an eclipse triggers events for an individual at all — separates what classical method licenses from popular elaboration, computes the gochara position and tara bala of the eclipse (both favourable), and shows the dasha underneath is doing the work |
 | [`verify_relocation.py`](verify_relocation.py) | Settles what relocation does and does not change in Jyotisha, then recomputes the whole eclipse table from American longitudes — the eclipse dismissed as invisible becomes visible, a career-house eclipse dismissed for India reappears nearly overhead from New York, and the strongest one drops below the horizon |
 | [`verify_grahan.py`](verify_grahan.py) | Tests whether a lunar eclipse can affect the D10 ascendant — the strict varga mapping, the standing refusal to run transits through vargas, the eclipse's altitude at the birthplace, and a corrected decade-long eclipse table that finds the two total eclipses landing on the natal 10th |
@@ -113,7 +114,7 @@ python3 verify_audit.py           # 53/53 pass
 for f in verify_*.py; do python3 "$f"; done
 ```
 
-Every script runs clean. Sixty-two scripts, no drift.
+Every script runs clean. Sixty-three scripts, no drift.
 
 | Check | Result |
 |---|---|

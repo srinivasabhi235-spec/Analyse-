@@ -1819,6 +1819,39 @@ spotless standing, an asset that accumulates rather than flows. But:
 asset is real; it is slow, it is contested, and it does not convert to position
 by itself.
 
+### The parivartana, classified — which this reading had never done
+
+The Mangal ⇄ Shukra exchange is named sixteen times in this document and **its
+type was never stated.** There are three, and the tradition does not treat them
+alike:
+
+| | |
+|---|---|
+| **Maha** | both lords rule only kendras and trikonas — **the auspicious one** |
+| **Khala** | one of the two rules the **3rd** — mixed; effort, agitation |
+| **Dainya** | one of the two rules the **6th, 8th or 12th** — *dainya* means poverty, wretchedness, dependency |
+
+| | |
+|---|---|
+| **Mangal** rules | the **3rd** and the **8th** |
+| **Shukra** rules | the 2nd and the **9th** |
+
+> **It is a Dainya parivartana — and it qualifies twice over**, because Mangal
+> rules the 8th *and* the 3rd, making it Khala as well. **It is not the Maha
+> type.**
+
+**That matters because of what §6 established:** this exchange is the sole
+attractor of the entire rashi dispositor chain. **Every graha in the chart
+drains into it.** So the loop everything answers to is the type classed as
+*wretched*, not the type classed as *great* — **it is not an alchemy engine; it
+is the reason the whole chart is administered from the 8th.**
+
+**One thing genuinely softens it.** Shukra's *other* lordship is the **9th**,
+the strongest trikona. So this is a dusthana lord exchanging with a graha that
+also owns the house of fortune — **Dainya by classification, with a trikona
+attached.** That mixture is what this document has been describing from its
+title onward, and **it is not the same thing as bad becoming good.**
+
 ### The complete sweep
 
 | Yoga | Status |
