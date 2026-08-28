@@ -132,7 +132,7 @@ def spearman(x, y):
 
 rho = spearman(SP, KASHTA)
 print(f"""
-  Section 48 tested the claim "he gets it all but with pain" by correlating
+  Section 59 tested the claim "he gets it all but with pain" by correlating
   DELIVERY (Shodhya Pinda) against COST (Kashta phala) across the seven grahas.
 
       Spearman rho = {rho:+.2f}
