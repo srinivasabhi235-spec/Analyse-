@@ -24,8 +24,8 @@ rules = lambda g: [i + 1 for i in range(12) if LORD[(LAG + i) % 12] == g]
 hs = lambda g: (sign_of(POS[g]) - LAG) % 12 + 1
 ordn = lambda n: f"{n}{'th' if 10 <= n % 100 <= 20 else {1:'st',2:'nd',3:'rd'}.get(n%10,'th')}"
 DUST, KEND, TRIK = {6, 8, 12}, {1, 4, 7, 10}, {1, 5, 9}
-SP = {'Surya': 45, 'Chandra': 38, 'Mangal': 74, 'Budha': 62,
-      'Guru': 43, 'Shukra': 40, 'Shani': 71}
+SP = {'Mangal': 212, 'Shani': 184, 'Budha': 152, 'Surya': 138,
+      'Shukra': 95, 'Guru': 81, 'Chandra': 33}   # Rashi Pinda + Graha Pinda
 ISHTA = {'Surya': 46.88, 'Chandra': 24.54, 'Mangal': 19.66, 'Budha': 18.91,
          'Guru': 37.30, 'Shukra': 47.49, 'Shani': 12.48}
 KASHTA = {'Surya': 7.83, 'Chandra': 4.49, 'Mangal': 38.87, 'Budha': 30.32,

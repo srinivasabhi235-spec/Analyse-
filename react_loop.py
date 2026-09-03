@@ -442,7 +442,7 @@ def report(claims, only_fails=False):
 
 if __name__ == '__main__':
     args = [a for a in sys.argv[1:] if not a.startswith('--')]
-    paths = args or ['vedic-chart-analysis.md', 'bhava-krama.md']
+    paths = args or ['vedic-chart-analysis.md']
     cl = run(paths)
     t = report(cl, '--fails' in sys.argv)
     print('\n' + '=' * 92)

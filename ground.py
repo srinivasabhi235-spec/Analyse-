@@ -152,8 +152,19 @@ ISHTA = {'Surya': 46.88, 'Chandra': 24.54, 'Mangal': 19.66, 'Budha': 18.91,
          'Guru': 37.30, 'Shukra': 47.49, 'Shani': 12.48}
 KASHTA = {'Surya': 7.83, 'Chandra': 4.49, 'Mangal': 38.87, 'Budha': 30.32,
           'Guru': 15.10, 'Shukra': 11.87, 'Shani': 46.83}
-SHODHYA = {'Surya': 45, 'Chandra': 38, 'Mangal': 74, 'Budha': 62,
-           'Guru': 43, 'Shukra': 40, 'Shani': 71}
+# Shodhya Pinda = Rashi Pinda + Graha Pinda, from the source sheet:
+#   Mangal 164+48, Shani 133+51, Budha 94+58, Surya 120+18,
+#   Shukra 78+17, Guru 61+20, Chandra 33+0
+# An earlier table in this repository read 74/71/62/45/43/40/38.  Those numbers
+# are in no source and were a transcription error; they swapped Guru and Shukra
+# in the delivery ranking and moved the document's headline correlation from
+# +0.82 to +0.86.  compose.py COMPUTED the correlation instead of copying it,
+# which is how the error surfaced.
+SHODHYA_RASHI = {'Mangal': 164, 'Shani': 133, 'Budha': 94, 'Surya': 120,
+                 'Shukra': 78, 'Guru': 61, 'Chandra': 33}
+SHODHYA_GRAHA = {'Mangal': 48, 'Shani': 51, 'Budha': 58, 'Surya': 18,
+                 'Shukra': 17, 'Guru': 20, 'Chandra': 0}
+SHODHYA = {g: SHODHYA_RASHI[g] + SHODHYA_GRAHA[g] for g in SHODHYA_RASHI}
 BHAVA_BALA = [8.39, 9.18, 7.49, 9.28, 7.91, 7.21, 8.86, 7.00, 7.61, 7.39,
               7.08, 12.59]
 BHAVA_RANK = [5, 3, 8, 2, 6, 10, 4, 12, 7, 9, 11, 1]
@@ -246,6 +257,7 @@ for g in G7:
     FACTS[f'{g}.ishta'] = _f(ISHTA[g], 'source sheet', 'SUPPLIED')
     FACTS[f'{g}.kashta'] = _f(KASHTA[g], 'source sheet', 'SUPPLIED')
     FACTS[f'{g}.bav.own'] = _f(BAV[g][sign_of(POS[g])], f'{g} BAV in its own sign')
+    FACTS[f'{g}.shodhya'] = _f(SHODHYA[g], 'Rashi Pinda + Graha Pinda', 'SUPPLIED')
 for k, v in KARAKA.items():
     FACTS[f'karaka.{k}'] = _f(v, 'chara karaka by degrees-in-sign, Rahu reversed')
 FACTS['sav.total'] = _f(sum(SAV), 'sum of all twelve signs')
