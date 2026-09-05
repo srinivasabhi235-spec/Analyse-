@@ -488,12 +488,79 @@ he should not comfortably win, and the winning costs him.
 | Darakaraka *(Jaimini)* | **Surya** |
 | Shukra | Atmakaraka, **highest Ishta in the chart** |
 
-**The 7th is one of the three wholly untouched houses (§4)** — nothing
-sits in it and, on this document's drishti rule, nothing looks at it. **It is
-governed entirely by Guru from the 10th**, and Guru is
-also the Upapada lord. Two independent significators of marriage resolve to the
-same graha, which is unusual and which makes the reading unusually sharp:
-**whatever Guru does, the marriage does.**
+**Two things about this house pull opposite ways and both are real.** It is
+**well supplied** — SAV 33, the second highest of the twelve
+signs, and Bhava Bala rank 4 of 12. And **nothing touches
+it**: it is one of the three wholly untouched houses (§4).
+
+> **The house is not weak. It is unattended.** Everything that reaches it
+> reaches it through its lord, because there is no other way in.
+
+**And the lord is the same graha twice over.** Guru is the 7th lord
+*and* the Upapada lord — Parashari and Jaimini pointing at one graha, which is
+uncommon. **Whatever Guru does, the marriage does.**
+
+### When
+
+**What the method answers, said before the dates so nothing is oversold.**
+Jyotisha times *vivaha* — the activation of the 7th house promise.
+**There is no classical event called "meeting."** No chapter gives a rule for
+when two people first encounter each other. What can be computed is when the
+7th is under simultaneous dasha and transit pressure.
+
+**The carriers** are Guru (7th lord and Upapada lord), Shukra (natural
+karaka and Atmakaraka), and Surya (Darakaraka). Every
+remaining period one of them carries, scored by double-transit months falling
+inside it:
+
+| Period | Window | Age | Weighted months |
+|---|---|---|---|
+| **Rahu–Guru** | 6 Sep 2025 to 31 Jan 2028 | 23–26 | **13.0** **← running now** |
+| **Guru–Guru** | 25 Dec 2040 to 12 Feb 2043 | 39–41 | **3.5** |
+| **Guru–Shani** | 12 Feb 2043 to 25 Aug 2045 | 41–43 | **8.5** |
+| **Guru–Budha** | 25 Aug 2045 to 1 Dec 2047 | 43–46 | **9.5** |
+
+> **The strongest marriage signal in this chart is the period running right
+> now** — **Rahu–Guru, closing 31 Jan 2028.**
+> It is the **only antardasha of the 7th-and-Upapada lord in an
+> eighteen-year mahadasha.**
+
+**And the gap after it is long, measured rather than estimated — with one
+distinction that matters:**
+
+| | |
+|---|---|
+| next period carried by **any** 7th-house graha | **Rahu–Shukra, 14 Jul 2034** — 6.5 years later, age 32. **But it catches no double transit at all** |
+| next carrier period **with** transit support | **Guru–Guru, 25 Dec 2040** — 12.9 years later, age 39 |
+| next period carried by **Guru itself** | the Guru mahadasha, **25 Dec 2040** — 12.9 years after |
+
+**Rahu–Shukra is the honest middle case:** a three-year
+period ruled by the natural karaka of marriage, in which Guru and Shani never
+once jointly reach the 7th, the Upapada, or the 7th from the Moon.
+**Dasha without transit.** The tradition would call that a period where the
+matter is live but unsupported.
+
+**Resolving the live window one level further**, the sub-periods that are both
+carrier-ruled and catch double-transit months:
+
+| Pratyantardasha | From | To | Months | DT |
+|---|---|---|---|---|
+| Budha | 20 May 2026 | 21 Sep 2026 | 4.1 | 1.0 |
+| Ketu | 21 Sep 2026 | 11 Nov 2026 | 1.7 | 2.0 |
+| Shukra **← carrier** | 11 Nov 2026 | 6 Apr 2027 | 4.8 | 5.0 |
+| Surya **← carrier** | 6 Apr 2027 | 20 May 2027 | 1.4 | 1.5 |
+| Chandra | 20 May 2027 | 1 Aug 2027 | 2.4 | 0.5 |
+| Mangal | 1 Aug 2027 | 21 Sep 2027 | 1.7 | 0.0 |
+| Rahu | 21 Sep 2027 | 31 Jan 2028 | 4.3 | 3.5 |
+
+> **The answer is a shape, not a day.** The chart puts its strongest marriage
+> signal in the period running now and **nothing of comparable weight arrives
+> for over a decade after it.** That is an unusual profile, and it is worth
+> stating plainly rather than smoothing into "sometime in your thirties".
+>
+> **And what it will not say:** whether the window produces a meeting, a
+> marriage, or nothing at all. **A marked window is a window.** Anyone offering
+> a date for a first meeting is not reading this chart.
 
 ---
 

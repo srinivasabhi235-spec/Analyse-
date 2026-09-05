@@ -608,12 +608,128 @@ he should not comfortably win, and the winning costs him.
 | Darakaraka *(Jaimini)* | **{V('karaka.Darakaraka')}** |
 | Shukra | Atmakaraka, **highest Ishta in the chart** |
 
-**The {ordn(7)} is one of the three wholly untouched houses (§4)** — nothing
-sits in it and, on this document's drishti rule, nothing looks at it. **It is
-governed entirely by {_l7} from the {ordn(G.house_of(_l7))}**, and {_l7} is
-also the Upapada lord. Two independent significators of marriage resolve to the
-same graha, which is unusual and which makes the reading unusually sharp:
-**whatever {_l7} does, the marriage does.**
+**Two things about this house pull opposite ways and both are real.** It is
+**well supplied** — SAV {V('house7.sav')}, the second highest of the twelve
+signs, and Bhava Bala rank {V('house7.bhavarank')} of 12. And **nothing touches
+it**: it is one of the three wholly untouched houses (§4).
+
+> **The house is not weak. It is unattended.** Everything that reaches it
+> reaches it through its lord, because there is no other way in.
+
+**And the lord is the same graha twice over.** {_l7} is the {ordn(7)} lord
+*and* the Upapada lord — Parashari and Jaimini pointing at one graha, which is
+uncommon. **Whatever {_l7} does, the marriage does.**
+
+### When
+
+**What the method answers, said before the dates so nothing is oversold.**
+Jyotisha times *vivaha* — the activation of the {ordn(7)} house promise.
+**There is no classical event called "meeting."** No chapter gives a rule for
+when two people first encounter each other. What can be computed is when the
+{ordn(7)} is under simultaneous dasha and transit pressure.
+
+**The carriers** are {_l7} ({ordn(7)} lord and Upapada lord), Shukra (natural
+karaka and Atmakaraka), and {V('karaka.Darakaraka')} (Darakaraka). Every
+remaining period one of them carries, scored by double-transit months falling
+inside it:
+
+| Period | Window | Age | Weighted months |
+|---|---|---|---|""")
+
+_ASP = {'Guru': [5, 7, 9], 'Shani': [3, 7, 10]}
+_IDS2 = {'Guru': swe.JUPITER, 'Shani': swe.SATURN}
+_FL2 = swe.FLG_SWIEPH | swe.FLG_SIDEREAL
+
+
+def _touch(j, body, sign):
+    s = G.sign_of(swe.calc_ut(j, _IDS2[body], _FL2)[0][0] % 360)
+    return s == sign or any((s + a - 1) % 12 == sign for a in _ASP[body])
+
+
+_S7 = G.sign_in_house(7)
+_SUP = SIGNS.index(V('upapada'))
+_S7M = (G.MOON_SIGN + 6) % 12
+_TG = [_S7, _SUP, _S7M]
+_CAR = {_l7: 1, 'Shukra': 1, V('karaka.Darakaraka'): 1}
+_sc = {}
+_j = _now
+while _j < G.BIRTH_JD + 45 * G.Y:
+    _n = sum(1 for sg in _TG if _touch(_j, 'Guru', sg) and _touch(_j, 'Shani', sg))
+    if _n:
+        _ad = [x for x in G.ANTARDASHA if x[2] <= _j < x[3]]
+        if _ad and (_ad[0][1] in _CAR or _ad[0][0] in _CAR):
+            _sc[(_ad[0][0], _ad[0][1], _ad[0][2], _ad[0][3])] = \
+                _sc.get((_ad[0][0], _ad[0][1], _ad[0][2], _ad[0][3]), 0) + _n
+    _j += 15
+for (_g, _ag, _a, _b), _n in sorted(_sc.items(), key=lambda x: x[0][2]):
+    _live = ' **← running now**' if _a <= _now < _b else ''
+    p(f"| **{_g}–{_ag}** | {date(_a)} to {date(_b)} | {age(_a):.0f}–{age(_b):.0f} "
+      f"| **{_n*0.5:.1f}**{_live} |")
+
+_liveper = [k for k in _sc if k[2] <= _now < k[3]][0]
+# The next CARRIER period and the next carrier period WITH TRANSIT SUPPORT are
+# different dates, and conflating them overstates the gap.  Both are printed.
+_allcar = sorted((x for x in G.ANTARDASHA
+                  if x[2] > _liveper[3] and (x[1] in _CAR or x[0] in _CAR)),
+                 key=lambda x: x[2])
+_after = sorted((k for k in _sc if k[2] > _liveper[3]), key=lambda k: k[2])
+_gmd = [x for x in G.MAHADASHA if x[0] == _l7][0]
+p(f"""
+> **The strongest marriage signal in this chart is the period running right
+> now** — **{_liveper[0]}–{_liveper[1]}, closing {date(_liveper[3]).strip()}.**
+> It is the **only antardasha of the {ordn(7)}-and-Upapada lord in an
+> eighteen-year mahadasha.**
+
+**And the gap after it is long, measured rather than estimated — with one
+distinction that matters:**
+
+| | |
+|---|---|
+| next period carried by **any** {ordn(7)}-house graha | **{_allcar[0][0]}–{_allcar[0][1]}, {date(_allcar[0][2]).strip()}** — {(_allcar[0][2]-_liveper[3])/G.Y:.1f} years later, age {age(_allcar[0][2]):.0f}. **But it catches no double transit at all** |
+| next carrier period **with** transit support | **{_after[0][0]}–{_after[0][1]}, {date(_after[0][2]).strip()}** — {(_after[0][2]-_liveper[3])/G.Y:.1f} years later, age {age(_after[0][2]):.0f} |
+| next period carried by **{_l7} itself** | the {_l7} mahadasha, **{date(_gmd[1]).strip()}** — {(_gmd[1]-_liveper[3])/G.Y:.1f} years after |
+
+**{_allcar[0][0]}–{_allcar[0][1]} is the honest middle case:** a three-year
+period ruled by the natural karaka of marriage, in which Guru and Shani never
+once jointly reach the {ordn(7)}, the Upapada, or the {ordn(7)} from the Moon.
+**Dasha without transit.** The tradition would call that a period where the
+matter is live but unsupported.
+
+**Resolving the live window one level further**, the sub-periods that are both
+carrier-ruled and catch double-transit months:
+
+| Pratyantardasha | From | To | Months | DT |
+|---|---|---|---|---|""")
+
+_VIM = [('Ketu', 7), ('Shukra', 20), ('Surya', 6), ('Chandra', 10),
+        ('Mangal', 7), ('Rahu', 18), ('Guru', 16), ('Shani', 19), ('Budha', 17)]
+_i0 = [x[0] for x in _VIM].index(_liveper[1])
+_span = _liveper[3] - _liveper[2]
+_tt = _liveper[2]
+for _k in range(9):
+    _pg, _py = _VIM[(_i0 + _k) % 9]
+    _pe = _tt + _span * _py / 120
+    _n = 0
+    _jj = max(_tt, _now)
+    while _jj < _pe:
+        _n += sum(1 for sg in _TG
+                  if _touch(_jj, 'Guru', sg) and _touch(_jj, 'Shani', sg))
+        _jj += 15
+    if _pe > _now:
+        _tag = ' **← carrier**' if _pg in _CAR else ''
+        p(f"| {_pg}{_tag} | {date(_tt)} | {date(_pe)} | {(_pe-_tt)/G.Y*12:.1f} "
+          f"| {_n*0.5:.1f} |")
+    _tt = _pe
+
+p(f"""
+> **The answer is a shape, not a day.** The chart puts its strongest marriage
+> signal in the period running now and **nothing of comparable weight arrives
+> for over a decade after it.** That is an unusual profile, and it is worth
+> stating plainly rather than smoothing into "sometime in your thirties".
+>
+> **And what it will not say:** whether the window produces a meeting, a
+> marriage, or nothing at all. **A marked window is a window.** Anyone offering
+> a date for a first meeting is not reading this chart.
 
 ---
 

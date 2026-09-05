@@ -239,8 +239,10 @@ def x_sav(line):
 
 
 def x_karaka(line):
+    # The gap must not cross a comma, semicolon or bracket: '(natural karaka
+    # and Atmakaraka), and Surya (Darakaraka)' bound Atmakaraka to Surya.
     for m in re.finditer(rf'\b(Atmakaraka|Amatyakaraka|Darakaraka|'
-                         rf'Putrakaraka)\b[^.|]{{0,14}}?\b({GNAMES})\b', line):
+                         rf'Putrakaraka)\b[^.|,;()]{{0,14}}?\b({GNAMES})\b', line):
         yield ('karaka', m.group(1), m.group(2))
     for m in re.finditer(rf'\b({GNAMES})\b[^.|]{{0,20}}?\bis the (Atmakaraka|'
                          rf'Amatyakaraka|Darakaraka|Putrakaraka)\b', line):
