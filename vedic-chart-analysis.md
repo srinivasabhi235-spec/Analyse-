@@ -23,7 +23,7 @@ disagreement is priced rather than resolved by preference.
 |---|---|---|
 | **I** | **The chart** | Positions, dignity, houses, drishti, strength, ashtakavarga, vargas — generated |
 | **II** | **The structure** | The one configuration everything else restates |
-| **III** | **Time** | Vimshottari — what has been spent, what is left |
+| **III** | **Time** | Vimshottari, the live sky verified, and what is coming |
 | **IV** | **The questions** | What was asked of this chart, and what held |
 | **V** | **Method** | Derived against supplied, every dispute priced, what is not known |
 
@@ -413,7 +413,83 @@ fires in the dashas of its two lords:
 
 ---
 
-## 11. What is coming
+## 11. The transit now — a supplied table, verified
+
+**A live transit table was supplied and checked before it was read**, because
+the previous one handed to this reading had an ascendant row that did not
+belong to the same moment as its planets.
+
+| | |
+|---|---|
+| the moment it describes | **5 Sep 2026, 22:02 IST**, solved by joint fit across eight bodies |
+| worst deviation | **0.42 arcminutes** across the seven grahas and both nodes |
+| speeds | reproduce to 0.01°/day |
+| the ascendant row | belongs to **22:09** — seven minutes later, 1.88° of ascendant motion |
+
+**The table is sound.** The ascendant carries the same *kind* of defect as the
+last one and a trivial amount of it — seven minutes rather than a different
+continent — and it changes nothing, because gochara is read from the **natal**
+Moon and lagna. It also prints **both** node sets, mean and true, which is
+unusual and correct: they differ by 42.7 arcminutes here, too little to move a
+sign or a nakshatra for either.
+
+**Uranus, Neptune and Pluto were supplied, reproduce to the arcminute, and are
+not used.** They appear in no Parashari rule — no dignity, no aspect, no dasha,
+no ashtakavarga. Verified because supplied, then set aside.
+
+| Graha | Transit sign | Dignity | From lagna | From Moon | Gochara |
+|---|---|---|---|---|---|
+| Surya | Simha | own | 12th | 4th | not favourable |
+| Chandra | Mithuna | friend | 10th | 2nd | not favourable |
+| Mangal | Mithuna | enemy | 10th | 2nd | not favourable |
+| Budha | Simha | friend | 12th | 4th | **favourable** |
+| Guru | Karka | **exalted** | 11th | 3rd | not favourable |
+| Shukra | Tula | own | 2nd | 6th | not favourable |
+| **Shani** | **Meena** | neutral | **7th** | 11th | **favourable** |
+| Rahu | Kumbha | — | 6th | 10th | **favourable** |
+| Ketu | Simha | — | 12th | 4th | not favourable |
+
+**Three of nine favourable by gochara from the Moon** — a low count, and worth
+saying rather than skipping.
+
+### And the one thing in it that matters
+
+| | |
+|---|---|
+| transit **Shani** | **in Meena — the natal 7th house** |
+| transit **Guru** | in Karka, **exalted**, whose 9th aspect falls on Meena |
+
+> **§4 names the 7th as one of three houses nothing in the natal chart
+> touches** — no occupant, no aspect. The self, the children, the spouse.
+>
+> **Right now one of those three is occupied and aspected.** Transit Shani sits
+> in it; transit Guru, exalted where it stands, looks at it. **A house
+> structurally unattended for a whole life is, for this window, attended by
+> both slow grahas at once.** That is as close
+> as gochara comes to saying something is happening in a house.
+
+**And it was not fitted afterwards.** The scan in §14 ran month by month across
+forty-five years *before* this table arrived, and returned a double transit on
+the 7th for Sep–Oct 2026 — *"Guru 9th, Shani in."* **The supplied
+table independently confirms the scan.**
+
+**Shani's stay in the 7th is not one pass:**
+
+| | |
+|---|---|
+| 29 Mar 2025 | Kumbha → **Meena — enters the 7th** |
+| 3 Jun 2027 | leaves for Mesha |
+| 20 Oct 2027 | **back into Meena** |
+| 23 Feb 2028 | leaves for good |
+
+**Shani in the 7th is not a benign transit** — it is the house of
+partnership under its heaviest natural obstruction: delay, weight, the removal
+of easy options. **Guru's aspect does not cancel that.** What the pair does is
+make the house *live*.
+
+---
+
+## 12. What is coming
 
 **Shani enters the 8th house — Mesha — on
 3 Jun 2027 and is finally clear of it on 17 Apr 2030.** Three passes, not
@@ -451,7 +527,7 @@ chart.** Each answer states what the computation supports and stops there:
 no arithmetic in this document turns a marked window into a specific thing that
 happens.
 
-## 12. Career, and the field
+## 13. Career, and the field
 
 | | |
 |---|---|
@@ -478,7 +554,7 @@ he should not comfortably win, and the winning costs him.
 
 ---
 
-## 13. Marriage
+## 14. Marriage
 
 | | |
 |---|---|
@@ -564,7 +640,7 @@ carrier-ruled and catch double-transit months:
 
 ---
 
-## 14. Place — and elsewhere
+## 15. Place — and elsewhere
 
 | | Bhava Bala | Rank | SAV | Lord |
 |---|---|---|---|---|
@@ -583,7 +659,7 @@ carrier-ruled and catch double-transit months:
 
 ---
 
-## 15. Transformation
+## 16. Transformation
 
 **The 8th is the weakest bhava in the chart
 (7.00 rupas, rank 12 of 12) and the
@@ -600,7 +676,7 @@ cheap**, and §5's measurement says why: **what delivers is what costs.**
 
 # Part V — Method
 
-## 16. Derived against supplied
+## 17. Derived against supplied
 
 **213 facts underpin this document: 159 derived, 54 supplied.**
 The distinction is kept because mixing them is how a reading starts sounding
@@ -617,7 +693,7 @@ averaged with them.
 
 ---
 
-## 17. Every dispute, priced
+## 18. Every dispute, priced
 
 **Where the tradition disagrees with itself, this document states the choice,
 computes both sides, and says what turns on it.**
@@ -634,7 +710,7 @@ computes both sides, and says what turns on it.**
 
 ---
 
-## 18. What checks this document
+## 19. What checks this document
 
 | Script | What it does |
 |---|---|
@@ -667,7 +743,7 @@ it was there: there is simply less loose prose to be wrong.
 
 ---
 
-## 19. What is not known
+## 20. What is not known
 
 - **Her chart.** The only input that would change conclusions rather than add
   to them.
@@ -683,7 +759,7 @@ it was there: there is simply less loose prose to be wrong.
 
 ---
 
-## 20. The whole thing on one page
+## 21. The whole thing on one page
 
 | | |
 |---|---|

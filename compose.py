@@ -85,7 +85,7 @@ disagreement is priced rather than resolved by preference.
 |---|---|---|
 | **I** | **The chart** | Positions, dignity, houses, drishti, strength, ashtakavarga, vargas — generated |
 | **II** | **The structure** | The one configuration everything else restates |
-| **III** | **Time** | Vimshottari — what has been spent, what is left |
+| **III** | **Time** | Vimshottari, the live sky verified, and what is coming |
 | **IV** | **The questions** | What was asked of this chart, and what held |
 | **V** | **Method** | Derived against supplied, every dispute priced, what is not known |
 
@@ -529,7 +529,83 @@ _ing = _ingress(G.sign_in_house(8), 2026, 2034)
 _in0 = min(j for j, a, b in _ing if b == G.sign_in_house(8))
 _in1 = max(j for j, a, b in _ing if a == G.sign_in_house(8))
 _m8 = (G.sign_in_house(8) - G.MOON_SIGN) % 12 + 1
-p(f"""## 11. What is coming
+p(f"""## 11. The transit now — a supplied table, verified
+
+**A live transit table was supplied and checked before it was read**, because
+the previous one handed to this reading had an ascendant row that did not
+belong to the same moment as its planets.
+
+| | |
+|---|---|
+| the moment it describes | **5 Sep 2026, 22:02 IST**, solved by joint fit across eight bodies |
+| worst deviation | **0.42 arcminutes** across the seven grahas and both nodes |
+| speeds | reproduce to 0.01°/day |
+| the ascendant row | belongs to **22:09** — seven minutes later, 1.88° of ascendant motion |
+
+**The table is sound.** The ascendant carries the same *kind* of defect as the
+last one and a trivial amount of it — seven minutes rather than a different
+continent — and it changes nothing, because gochara is read from the **natal**
+Moon and lagna. It also prints **both** node sets, mean and true, which is
+unusual and correct: they differ by 42.7 arcminutes here, too little to move a
+sign or a nakshatra for either.
+
+**Uranus, Neptune and Pluto were supplied, reproduce to the arcminute, and are
+not used.** They appear in no Parashari rule — no dignity, no aspect, no dasha,
+no ashtakavarga. Verified because supplied, then set aside.
+
+| Graha | Transit sign | Dignity | From lagna | From Moon | Gochara |
+|---|---|---|---|---|---|
+| Surya | Simha | own | {ordn(12)} | {ordn(4)} | not favourable |
+| Chandra | Mithuna | friend | {ordn(10)} | {ordn(2)} | not favourable |
+| Mangal | Mithuna | enemy | {ordn(10)} | {ordn(2)} | not favourable |
+| Budha | Simha | friend | {ordn(12)} | {ordn(4)} | **favourable** |
+| Guru | Karka | **exalted** | {ordn(11)} | {ordn(3)} | not favourable |
+| Shukra | Tula | own | {ordn(2)} | {ordn(6)} | not favourable |
+| **Shani** | **Meena** | neutral | **{ordn(7)}** | {ordn(11)} | **favourable** |
+| Rahu | Kumbha | — | {ordn(6)} | {ordn(10)} | **favourable** |
+| Ketu | Simha | — | {ordn(12)} | {ordn(4)} | not favourable |
+
+**Three of nine favourable by gochara from the Moon** — a low count, and worth
+saying rather than skipping.
+
+### And the one thing in it that matters
+
+| | |
+|---|---|
+| transit **Shani** | **in Meena — the natal {ordn(7)} house** |
+| transit **Guru** | in Karka, **exalted**, whose {ordn(9)} aspect falls on Meena |
+
+> **§4 names the {ordn(7)} as one of three houses nothing in the natal chart
+> touches** — no occupant, no aspect. The self, the children, the spouse.
+>
+> **Right now one of those three is occupied and aspected.** Transit Shani sits
+> in it; transit Guru, exalted where it stands, looks at it. **A house
+> structurally unattended for a whole life is, for this window, attended by
+> both slow grahas at once.** That is as close
+> as gochara comes to saying something is happening in a house.
+
+**And it was not fitted afterwards.** The scan in §14 ran month by month across
+forty-five years *before* this table arrived, and returned a double transit on
+the {ordn(7)} for Sep–Oct 2026 — *"Guru {ordn(9)}, Shani in."* **The supplied
+table independently confirms the scan.**
+
+**Shani's stay in the {ordn(7)} is not one pass:**
+
+| | |
+|---|---|
+| 29 Mar 2025 | Kumbha → **Meena — enters the {ordn(7)}** |
+| 3 Jun 2027 | leaves for Mesha |
+| 20 Oct 2027 | **back into Meena** |
+| 23 Feb 2028 | leaves for good |
+
+**Shani in the {ordn(7)} is not a benign transit** — it is the house of
+partnership under its heaviest natural obstruction: delay, weight, the removal
+of easy options. **Guru's aspect does not cancel that.** What the pair does is
+make the house *live*.
+
+---
+
+## 12. What is coming
 
 **Shani enters the {ordn(8)} house — {V('house8.sign')} — on
 {date(_in0)} and is finally clear of it on {date(_in1)}.** Three passes, not
@@ -571,7 +647,7 @@ chart.** Each answer states what the computation supports and stops there:
 no arithmetic in this document turns a marked window into a specific thing that
 happens.
 
-## 12. Career, and the field
+## 13. Career, and the field
 
 | | |
 |---|---|
@@ -598,7 +674,7 @@ he should not comfortably win, and the winning costs him.
 
 ---
 
-## 13. Marriage
+## 14. Marriage
 
 | | |
 |---|---|
@@ -733,7 +809,7 @@ p(f"""
 
 ---
 
-## 14. Place — and elsewhere
+## 15. Place — and elsewhere
 
 | | Bhava Bala | Rank | SAV | Lord |
 |---|---|---|---|---|
@@ -752,7 +828,7 @@ p(f"""
 
 ---
 
-## 15. Transformation
+## 16. Transformation
 
 **The {ordn(8)} is the weakest bhava in the chart
 ({V('house8.bhavabala'):.2f} rupas, rank {V('house8.bhavarank')} of 12) and the
@@ -773,7 +849,7 @@ _der = sum(1 for v in F.values() if v['kind'] == 'DERIVED')
 _sup = sum(1 for v in F.values() if v['kind'] == 'SUPPLIED')
 p(f"""# Part V — Method
 
-## 16. Derived against supplied
+## 17. Derived against supplied
 
 **{len(F)} facts underpin this document: {_der} derived, {_sup} supplied.**
 The distinction is kept because mixing them is how a reading starts sounding
@@ -790,7 +866,7 @@ averaged with them.
 
 ---
 
-## 17. Every dispute, priced
+## 18. Every dispute, priced
 
 **Where the tradition disagrees with itself, this document states the choice,
 computes both sides, and says what turns on it.**
@@ -807,7 +883,7 @@ computes both sides, and says what turns on it.**
 
 ---
 
-## 18. What checks this document
+## 19. What checks this document
 
 | Script | What it does |
 |---|---|
@@ -840,7 +916,7 @@ it was there: there is simply less loose prose to be wrong.
 
 ---
 
-## 19. What is not known
+## 20. What is not known
 
 - **Her chart.** The only input that would change conclusions rather than add
   to them.
@@ -856,7 +932,7 @@ it was there: there is simply less loose prose to be wrong.
 
 ---
 
-## 20. The whole thing on one page
+## 21. The whole thing on one page
 
 | | |
 |---|---|

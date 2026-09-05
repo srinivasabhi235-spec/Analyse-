@@ -18,9 +18,9 @@ The document is in three parts, and the third is not an appendix.
 |---|---|---|
 | **I — The chart** | 1–7 | Positions, dignity, houses and lords, drishti, strength, ashtakavarga, Jaimini — every table generated from `ground.py` |
 | **II — The structure** | 8–9 | The one configuration everything else restates, and what kind of exchange it is |
-| **III — Time** | 10–11 | Vimshottari, what has been spent, and what is coming |
-| **IV — The questions** | 12–15 | Career, marriage and its timing, place, transformation |
-| **V — Method** | 16–20 | Derived against supplied, every dispute priced, what checks the document, what is not known |
+| **III — Time** | 10–12 | Vimshottari, the supplied live transit verified, and what is coming |
+| **IV — The questions** | 13–16 | Career, marriage and its timing, place, transformation |
+| **V — Method** | 17–21 | Derived against supplied, every dispute priced, what checks the document, what is not known |
 
 The previous hand-written version — 73 sections, 10,873 lines, grown by
 appending over many sessions — is kept at
@@ -58,6 +58,7 @@ deliverable: it was written, and this one is generated.
 | [`verify_d81.py`](verify_d81.py) | Computes the D81 nava-navamsa in full, measures its precision (one division = 93 seconds of birth time; the grahas are stable, the lagna is not), and audits section 2's undertaking to flag any claim resting on the D12, D24, D36 or D60 ascendant — reproducing section 2's eight movers and 19-of-27 exactly, and finding three published claims that were never flagged |
 | [`verify_shani8.py`](verify_shani8.py) | Transit Saturn through the 8th house: every ingress, retrograde pass and exact crossing of the three natal grahas there; the Ashtakavarga rebuilt from the benefic-place tables (11 of 12 signs and 336 of 337 bindus reproduce the supplied sheet, the one discrepancy localised to Venus in Cancer) so that kakshya can be computed; vedha tested under both schools; and the Saturn antardasha and Jupiter double transit that run underneath it |
 | [`verify_exchange.py`](verify_exchange.py) | Tests an externally supplied reading of the chart's 8th–9th parivartana against the chart: the two lords' mutual non-aspect (never checked in sixteen prior mentions), the Dainya typology against the trikona/dusthana reading, each of the six named significations, the Vimshottari arithmetic showing both lords' mahadashas are out of play, and the own-sign substitution measured rather than assumed |
+| [`verify_livetransit.py`](verify_livetransit.py) | Verifies a supplied transit table before reading it: solves for the moment by joint fit across eight bodies (the Moon alone is ambiguous every 27 days), reconciles every graha and both node sets, checks the ascendant row separately, and reads the result as gochara from the natal Moon and lagna |
 | [`verify_partner.py`](verify_partner.py) | Times the 7th house: the carriers (7th lord, Upapada lord, Darakaraka, Shukra), every remaining period one of them rules, the double transit scanned month by month rather than by ingress, and the pratyantardasha resolution of the window now running |
 | [`ground.py`](ground.py) | Derives every fact the reading rests on from the birth moment and tags the handful that cannot be derived as SUPPLIED — 206 facts, 159 derived, 47 supplied. Nothing downstream types a number twice |
 | [`compose.py`](compose.py) | Generates `vedic-chart-analysis.md` from `ground.py`. Every figure is looked up at build time, so a value cannot drift between sections |
@@ -127,7 +128,7 @@ python3 verify_audit.py           # 53/53 pass
 for f in verify_*.py; do python3 "$f"; done
 ```
 
-Every script runs clean. Sixty-nine scripts, no drift.
+Every script runs clean. Seventy scripts, no drift.
 
 | Check | Result |
 |---|---|
